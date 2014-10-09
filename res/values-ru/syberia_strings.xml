@@ -26,4 +26,9 @@
     <string name="device_part_title">Дополнительная настройка</string>
     <string name="device_part_summary">Дополнительные настройки устройства</string>
 
+    <!-- Changelog -->
+    <string name="changelog_title">Список изменений</string>
+    <string name="changelog_summary">С момента последнего обновления</string>
+    <string name="changelog_error">Не удается загрузить список изменений</string>
+
 </resources>
