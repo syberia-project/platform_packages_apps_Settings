@@ -75,6 +75,12 @@
             android:title="@string/force_authorize_substratum_packages_title"
             android:summary="@string/force_authorize_substratum_packages_summary" />
 
+        <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="edge_service_for_gestures"
+            android:title="@string/edge_gesture_service_title"
+            android:summary="@string/edge_gesture_service_summary"
+            android:defaultValue="true" />
+
         <Preference
             android:key="running_apps"
             android:title="@string/runningservices_settings_title"

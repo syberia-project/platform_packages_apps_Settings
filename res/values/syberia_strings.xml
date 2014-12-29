@@ -429,4 +429,9 @@
     <string name="switch_default">Default</string>
     <string name="switch_md2">Material Design 2</string>
     <string name="switch_oneplus">OnePlus</string>
+
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Block gesture touch events</string>
+    <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
+
 </resources>
