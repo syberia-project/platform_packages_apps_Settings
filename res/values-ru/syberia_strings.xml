@@ -119,4 +119,6 @@
     <string name="hidden_label">Спрятана</string>
     <string name="long_label">Длинная</string>
 
+    <string name="volumesteps_title">Шаги громкости</string>
+
 </resources>

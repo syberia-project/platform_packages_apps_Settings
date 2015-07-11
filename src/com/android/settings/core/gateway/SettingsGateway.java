@@ -162,6 +162,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.syberia.settings.SyberiaSettings;
 import com.syberia.settings.fragments.GlobalActionsSettings;
+import com.syberia.settings.fragments.VolumeStepsFragment;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
 public class SettingsGateway {
@@ -314,7 +315,8 @@ public class SettingsGateway {
             MediaControlsSettings.class.getName(),
             SyberiaSettings.class.getName(),
             GlobalActionsSettings.class.getName(),
-            LiveDisplaySettings.class.getName()
+            LiveDisplaySettings.class.getName(),
+            VolumeStepsFragment.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -356,5 +358,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.SyberiaSettingsActivity.class.getName(),
             Settings.GlobalActionsSettingsActivity.class.getName(),
+            Settings.VolumeStepsFragmentActivity.class.getName(),
     };
             }
