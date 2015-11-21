@@ -148,4 +148,14 @@
     <!-- Lockscreen rotation -->
     <string name="lockscreen_rotation_title">Автоповорот экрана блокировки</string>
 
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Автоповорот</string>
+    <string name="display_rotation_disabled">Отключен</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_rotation_category_title">Режимы поворота</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
+
 </resources>
