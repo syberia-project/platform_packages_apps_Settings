@@ -247,4 +247,8 @@
     <string name="back_gesture_arrow_message">Анимация жестов назад</string>
     <string name="back_gesture_arrow_summary">Отображать анимацию для жеста назад</string>
 
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Сброс статистики</string>
+    <string name="battery_stats_message">Статистика использования батареи будет сброшена</string>
+
 </resources>
