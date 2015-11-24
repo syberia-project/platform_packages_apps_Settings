@@ -121,4 +121,9 @@
     <string name="changelog_loading">Загрузка списка изменений</string>
     <string name="changelog_error">Невозможно загрузить список изменений</string>
     
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Сбросить статистику</string>
+    <string name="battery_stats_message">Статистика батареи будет сброшена</string>
+    <string name="ok_string">Ok</string>
+    
 </resources>
