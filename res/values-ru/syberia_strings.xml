@@ -115,7 +115,11 @@
     <string name="changelog_summary">С момента последнего обновления</string>
     <string name="changelog_loading">Загрузка списка изменений</string>
     <string name="changelog_error">Невозможно загрузить список изменений</string>
-    
+
     <string name="weather_title">Погода</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Разблокировать устройство без нажатия OK</string>
 
 </resources>
