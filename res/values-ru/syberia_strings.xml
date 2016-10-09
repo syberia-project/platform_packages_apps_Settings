@@ -106,4 +106,8 @@
     <string name="charging_sounds_nos_title">Звук при подкл. зарядки</string>
     <string name="charging_vibro_title">Вибрация при подкл. зарядки</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Разблокировать устройство без нажатия OK</string>
+
 </resources>
