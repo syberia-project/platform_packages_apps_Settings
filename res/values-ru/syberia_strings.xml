@@ -247,4 +247,12 @@
     <string name="back_gesture_arrow_anim_title">Отображать анимацию</string>
     <string name="back_gesture_arrow_anim_summary">Отображать анимацию для жеста назад</string>
 
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Мобильные данные</string>
+    <string name="data_usage_app_restrict_data_summary">Включить использование мобильных данных</string>
+    <string name="data_usage_app_restrict_vpn">VPN данные</string>
+    <string name="data_usage_app_restrict_vpn_summary">Включить использованин VPN данных</string>
+    <string name="data_usage_app_restrict_wifi">Данные Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi\u2011Fi</string>
+
 </resources>
