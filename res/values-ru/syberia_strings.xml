@@ -206,4 +206,9 @@
     <string name="selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Отключен</string>
 
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Мобильные данные</string>
+    <string name="data_usage_app_restrict_data_summary">Включить использование мобильных данных</string>
+    <string name="data_usage_app_restrict_wifi">Данные Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi\u2011Fi</string>
 </resources>
