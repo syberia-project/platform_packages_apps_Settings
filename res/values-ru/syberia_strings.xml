@@ -191,4 +191,7 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Нажмите для отображения информации</string>
 
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Фоновые процессы</string>
+
 </resources>
