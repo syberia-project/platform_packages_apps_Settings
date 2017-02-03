@@ -473,5 +473,8 @@
     <!-- Device Parts -->
     <string name="device_part_title">Дополнительная настройка</string>
     <string name="device_part_summary">Дополнительные настройки устройства</string>
+    
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Фоновые процессы</string>
 
 </resources>

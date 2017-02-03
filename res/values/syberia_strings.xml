@@ -434,5 +434,8 @@
     <!-- Device Parts -->
     <string name="device_part_title">Device features</string>
     <string name="device_part_summary">Device Speicific Features</string>
+    
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Background processes</string>
 
 </resources>
