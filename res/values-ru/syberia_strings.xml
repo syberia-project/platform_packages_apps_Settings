@@ -86,4 +86,8 @@
     <string name="adj_intensity_title">Интенсивность</string>
     <string name="adj_contrast_title">Контраст</string>
 
+    <!-- Pocket judge -->
+    <string name="proximity_wake_title">Предотвращение случайного пробуждения</string>
+    <string name="proximity_wake_summary">Блокировать экран и кнопки когда устройство в кармане</string>
+
 </resources>
