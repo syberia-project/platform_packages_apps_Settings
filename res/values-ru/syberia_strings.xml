@@ -31,4 +31,8 @@
     <string name="changelog_summary">С момента последнего обновления</string>
     <string name="changelog_error">Не удается загрузить список изменений</string>
 
+    <!-- Pocket judge -->
+    <string name="proximity_wake_title">Предотвращение случайного пробуждения</string>
+    <string name="proximity_wake_summary">Блокировать экран и кнопки когда устройство в кармане</string>
+
 </resources>
