@@ -35,4 +35,6 @@
     <string name="proximity_wake_title">Предотвращение случайного пробуждения</string>
     <string name="proximity_wake_summary">Блокировать экран и кнопки когда устройство в кармане</string>
 
+    <string name="global_actions_title">Меню кнопки питания</string>
+
 </resources>
