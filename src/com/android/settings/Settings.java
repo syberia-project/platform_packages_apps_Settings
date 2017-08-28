@@ -243,4 +243,5 @@ public class Settings extends SettingsActivity {
     // SyberiaSettings
     public static class SyberiaSettingsActivity extends SettingsActivity {}
 
+    public static class GlobalActionsSettingsActivity extends SettingsActivity { /* empty */ }
 }
