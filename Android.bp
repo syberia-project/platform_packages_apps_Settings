@@ -44,7 +44,15 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.java",
+           "../SyberiaSettings/src/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages com.syberia.settings"],
+
+    resource_dirs: ["res",
+                    "packages/apps/SyberiaSettings/res"
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -70,6 +78,7 @@ android_library {
         "settings-logtags",
         "statslog-settings",
         "zxing-core-1.7",
+        "glide",
         "android.hardware.dumpstate-V1.0-java",
         "android.hardware.dumpstate-V1.1-java",
         "lottie",
@@ -80,6 +89,9 @@ android_library {
         "ims-common",
         "app-compat-annotations",
     ],
+    optimize: {
+        proguard_flags_files: ["proguard-core.flags"],
+    },
 }
 
 platform_compat_config {
