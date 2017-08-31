@@ -240,4 +240,7 @@ public class Settings extends SettingsActivity {
      */
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
+    // SyberiaSettings
+    public static class SyberiaSettingsActivity extends SettingsActivity {}
+
 }
