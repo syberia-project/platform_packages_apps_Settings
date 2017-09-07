@@ -179,4 +179,11 @@
             android:persistent="false"
             android:entries="@array/switch_style_entries"
             android:entryValues="@array/switch_style_values" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="enable_conditions"
+        android:title="@string/dashboard_conditions_title"
+        android:summaryOn="@string/summary_dashboard_conditions_enabled"
+        android:summaryOff="@string/summary_dashboard_conditions_disabled"
+        android:defaultValue="true" />
 </PreferenceScreen>
