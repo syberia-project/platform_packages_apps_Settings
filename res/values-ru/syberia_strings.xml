@@ -202,4 +202,9 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Показать журнал уведомлений</string>
 
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Увеличение громкости звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Время увеличения</string>
+
 </resources>
