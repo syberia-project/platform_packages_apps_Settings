@@ -96,6 +96,11 @@
     <string name="back_swipe_extended_title">Действие при очень длинном свайпе</string>
     <string name="back_swipe_extended_summary">Действие будет выполнено при горизонтальном свайпе не менее чем в 1\/2 размера экрана, либо L-образном свайпе</string>
 
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Возрастающая громкость</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Время возрастания</string>
+
     <!-- Custom light color -->
     <string name="custom_light_title">Цвет светодиода</string>
     <string name="custom_light_on_time_title">Длительность свечения светодиода (мс)</string>
