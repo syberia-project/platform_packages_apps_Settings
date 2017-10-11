@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<!--
+     Copyright (C) 2017 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,14 +14,15 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-    <!-- Interval seekbar -->
-    <declare-styleable name="IntervalSeekBar">
-        <attr name="minI" format="float" />
-        <attr name="maxI" format="float" />
-        <attr name="defaultValuePure" format="float" />
-        <attr name="digits" format="integer" />
-    </declare-styleable>
 
-    <attr name="customPreferenceStyle" format="reference" />
+<!-- This file only contains custom attribute and style definition for preferences -->
+<!-- Things unrelated to preference framework UI customization should go to other styles files -->
+<resources>
+    <style name="PreferenceTheme" parent="@style/PreferenceThemeOverlay.SettingsBase">
+        <item name="customPreferenceStyle">@style/CustomPreference</item>
+    </style>
+
+    <style name="CustomPreference" parent="Preference.Material">
+        <item name="allowDividerAbove">false</item>
+    </style>
 </resources>
