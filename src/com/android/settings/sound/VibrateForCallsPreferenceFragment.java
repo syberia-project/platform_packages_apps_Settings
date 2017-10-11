@@ -43,8 +43,6 @@ public class VibrateForCallsPreferenceFragment extends RadioButtonPickerFragment
     static final String KEY_NEVER_VIBRATE = "never_vibrate";
     @VisibleForTesting
     static final String KEY_ALWAYS_VIBRATE = "always_vibrate";
-    @VisibleForTesting
-    static final String KEY_RAMPING_RINGER = "ramping_ringer";
 
     private static final int ON = 1;
     private static final int OFF = 0;
@@ -68,9 +66,6 @@ public class VibrateForCallsPreferenceFragment extends RadioButtonPickerFragment
         mCandidates.put(KEY_ALWAYS_VIBRATE,
                 new VibrateForCallsCandidateInfo(
                         KEY_ALWAYS_VIBRATE, R.string.vibrate_when_ringing_option_always_vibrate));
-        mCandidates.put(KEY_RAMPING_RINGER,
-                new VibrateForCallsCandidateInfo(
-                        KEY_RAMPING_RINGER, R.string.vibrate_when_ringing_option_ramping_ringer));
     }
 
     private void updateSettings(VibrateForCallsCandidateInfo candidate) {
@@ -78,18 +73,9 @@ public class VibrateForCallsPreferenceFragment extends RadioButtonPickerFragment
         if (TextUtils.equals(key, KEY_ALWAYS_VIBRATE)) {
             Settings.System.putInt(
                     getContext().getContentResolver(), Settings.System.VIBRATE_WHEN_RINGING, ON);
-            Settings.Global.putInt(
-                    getContext().getContentResolver(), Settings.Global.APPLY_RAMPING_RINGER, OFF);
-        } else if (TextUtils.equals(key, KEY_RAMPING_RINGER)) {
-            Settings.System.putInt(
-                    getContext().getContentResolver(), Settings.System.VIBRATE_WHEN_RINGING, OFF);
-            Settings.Global.putInt(
-                    getContext().getContentResolver(), Settings.Global.APPLY_RAMPING_RINGER, ON);
         } else {
             Settings.System.putInt(
                     getContext().getContentResolver(), Settings.System.VIBRATE_WHEN_RINGING, OFF);
-            Settings.Global.putInt(
-                    getContext().getContentResolver(), Settings.Global.APPLY_RAMPING_RINGER, OFF);
         }
     }
 
@@ -98,17 +84,12 @@ public class VibrateForCallsPreferenceFragment extends RadioButtonPickerFragment
         final List<VibrateForCallsCandidateInfo> candidates = new ArrayList<>();
         candidates.add(mCandidates.get(KEY_NEVER_VIBRATE));
         candidates.add(mCandidates.get(KEY_ALWAYS_VIBRATE));
-        candidates.add(mCandidates.get(KEY_RAMPING_RINGER));
         return candidates;
     }
 
     @Override
     protected String getDefaultKey() {
-        if (Settings.Global.getInt(
-                 getContext().getContentResolver(),
-                 Settings.Global.APPLY_RAMPING_RINGER, OFF) == ON) {
-            return KEY_RAMPING_RINGER;
-        } else if (Settings.System.getInt(
+        if (Settings.System.getInt(
                     getContext().getContentResolver(),
                     Settings.System.VIBRATE_WHEN_RINGING, OFF) == ON) {
             return KEY_ALWAYS_VIBRATE;

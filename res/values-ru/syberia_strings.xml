@@ -297,4 +297,9 @@
     <string name="designed_battery_capacity">Начальная ёмкость батареи</string>
     <string name="designed_battery_capacity_summary">Ёмкость батареи спроектированная производителем</string>
     <string name="battery_charge_cycles">Полные циклы заряд-разряд</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Возрастающая громкость</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Время возрастания</string>
 </resources>
