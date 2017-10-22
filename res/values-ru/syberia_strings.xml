@@ -103,4 +103,8 @@
     <string name="back_swipe_extended_title">Действие при очень длинном свайпе</string>
     <string name="back_swipe_extended_summary">Действие будет выполнено при горизонтальном свайпе не менее чем в 1\/2 размера экрана, либо L-образном свайпе</string>
 
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Звук при подкл. зарядки</string>
+    <string name="charging_vibro_title">Вибрация при подкл. зарядки</string>
+
 </resources>
