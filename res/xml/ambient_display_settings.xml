@@ -56,12 +56,15 @@
             android:summary="@string/doze_summary"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
+        <Preference
+            android:key="ambient_display_custom"
+            android:title="@string/advanced_settings" />
+
         <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="force_ambient_for_media"
             android:title="@string/force_ambient_for_media_title"
             android:summary="@string/force_ambient_for_media_summary"
             android:defaultValue="false" />
-
     </PreferenceCategory>
 
 </PreferenceScreen>
