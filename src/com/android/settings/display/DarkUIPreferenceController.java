@@ -27,6 +27,7 @@ import android.provider.Settings;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.internal.statusbar.IStatusBarService;
+import com.android.settings.core.PreferenceControllerMixin;
 
 import libcore.util.Objects;
 import java.util.ArrayList;
@@ -38,7 +39,7 @@ import android.os.Handler;
 import android.widget.Toast;
 
 public class DarkUIPreferenceController extends AbstractPreferenceController implements
-        Preference.OnPreferenceChangeListener {
+        PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
 
     private static final String SYSTEM_UI_THEME = "systemui_theme_style";
     private ListPreference mSystemUiThemeStyle;
