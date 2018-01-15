@@ -45,4 +45,8 @@
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук при снятии скриншота</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
+
 </resources>
