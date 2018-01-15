@@ -174,4 +174,7 @@
     <string name="doze_on_charge_title">AOD на зарядке</string>
     <string name="doze_on_charge_summary">Экран будет в режиме AOD во время зарядки</string>
 
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
+
 </resources>
