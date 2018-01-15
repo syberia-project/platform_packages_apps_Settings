@@ -125,4 +125,7 @@
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
 
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
 </resources>
