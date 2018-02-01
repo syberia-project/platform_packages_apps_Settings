@@ -199,4 +199,7 @@
     <string name="doze_double_tap_title">Двойное нажатие для проверки</string>
     <string name="doze_double_tap_summary">Включить AOD для проверки уведомлений</string>
 
+    <!-- Notification log -->
+    <string name="notification_log_summary">Показать журнал уведомлений</string>
+
 </resources>
