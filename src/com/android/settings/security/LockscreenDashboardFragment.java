@@ -25,6 +25,7 @@ import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.notification.LockScreenNotificationPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.security.AutoFaceUnlockPreferenceController;
 import com.android.settings.users.AddUserWhenLockedPreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
@@ -92,6 +93,7 @@ public class LockscreenDashboardFragment extends DashboardFragment
                 new OwnerInfoPreferenceController(context, this, lifecycle);
         controllers.add(mOwnerInfoPreferenceController);
         controllers.add(new LockdownButtonPreferenceController(context));
+        controllers.add(new AutoFaceUnlockPreferenceController(context));
 
         return controllers;
     }

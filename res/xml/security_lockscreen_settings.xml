@@ -54,4 +54,9 @@
 
     </PreferenceCategory>
 
+    <SwitchPreference
+        android:key="face_auto_unlock"
+        android:title="@string/face_auto_unlock_title"
+        android:summary="@string/face_auto_unlock_summary" />
+
 </PreferenceScreen>
