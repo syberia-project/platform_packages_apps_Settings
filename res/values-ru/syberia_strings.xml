@@ -46,4 +46,12 @@
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка устройства при вводе корректного ПИНа/пароля</string>
 
+    <!-- About -->
+    <string name="about_device_name">Устройство</string>
+
+    <!-- Hardware info -->
+    <string name="platform_revision">Платформа</string>
+    <string name="total_ram">Всего оперативной памяти</string>
+
+
 </resources>
