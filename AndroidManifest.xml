@@ -3354,7 +3354,7 @@
 
         <activity android:name="Settings$SyberiaSettingsActivity"
             android:label="@string/syberia_settings_title"
-            android:icon="@drawable/ic_settings_syberia"
+            android:icon="@drawable/ic_homepage_syberia"
             android:taskAffinity="">
             <intent-filter android:priority="1">
                 <action android:name="syberia.settings.SyberiaSettings" />
