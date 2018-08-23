@@ -139,4 +139,10 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
 
+    <!-- Custom light color -->
+    <string name="custom_light_title">Цвет светодиода</string>
+    <string name="custom_light_on_time_title">Длительность свечения светодиода (мс)</string>
+    <string name="custom_light_off_time_title">Длительность затухания светодиода (мс)</string>
+    <string name="value_equals_default">умолч.</string>
+
 </resources>
