@@ -35,6 +35,8 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.syberia.settings.deviceinfo.BuildDatePreferenceController;
+import com.syberia.settings.deviceinfo.SyberiaVersionPreferenceController;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -126,6 +128,8 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(new PhoneNumberPreferenceController(context));
         controllers.add(new SimStatusPreferenceController(context, fragment));
+        controllers.add(new SyberiaVersionPreferenceController(context));
+        controllers.add(new BuildDatePreferenceController(context));
         controllers.add(new DeviceModelPreferenceController(context, fragment));
         controllers.add(new ImeiInfoPreferenceController(context, fragment));
         controllers.add(new FirmwareVersionPreferenceController(context, fragment));

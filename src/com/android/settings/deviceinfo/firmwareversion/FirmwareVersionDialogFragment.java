@@ -28,6 +28,7 @@ import android.widget.TextView;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
+import com.syberia.settings.deviceinfo.SyberiaVersionDialogController;
 
 public class FirmwareVersionDialogFragment extends InstrumentedDialogFragment {
 
@@ -85,6 +86,7 @@ public class FirmwareVersionDialogFragment extends InstrumentedDialogFragment {
 
     private void initializeControllers() {
         new FirmwareVersionDialogController(this).initialize();
+        new SyberiaVersionDialogController(this).initialize();
         new SecurityPatchLevelDialogController(this).initialize();
         new BasebandVersionDialogController(this).initialize();
         new KernelVersionDialogController(this).initialize();

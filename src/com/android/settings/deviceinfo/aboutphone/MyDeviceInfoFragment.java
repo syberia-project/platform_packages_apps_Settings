@@ -54,6 +54,8 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.widget.EntityHeaderController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.syberia.settings.deviceinfo.BuildDatePreferenceController;
+import com.syberia.settings.deviceinfo.SyberiaVersionPreferenceController;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -119,6 +121,8 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new DeviceModelPreferenceController(context, fragment));
         controllers.add(new ImeiInfoPreferenceController(context, fragment));
         controllers.add(new FirmwareVersionPreferenceController(context, fragment));
+        controllers.add(new SyberiaVersionPreferenceController(context));
+        controllers.add(new BuildDatePreferenceController(context));
         controllers.add(new IpAddressPreferenceController(context, lifecycle));
         controllers.add(new WifiMacAddressPreferenceController(context, lifecycle));
         controllers.add(new BluetoothAddressPreferenceController(context, lifecycle));
