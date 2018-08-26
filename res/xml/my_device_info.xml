@@ -33,6 +33,14 @@
         android:order="1"
         android:title="@string/my_device_info_device_name_preference_title"
         android:summary="@string/summary_placeholder"/>
+	
+    <!-- Changelog -->
+    <PreferenceScreen
+        android:key="changelog"
+	android:order="7"
+	android:title="@string/changelog_title"
+	android:summary="@string/changelog_summary"
+	android:fragment="com.android.settings.syberia.Changelog" />
 
     <!-- Account name -->
     <Preference
