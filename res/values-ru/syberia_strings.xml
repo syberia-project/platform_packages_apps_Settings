@@ -64,7 +64,7 @@
     <string name="app_ops_use_notification_volume">Громкость уведомлений</string>
     <string name="app_ops_use_ring_volume">Громкость рингтона</string>
     <string name="app_ops_use_vibrate">Виброотклик</string>
-    <string name="app_ops_use_voice_volume">voice call volume</string>
+    <string name="app_ops_use_voice_volume">Громкость при разговоре</string>
     <string name="app_ops_write_mms">Создание MMS</string>
     <string name="app_ops_write_sms">Создание SMS</string>
     <string name="app_ops_use_fingerprint">Использовать отпечаток пальца</string>
