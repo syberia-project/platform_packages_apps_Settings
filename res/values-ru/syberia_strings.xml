@@ -25,6 +25,7 @@
     <string name="app_ops_access_camera">Камера</string>
     <string name="app_ops_access_location">Местоположение</string>
     <string name="app_ops_access_notifications">Уведомления</string>
+
     <string name="app_ops_activate_vpn">Активация VPN</string>
     <string name="app_ops_auto_start">Автозагрузка</string>
     <string name="app_ops_delete_call_log">Удаление истории вызовов</string>
@@ -95,6 +96,7 @@
     <string name="app_ops_accept_handover">Разрешить передачу</string>
     <string name="app_ops_manage_ipsec_tunnels">Управлять IP-туннелями</string>
     <string name="app_ops_start_foreground">Запуск приложений с мгновенным запуском</string>
+
     <string name="app_ops_bluetooth_scan">Сканирование блютуз</string>
     <string name="app_ops_boot_completed">Автостарт</string>
 
