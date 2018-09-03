@@ -203,4 +203,6 @@
     <string name="sub_deactivate_failed">Deactivation failed.</string>
     <string name="available_sims_title">Available SIM cards</string>
 
+    <string name="weather_title">Weather</string>
+
 </resources>

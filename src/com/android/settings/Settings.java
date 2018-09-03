@@ -176,4 +176,5 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
 
     public static class SyberiaSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
 }
