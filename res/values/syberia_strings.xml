@@ -144,4 +144,6 @@
     <!-- Primary color -->
     <string name="theme_customization_primary_color_title">Primary color</string>
 
+    <string name="weather_title">Weather</string>
+
 </resources>

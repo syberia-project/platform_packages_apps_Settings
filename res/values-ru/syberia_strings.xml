@@ -134,4 +134,6 @@
 
     <string name="theme_customization_primary_color_title">Основной цвет</string>
 
+    <string name="weather_title">Погода</string>
+
 </resources>
