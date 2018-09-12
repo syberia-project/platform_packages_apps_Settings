@@ -25,6 +25,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings.Global;
+import androidx.preference.Preference;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.loader.app.LoaderManager;
@@ -39,6 +40,7 @@ import com.android.settings.fuelgauge.BatteryInfo;
 import com.android.settings.fuelgauge.BatteryInfoLoader;
 import com.android.settings.fuelgauge.BatteryUtils;
 import com.android.settings.fuelgauge.PowerUsageFeatureProvider;
+import com.android.settings.core.SubSettingLauncher;
 import com.android.settings.fuelgauge.batterytip.BatteryTipLoader;
 import com.android.settings.fuelgauge.batterytip.BatteryTipPreferenceController;
 import com.android.settings.fuelgauge.batterytip.tips.BatteryTip;
@@ -168,6 +170,19 @@ public class PowerUsageSummary extends PowerUsageBase implements
         }
         mBatteryTipPreferenceController.restoreInstanceState(icicle);
         updateBatteryTipFlag(icicle);
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (BatteryHeaderPreferenceController.KEY_BATTERY_HEADER.equals(preference.getKey())) {
+            new SubSettingLauncher(getContext())
+                        .setDestination(PowerUsageAdvanced.class.getName())
+                        .setSourceMetricsCategory(getMetricsCategory())
+                        .setTitleRes(R.string.advanced_battery_title)
+                        .launch();
+            return true;
+        }
+        return super.onPreferenceTreeClick(preference);
     }
 
     @Override
