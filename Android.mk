@@ -33,6 +33,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-support-v7-preference \
     android-support-v7-recyclerview \
     android-support-v14-preference \
+    android-support-constraint-layout \
 
 LOCAL_JAVA_LIBRARIES := \
     bouncycastle \
@@ -45,6 +46,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     guava \
     jsr305 \
     settings-logtags \
+    glide \
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/preference/res \
