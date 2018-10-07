@@ -181,4 +181,9 @@ public class Settings extends SettingsActivity {
     // Ambient play
     public static class AmbientPlayHistoryActivity extends SettingsActivity { /* empty */ }
     public static class AmbientPlaySettingsActivity extends SettingsActivity { /* empty */ }
+    public static class NavigationSettingsActivity extends SettingsActivity {}
+    public static class SmartbarSettingsActivity extends SettingsActivity {}
+    public static class FlingSettingsActivity extends SettingsActivity {}
+    public static class PulseSettingsActivity extends SettingsActivity {}
+
 }
