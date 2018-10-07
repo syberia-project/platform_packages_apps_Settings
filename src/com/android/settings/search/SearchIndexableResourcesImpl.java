@@ -103,7 +103,25 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
-// LiveDisplay
+
+import com.syberia.settings.fragments.AggressiveBattery;
+import com.syberia.settings.fragments.AnimationsSettings;
+import com.syberia.settings.fragments.BatteryScreenSettings;
+import com.syberia.settings.fragments.ButtonsSettings;
+import com.syberia.settings.fragments.ClockDateSettings;
+import com.syberia.settings.fragments.DialerSettings;
+import com.syberia.settings.fragments.EdgeGesturesSettings;
+import com.syberia.settings.fragments.GamingMode;
+import com.syberia.settings.fragments.GeneralTweaks;
+import com.syberia.settings.fragments.GesturesSettings;
+import com.syberia.settings.fragments.LockScreenSettings;
+import com.syberia.settings.fragments.NotificationsSettings;
+import com.syberia.settings.fragments.OmniGestureSettings;
+import com.syberia.settings.fragments.PowerMenuSettings;
+import com.syberia.settings.fragments.StatusBarBattery;
+import com.syberia.settings.fragments.StatusBarSettings;
+import com.syberia.settings.fragments.SystemSoundSettings;
+import com.syberia.settings.fragments.VolumeStepsFragment;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
 
@@ -197,6 +215,24 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(PreviouslyConnectedDeviceDashboardFragment.class);
         addIndex(BluetoothDashboardFragment.class);
         addIndex(PieSettings.class);
+        addIndex(AggressiveBattery.class);
+        addIndex(AnimationsSettings.class);
+        addIndex(BatteryScreenSettings.class);
+        addIndex(ButtonsSettings.class);
+        addIndex(ClockDateSettings.class);
+        addIndex(DialerSettings.class);
+        addIndex(EdgeGesturesSettings.class);
+        addIndex(GamingMode.class);
+        addIndex(GeneralTweaks.class);
+        addIndex(GesturesSettings.class);
+        addIndex(LockScreenSettings.class);
+        addIndex(NotificationsSettings.class);
+        addIndex(OmniGestureSettings.class);
+        addIndex(PowerMenuSettings.class);
+        addIndex(StatusBarBattery.class);
+        addIndex(StatusBarSettings.class);
+        addIndex(SystemSoundSettings.class);
+        addIndex(VolumeStepsFragment.class);
 
         // LiveDisplay
         addIndex(LiveDisplaySettings.class);
