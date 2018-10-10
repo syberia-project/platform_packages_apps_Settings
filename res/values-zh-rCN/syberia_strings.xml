@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Syberia Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">位置</string>
+    <string name="app_ops_cat_personal">用户</string>
+    <string name="app_ops_cat_messaging">信息</string>
+    <string name="app_ops_cat_media">媒体</string>
+    <string name="app_ops_cat_device">设备</string>
+    <string name="app_ops_cat_bootup">启动</string>
+
+    <!-- App ops labels -->
+    <string name="app_ops_access_camera">相机</string>
+    <string name="app_ops_access_location">位置</string>
+    <string name="app_ops_access_notifications">通知</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">自启动</string>
+    <string name="app_ops_delete_call_log">删除通话记录</string>
+    <string name="app_ops_delete_contacts">删除联系人</string>
+    <string name="app_ops_delete_mms">删除彩信</string>
+    <string name="app_ops_delete_sms">删除短信</string>
+    <string name="app_ops_draw_on_top">显示悬浮窗</string>
+    <string name="app_ops_get_usage_stats">读取使用统计数据</string>
+    <string name="app_ops_keep_device_awake">保持唤醒</string>
+    <string name="app_ops_make_phone_call">拨打电话</string>
+    <string name="app_ops_modify_calendar">更改日历</string>
+    <string name="app_ops_modify_call_log">更改通话记录</string>
+    <string name="app_ops_modify_clipboard">修改剪贴板</string>
+    <string name="app_ops_modify_contacts">更改联系人</string>
+    <string name="app_ops_modify_settings">更改系统设置</string>
+    <string name="app_ops_mute_unmute_microphone">调用麦克风</string>
+    <string name="app_ops_play_audio">播放音频</string>
+    <string name="app_ops_post_notification">推送通知</string>
+    <string name="app_ops_project_media">查找媒体</string>
+    <string name="app_ops_read_calendar">读取日历</string>
+    <string name="app_ops_read_call_log">读取通话记录</string>
+    <string name="app_ops_read_clipboard">读取剪贴板</string>
+    <string name="app_ops_read_contacts">读取联系人</string>
+    <string name="app_ops_read_mms">读取彩信</string>
+    <string name="app_ops_read_sms">读取短信</string>
+    <string name="app_ops_receive_sms">接收短信</string>
+    <string name="app_ops_record_audio">录制音频</string>
+    <string name="app_ops_send_mms">发送彩信</string>
+    <string name="app_ops_send_sms">发送短信</string>
+    <string name="app_ops_toast_window">Toast通知</string>
+    <string name="app_ops_use_alarm_volume">闹铃音量</string>
+    <string name="app_ops_use_audio_focus">音频焦点</string>
+    <string name="app_ops_use_bluetooth_volume">蓝牙音量</string>
+    <string name="app_ops_use_master_volume">主音量</string>
+    <string name="app_ops_use_media_buttons">媒体按键</string>
+    <string name="app_ops_use_media_volume">媒体音量</string>
+    <string name="app_ops_use_notification_volume">通知音量</string>
+    <string name="app_ops_use_ring_volume">铃声音量</string>
+    <string name="app_ops_use_vibrate">触觉反馈</string>
+    <string name="app_ops_use_voice_volume">通话音量</string>
+    <string name="app_ops_write_mms">编写彩信</string>
+    <string name="app_ops_write_sms">编写短信</string>
+    <string name="app_ops_use_fingerprint">调用指纹</string>
+    <string name="app_ops_add_voicemail">语音信箱</string>
+    <string name="app_ops_read_phone_state">读取手机信息</string>
+    <string name="app_ops_scan_wifi">扫描WiFi网络</string>
+    <string name="app_ops_change_wallpaper">修改壁纸</string>
+    <string name="app_ops_assist_structure">Assist Structure</string>
+    <string name="app_ops_assist_screenshot">截屏</string>
+    <string name="app_ops_use_body_sensors">身体传感器</string>
+    <string name="app_ops_read_cell_broadcasts">广播单元</string>
+    <string name="app_ops_mock_location">模拟位置</string>
+    <string name="app_ops_read_external_storage">读取外部存储</string>
+    <string name="app_ops_write_external_storage">写入外部存储</string>
+    <string name="app_ops_turn_on_screen">点亮屏幕</string>
+    <string name="app_ops_get_accounts">设备账户</string>
+    <string name="app_ops_run_in_background">在后台运行</string>
+    <string name="app_ops_accessibility_volume">辅助功能权限</string>
+    <string name="app_ops_read_phone_numbers">读取本机号码</string>
+    <string name="app_ops_request_install_packages">安装应用</string>
+    <string name="app_ops_picture_in_picture">画中画</string>
+    <string name="app_ops_app_start_foreground">前台运行</string>
+    <string name="app_ops_answer_phone_calls">接听电话</string>
+    <string name="app_ops_run_any_in_background">后台运行</string>
+    <string name="app_ops_change_wifi_state">更改 WiFi 状态</string>
+    <string name="app_ops_request_delete_packages">卸载应用</string>
+    <string name="app_ops_bind_accessibility_service">添加到辅助功能</string>
+    <string name="app_ops_accept_handover">Accept Handover</string>
+    <string name="app_ops_manage_ipsec_tunnels">管理 IP 地址</string>
+    <string name="app_ops_start_foreground">启动前台服务</string>
+    <string name="app_ops_bluetooth_scan">扫描蓝牙</string>
+    <string name="app_ops_boot_completed">自动启动</string>
+
+    <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (used <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">允许 <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">拒绝 <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">允许 <xliff:g id="count">%1$s</xliff:g>, 拒绝 <xliff:g id="count">%2$s</xliff:g></string>
+    
+    <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">显示用户应用</string>
+    <string name="app_ops_show_system_apps">显示系统应用</string>
+    <string name="app_ops_reset_counters">重置应用设定</string>
+    <string name="app_ops_reset_confirm_title">重置权限计数器</string>
+    <string name="app_ops_reset_confirm_mesg">是否要重置权限计数器</string>
+    
+    <!-- Auto Face Unlock -->
+    <string name="face_auto_unlock_title">自动解锁设备</string>
+    <string name="face_auto_unlock_summary">当FaceID识别成功时</string>
+    
+    <!-- Changelog -->
+    <string name="changelog_title">更新日记</string>
+    <string name="changelog_summary">最近变化</string>
+    <string name="changelog_loading">正在加载更新日记\u2026</string>
+    <string name="changelog_error">无法加载更新日记</string>
+    
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">重置电池使用记录</string>
+    <string name="battery_stats_message">电池使用记录将被重置</string>
+    <string name="ok_string">好</string>
+    
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">输入正确的 PIN 或 密码 时自动解锁</string>
+    
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">打乱布局</string>
+    <string name="unlock_scramble_pin_layout_summary">打乱密码盘的布局</string>
+    
+    <string name="theme_category_title">系统主题</string>
+    
+    <!-- SystemUI theme -->
+    <string name="systemui_theme_style_title">系统界面主题</string>
+    <string name="systemui_theme_style_auto">自适应 (根据壁纸决定)</string>
+    <string name="systemui_theme_style_light">亮白色</string>
+    <string name="systemui_theme_style_dark">暗黑色</string>
+    <string name="system_theme_style_black">A屏黑</string>
+    
+    <string name="applying_theme_toast">正在应用主题，请稍后......</string>
+    <string name="theme_applied_toast">主题已应用</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">旋转屏幕</string>
+    <string name="display_rotation_disabled">禁用</string>
+    <string name="display_rotation_unit">角度</string>
+    <string name="display_rotation_category_title">旋转角度</string>
+    <string name="display_rotation_0_title">0°</string>
+    <string name="display_rotation_90_title">90°</string>
+    <string name="display_rotation_180_title">180°</string>
+    <string name="display_rotation_270_title">270°</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">亮度</string>
+    <string name="night_brightness_value_title">夜间模式开启时设定较低亮度</string>
+    <string name="night_bright_disabled">禁用</string>
+    <string name="night_bright_minimum">最低亮度</string>
+    <string name="night_bright_low">低亮度</string>
+    <string name="night_bright_medium">适中亮度</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">呼吸灯颜色</string>
+    <string name="custom_light_on_time_title">亮灯呼吸时间(ms)</string>
+    <string name="custom_light_off_time_title">关灯呼吸时间 (ms)"</string>
+    <string name="value_equals_default">默认</string>
+    <string name="show_light_on_zen_title">在 勿扰模式 时启用灯效</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">截图声音</string>
+
+</resources>
