@@ -217,5 +217,13 @@
 
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Рингтон - SIM 2</string>
+  
+    <!-- Ambient Play -->
+    <string name="ambient_play_summary">Сейчас играет</string>
+    <string name="ambient_play_lockscreen_title">На экране блокировки</string>
+    <string name="ambient_play_notifications_title">Уведомления</string>
+    <string name="ambient_play_switch_bar_on">Вкл</string>
+    <string name="ambient_play_switch_bar_off">Выкл</string>
+    <string name="ambient_play_help_text">Когда музыка играет поблизости, вы можете увидеть название песни и исполнителя. Эта функция требует включенной передачи данных. Возможно увеличение расхода батареи.</string> 
 
 </resources>
