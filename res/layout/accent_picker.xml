@@ -67,6 +67,15 @@
                 android:gravity="center"
                 android:layout_gravity="fill_horizontal"
                 android:background="#7C4DFF" />
+		
+	    <Button
+                android:id="@+id/belleAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#BD717D" />
 
             <Button
                 android:id="@+id/indigoAccent"
