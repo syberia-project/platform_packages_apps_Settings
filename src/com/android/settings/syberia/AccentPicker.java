@@ -138,6 +138,21 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
                 }
             });
         }
+	
+	Button rosyAccent = null;
+        if (mView != null) {
+            rosyAccent = mView.findViewById(R.id.rosyAccent);
+        }
+        if (rosyAccent != null) {
+            rosyAccent.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Settings.System.putIntForUser(resolver,
+                            Settings.System.ACCENT_PICKER, 20, UserHandle.USER_CURRENT);
+                    dismiss();
+                }
+            });
+        }
 
         Button indigoAccent = null;
         if (mView != null) {
