@@ -81,7 +81,7 @@
     <string name="app_ops_read_phone_state">读取手机信息</string>
     <string name="app_ops_scan_wifi">扫描WiFi网络</string>
     <string name="app_ops_change_wallpaper">修改壁纸</string>
-    <string name="app_ops_assist_structure">Assist Structure</string>
+    <string name="app_ops_assist_structure">辅助结构</string>
     <string name="app_ops_assist_screenshot">截屏</string>
     <string name="app_ops_use_body_sensors">身体传感器</string>
     <string name="app_ops_read_cell_broadcasts">广播单元</string>
@@ -122,7 +122,7 @@
     
     <!-- Auto Face Unlock -->
     <string name="face_auto_unlock_title">自动解锁设备</string>
-    <string name="face_auto_unlock_summary">当FaceID识别成功时</string>
+    <string name="face_auto_unlock_summary">当 FaceID 识别成功时</string>
     
     <!-- Changelog -->
     <string name="changelog_title">更新日记</string>
@@ -141,7 +141,7 @@
     
     <!-- Scramble PIN Layout on Lockscreen -->
     <string name="unlock_scramble_pin_layout_title">打乱布局</string>
-    <string name="unlock_scramble_pin_layout_summary">打乱密码盘的布局</string>
+    <string name="unlock_scramble_pin_layout_summary">打乱 PIN 的布局</string>
     
     <string name="theme_category_title">系统主题</string>
     
