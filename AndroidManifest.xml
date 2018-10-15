@@ -3448,6 +3448,18 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.syberia.settings.fragments.OmniJawsSettings" />
         </activity>
+
+        <!-- Pie Settings. -->
+        <activity android:name="Settings$PieSettingsActivity"
+                android:label="@string/pa_pie_control_title"
+                android:taskAffinity="com.android.settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.syberia.settings.fragments.PieSettings" />
+        </activity>
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
