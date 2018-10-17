@@ -92,6 +92,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new LiftToWakePreferenceController(context));
         controllers.add(new NightDisplayPreferenceController(context));
         controllers.add(new NightModePreferenceController(context));
+        controllers.add(new QsTileStylePreferenceController(context));
         controllers.add(new ScreenSaverPreferenceController(context));
         controllers.add(new AmbientDisplayPreferenceController(
                 context,
@@ -100,7 +101,6 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new TapToWakePreferenceController(context));
         controllers.add(new TimeoutPreferenceController(context, KEY_SCREEN_TIMEOUT));
         controllers.add(new VrDisplayPreferenceController(context));
-        controllers.add(new QsTileStylePreferenceController(context));
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new WallpaperPreferenceController(context));
         controllers.add(new ThemePreferenceController(context));

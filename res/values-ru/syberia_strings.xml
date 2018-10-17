@@ -196,11 +196,11 @@
     <string name="weather_title">Погода</string>
     
     <!-- QS tile styles -->
-    <string name="qs_tile_style_title">Стиль плиток быстрых настроек</string>
-    <string name="qstile_default">По умолчанию</string>
-    <string name="qstile_circle_trim">Круг с отделкой</string>
-    <string name="qstile_dual_tone_circle">Двухцветный круг</string>
-    <string name="qstile_squircle_trim">Скругла с отделкой</string>
+    <string name="qs_tile_style_title">Стиль плиток быстрых настроек</string>  
+    <string name="qs_tile_style_default">По умолчанию</string>
+    <string name="qs_tile_style_circle_trim">Круг с отделкой</string>
+    <string name="qs_tile_style_two_tone_circle">Двухцветный круг</string>
+    <string name="qs_tile_style_squircle_trim">Скругла с отделкой</string>
     
     <!-- Selinux -->
     <string name="selinux_status">Статус SELinux</string>
