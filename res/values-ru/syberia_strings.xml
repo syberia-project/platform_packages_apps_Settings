@@ -194,5 +194,12 @@
     <string name="available_sims_title">Доступные SIM-карты</string>
 
     <string name="weather_title">Погода</string>
+    
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Стиль плиток быстрых настроек</string>
+    <string name="qstile_default">По умолчанию</string>
+    <string name="qstile_circle_trim">Круг с подрезкой</string>
+    <string name="qstile_dual_tone_circle">Двухцветный круг</string>
+    <string name="qstile_squircle_trim">Скругла с обрезкой</string>
 
 </resources>
