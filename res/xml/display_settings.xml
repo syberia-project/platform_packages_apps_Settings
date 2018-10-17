@@ -152,5 +152,12 @@
         android:key="accent_picker"
 	android:title="@string/theme_accent_picker_title" />
     </PreferenceCategory >
+    
+    <ListPreference
+        android:key="qs_tile_style"
+        android:title="@string/qs_tile_style_title"
+        android:persistent="false"
+        android:entries="@array/qs_selector_entries"
+        android:entryValues="@array/qs_selector_values" />
 
 </PreferenceScreen>
