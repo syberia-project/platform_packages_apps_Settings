@@ -136,4 +136,9 @@
 
     <string name="weather_title">Погода</string>
 
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Отключен</string>
+    <string name="selinux_status_permissive">Разрешающий</string>
+    <string name="selinux_status_enforcing">Принудительный</string>
+
 </resources>
