@@ -379,33 +379,6 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
             });
         }
 
-        Button blackAccent = null;
-        if (mView != null) {
-            blackAccent = mView.findViewById(R.id.blackAccent);
-            // Change the accent picker button depending on whether or not the dark/black theme is applied
-            if (isUsingDarkTheme() || isUsingBlackTheme()) {
-            blackAccent.setBackgroundColor(getResources().getColor(
-                    R.color.accent_picker_white_accent));
-            blackAccent.setBackgroundTintList(getResources().getColorStateList(
-                    R.color.accent_picker_white_accent));
-            } else {
-            blackAccent.setBackgroundColor(getResources().getColor(
-                    R.color.accent_picker_dark_accent));
-            blackAccent.setBackgroundTintList(getResources().getColorStateList(
-                    R.color.accent_picker_dark_accent));
-            }
-        }
-        if (blackAccent != null) {
-            blackAccent.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Settings.System.putIntForUser(resolver,
-                            Settings.System.ACCENT_PICKER, 20, UserHandle.USER_CURRENT);
-                    dismiss();
-                }
-            });
-        }
-
         GridLayout gridlayout;
         if (mView != null) {
 
@@ -420,31 +393,6 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
             }
         }
     }
-
-    // Check for the dark theme overlay
-    private boolean isUsingDarkTheme() {
-        OverlayInfo themeInfo = null;
-        try {
-            themeInfo = mOverlayManager.getOverlayInfo("com.android.system.theme.dark.syberia",
-                    UserHandle.USER_CURRENT);
-        } catch (RemoteException e) {
-            e.printStackTrace();
-        }
-        return themeInfo != null && themeInfo.isEnabled();
-    }
-
-    // Check for the black theme overlay
-    private boolean isUsingBlackTheme() {
-        OverlayInfo themeInfo = null;
-        try {
-            themeInfo = mOverlayManager.getOverlayInfo("com.android.system.theme.black.syberia",
-                    UserHandle.USER_CURRENT);
-        } catch (RemoteException e) {
-            e.printStackTrace();
-        }
-        return themeInfo != null && themeInfo.isEnabled();
-    }
-
 
     @Override
     public void onClick(DialogInterface dialog, int which) {
