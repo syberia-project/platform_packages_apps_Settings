@@ -140,6 +140,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.syberia.settings.SyberiaSettings;
 import com.syberia.settings.fragments.OmniJawsSettings;
+import com.android.settings.custom.ambient.history.AmbientPlayHistory;
 
 public class SettingsGateway {
 
@@ -268,6 +269,7 @@ public class SettingsGateway {
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             SyberiaSettings.class.getName(),
             OmniJawsSettings.class.getName(),
+            AmbientPlayHistory.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
