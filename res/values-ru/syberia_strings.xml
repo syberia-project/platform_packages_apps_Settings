@@ -340,5 +340,19 @@
     <string name="privacy_guard_manager_show_system_apps">Системные приложения</string>
     <string name="privacy_guard_advanced_settings_title">Дополнительно</string>
     <string name="privacy_guard_notification_title">Показывать уведомление</string>
+    
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Менее частые уведомления</string>
+    <string name="less_notification_sounds_summary">Воспроизводите звук уведомления каждого приложения только один раз за установленный период времени</string>
+    <string name="less_notification_sounds_default">По умолчанию</string>
+    <string name="less_notification_sounds_3s">Каждые 3 секунды</string>
+    <string name="less_notification_sounds_5s">Каждые 5 секунд</string>
+    <string name="less_notification_sounds_10s">Каждые 10 секунд</string>
+    <string name="less_notification_sounds_15s">Каждые 15 секунд</string>
+    <string name="less_notification_sounds_30s">Каждые 30 секунд</string>
+    <string name="less_notification_sounds_45s">Каждые 45 секунд</string>
+    <string name="less_notification_sounds_1m">Каждую 1 минуту</string>
+    <string name="less_notification_sounds_2m">Каждые 2 минуты</string>
+    <string name="less_notification_sounds_5m">Каждые 5 минут</string>
 
 </resources>
