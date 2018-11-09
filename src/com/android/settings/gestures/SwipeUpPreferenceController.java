@@ -44,15 +44,9 @@ public class SwipeUpPreferenceController extends GesturePreferenceController {
     }
 
     static boolean isGestureAvailable(Context context) {
-        boolean hasNav = false;
         final boolean configEnabled =
                 context.getResources().getBoolean(R.bool.config_swipe_up_gesture_setting_available);
-        try {
-            hasNav = WindowManagerGlobal.getWindowManagerService().hasNavigationBar();
-        } catch (RemoteException ex) {
-            // no window manager? good luck with that
-        }
-        if (!hasNav || !configEnabled || !isPieRecentsEnabled(context)) {
+        if (!configEnabled || !isPieRecentsEnabled(context)) {
             return false;
         }
 
