@@ -136,6 +136,11 @@
     <string name="ambient_play_history_menu_remove_all">Удалить всё</string>
     <string name="ambient_play_history_menu_add_to_home">Добавить на домашний экран</string>
     <string name="ambient_play_history_dialog_remove_all_confirmation">Вы уверены?</string>
+    
+    <string name="full_gesture_mode_title">Включить режим жестов</string>
+    <string name="full_gesture_mode_summary">Этот режим отключает кнопку Назад. Вы можете активировать действие кнопки Назад с помощью свайпа влево на навбаре. Свайп вправо открывает последнее приложение и обзор недавних приложений. Чтобы вернуться на домашний экран вы можете использовать любое свободное место на навбаре, а не только домашнюю кнопку. Когда откыта клавиатура, длительное нажатие на навбаре передвигает курсор.</string>
+    <string name="full_gesture_mode_dt2s_title">Включить двойное нажатие для сна</string>
+    <string name="full_gesture_mode_dt2s_summary">Дважды нажмите на свободном месте навбара чтобы выключить экран.</string>
 
     <!-- Names of categories of app ops tabs - extension of AOSP -->
     <string name="app_ops_categories_location">Местоположение</string>
