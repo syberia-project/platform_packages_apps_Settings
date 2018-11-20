@@ -396,4 +396,6 @@
     <string name="less_notification_sounds_2m">Every 2 minutes</string>
     <string name="less_notification_sounds_5m">Every 5 minutes</string>
 
+    <string name="battery_temp">Battery temperature</string>
+
 </resources>

@@ -355,4 +355,6 @@
     <string name="less_notification_sounds_2m">Каждые 2 минуты</string>
     <string name="less_notification_sounds_5m">Каждые 5 минут</string>
 
+    <string name="battery_temp">Температура батареи</string>
+
 </resources>
