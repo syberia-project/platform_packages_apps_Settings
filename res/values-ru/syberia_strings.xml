@@ -152,8 +152,49 @@
     <string name="app_ops_categories_bootup">Загрузка</string>
     <string name="app_ops_categories_su">Суперпользователь</string>
     <string name="app_ops_categories_other">Другое</string>
+    
     <!-- User display names for app ops codes - extension of AOSP -->
+    <string name="app_ops_summaries_accept_handover">передача вызова из другого приложения</string>
+    <string name="app_ops_summaries_access_camera">доступ к камере</string>
+    <string name="app_ops_summaries_app_start_foreground">запускать приложение в приоритете</string>
+    <string name="app_ops_summaries_audio_accessibility_volume">доступ к громкости звука</string>
+    <string name="app_ops_summaries_auto_start">запуск при включении устройства</string>
+    <string name="app_ops_summaries_bind_accessibility_service">доступ к спец. возможностям</string>
+    <string name="app_ops_summaries_bluetooth_scan">поиск bluetooth устройств</string>
+    <string name="app_ops_summaries_change_wallpaper">изменить обои</string>
     <string name="app_ops_summaries_coarse_location">приблизительное местоположение</string>
+    <string name="app_ops_summaries_delete_call_log">удалить журнал звонков</string>
+    <string name="app_ops_summaries_delete_contacts">удалить контакты</string>
+    <string name="app_ops_summaries_delete_mms">удалить MMS-сообщения</string>
+    <string name="app_ops_summaries_delete_sms">удалить SMS-сообщения</string>
+    <string name="app_ops_summaries_install_packages">установка пакетов</string>
+    <string name="app_ops_summaries_keep_device_awake">запретить устройству переход в спящий режим</string>
+    <string name="app_ops_summaries_make_phone_call">выполнить телефонный звонок</string>
+    <string name="app_ops_summaries_manage_ipsec_tunnels">управлять туннелями ipsec</string>
+    <string name="app_ops_summaries_neighboring_cells">соседние соты</string>
+    <string name="app_ops_summaries_phone_calls">ответ на телефонные звонки</string>
+    <string name="app_ops_summaries_post_notification">вывести уведомление</string>
+    <string name="app_ops_summaries_read_mms">считать MMS-сообщения</string>
+    <string name="app_ops_summaries_receive_emergency_broadcast">получить экстренные оповещения населения</string>
+    <string name="app_ops_summaries_start_at_bootup">назначить запуск при включении устройства</string>
+    <string name="app_ops_summaries_start_foreground">запуск приложений с мгновенным запуском</string>
+    <string name="app_ops_summaries_send_mms">отправить MMS-сообщение</string>
+    <string name="app_ops_summaries_request_delete_packages">запрос на удаление приложений</string>
+    <string name="app_ops_summaries_scan_wifi">выполнить сканирование сетей Wi-Fi</string>
+    <string name="app_ops_summaries_run_any_in_background">запускать в фоновом режиме</string>
+    <string name="app_ops_summaries_turn_on_screen">включить экран</string>
+    <string name="app_ops_summaries_use_alarm_volume">получить управление громкостью будильника</string>
+    <string name="app_ops_summaries_use_audio_focus">получить управление аудиофокусом</string>
+    <string name="app_ops_summaries_use_bluetooth_volume">получить управление громкостью Bluetooth-устройств</string>
+    <string name="app_ops_summaries_use_master_volume">получить управление общей громкостью</string>
+    <string name="app_ops_summaries_use_media_buttons">использовать кнопки мультимедиа</string>
+    <string name="app_ops_summaries_use_media_volume">получить управление громкостью мультимедиа</string>
+    <string name="app_ops_summaries_use_notification_volume">получить управление громкостью уведомлений</string>
+    <string name="app_ops_summaries_use_ring_volume">получить управление громкостью звонка</string>
+    <string name="app_ops_summaries_use_vibrate">использовать виброотклик</string>
+    <string name="app_ops_summaries_use_voice_volume">получить управление громкостью при разговоре</string>
+    <string name="app_ops_summaries_write_mms">создать MMS-сообщение</string>
+    <string name="app_ops_summaries_wifi_change">изменить состояние Wi-Fi</string>
     <string name="app_ops_summaries_fine_location">точное местоположение</string>
     <string name="app_ops_summaries_gps">GPS-модуль</string>
     <string name="app_ops_summaries_vibrate">вибросигнал</string>
@@ -228,8 +269,48 @@
     <string name="app_ops_summaries_start_at_boot">запуск при загрузке</string>
     <string name="app_ops_summaries_toggle_nfc">переключить состояние модуля NFC</string>
     <string name="app_ops_summaries_toggle_mobile_data">переключить состояние мобильного интернета</string>
-    <string name="app_ops_summaries_superuser">суперпользователь</string>
+    
     <!-- User display names for app ops codes - extension of AOSP -->
+    <string name="app_ops_labels_accept_handover">Передача вызова из другого приложения</string>
+    <string name="app_ops_labels_access_camera">Доступ к камере</string>
+    <string name="app_ops_labels_app_start_foreground">Запуск приложений с мгновенным запуском</string>
+    <string name="app_ops_labels_audio_accessibility_volume">Доступ к громкости звука</string>
+    <string name="app_ops_labels_auto_start">Запуск при включении устройства</string>
+    <string name="app_ops_labels_bind_accessibility_service">Доступ к спец. возможностям</string>
+    <string name="app_ops_labels_bluetooth_scan">Поиск bluetooth устройств</string>
+    <string name="app_ops_labels_change_wallpaper">Изменить обои</string>
+    <string name="app_ops_labels_delete_call_log">Удалить журнал звонков</string>
+    <string name="app_ops_labels_delete_contacts">Удалить контакты</string>
+    <string name="app_ops_labels_delete_mms">Удалить MMS-сообщения</string>
+    <string name="app_ops_labels_delete_sms">Удалить SMS-сообщения</string>
+    <string name="app_ops_labels_install_packages">Установка пакетов</string>
+    <string name="app_ops_labels_keep_device_awake">Запретить устройству переход в спящий режим</string>
+    <string name="app_ops_labels_make_phone_call">Выполнить телефонный звонок</string>
+    <string name="app_ops_labels_manage_ipsec_tunnels">Управлять туннелями ipsec</string>
+    <string name="app_ops_labels_neighboring_cells">Соседние соты</string>
+    <string name="app_ops_labels_phone_calls">Ответ на телефонные звонки</string>
+    <string name="app_ops_labels_post_notification">Вывести уведомление</string>
+    <string name="app_ops_labels_read_mms">Считать MMS-сообщения</string>
+    <string name="app_ops_labels_receive_emergency_broadcast">Получить экстренные оповещения населения</string>
+    <string name="app_ops_labels_request_delete_packages">Запрос на удаление приложений</string>
+    <string name="app_ops_labels_run_any_in_background">Запускать в фоновом режиме</string>
+    <string name="app_ops_labels_scan_wifi">Выполнить сканирование сетей Wi-Fi</string>
+    <string name="app_ops_labels_send_mms">Отправить MMS-сообщение</string>
+    <string name="app_ops_labels_start_at_bootup">Назначить запуск при включении устройства</string>
+    <string name="app_ops_labels_start_foreground">Запускать в приоритете</string>
+    <string name="app_ops_labels_turn_on_screen">Включить экран</string>
+    <string name="app_ops_labels_use_alarm_volume">Получить управление громкостью будильника</string>
+    <string name="app_ops_labels_use_audio_focus">Получить управление аудиофокусом</string>
+    <string name="app_ops_labels_use_bluetooth_volume">Получить управление громкостью Bluetooth-устройств</string>
+    <string name="app_ops_labels_use_master_volume">Получить управление общей громкостью</string>
+    <string name="app_ops_labels_use_media_buttons">Использовать кнопки мультимедиа</string>
+    <string name="app_ops_labels_use_media_volume">Получить управление громкостью мультимедиа</string>
+    <string name="app_ops_labels_use_notification_volume">Получить управление громкостью уведомлений</string>
+    <string name="app_ops_labels_use_ring_volume">Получить управление громкостью звонка</string>
+    <string name="app_ops_labels_use_vibrate">Использовать виброотклик</string>
+    <string name="app_ops_labels_use_voice_volume">Получить управление громкостью при разговоре</string>
+    <string name="app_ops_labels_wifi_change">Изменить состояние Wi-Fi</string>
+    <string name="app_ops_labels_write_mms">Создать MMS-сообщение</string>
     <string name="app_ops_labels_coarse_location">Приблизительное местоположение</string>
     <string name="app_ops_labels_fine_location">Точное местоположение</string>
     <string name="app_ops_labels_gps">GPS</string>
@@ -305,17 +386,19 @@
     <string name="app_ops_labels_start_at_boot">Запуск при загрузке</string>
     <string name="app_ops_labels_toggle_nfc">Переключить NFC</string>
     <string name="app_ops_labels_toggle_mobile_data">Переключить состояние мобильного интернета</string>
-    <string name="app_ops_labels_superuser">Режим суперпользователя</string>
+    
     <!-- App ops permissions -->
     <string name="app_ops_permissions_allowed">Разрешать</string>
     <string name="app_ops_permissions_ignored">Запрещать</string>
     <string name="app_ops_permissions_always_ask">Спрашивать</string>
+    
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (использовано <xliff:g id="count">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">Разрешено <xliff:g id="count" example="2 times">%s</xliff:g></string>
     <string name="app_ops_ignored_count">Запрещено <xliff:g id="count" example="2 times">%s</xliff:g></string>
     <string name="app_ops_both_count">Разрешено <xliff:g id="count">%1$s</xliff:g>, запрещено <xliff:g id="count">%2$s</xliff:g></string>
     <string name="app_ops_no_blockable_permissions">Нет разрешений, доступных для блокировки</string>
+    
     <!-- App ops menu options -->
     <string name="app_ops_show_user_apps">Загруженные приложения</string>
     <string name="app_ops_show_system_apps">Системные приложения</string>
