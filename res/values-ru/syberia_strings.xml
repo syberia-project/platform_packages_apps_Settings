@@ -220,4 +220,12 @@
     <string name="navigation_bar_ime_space_title">Пространство под клавиатурой</string>
     <string name="navigation_bar_ime_space_summary">Оставлять дополнительное пространство под клавиатурой</string>
 
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Включить предупреждение об уровне заряда батареи</string>
+    <string name="notification_battery_charge_level_title">Предупреждение о заряде батареи</string>
+    <string name="notification_battery_charge_level_summary">Воспроизведение звука, когда батарея достигает уровня при зарядке</string>
+    <string name="notification_battery_charge_level_seek_bar">Уровень заряда батареи</string>
+    <string name="notification_battery_charge_level_ringtone">Рингтон</string>
+    <string name="notification_battery_charge_level_silent">Тишина</string>
+
 </resources>
