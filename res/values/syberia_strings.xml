@@ -105,12 +105,11 @@
     <string name="sub_deactivate_failed">Deactivation failed.</string>
     <string name="available_sims_title">Available SIM cards</string>
 
-<<<<<<< HEAD:res/values/syberia_strings.xml
+    <!-- Weather -->
     <string name="weather_title">Weather</string>
-=======
+
     <!-- Density category -->
     <string name="density_category">Font options</string>
->>>>>>> 5cf3930acb... Add Font preference for font manager:res/values/x_strings.xml
 
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">QS tile style</string>
