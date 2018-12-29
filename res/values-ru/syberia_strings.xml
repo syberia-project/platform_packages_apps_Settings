@@ -461,4 +461,8 @@
     <string name="hide_notch_title">Скрыть вырез</string>
     <string name="hide_notch_summary">Принудительно скрыть вырез экрана</string>
 
+    <!-- Switch styles -->
+    <string name="switch_style_title">Стиль переключателей</string>
+    <string name="switch_default">По умолчанию</string>
+
 </resources>
