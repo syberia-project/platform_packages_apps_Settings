@@ -431,4 +431,8 @@
     <string name="menu_show_substratum">Show overlays</string>
     <string name="menu_hide_substratum">Hide overlays</string>
 
+    <!-- Device Parts -->
+    <string name="device_part_title">Device features</string>
+    <string name="device_part_summary">Device Speicific Features</string>
+
 </resources>

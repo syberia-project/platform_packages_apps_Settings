@@ -470,4 +470,8 @@
     <string name="menu_show_substratum">Показать слои</string>
     <string name="menu_hide_substratum">Скрыть слои</string>
 
+    <!-- Device Parts -->
+    <string name="device_part_title">Дополнительная настройка</string>
+    <string name="device_part_summary">Дополнительные настройки устройства</string>
+
 </resources>
