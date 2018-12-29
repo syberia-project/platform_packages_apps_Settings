@@ -21,4 +21,9 @@
     <!-- About phone screen, build date -->
     <string name="build_date">Дата сборки</string>
     <string name="build_date_default">2019-01-01-0000</string>
+
+    <!-- Device Parts -->
+    <string name="device_part_title">Дополнительная настройка</string>
+    <string name="device_part_summary">Дополнительные настройки устройства</string>
+
 </resources>

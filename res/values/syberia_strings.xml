@@ -25,4 +25,8 @@
     <string name="build_date_default">2019-01-01-0000</string>
     <string name="keywords_build_date">build date, build info</string>
 
+    <!-- Device Parts -->
+    <string name="device_part_title">Device features</string>
+    <string name="device_part_summary">Device Speicific Features</string>
+
 </resources>
