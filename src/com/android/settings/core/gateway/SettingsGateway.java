@@ -145,8 +145,6 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.syberia.settings.SyberiaSettings;
 import com.syberia.settings.fragments.OmniJawsSettings;
-import com.android.settings.custom.ambient.history.AmbientPlayHistory;
-import com.android.settings.custom.ambient.AmbientPlaySettings;
 
 public class SettingsGateway {
 
@@ -275,8 +273,6 @@ public class SettingsGateway {
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             SyberiaSettings.class.getName(),
             OmniJawsSettings.class.getName(),
-            AmbientPlayHistory.class.getName(),
-            AmbientPlaySettings.class.getName(),
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),

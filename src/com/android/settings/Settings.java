@@ -178,9 +178,6 @@ public class Settings extends SettingsActivity {
 
     public static class SyberiaSettingsActivity extends SettingsActivity { /* empty */ }
     public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
-    // Ambient play
-    public static class AmbientPlayHistoryActivity extends SettingsActivity { /* empty */ }
-    public static class AmbientPlaySettingsActivity extends SettingsActivity { /* empty */ }
     public static class NavigationSettingsActivity extends SettingsActivity {}
     public static class SmartbarSettingsActivity extends SettingsActivity {}
     public static class FlingSettingsActivity extends SettingsActivity {}
