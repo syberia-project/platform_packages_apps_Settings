@@ -23,6 +23,9 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.provider.SearchIndexableResource;
+import android.support.v7.preference.PreferenceScreen;
+import android.support.v7.preference.Preference;
+import android.text.TextUtils;
 
 import com.android.internal.hardware.AmbientDisplayConfiguration;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
@@ -62,6 +65,7 @@ public class DisplaySettings extends DashboardFragment {
     private static final String KEY_AMBIENT_DISPLAY = "ambient_display";
     private static final String KEY_AUTO_BRIGHTNESS = "auto_brightness_entry";
     private static final String KEY_NIGHT_DISPLAY = "night_display";
+    private static final String KEY_HIDE_NOTCH = "hide_notch";
 
     private IntentFilter mIntentFilter;
     private static FontPickerPreferenceController mFontPickerPreference;
@@ -81,6 +85,12 @@ public class DisplaySettings extends DashboardFragment {
         super.onCreate(savedInstanceState);
         mIntentFilter = new IntentFilter();
         mIntentFilter.addAction("com.android.server.ACTION_FONT_CHANGED");
+	final PreferenceScreen screen = getPreferenceScreen();
+	final String displayCutout = getResources().getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
+        if(TextUtils.isEmpty(displayCutout)) {
+    	    screen.removePreference(findPreference(KEY_HIDE_NOTCH));
+        }
+
     }
 
     @Override

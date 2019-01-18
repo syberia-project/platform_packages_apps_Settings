@@ -132,6 +132,12 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="hide_notch"
+        android:title="@string/hide_notch_title"
+        android:summary="@string/hide_notch_summary"
+        android:defaultValue="false" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/color_theme"

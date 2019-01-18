@@ -458,4 +458,7 @@
     <!-- Running services -->
     <string name="background_processes_settings_title">Фоновые процессы</string>
 
+    <string name="hide_notch_title">Скрыть вырез</string>
+    <string name="hide_notch_summary">Принудительно скрыть вырез экрана</string>
+
 </resources>
