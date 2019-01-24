@@ -65,6 +65,11 @@
             android:key="ambient_display_custom"
             android:title="@string/advanced_settings" />
 
+	<!-- Illustration for Ambient Ticker -->
+	<Preference android:key="ambient_ticker_illustration"
+            android:enabled="false"
+            android:layout="@layout/ambient_ticker_illustration" />
+
         <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="force_ambient_for_media"
             android:title="@string/force_ambient_for_media_title"
