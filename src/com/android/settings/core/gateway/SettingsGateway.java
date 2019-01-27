@@ -146,6 +146,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.syberia.settings.SyberiaSettings;
 import com.syberia.settings.fragments.OmniJawsSettings;
 import com.syberia.settings.fragments.PieSettings;
+import com.syberia.settings.fragments.GamingMode;
+
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
 public class SettingsGateway {
@@ -281,7 +283,8 @@ public class SettingsGateway {
             PulseSettingsActivity.class.getName(),
             RunningServices.class.getName(),
             PieSettings.class.getName(),
-            LiveDisplaySettings.class.getName()
+            LiveDisplaySettings.class.getName(),
+            GamingMode.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
