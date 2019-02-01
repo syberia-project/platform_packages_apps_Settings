@@ -27,6 +27,14 @@
     <string name="battery_stats_reset">Сбросить статистику</string>
     <string name="battery_stats_message">Статистика батареи будет сброшена</string>
     <string name="ok_string">Ok</string>
+    
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Разблокировать автоматически при корректном вводе ПИНа/пароля</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Перемешать цифры</string>
+    <string name="unlock_scramble_pin_layout_summary">Перемешать цифры ввода ПИНа при разблокировке устройства</string>
 
     <!-- Accent picker -->
     <string name="accent_picker_dialog_title">Выберите цвет акцента</string>
