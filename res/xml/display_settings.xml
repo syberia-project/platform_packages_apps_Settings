@@ -55,6 +55,11 @@
             android:targetClass="@string/config_wallpaper_picker_class" />
     </com.android.settingslib.RestrictedPreference>
 
+    <Preference
+        android:key="expanded_desktop"
+        android:title="@string/expanded_desktop_pref_title"
+        android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
+
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.TimeoutListPreference
         android:key="screen_timeout"
@@ -127,6 +132,12 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="hide_notch"
+        android:title="@string/hide_notch_title"
+        android:summary="@string/hide_notch_summary"
+        android:defaultValue="false" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/color_theme"
@@ -135,6 +146,11 @@
     <PreferenceCategory
         android:key="theme_category"
         android:title="@string/theme_category_title">
+
+    <com.android.settings.display.FontDialogPreference
+        android:key="custom_font"
+        android:title="@string/font_picker_title"
+        android:persistent="false" />
 
     <ListPreference
         android:key="systemui_theme_style"
@@ -152,5 +168,15 @@
         android:key="accent_picker"
 	android:title="@string/theme_accent_picker_title" />
     </PreferenceCategory >
+    
+    <Preference
+        android:key="qs_tile_style"
+        android:title="@string/qs_tile_style_title" />
 
+    <ListPreference
+            android:key="switch_style"
+            android:title="@string/switch_style_title"
+            android:persistent="false"
+            android:entries="@array/switch_style_entries"
+            android:entryValues="@array/switch_style_values" />
 </PreferenceScreen>

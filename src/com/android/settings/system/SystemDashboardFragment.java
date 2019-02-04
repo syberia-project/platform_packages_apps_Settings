@@ -32,11 +32,16 @@ import com.android.settings.search.Indexable;
 import java.util.Arrays;
 import java.util.List;
 
+import com.syberia.settings.Utils;
+
 public class SystemDashboardFragment extends DashboardFragment {
 
     private static final String TAG = "SystemDashboardFrag";
 
     private static final String KEY_RESET = "reset_dashboard";
+
+    final String KEY_DEVICE_PART = "device_part";
+    final String KEY_DEVICE_PART_PACKAGE_NAME = "org.omnirom.device";
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -46,6 +51,10 @@ public class SystemDashboardFragment extends DashboardFragment {
         // We do not want to display an advanced button if only one setting is hidden
         if (getVisiblePreferenceCount(screen) == screen.getInitialExpandedChildrenCount() + 1) {
             screen.setInitialExpandedChildrenCount(Integer.MAX_VALUE);
+        }
+
+	if (!Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
+            screen.removePreference(findPreference(KEY_DEVICE_PART));
         }
     }
 

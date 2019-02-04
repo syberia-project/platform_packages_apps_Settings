@@ -18,6 +18,12 @@ package com.android.settings.notification;
 
 import android.content.Context;
 import android.media.RingtoneManager;
+import android.telephony.TelephonyManager;
+
+import android.support.v7.preference.PreferenceScreen;
+
+import com.android.settings.DefaultRingtonePreference;
+import com.android.settings.R;
 import com.android.settings.Utils;
 
 public class PhoneRingtonePreferenceController extends RingtonePreferenceControllerBase {
@@ -26,6 +32,20 @@ public class PhoneRingtonePreferenceController extends RingtonePreferenceControl
 
     public PhoneRingtonePreferenceController(Context context) {
         super(context);
+    }
+
+    @Override
+    public void displayPreference(PreferenceScreen screen) {
+        super.displayPreference(screen);
+
+        TelephonyManager telephonyManager =
+                (TelephonyManager) mContext.getSystemService(Context.TELEPHONY_SERVICE);
+        if (telephonyManager.isMultiSimEnabled()) {
+            // For Multi SIM device, shoud show "Phone ringtone - SIM 1" for slot1 ringtone setting.
+            DefaultRingtonePreference ringtonePreference =
+                    (DefaultRingtonePreference) screen.findPreference(KEY_PHONE_RINGTONE);
+            ringtonePreference.setTitle(mContext.getString(R.string.ringtone1_title));
+        }
     }
 
     @Override

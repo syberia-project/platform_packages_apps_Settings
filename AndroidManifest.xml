@@ -42,6 +42,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
     <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES"/>
     <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
@@ -96,6 +97,9 @@
     <uses-permission android:name="android.permission.USE_RESERVED_DISK" />
     <uses-permission android:name="android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS" />
     <uses-permission android:name="android.permission.RESTART_UI"/>
+
+    <!-- DU Font Engine -->
+    <uses-permission android:name="android.permission.ACCESS_FONT_MANAGER" />
 
     <application android:label="@string/settings_label"
             android:icon="@drawable/ic_launcher_settings"
@@ -468,6 +472,20 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.TetherSettings" />
         </activity>
+
+        <activity
+            android:name="Settings$WifiTetherSettingsActivity"
+            android:label="@string/wifi_hotspot_checkbox_text"
+            android:icon="@drawable/ic_wifi_tethering"
+            android:parentActivityName="Settings">
+            <intent-filter>
+                <action android:name="com.android.settings.WIFI_TETHER_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.wifi.tether.WifiTetherSettings" />
+        </activity>
+
 
         <!-- Keep compatibility with old shortcuts. -->
         <activity-alias android:name=".TetherSettings"
@@ -1212,6 +1230,26 @@
                 android:value="true" />
         </activity>
 
+        <!-- Provide direct entry into Dev settings - Running Services -->
+        <activity android:name="Settings$DevRunningServicesActivity"
+            android:label="@string/runningservices_settings_title"
+            android:taskAffinity="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.applications.RunningServices" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.applications.RunningServices" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
         <!-- Provide direct entry into manage apps showing storage usage of apps. -->
         <activity
             android:name="Settings$StorageUseActivity"
@@ -1259,8 +1297,8 @@
         </activity>
 
         <activity android:name="Settings$AppOpsSummaryActivity"
-                android:label="@string/app_ops_settings"
-                android:taskAffinity="com.android.settings"
+                android:label="@string/privacy_guard_manager_title"
+                android:taskAffinity=""
                 android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -1273,14 +1311,6 @@
                 android:value="com.android.settings.applications.appops.AppOpsSummary" />
         </activity>
 
-        <activity-alias android:name=".applications.appops.AppOpsSummary"
-                  android:label="@string/app_ops_settings"
-                  android:exported="true"
-                  android:targetActivity="Settings$AppOpsSummaryActivity">
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.applications.appops.AppOpsSummary" />
-        </activity-alias>
-
         <activity android:name="Settings$BackgroundCheckSummaryActivity"
                 android:label="@string/background_check_title"
                 android:enabled="false">
@@ -1291,6 +1321,30 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.applications.appops.BackgroundCheckSummary" />
         </activity>
+
+        <!-- Still need a top-level activity for showing app ops details.  Aliasing
+             trick is so the code that is now a fragment can still be called
+             AppOpsDetails. -->
+        <activity android:name=".applications.appops.AppOpsDetailsTop"
+                  android:label="@string/privacy_guard_manager_title"
+                  android:exported="true"
+                  android:taskAffinity=""
+                  android:excludeFromRecents="true"
+                  android:parentActivityName="Settings$AppOpsSummaryActivity">
+        </activity>
+
+        <!-- Keep compatibility with old shortcuts. -->
+        <activity-alias android:name=".applications.appops.AppOpsDetails"
+                android:label="@string/privacy_guard_manager_title"
+                android:exported="true"
+                android:excludeFromRecents="true"
+                android:targetActivity=".applications.appops.AppOpsDetailsTop">
+            <intent-filter>
+                <action android:name="android.settings.APP_OPS_DETAILS_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </activity-alias>
 
         <activity
             android:name="Settings$LocationSettingsActivity"
@@ -2910,8 +2964,7 @@
         <activity
             android:name="Settings$WifiCallingSettingsActivity"
             android:label="@string/wifi_calling_settings_title"
-            android:taskAffinity="com.android.settings"
-            android:parentActivityName="Settings">
+            android:taskAffinity="com.android.settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.settings.WIFI_CALLING_SETTINGS" />
@@ -3323,10 +3376,15 @@
         </provider>
 
         <receiver
-            android:name=".slices.SliceBroadcastReceiver" >
-            <intent-filter>
-                <action android:name="com.android.settings.slice.action.WIFI_CHANGED"/>
-            </intent-filter>
+            android:name=".slices.SliceBroadcastReceiver"
+            android:exported="false">
+        </receiver>
+
+        <receiver
+            android:name=".slices.SliceRelayReceiver"
+            android:permission="android.permission.MANAGE_SLICE_PERMISSIONS"
+            android:exported="true">
+
         </receiver>
 
         <!-- Couldn't be triggered from outside of settings. Statsd can trigger it because we send
@@ -3379,5 +3437,28 @@
                 android:resource="@string/syberia_dashboard_summary"/>
         </activity>
 
+        <activity android:name="Settings$OmniJawsSettingsActivity"
+                  android:label="@string/weather_title"
+                  android:taskAffinity="com.android.settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.syberia.settings.fragments.OmniJawsSettings" />
+        </activity>
+
+        <!-- Pie Settings. -->
+        <activity android:name="Settings$PieSettingsActivity"
+                android:label="@string/pa_pie_control_title"
+                android:taskAffinity="com.android.settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.syberia.settings.fragments.PieSettings" />
+        </activity>
+        <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

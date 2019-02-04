@@ -42,6 +42,7 @@ public class BatteryInfo {
     public CharSequence remainingLabel;
     public int batteryLevel;
     public boolean discharging = true;
+    static float batteryTemp;
     public long remainingTimeUs = 0;
     public long averageTimeToDischarge = Estimate.AVERAGE_TIME_TO_DISCHARGE_UNKNOWN;
     public String batteryPercentString;
@@ -221,6 +222,8 @@ public class BatteryInfo {
         info.batteryPercentString = Utils.formatPercentage(info.batteryLevel);
         info.mCharging = batteryBroadcast.getIntExtra(BatteryManager.EXTRA_PLUGGED, 0) != 0;
         info.averageTimeToDischarge = estimate.averageDischargeTime;
+	int bTemp = batteryBroadcast.getIntExtra(BatteryManager.EXTRA_TEMPERATURE, 0);
+	info.batteryTemp = (float) (bTemp / 10);
         final Resources resources = context.getResources();
 
         info.statusLabel = Utils.getBatteryStatus(resources, batteryBroadcast);
@@ -239,14 +242,17 @@ public class BatteryInfo {
         final long chargeTime = stats.computeChargeTimeRemaining(elapsedRealtimeUs);
         final int status = batteryBroadcast.getIntExtra(BatteryManager.EXTRA_STATUS,
                 BatteryManager.BATTERY_STATUS_UNKNOWN);
+        final boolean dashChargeStatus = batteryBroadcast.getBooleanExtra(
+                BatteryManager.EXTRA_DASH_CHARGER, false);
         info.discharging = false;
         if (chargeTime > 0 && status != BatteryManager.BATTERY_STATUS_FULL) {
             info.remainingTimeUs = chargeTime;
             CharSequence timeString = StringUtil.formatElapsedTime(context,
                     PowerUtil.convertUsToMs(info.remainingTimeUs), false /* withSeconds */);
             int resId = R.string.power_charging_duration;
-            info.remainingLabel = context.getString(
-                    R.string.power_remaining_charging_duration_only, timeString);
+            info.remainingLabel = dashChargeStatus
+                    ? context.getString(R.string.power_remaining_dash_charging_duration_only, timeString)
+                    : context.getString(R.string.power_remaining_charging_duration_only, timeString);
             info.chargeLabel = context.getString(resId, info.batteryPercentString, timeString);
         } else {
             final String chargeStatusLabel = resources.getString(
