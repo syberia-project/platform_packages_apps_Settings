@@ -399,7 +399,7 @@
     <string name="font_picker_progress">Aplicando la fuente deseada\u2026</string>
 
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Enlazar timbre & amp; volúmenes de notificación</string>
+    <string name="volume_link_notification_title">Enlazar timbre &amp; volúmenes de notificación</string>
 
     <!-- Force authorize substratum packages -->
     <string name="force_authorize_substratum_packages_title">Forzar autorización cada aplicación de tema</string>
