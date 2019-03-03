@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Auto Face Unlock -->
+    <string name="face_auto_unlock_title">Швидке розблокування</string>
+    <string name="face_auto_unlock_summary">Автоматичне розблокування пристрою коли розпізнано обличчя</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Список змін</string>
+    <string name="changelog_summary">Після останнього оновлення</string>
+    <string name="changelog_loading">Завантаження списка змін</string>
+    <string name="changelog_error">Не вдалося завантажити список змін</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Скидання статистики</string>
+    <string name="battery_stats_message">Статистика аккумулятора буде скинута</string>
+    <string name="ok_string">Гаразд</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
+    <string name="unlock_quick_unlock_control_summary">Ввімкнути автоматичне розблокування при введенні правильного PIN-кода/паролю</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Змішати числа</string>
+    <string name="unlock_scramble_pin_layout_summary">Змішані числа під час введення PIN-коду при розблокуванні пристрою</string>
+
+    <!-- Accent picker -->
+    <string name="accent_picker_dialog_title">Виберіть колір акценту</string>
+    <string name="theme_accent_picker_title">Колір акценту</string>
+    <string name="theme_accent_picker_summary">Виберіть колір акценту для системи</string>
+    <string name="theme_accent_picker_default">За замовчуванням</string>
+
+    <string name="theme_category_title">Системна тема</string>
+
+    <!-- SystemUI theme -->
+    <string name="systemui_theme_style_title">Тема SystemUI</string>
+    <string name="systemui_theme_style_auto">Автоматично (на основі шпалерів)</string>
+    <string name="systemui_theme_style_light">Світла</string>
+    <string name="systemui_theme_style_dark">Темна</string>
+    <string name="system_theme_style_black">Чорна</string>
+    <string name="applying_theme_toast">Застосування теми, зачекайте будь ласка...</string>
+    <string name="theme_applied_toast">Тема застосована!</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Обертання екрана</string>
+    <string name="display_rotation_disabled">Вимкнений</string>
+    <string name="display_rotation_unit">градусів</string>
+    <string name="display_rotation_category_title">Режими обертання</string>
+    <string name="display_rotation_0_title">0 градусів</string>
+    <string name="display_rotation_90_title">90 градусів</string>
+    <string name="display_rotation_180_title">180 градусів</string>
+    <string name="display_rotation_270_title">270 градусів</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Яскравість</string>
+    <string name="night_brightness_value_title">Яскравість в нічному режимі</string>
+    <string name="night_bright_disabled">Вимкнено</string>
+    <string name="night_bright_minimum">Мінімальна яскравость</string>
+    <string name="night_bright_low">Низька яскравість</string>
+    <string name="night_bright_medium">Середня яскравость</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">Колір світлодіоду</string>
+    <string name="custom_light_on_time_title">Час свічення світлодіоду (мс)</string>
+    <string name="custom_light_off_time_title">Час затухання світлодіоду (мс)</string>
+    <string name="value_equals_default">по замовчуванню.</string>
+    <string name="show_light_on_zen_title">Увімкнути світлодіод у режимі «Не турбувати»</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук при скріншоті</string>
+
+    <!-- MSIM Manual provisioning -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> є <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">ввімкнена</string>
+    <string name="sim_disabled">вимкнена</string>
+    <string name="sim_missing">відсутня або несправна</string>
+    <string name="sim_enabler_need_disable_sim">SIM-картка буде деактивовано. Ви хочете продовжити?</string>
+    <string name="sim_enabler_will_disable_sim_title">Увага</string>
+    <string name="sim_enabler_need_switch_data_service">SIM-картку буде вимкнуто і SIM-картка <xliff:g id="slotid">%1$s</xliff:g> буде використовуватися для передачі даних. Ви хочете продовжити?</string>
+    <string name="sim_enabler_airplane_on">Операцію не можна виконати, якщо увімкнено режим польоту.</string>
+    <string name="sim_enabler_in_call">Операцію не можна виконати під час дзвінка.</string>
+    <string name="sim_enabler_both_inactive">Ви не можете відключити всі SIM-картки</string>
+    <string name="sim_enabler_enabling">Активація\u2026</string>
+    <string name="sim_enabler_disabling">Деактивація\u2026</string>
+    <string name="sub_activate_success">SIM-картка активована.</string>
+    <string name="sub_activate_failed">Не вдалося активувати.</string>
+    <string name="sub_deactivate_success">SIM-картка деактивована.</string>
+    <string name="sub_deactivate_failed">Не вдалося деактивувати.</string>
+    <string name="available_sims_title">Доступні SIM-картки</string>
+    <string name="weather_title">Погода</string>
+
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Стиль плитки швидких настроювань</string>
+    <string name="qs_tile_style_default">За замовчуванням</string>
+    <string name="qs_tile_style_circle_trim">Коло з циклами</string>
+    <string name="qs_tile_style_two_tone_circle">Двоколірне коло</string>
+    <string name="qs_tile_style_squircle_trim">Округла з циклами</string>
+
+    <!-- Selinux -->
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Вимкнено</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Мобільні дані</string>
+    <string name="data_usage_app_restrict_data_summary">Увімкнути використання мобільних даних</string>
+    <string name="data_usage_app_restrict_wifi">Дані Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Увімкнути використання даних Wi\u2011Fi</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">Рінгтон SIM 1</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">Рінгтон SIM 2</string>
+
+    <string name="full_gesture_mode_title">Активувати режим жестів</string>
+    <string name="full_gesture_mode_summary">Цей режим вимикає кнопку Назад. Ви можете активувати дію кнопки Назад за допомогою свайпу ліворуч. Свайп праворуч відкриває найбільш застосувані та огляд Нещодавніх застосунків. Щоб повернутися до головного екрана натисніть кнопку Додому. При відкритій клавіатурі, довго натисніть на навбарі щоб перемістити курсор.</string>
+    <string name="full_gesture_mode_dt2s_title">Увімкніть подвійне натискання для сну</string>
+    <string name="full_gesture_mode_dt2s_summary">Двічі клацніть на вільному місці для вимкнення екрана.</string>
+
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <string name="app_ops_categories_location">Розташування</string>
+    <string name="app_ops_categories_personal">Персональні дані</string>
+    <string name="app_ops_categories_messaging">SMS/MMS</string>
+    <string name="app_ops_categories_media">Мультимедіа</string>
+    <string name="app_ops_categories_device">Пристрій</string>
+    <string name="app_ops_categories_run_in_background">Запускати у фоновому режимі</string>
+    <string name="app_ops_categories_bootup">Завантаження</string>
+    <string name="app_ops_categories_su">Суперкористувач</string>
+    <string name="app_ops_categories_other">Інше</string>
+
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <string name="app_ops_summaries_accept_handover">передача виклику з іншої програми</string>
+    <string name="app_ops_summaries_access_camera">доступ до камери</string>
+    <string name="app_ops_summaries_app_start_foreground">запустити додаток в пріоритеті</string>
+    <string name="app_ops_summaries_audio_accessibility_volume">доступ до гучності звуку</string>
+    <string name="app_ops_summaries_auto_start">запуск при увімкнені приладу</string>
+    <string name="app_ops_summaries_bind_accessibility_service">доступ до спец. можливостей</string>
+    <string name="app_ops_summaries_bluetooth_scan">пошук bluetooth пристроїв</string>
+    <string name="app_ops_summaries_change_wallpaper">заміна шпалер</string>
+    <string name="app_ops_summaries_coarse_location">приблизне місцезнаходження</string>
+    <string name="app_ops_summaries_delete_call_log">видалити журнал викликів</string>
+    <string name="app_ops_summaries_delete_contacts">видалення контактів</string>
+    <string name="app_ops_summaries_delete_mms">видалити MMS-повідомлення</string>
+    <string name="app_ops_summaries_delete_sms">видалити SMS-повідомленя</string>
+    <string name="app_ops_summaries_install_packages">встановлення наборів</string>
+    <string name="app_ops_summaries_keep_device_awake">заборонити пристрою перейти в режим сну</string>
+    <string name="app_ops_summaries_make_phone_call">виконати телефонний дзвінок</string>
+    <string name="app_ops_summaries_manage_ipsec_tunnels">керувати тунелями ipsec</string>
+    <string name="app_ops_summaries_neighboring_cells">сусідні соти</string>
+    <string name="app_ops_summaries_phone_calls">відповідь на телефонні дзвінки</string>
+    <string name="app_ops_summaries_post_notification">вивід повідомлення</string>
+    <string name="app_ops_summaries_read_mms">зчитати MMS-повідомлення</string>
+    <string name="app_ops_summaries_receive_emergency_broadcast">отримувати екстерні повідомлення населення</string>
+    <string name="app_ops_summaries_start_at_bootup">призначити запуск при увікненні пристрою</string>
+    <string name="app_ops_summaries_start_foreground">старт додатків з миттєвим запуском</string>
+    <string name="app_ops_summaries_send_mms">надіслати MMS-повідомлення</string>
+    <string name="app_ops_summaries_request_delete_packages">запит на видалення додатків</string>
+    <string name="app_ops_summaries_scan_wifi">сканування доступних Wi-Fi мереж</string>
+    <string name="app_ops_summaries_run_any_in_background">запускати у фоновому режимі</string>
+    <string name="app_ops_summaries_turn_on_screen">увімкнути екран</string>
+    <string name="app_ops_summaries_use_alarm_volume">отримати керування гучності будильника</string>
+    <string name="app_ops_summaries_use_audio_focus">отримати керування аудіофокусом</string>
+    <string name="app_ops_summaries_use_bluetooth_volume">отримати керування гучністю Bluetooth-приладу</string>
+    <string name="app_ops_summaries_use_master_volume">отпримати керуваняя загальною гучністю</string>
+    <string name="app_ops_summaries_use_media_buttons">використати клавіші мультимедіа</string>
+    <string name="app_ops_summaries_use_media_volume">отримати керування гучності мультимедіа</string>
+    <string name="app_ops_summaries_use_notification_volume">отримати керування гучністю повідомлень</string>
+    <string name="app_ops_summaries_use_ring_volume">отримати керування гучності дзвінка</string>
+    <string name="app_ops_summaries_use_vibrate">використати вібрацію</string>
+    <string name="app_ops_summaries_use_voice_volume">отримати керування гучністю під час розмови</string>
+    <string name="app_ops_summaries_write_mms">створити MMS-повідомлення</string>
+    <string name="app_ops_summaries_wifi_change">змінити стан Wi-Fi</string>
+    <string name="app_ops_summaries_fine_location">точне місцезнаходження</string>
+    <string name="app_ops_summaries_gps">GPS-модуль</string>
+    <string name="app_ops_summaries_vibrate">вібросигнал</string>
+    <string name="app_ops_summaries_read_contacts">зчитування данних контактів</string>
+    <string name="app_ops_summaries_modify_contacts">зміна контактів</string>
+    <string name="app_ops_summaries_read_call_log">перегляд списку викликів</string>
+    <string name="app_ops_summaries_modify_call_log">зміна списку викликів</string>
+    <string name="app_ops_summaries_read_calendar">читання даних календаря</string>
+    <string name="app_ops_summaries_modify_calendar">зміна календаря</string>
+    <string name="app_ops_summaries_wifi_scan">Сканування Wi-Fi</string>
+    <string name="app_ops_summaries_notification">Сповіщення</string>
+    <string name="app_ops_summaries_cell_scan">пошук мобільних мереж</string>
+    <string name="app_ops_summaries_call_phone">телефонний дзвінок</string>
+    <string name="app_ops_summaries_read_sms">читання SMS</string>
+    <string name="app_ops_summaries_write_sms">створення SMS</string>
+    <string name="app_ops_summaries_receive_sms">отримання SMS-повідомлення</string>
+    <string name="app_ops_summaries_receive_emergency_sms">отримання надзвичайних SMS</string>
+    <string name="app_ops_summaries_receive_mms">отримання MMS-повідомлення</string>
+    <string name="app_ops_summaries_receive_wap_push">отримання WAP-push повідомлень</string>
+    <string name="app_ops_summaries_send_sms">відправка SMS</string>
+    <string name="app_ops_summaries_read_icc_sms">читати SMS-повідомлення з SIM-карти</string>
+    <string name="app_ops_summaries_write_icc_sms">записати SMS повідомлення на SIM-карту</string>
+    <string name="app_ops_summaries_modify_settings">зміна налаштувань</string>
+    <string name="app_ops_summaries_draw_on_top">відображення поверх інших елементів</string>
+    <string name="app_ops_summaries_access_notifications">доступ до сповіщень</string>
+    <string name="app_ops_summaries_camera">камера</string>
+    <string name="app_ops_summaries_record_audio">записати аудіо</string>
+    <string name="app_ops_summaries_play_audio">відтворення аудіо</string>
+    <string name="app_ops_summaries_read_clipboard">читання буферу обміну</string>
+    <string name="app_ops_summaries_modify_clipboard">зміна буфера обміну</string>
+    <string name="app_ops_summaries_media_buttons">мультимедійні кнопки</string>
+    <string name="app_ops_summaries_audio_focus">аудіофокус</string>
+    <string name="app_ops_summaries_master_volume">загальна гучність</string>
+    <string name="app_ops_summaries_voice_volume">гучність під час розмови</string>
+    <string name="app_ops_summaries_ring_volume">гучності сигналу виклику</string>
+    <string name="app_ops_summaries_media_volume">гучність мультимедіа</string>
+    <string name="app_ops_summaries_alarm_volume">гучність будильника</string>
+    <string name="app_ops_summaries_notification_volume">гучність сповіщень</string>
+    <string name="app_ops_summaries_bluetooth_volume">Гучність пристроїв Bluetooth</string>
+    <string name="app_ops_summaries_keep_awake">активний режим</string>
+    <string name="app_ops_summaries_monitor_location">відстеження місцезнаходження</string>
+    <string name="app_ops_summaries_monitor_high_power_location">відстеження місцезнаходження по всім датчикам</string>
+    <string name="app_ops_summaries_get_usage_stats">отримати статистику використання</string>
+    <string name="app_ops_summaries_mute_unmute_microphone">вимкнення/увімкнення мікрофону</string>
+    <string name="app_ops_summaries_toast_window">відображення спливаючих повідомлень</string>
+    <string name="app_ops_summaries_project_media">трансляція контенту</string>
+    <string name="app_ops_summaries_activate_vpn">активація VPN</string>
+    <string name="app_ops_summaries_write_wallpaper">зберегти шпалери</string>
+    <string name="app_ops_summaries_assist_structure">Використовувати структуру асистента</string>
+    <string name="app_ops_summaries_assist_screenshot">допоміжний скріншот</string>
+    <string name="app_ops_summaries_read_phone_state">Зчитування стану телефону</string>
+    <string name="app_ops_summaries_add_voicemail">Додати голосову пошту</string>
+    <string name="app_ops_summaries_use_sip">використання SIP</string>
+    <string name="app_ops_summaries_make_call">виклик</string>
+    <string name="app_ops_summaries_use_fingerprint">використати відбиток пальця</string>
+    <string name="app_ops_summaries_use_body_sensors">використання датчиків на тілі</string>
+    <string name="app_ops_summaries_read_cell_broadcasts">читати екстерні повідомлення</string>
+    <string name="app_ops_summaries_mock_location">запропонувати фіктивне місцезнаходження</string>
+    <string name="app_ops_summaries_read_external_storage">прочитати дані з зовнішнього диска</string>
+    <string name="app_ops_summaries_write_external_storage">записати на зовнішній диск</string>
+    <string name="app_ops_summaries_turn_screen_on">увімкнути екран</string>
+    <string name="app_ops_summaries_get_accounts">отримати облікові записи</string>
+    <string name="app_ops_summaries_run_in_background">запускати у фоновому режимі</string>
+    <string name="app_ops_summaries_accessibility_volume">доступ до гучності звуку</string>
+    <string name="app_ops_summaries_read_phone_numbers">читання телефонних номерів</string>
+    <string name="app_ops_summaries_request_install_packages">запит встановлення застосунків</string>
+    <string name="app_ops_summaries_picture_in_picture">використовувати картинку в картинці</string>
+    <string name="app_ops_summaries_instant_app_start_foreground">старт додатків з миттєвим запуском</string>
+    <string name="app_ops_summaries_answer_phone_calls">відповідь на телефонні дзвінки</string>
+    <string name="app_ops_summaries_toggle_wifi">переключити стан Wi-Fi</string>
+    <string name="app_ops_summaries_toggle_bluetooth">переключити стан Bluetooth</string>
+    <string name="app_ops_summaries_start_at_boot">старт під час завантаження</string>
+    <string name="app_ops_summaries_toggle_nfc">переключити стан модуля NFC</string>
+    <string name="app_ops_summaries_toggle_mobile_data">увімкнути або вимкнути мобільну мережу</string>
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <string name="app_ops_labels_accept_handover">Переадресація виклику з іншої програми</string>
+    <string name="app_ops_labels_access_camera">Доступ до камери</string>
+    <string name="app_ops_labels_app_start_foreground">Старт додатків з миттєвим запуском</string>
+    <string name="app_ops_labels_audio_accessibility_volume">Доступ до гучності звуку</string>
+    <string name="app_ops_labels_auto_start">Запуск при увімкнені приладу</string>
+    <string name="app_ops_labels_bind_accessibility_service">Доступ до спец. можливостей</string>
+    <string name="app_ops_labels_bluetooth_scan">Пошук bluetooth пристроїв</string>
+    <string name="app_ops_labels_change_wallpaper">Заміна шпалер</string>
+    <string name="app_ops_labels_delete_call_log">Видалити журнал викликів</string>
+    <string name="app_ops_labels_delete_contacts">Видалення контактів</string>
+    <string name="app_ops_labels_delete_mms">Видалити MMS-повідомлення</string>
+    <string name="app_ops_labels_delete_sms">Видалити SMS-повідомлення</string>
+    <string name="app_ops_labels_install_packages">Встановлення пакетів</string>
+    <string name="app_ops_labels_keep_device_awake">Заборонити пристрою перейти в режим сну</string>
+    <string name="app_ops_labels_make_phone_call">Виконати телефонний дзвінок</string>
+    <string name="app_ops_labels_manage_ipsec_tunnels">Керувати тунелями ipsec</string>
+    <string name="app_ops_labels_neighboring_cells">Сусідні соти</string>
+    <string name="app_ops_labels_phone_calls">Відповідь на телефонні дзвінки</string>
+    <string name="app_ops_labels_post_notification">Відобразити сповіщення</string>
+    <string name="app_ops_labels_read_mms">Зчитати MMS-повідомлення</string>
+    <string name="app_ops_labels_receive_emergency_broadcast">Отримувати екстерні повідомлення населення</string>
+    <string name="app_ops_labels_request_delete_packages">Запит на видалення додатків</string>
+    <string name="app_ops_labels_run_any_in_background">Запускати у фоновому режимі</string>
+    <string name="app_ops_labels_scan_wifi">Сканування доступних Wi-Fi мереж</string>
+    <string name="app_ops_labels_send_mms">Надіслати MMS-повідомлення</string>
+    <string name="app_ops_labels_start_at_bootup">Призначити запуск при увікненні пристрою</string>
+    <string name="app_ops_labels_start_foreground">Запускати в пріоритеті</string>
+    <string name="app_ops_labels_turn_on_screen">Увімкнути екран</string>
+    <string name="app_ops_labels_use_alarm_volume">Отримати керування гучності будильника</string>
+    <string name="app_ops_labels_use_audio_focus">Отримати керування аудіофокусом</string>
+    <string name="app_ops_labels_use_bluetooth_volume">Отримати керування гучністю Bluetooth-приладу</string>
+    <string name="app_ops_labels_use_master_volume">Отпримати керуваняя загальною гучністю</string>
+    <string name="app_ops_labels_use_media_buttons">Використати клавіші мультимедіа</string>
+    <string name="app_ops_labels_use_media_volume">Отримати керування гучності мультимедіа</string>
+    <string name="app_ops_labels_use_notification_volume">Отримати керування гучністю повідомлень</string>
+    <string name="app_ops_labels_use_ring_volume">Отримати керування гучності дзвінка</string>
+    <string name="app_ops_labels_use_vibrate">Використовувати вібрацію</string>
+    <string name="app_ops_labels_use_voice_volume">Отримати керування гучністю під час розмови</string>
+    <string name="app_ops_labels_wifi_change">Змінити стан Wi-Fi</string>
+    <string name="app_ops_labels_write_mms">Створити MMS-повідомлення</string>
+    <string name="app_ops_labels_coarse_location">Приблизне місцезнаходження</string>
+    <string name="app_ops_labels_fine_location">Точне місцезнаходження</string>
+    <string name="app_ops_labels_gps">GPS</string>
+    <string name="app_ops_labels_vibrate">Вібросигнал</string>
+    <string name="app_ops_labels_read_contacts">Зчитування данних контактів</string>
+    <string name="app_ops_labels_modify_contacts">Зміна контактів</string>
+    <string name="app_ops_labels_read_call_log">Перегляд списку викликів</string>
+    <string name="app_ops_labels_modify_call_log">Зміна списку викликів</string>
+    <string name="app_ops_labels_read_calendar">Читання даних календаря</string>
+    <string name="app_ops_labels_modify_calendar">Зміна календаря</string>
+    <string name="app_ops_labels_wifi_scan">Сканування Wi-Fi</string>
+    <string name="app_ops_labels_notification">Відображення сповіщення</string>
+    <string name="app_ops_labels_cell_scan">Сканування мобільного зв\'язку</string>
+    <string name="app_ops_labels_call_phone">Телефонний дзвінок</string>
+    <string name="app_ops_labels_read_sms">Читання SMS</string>
+    <string name="app_ops_labels_write_sms">Запис SMS</string>
+    <string name="app_ops_labels_receive_sms">Отримання SMS-повідомлення</string>
+    <string name="app_ops_labels_receive_emergency_sms">Отримання надзвичайних SMS</string>
+    <string name="app_ops_labels_receive_mms">Отримання MMS</string>
+    <string name="app_ops_labels_receive_wap_push">Отримання WAP-push повідомлень</string>
+    <string name="app_ops_labels_send_sms">Відправка SMS</string>
+    <string name="app_ops_labels_read_icc_sms">Читати SMS-повідомлення з SIM-карти</string>
+    <string name="app_ops_labels_write_icc_sms">Записати SMS повідомлення на SIM-карту</string>
+    <string name="app_ops_labels_modify_settings">Зміна налаштувань</string>
+    <string name="app_ops_labels_draw_on_top">Відображення поверх інших елементів</string>
+    <string name="app_ops_labels_access_notifications">Доступ до сповіщень</string>
+    <string name="app_ops_labels_camera">Камера</string>
+    <string name="app_ops_labels_record_audio">Запис аудіо</string>
+    <string name="app_ops_labels_play_audio">Відтворення аудіо</string>
+    <string name="app_ops_labels_read_clipboard">Читання буферу обміну</string>
+    <string name="app_ops_labels_modify_clipboard">Зміна буфера обміну</string>
+    <string name="app_ops_labels_media_buttons">Мультимедійні кнопки</string>
+    <string name="app_ops_labels_audio_focus">Аудіофокус</string>
+    <string name="app_ops_labels_master_volume">Загальна гучність</string>
+    <string name="app_ops_labels_voice_volume">Гучність під час розмови</string>
+    <string name="app_ops_labels_ring_volume">Гучності сигналу виклику</string>
+    <string name="app_ops_labels_media_volume">Гучність мультимедіа</string>
+    <string name="app_ops_labels_alarm_volume">Гучність будильника</string>
+    <string name="app_ops_labels_notification_volume">Гучність сповіщень</string>
+    <string name="app_ops_labels_bluetooth_volume">Гучність пристроїв Bluetooth</string>
+    <string name="app_ops_labels_keep_awake">Активний режим</string>
+    <string name="app_ops_labels_monitor_location">Відстеження місцезнаходження</string>
+    <string name="app_ops_labels_monitor_high_power_location">Відстеження місцезнаходження по всім датчикам</string>
+    <string name="app_ops_labels_get_usage_stats">Отримати статистику використання</string>
+    <string name="app_ops_labels_mute_unmute_microphone">Вимкнення/Увімкнення мікрофону</string>
+    <string name="app_ops_labels_toast_window">Відображення спливаючих повідомлень</string>
+    <string name="app_ops_labels_project_media">Трансляція контенту</string>
+    <string name="app_ops_labels_activate_vpn">Активація VPN</string>
+    <string name="app_ops_labels_write_wallpaper">Зберегти шпалери</string>
+    <string name="app_ops_labels_assist_structure">Структура асистента</string>
+    <string name="app_ops_labels_assist_screenshot">Використати скріншот</string>
+    <string name="app_ops_labels_read_phone_state">Читання стану телефону</string>
+    <string name="app_ops_labels_add_voicemail">Додати голосову пошту</string>
+    <string name="app_ops_labels_use_sip">Використання SIP</string>
+    <string name="app_ops_labels_make_call">Викликати</string>
+    <string name="app_ops_labels_use_fingerprint">Використання відбитка пальця</string>
+    <string name="app_ops_labels_use_body_sensors">Використання датчиків на тілі</string>
+    <string name="app_ops_labels_read_cell_broadcasts">Читати екстерні повідомлення</string>
+    <string name="app_ops_labels_mock_location">Запропонувати фіктивне місцезнаходження</string>
+    <string name="app_ops_labels_read_external_storage">Читання з зовнішнього накопичувача</string>
+    <string name="app_ops_labels_write_external_storage">Записати на зовнішній накопичувач</string>
+    <string name="app_ops_labels_turn_screen_on">Увімкнення екрану</string>
+    <string name="app_ops_labels_get_accounts">Отримання облікових записів</string>
+    <string name="app_ops_labels_run_in_background">Запускати у фоновому режимі</string>
+    <string name="app_ops_labels_accessibility_volume">Доступ до зміни гучністі</string>
+    <string name="app_ops_labels_read_phone_numbers">Читання телефонних номерів</string>
+    <string name="app_ops_labels_request_install_packages">Запит встановлення застосунків</string>
+    <string name="app_ops_labels_picture_in_picture">Використання картинки в картинці</string>
+    <string name="app_ops_labels_instant_app_start_foreground">Старт додатків з миттєвим запуском</string>
+    <string name="app_ops_labels_answer_phone_calls">Відповідь на телефонні дзвінки</string>
+    <string name="app_ops_labels_toggle_wifi">Змінити стан Wi-Fi</string>
+    <string name="app_ops_labels_toggle_bluetooth">Змінити стан Bluetooth</string>
+    <string name="app_ops_labels_start_at_boot">Старт під час завантаження</string>
+    <string name="app_ops_labels_toggle_nfc">Перемикач NFC</string>
+    <string name="app_ops_labels_toggle_mobile_data">Увімкнути або вимкнути мобільну мережу</string>
+
+    <!-- App ops permissions -->
+    <string name="app_ops_permissions_allowed">Дозволити</string>
+    <string name="app_ops_permissions_ignored">Заборонити</string>
+    <string name="app_ops_permissions_always_ask">Запитати</string>
+
+    <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (використано <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">Дозволено <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">Заборонено <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">Дозволено <xliff:g id="count">%1$s</xliff:g>, заборонено <xliff:g id="count">%2$s</xliff:g></string>
+    <string name="app_ops_no_blockable_permissions">Немає дозволів, доступних для блокування</string>
+
+    <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">Завантажені додатки</string>
+    <string name="app_ops_show_system_apps">Системні додатки</string>
+    <string name="app_ops_reset_counters">Скинути лічильники</string>
+    <string name="app_ops_reset_confirm_title">Підтвердження скидання</string>
+    <string name="app_ops_reset_confirm_mesg">Дані лічильника «операцій в додатках» будуть видалені.</string>
+    <string name="ok">Гаразд</string>
+
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_manager_title">Privacy Guard</string>
+    <string name="privacy_guard_switch_label">Увімкнути Privacy Guard</string>
+    <string name="privacy_guard_dlg_title">Увімкнути Privacy Guard?</string>
+    <string name="privacy_guard_dlg_text">Коли активовано Privacy Guard, застосунок не зможе отримати доступ до особистих даних, наприклад, контакти, повідомлення або журнали викликів.</string>
+    <string name="privacy_guard_dlg_system_app_text">Вмикаючи Privacy Guard для системного застосування, вона не зможе отримати доступ або надати особисту інформацію. Це може призвести до неправильної поведінки інших додатків.</string>
+    <string name="privacy_guard_default_title">Увімкнути за замовчуванням</string>
+    <string name="privacy_guard_manager_summary">Керування програмами, які мають доступ до ваших особистих даних</string>
+    <string name="privacy_guard_no_user_apps">Немає встановлених програм</string>
+    <string name="privacy_guard_help_title">Допомога</string>
+    <string name="privacy_guard_reset_title">Скидання</string>
+    <string name="privacy_guard_reset_text">Скинути дозволи?</string>
+    <string name="privacy_guard_help_text">На цьому екрані ви можете вибрати, які програми Privacy Guard мають бути активними, просто натиснувши на них. Відібрані програми не буде мати доступ до Ваших персональних даних, наприклад, контакти, повідомлення або журнали викликів. Тривале натискання на додаток відкриває екран з докладних даних для цього застосунку.\n\nСистемні програми не відображаються за замовчуванням, але можна відобразити, вибравши відповідну опцію в меню.</string>
+    <string name="privacy_guard_manager_show_system_apps">Системні додатки</string>
+    <string name="privacy_guard_advanced_settings_title">Додатково</string>
+    <string name="privacy_guard_notification_title">Відобразити сповіщення</string>
+
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Менш часті сповіщення</string>
+    <string name="less_notification_sounds_summary">Грати звукові сповіщення кожного додатка тільки один раз за вказаний період часу</string>
+    <string name="less_notification_sounds_default">За замовчуванням</string>
+    <string name="less_notification_sounds_3s">Кожні 3 секунди</string>
+    <string name="less_notification_sounds_5s">Кожні 5 секунд</string>
+    <string name="less_notification_sounds_10s">Кожні 10 секунди</string>
+    <string name="less_notification_sounds_15s">Кожні 15 секунд</string>
+    <string name="less_notification_sounds_30s">Кожні 30 секунд</string>
+    <string name="less_notification_sounds_45s">Кожні 45 секунд</string>
+    <string name="less_notification_sounds_1m">Кожну хвилину</string>
+    <string name="less_notification_sounds_2m">Кожні 2 хвилини</string>
+    <string name="less_notification_sounds_5m">Кожні 5 хвилин</string>
+
+    <string name="battery_temp">Температура акумулятора</string>
+
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Розширений екран</string>
+    <string name="expanded_hide_nothing">Нічого не приховувати</string>
+    <string name="expanded_hide_status">Приховувати рядок стану</string>
+    <string name="expanded_hide_navigation">Приховати панель навігації</string>
+    <string name="expanded_hide_both">Приховувати обидва</string>
+    <string name="expanded_nothing_to_show">Додаткові налаштування розширеного екрану для окремих програм, переведіть перемикач «Увімкнено для всіх» для вимкнутого стану.</string>
+    <string name="expanded_enabled_for_all">Увімкнуто для всіх</string>
+    <string name="expanded_desktop_style">Стиль розширеного екрану</string>
+    <string name="expanded_desktop_style_description">Вибрати розширений режим екрана за замовчуванням</string>
+    <string name="expanded_desktop_title">Налаштування розширеного екрану</string>
+    <string name="expanded_user_configurable">Налаштована користувачем</string>
+    <string name="expanded_desktop_state">Розширений стан</string>
+
+    <!-- Font picker -->
+    <string name="font_picker_title">Шрифт</string>
+    <string name="font_picker_progress">Застосування шрифту\u2026</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Прив\'язка гучності дзвінка і сповіщень</string>
+
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Дозволити встановлення тем з невідомих джерел</string>
+    <string name="force_authorize_substratum_packages_summary">Примусово запитувати дозвіл кожної теми</string>
+
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Накладання Substratum</string>
+    <string name="menu_show_substratum">Показати накладання</string>
+    <string name="menu_hide_substratum">Приховати накладання</string>
+
+    <!-- Device Parts -->
+    <string name="device_part_title">Додаткове налаштування</string>
+    <string name="device_part_summary">Додаткові налаштування пристрою</string>
+
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Фонові процеси</string>
+    <string name="hide_notch_title">Приховати виріз</string>
+    <string name="hide_notch_summary">Примусово приховати виріз екрану</string>
+
+    <!-- Switch styles -->
+    <string name="switch_style_title">Стиль перемикачів</string>
+    <string name="switch_default">За замовчуванням</string>
+
+    <!-- Android debugging over network -->
+    <string name="adb_over_network">Відлагодження по мережі</string>
+    <string name="adb_over_network_summary">Увімкнути режим налагодження через мережеві інтерфейси (Wi-fi та USB мережі). Налагодження вимикається після перезавантаження пристрою.</string>
+    <string name="adb_over_network_warning">УВАГА: коли увімкнено налагодження по мережі, пристрій відкритий для неконтролюємого доступу із всіх підключених мереж\n\nВикористовуйте цю функцію тільки при підключенні до достовірних мереж.\n\nТочно увімкнути цю функцію?</string>
+    <string name="adb_over_network_disallowed_error">ПОМИЛКА: Режим налагодження через мережеві інтерфейси може бути увімкнено тільки після підключення до мережі Wi-Fi або USB-мережі!</string>
+
+    <!-- USB debugging notification -->
+    <string name="adb_notify">Сповіщення про налагодження</string>
+    <string name="adb_notify_summary">Сповіщення про увімкнений режим налагодження по USB або по мережі</string>
+
+    <string name="dashboard_conditions_title">Сповіщення у головному меню</string>
+    <string name="summary_dashboard_conditions_enabled">Сповіщенні у головному меню увімкнені</string>
+    <string name="summary_dashboard_conditions_disabled">Сповіщенні у головному меню вимкнені</string>
+
+    <string name="dashboard_suggestions_title">Підказки в головному меню</string>
+    <string name="summary_dashboard_suggestions_enabled">Підказки в головному меню увімкнено</string>
+    <string name="summary_dashboard_suggestions_disabled">Підказки в головному меню вимкнено</string>
+
+</resources>
