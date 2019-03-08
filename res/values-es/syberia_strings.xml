@@ -445,11 +445,11 @@
     <string name="adb_notify_summary">Mostrar una notificación cuando la depuración de Android está habilitada</string>
 
     <string name="dashboard_conditions_title">Condiciones en panel</string>
-    <string name="summary_dashboard_conditions_enabled">Las condiciones del panel de control están habilitadas</string>
-    <string name="summary_dashboard_conditions_disabled">Las condiciones del panel están deshabilitada</string>
+    <string name="summary_dashboard_conditions_enabled">Las condiciones en panel de ajustes están habilitadas</string>
+    <string name="summary_dashboard_conditions_disabled">Las condiciones en panel ajustes están deshabilitadas</string>
 
     <string name="dashboard_suggestions_title">Sugerencias en panel</string>
-    <string name="summary_dashboard_suggestions_enabled">Las sugerencias del panel están habilitadas</string>
-    <string name="summary_dashboard_suggestions_disabled">Las sugerencias del panel están deshabilitadas</string>
+    <string name="summary_dashboard_suggestions_enabled">Las sugerencias en panel de ajustes están habilitadas</string>
+    <string name="summary_dashboard_suggestions_disabled">Las sugerencias en panel ajustes están deshabilitadas</string>
 
 </resources>
