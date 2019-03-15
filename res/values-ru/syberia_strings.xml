@@ -490,5 +490,8 @@
     <string name="dashboard_suggestions_title">Подсказки в главном меню</string>
     <string name="summary_dashboard_suggestions_enabled">Подсказки в главном меню включены</string>
     <string name="summary_dashboard_suggestions_disabled">Подсказки в главном меню выключены</string>
+    
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Глубокий сон: %1$d%2$s)</string>
 
 </resources>
