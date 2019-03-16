@@ -905,6 +905,21 @@
     <string name="wifi_hotspot_title" msgid="7726205804813286950">"Войти и подключить?"</string>
     <string name="wifi_hotspot_message" msgid="3673833421453455747">"<xliff:g id="APP_NAME">%1$s</xliff:g> требует входа в аккаунт, чтобы подключить устройство к сети."</string>
     <string name="wifi_hotspot_connect" msgid="5065506390164939225">"ПОДКЛЮЧИТЬСЯ"</string>
+    <string name="wifi_menu_wps_pbc">Кнопка WPS</string>
+    <string name="wifi_menu_wps_pin">Ввод PIN-кода WPS</string>
+    <string name="wifi_wps_setup_title">Безопасная настройка Wi-Fi</string>
+    <string name="wifi_wps_setup_msg">Запуск WPS…</string>
+    <string name="wifi_wps_onstart_pbc">Нажмите кнопку \"Безопасная настройка Wi-Fi\" на маршрутизаторе. Она может называться WPS или быть отмечена этим символом:</string>
+    <string name="wifi_wps_onstart_pin">Введите PIN-код <xliff:g id="NUMBER">%1$s</xliff:g> на маршрутизаторе Wi-Fi. Для завершения настройки потребуется не более двух минут.</string>
+    <string name="wifi_wps_complete">Ошибок нет. Подключение к сети…</string>
+    <string name="wifi_wps_connected">Установлено подключение к сети Wi-Fi <xliff:g id="NETWORK_NAME">%s</xliff:g></string>
+    <string name="wifi_wps_in_progress">Выполняется настройка WPS. Для завершения потребуется не более двух минут.</string>
+    <string name="wifi_wps_failed_generic">Ошибка. Повторите попытку через несколько минут.</string>
+    <string name="wifi_wps_failed_wep">Безопасная настройка беспроводного маршрутизатора (WEP) не поддерживается.</string>
+    <string name="wifi_wps_failed_tkip">Безопасная настройка беспроводного маршрутизатора (TKIP) не поддерживаются.</string>
+    <string name="wifi_wps_failed_auth">Ошибка аутентификации. Повторите попытку.</string>
+    <string name="wifi_wps_failed_overlap">Обнаружен другой сеанс WPS. Повторите попытку через несколько минут.</string>
+    <string name="wifi_wps_failed_wifi_disconnected">Сеть Wi-Fi отключена. Настройка WPS отменяется.</string>
     <string name="no_internet_access_text" msgid="5926979351959279577">"Эта сеть Wi-Fi не подключена к Интернету. Использовать ее?"</string>
     <string name="no_internet_access_remember" msgid="4697314331614625075">"Больше не спрашивать для этой сети"</string>
     <string name="lost_internet_access_title" msgid="5779478650636392426">"В сети Wi-Fi нет доступа к Интернету"</string>
