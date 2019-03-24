@@ -532,4 +532,8 @@
     <string name="switch_brand_toolbar">Brandify settings title</string>
     <string name="switch_brand_toolbar_summary_on">Enable Syberia OS brand and user name in Settings dashboard</string>
     <string name="switch_brand_toolbar_summary_off">Disable Syberia OS brand and user name in Settings dashboard</string>
+
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Battery saving mode</string>
+    <string name="location_mode_battery_saving_summary">Use only Wi\u2011Fi, Bluetooth, or mobile networks to determine location (less accurate)</string>
 </resources>

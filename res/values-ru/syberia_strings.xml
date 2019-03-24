@@ -572,4 +572,8 @@
     <string name="switch_brand_toolbar">Заголовок настроек</string>
     <string name="switch_brand_toolbar_summary_on">Отображать бренд Syberia OS и имя пользователя в заголовке настроек</string>
     <string name="switch_brand_toolbar_summary_off">Не отображать бренд Syberia OS и имя пользователя в заголовке настроек</string>
+    
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Режим энергосбережения</string>
+    <string name="location_mode_battery_saving_summary">Использовать только Wi\u2011Fi, Bluetooth или мобильную сеть для определения местоположения (менее точно)</string>
 </resources>
