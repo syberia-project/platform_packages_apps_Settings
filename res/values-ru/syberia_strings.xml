@@ -561,5 +561,12 @@
     <string name="adj_saturation_title">Насыщенность</string>
     <string name="adj_intensity_title">Насыщенность</string>
     <string name="adj_contrast_title">Контраст</string>
+    
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Умная зарядка</string>
+    <string name="smart_charging_summary">Установите максимальный уровень зарядки</string>
+    <string name="smart_charging_switch_title">Использовать Умную зарядку</string>
+    <string name="smart_charging_level_title">Уровень запуска</string>
+    <string name="smart_charging_footer">Умная зарядка позволяет вам установить максимальный уровень зарядки, чтобы продлить срок службы вашей батареи</string>
 
 </resources>

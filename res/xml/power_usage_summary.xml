@@ -59,5 +59,11 @@
         android:key="battery_temp"
         android:title="@string/battery_temp"
         android:selectable="false" />
+	
+    <Preference
+        android:fragment="com.android.settings.fuelgauge.smartcharging.SmartChargingSettings"
+        android:key="smart_charging_key"
+        android:title="@string/smart_charging_title"
+        android:summary="@string/smart_charging_summary" />
 
 </PreferenceScreen>
