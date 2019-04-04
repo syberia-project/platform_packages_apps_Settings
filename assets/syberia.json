@@ -1,0 +1,134 @@
+{
+  "team_github": "http://github.com/syberia-project",
+  "team_telegram": "https://t.me/joinchat/AHkowkcfcWdzd5FpKZ3Hng",
+  "team": [
+    {
+      "name": "DennySPb",
+      "role": "Lead ROM Developer",
+      "avatar": "https://syberiaos.com/img/avatars/DennySPb.jpg",
+      "xda_link": "https://forum.xda-developers.com/member.php?u=3639510",
+      "telegram_link": "https://t.me/SyberiaOSHelpdesk"
+    },
+    {
+      "name": "blinoff82",
+      "role": "Project Administrator",
+      "avatar": "https://syberiaos.com/img/avatars/blinoff82.jpg",
+      "xda_link": "https://forum.xda-developers.com/member.php?u=4937139",
+      "telegram_link": "https://t.me/SyberiaOSHelpdesk"
+    },
+    {
+      "name": "alexxxdev",
+      "role": "ROM Developer",
+      "avatar": "https://syberiaos.com/img/avatars/alexxxdev.jpg",
+      "xda_link": "https://forum.xda-developers.com/member.php?u=3074355",
+      "telegram_link": "https://t.me/SyberiaOSHelpdesk"
+    },
+    {
+      "name": "Lane Shukhov",
+      "role": "Designer, Site developer",
+      "avatar": "https://syberiaos.com/img/avatars/rlshukhov.jpg",
+      "xda_link": "",
+      "telegram_link": "https://t.me/SyberiaOSHelpdesk"
+    },
+    {
+      "name": "coderzstas",
+      "role": "Back-end developer",
+      "avatar": "https://syberiaos.com/img/avatars/coderzstas.jpg",
+      "xda_link": "https://forum.xda-developers.com/member.php?u=3297592",
+      "telegram_link": "https://t.me/SyberiaOSHelpdesk"
+    }
+  ],
+  "maintainers": [
+    {
+      "device": "OnePlus 6 (enchilada)",
+      "name": "DennySPb",
+      "avatar": "https://syberiaos.com/img/avatars/DennySPb.jpg",
+      "xda_link": "",
+      "github_link": "https://github.com/DennySPB"
+    },
+    {
+      "device": "OnePlus 6T (fajita)",
+      "name": "coderzstas",
+      "avatar": "https://avatars3.githubusercontent.com/u/3104406?s=460&v=4",
+      "xda_link": "https://forum.xda-developers.com/oneplus-6t/development/rom-syberia-project-t3911727",
+      "github_link": "https://github.com/coderzstas"
+    },
+    {
+      "device": "Xiaomi Mi 5s (capricorn)",
+      "name": "mesziman",
+      "avatar": "https://avatars1.githubusercontent.com/u/4874388?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/mi-5s/development/rom-syberia-rom-1-0-t3835690",
+      "github_link": "https://github.com/mesziman"
+    },
+    {
+      "device": "Xiaomi Redmi Note 4 (mido)",
+      "name": "NATO666613",
+      "avatar": "https://avatars3.githubusercontent.com/u/7190697?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-syberia-project-t3846212",
+      "github_link": "https://github.com/kondors1995"
+    },
+    {
+      "device": "Xiaomi Mi Mix 2 (chiron)",
+      "name": "AleD219",
+      "avatar": "https://avatars0.githubusercontent.com/u/40178945?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/mi-mix-2/development/rom-syberia-project-t3847007",
+      "github_link": "https://github.com/AleD219"
+    },
+    {
+      "device": "Asus ZenFone Max Pro M1 (X00TD)",
+      "name": "DarknessKiller",
+      "avatar": "https://avatars3.githubusercontent.com/u/23330152?s=460&v=4",
+      "xda_link": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/rom-syberia-project-t3910618",
+      "github_link": "https://github.com/DarknessKiller"
+    },
+    {
+      "device": "Xiaomi Redmi 3s (land)",
+      "name": "Weritos666",
+      "avatar": "https://avatars2.githubusercontent.com/u/3286052?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/xiaomi-redmi-3s/development/9-0-syberia-os-9-0-t3837103",
+      "github_link": "https://github.com/weritos666"
+    },
+    {
+      "device": "Xiaomi Poco F1 (beryllium)",
+      "name": "Ethan Halsall",
+      "avatar": "https://avatars1.githubusercontent.com/u/27292430?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/poco-f1/development/rom-syberia-project-t3912500",
+      "github_link": "https://github.com/ethan-halsall"
+    },
+    {
+      "device": "Xiaomi Mi 5s+ (natrium)",
+      "name": "cfdddd",
+      "avatar": "https://avatars0.githubusercontent.com/u/31411742?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/mi-5s-plus/development/rom-syberia-project-t3869145",
+      "github_link": "https://github.com/00day0"
+    },
+    {
+      "device": "Xiaomi Mi 8 (dipper)",
+      "name": "Ethan Halsall",
+      "avatar": "https://avatars1.githubusercontent.com/u/27292430?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/mi-8/development/9-0-rom-syberia-project-t3881271",
+      "github_link": "https://github.com/ethan-halsall"
+    },
+    {
+      "device": "Xiaomi Mi A1 (tissot)",
+      "name": "mdeejay",
+      "avatar": "https://avatars0.githubusercontent.com/u/747233?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/mi-a1/development/rom-syberia-project-t3884514",
+      "github_link": "https://github.com/Tissot-Beast"
+    },
+    {
+      "device": "Xiaomi Redmi Note 5 (vince)",
+      "name": "mdeejay",
+      "avatar": "https://avatars0.githubusercontent.com/u/747233?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/redmi-note-5/development/rom-syberia-project-t3884842",
+      "github_link": "https://github.com/Tissot-Beast"
+    },
+    {
+      "device": "Xiaomi Redmi 4x (santoni)",
+      "name": "HarukeyUA",
+      "avatar": "https://avatars1.githubusercontent.com/u/12065476?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/xiaomi-redmi-4x/development/rom-syberia-project-t3890225",
+      "github_link": "https://github.com/HarukeyUA"
+    }
+  ]
+}
