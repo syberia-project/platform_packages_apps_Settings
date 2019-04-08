@@ -68,20 +68,6 @@
       "github_link": "https://github.com/kondors1995"
     },
     {
-      "device": "Xiaomi Mi Mix 2 (chiron)",
-      "name": "AleD219",
-      "avatar": "https://avatars0.githubusercontent.com/u/40178945?s=400&v=4",
-      "xda_link": "https://forum.xda-developers.com/mi-mix-2/development/rom-syberia-project-t3847007",
-      "github_link": "https://github.com/AleD219"
-    },
-    {
-      "device": "Asus ZenFone Max Pro M1 (X00TD)",
-      "name": "DarknessKiller",
-      "avatar": "https://avatars3.githubusercontent.com/u/23330152?s=460&v=4",
-      "xda_link": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/rom-syberia-project-t3910618",
-      "github_link": "https://github.com/DarknessKiller"
-    },
-    {
       "device": "Xiaomi Redmi 3s (land)",
       "name": "Weritos666",
       "avatar": "https://avatars2.githubusercontent.com/u/3286052?s=400&v=4",
@@ -89,18 +75,18 @@
       "github_link": "https://github.com/weritos666"
     },
     {
-      "device": "Xiaomi Poco F1 (beryllium)",
-      "name": "Ethan Halsall",
-      "avatar": "https://avatars1.githubusercontent.com/u/27292430?s=400&v=4",
-      "xda_link": "https://forum.xda-developers.com/poco-f1/development/rom-syberia-project-t3912500",
-      "github_link": "https://github.com/ethan-halsall"
-    },
-    {
       "device": "Xiaomi Mi 5s+ (natrium)",
       "name": "cfdddd",
       "avatar": "https://avatars0.githubusercontent.com/u/31411742?s=400&v=4",
       "xda_link": "https://forum.xda-developers.com/mi-5s-plus/development/rom-syberia-project-t3869145",
       "github_link": "https://github.com/00day0"
+    },
+    {
+      "device": "Xiaomi Poco F1 (beryllium)",
+      "name": "Ethan Halsall",
+      "avatar": "https://avatars1.githubusercontent.com/u/27292430?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/poco-f1/development/rom-syberia-project-t3912500",
+      "github_link": "https://github.com/ethan-halsall"
     },
     {
       "device": "Xiaomi Mi 8 (dipper)",
@@ -129,6 +115,27 @@
       "avatar": "https://avatars1.githubusercontent.com/u/12065476?s=400&v=4",
       "xda_link": "https://forum.xda-developers.com/xiaomi-redmi-4x/development/rom-syberia-project-t3890225",
       "github_link": "https://github.com/HarukeyUA"
+    },
+    {
+      "device": "Xiaomi 6X (Wayne)",
+      "name": "rebenok90x",
+      "avatar": "https://avatars1.githubusercontent.com/u/27059115?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/mi-a2/xiaomi-6x-wayne/rom-syberia-project-t3914657",
+      "github_link": "https://github.com/rebenok90x"
+    },
+    {
+      "device": "Xiaomi Mi Mix 2 (chiron)",
+      "name": "AleD219",
+      "avatar": "https://avatars0.githubusercontent.com/u/40178945?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/mi-mix-2/development/rom-syberia-project-t3847007",
+      "github_link": "https://github.com/AleD219"
+    },
+    {
+      "device": "Asus ZenFone Max Pro M1 (X00TD)",
+      "name": "DarknessKiller",
+      "avatar": "https://avatars3.githubusercontent.com/u/23330152?s=460&v=4",
+      "xda_link": "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/rom-syberia-project-t3910618",
+      "github_link": "https://github.com/DarknessKiller"
     }
   ]
 }
