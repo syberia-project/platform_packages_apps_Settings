@@ -494,4 +494,7 @@
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Глубокий сон: %1$d%2$s)</string>
 
+    <string name="battery_charging">Заряжается</string>
+    <string name="battery_discharging">Разряжается</string>
+
 </resources>

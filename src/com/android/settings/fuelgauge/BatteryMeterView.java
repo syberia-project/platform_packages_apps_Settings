@@ -79,9 +79,9 @@ public class BatteryMeterView extends CardView {
         progress_Text.setTextSize(52);
         progress_Text.setTextColor(getColorAttr(context, android.R.attr.textColorSecondary));
         if (getCharging()) {
-            charging_Text.setText("Charging");
+            charging_Text.setText(R.string.battery_charging);
         } else
-            charging_Text.setText("Discharging");
+            charging_Text.setText(R.string.battery_discharging);
         progress_Text.setGravity(Gravity.CENTER_HORIZONTAL);
         charging_Text.setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT));
         progress_Text.setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT));

@@ -457,4 +457,7 @@
 
     <!-- Toolbar -->
     <string name="settings_head_title">Syberia OS</string>
+
+    <string name="battery_charging">Charging</string>
+    <string name="battery_discharging">Discharging</string>
 </resources>
