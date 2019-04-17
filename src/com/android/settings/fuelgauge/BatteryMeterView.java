@@ -119,8 +119,10 @@ public class BatteryMeterView extends CardView {
     public void setCharging(boolean status) {
         if (status) {
             this.status = BatteryManager.BATTERY_STATUS_CHARGING;
+            charging_Text.setText(R.string.battery_charging);
         } else {
             this.status = BatteryManager.BATTERY_STATUS_DISCHARGING;
+            charging_Text.setText(R.string.battery_discharging);
         }
         postInvalidate();
     }
