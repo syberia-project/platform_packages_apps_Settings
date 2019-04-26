@@ -497,4 +497,8 @@
     <string name="battery_charging">Заряжается</string>
     <string name="battery_discharging">Разряжается</string>
 
+<!-- doze on charge -->
+<string name="doze_on_charge_title">Показывать при зарядке</string>
+<string name="doze_on_charge_summary">Пробуждать экран при зарядке</string>
+
 </resources>
