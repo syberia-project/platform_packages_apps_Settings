@@ -465,4 +465,8 @@
     <string name="doze_on_charge_title">Show when charging</string>
     <string name="doze_on_charge_summary">Wake screen when charging</string>
 
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+
 </resources>
