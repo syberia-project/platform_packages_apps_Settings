@@ -37,6 +37,10 @@
 
     <string name="global_actions_title">Меню кнопки питания</string>
 
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Приложения в полный экран</string>
+    <string name="display_cutout_force_fullscreen_summary">Приложения будут принудительно игнорировать вырез экрана</string>
+
     <string name="battery_temp">Температура батареи</string>
 
     <!-- Screenshot sound -->
