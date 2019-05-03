@@ -520,4 +520,7 @@ public class Settings extends SettingsActivity {
     // SyberiaSettings
     public static class SyberiaSettingsActivity extends SettingsActivity {}
 
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
+
 }
