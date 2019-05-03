@@ -162,6 +162,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.syberia.settings.SyberiaSettings;
 import com.syberia.settings.fragments.GlobalActionsSettings;
+import com.android.settings.livedisplay.LiveDisplaySettings;
 
 public class SettingsGateway {
 
@@ -312,7 +313,8 @@ public class SettingsGateway {
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
             SyberiaSettings.class.getName(),
-            GlobalActionsSettings.class.getName()
+            GlobalActionsSettings.class.getName(),
+            LiveDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
