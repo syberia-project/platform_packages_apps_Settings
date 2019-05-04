@@ -468,6 +468,10 @@
 
     <string name="hide_notch_title">Скрыть вырез</string>
     <string name="hide_notch_summary">Принудительно скрыть вырез экрана</string>
+    
+    <!-- AmbientDisplay music ticker -->
+    <string name="force_ambient_for_media_title">Музыкальное уведомление</string>
+    <string name="force_ambient_for_media_summary">Показывать информацию о текущем треке на экране блокировки и во время переключения трека.</string>
 
     <!-- Switch styles -->
     <string name="switch_style_title">Стиль переключателей</string>
