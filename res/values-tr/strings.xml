@@ -1894,8 +1894,12 @@
     <string name="user_dict_settings_context_menu_delete_title" msgid="9140703913776549054">"Sil"</string>
     <string name="user_dict_settings_empty_text" msgid="1971969756133074922">"Kullanıcı sözlüğünde kelime yok. Bir kelime eklemek için Ekle (+) düğmesine dokunun."</string>
     <string name="user_dict_settings_all_languages" msgid="6742000040975959247">"Tüm diller için"</string>
+    <!-- Menu option to do WPS Push Button [CHAR LIMIT=25]-->
+    <string name="wifi_menu_wps_pbc">WPS tuşu</string>
     <string name="user_dict_settings_more_languages" msgid="7316375944684977910">"Diğer diller…"</string>
     <string name="testing" msgid="6584352735303604146">"Test ediliyor"</string>
+    <!-- Menu option to do WPS Pin Entry [CHAR LIMIT=25]-->
+    <string name="wifi_menu_wps_pin">WPS pin girişi</string>
     <string name="testing_phone_info" product="tablet" msgid="193561832258534798">"Tablet bilgileri"</string>
     <string name="testing_phone_info" product="default" msgid="8656693364332840056">"Telefon bilgileri"</string>
     <string name="input_methods_settings_title" msgid="6800066636850553887">"Metin girişi"</string>
@@ -1938,6 +1942,32 @@
     <string name="experimental_category_title" msgid="5272318666666893547">"Deneysel"</string>
     <string name="talkback_title" msgid="7912059827205988080">"Talkback"</string>
     <string name="talkback_summary" msgid="8331244650729024963">"Özellikle görme engelliler ve gözleri az görenler için tasarlanmış bir ekran okuyucu"</string>
+    <!-- Title for the WPS setup dialog [CHAR LIMIT=50] -->
+    <string name="wifi_wps_setup_title">Wi\u2011Fi Korumalı Kurulum</string>
+    <!-- Message in WPS dialog at start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_setup_msg">WPS başlatılıyor\u2026</string>
+    <!-- Message in WPS dialog for PBC after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pbc">Yönlendiricinizde ki Wi\u2011Fi korumalı kurulum tuşuna basın. \u201cWPS\u201d adında olabilir veya sembol ile işaretli olabilir:</string>
+    <!-- Message in WPS dialog for PIN after start up [CHAR LIMIT=150] -->
+    <string name="wifi_wps_onstart_pin">Wi\u2011Fi yönlendiricinizde <xliff:g id="number">%1$s</xliff:g> pin kodunu girin. Kurulum işleminin tamamlanması iki dakika kadar sürebilir.</string>
+    <!-- Text displayed when WPS succeeds [CHAR LIMIT=150] -->
+    <string name="wifi_wps_complete">WPS başarılı. Ağa bağlanılıyor\u2026</string>
+    <!-- Text displayed when Wi-Fi is connected through WPS [CHAR LIMIT=150] -->
+    <string name="wifi_wps_connected">Wi\u2011Fi <xliff:g id="network_name">%s</xliff:g> ağına bağlandı</string>
+    <!-- Text displayed when WPS setup is in progress [CHAR LIMIT=150] -->
+    <string name="wifi_wps_in_progress">WPS zaten devam ediyor ve tamamlanması iki dakika alabilir</string>
+    <!-- Text displayed when WPS fails to start [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_generic">WPS başarısız. Lütfen birkaç dakika sonra yeniden deneyin.</string>
+    <!-- Text displayed when WPS fails due to WEP [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_wep">Kablosuz yönlendirici güvenlik ayarı (WEP) desteklenmiyor</string>
+    <!-- Text displayed when WPS fails to TKIP [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_tkip">Kablosuz yönlendirici güvenlik ayarı (TKIP) desteklenmiyor</string>
+    <!-- Text displayed when WPS fails due to authentication issues [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_auth">Kimlik doğrulama başarısız oldu. Lütfen tekrar deneyin.</string>
+    <!-- Text displayed when WPS fails due to another session [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_overlap">Başka bir WPS oturumu bulundu. Lütfen birkaç dakika sonra yeniden deneyin.</string>
+    <!-- Text displayed when WPS fails due to wifi disconnected [CHAR LIMIT=150] -->
+    <string name="wifi_wps_failed_wifi_disconnected">Wi\u2011Fi bağlantısı kesildi. WPS kurulumu iptal edildi.</string>
     <string name="select_to_speak_summary" msgid="4282846695497544515">"Sesli okunması için ekranınızdaki öğelere dokunun"</string>
     <string name="accessibility_captioning_title" msgid="7589266662024836291">"Altyazılar"</string>
     <string name="accessibility_screen_magnification_title" msgid="6001128808776506021">"Büyütme"</string>
@@ -4152,4 +4182,9 @@
     <string name="pref_title_network_details" msgid="7186418845727358964">"Ağ ayrıntıları"</string>
     <string name="about_phone_device_name_warning" msgid="8885670415541365348">"Telefonunuzdaki uygulamalar cihazınızın adını görür. Bluetooth cihazlarına bağlandığınızda veya bir kablosuz hotspot ayarladığınızda başka kişiler de bu adı görebilir."</string>
     <string name="devices_title" msgid="7701726109334110391">"Cihazlar"</string>
+    <!-- Accent picker -->
+    <string name="accent_picker_dialog_title">Vurgu rengi seçin</string>
+    <string name="theme_accent_picker_title">Vurgu rengi</string>
+    <string name="theme_accent_picker_summary">Sistem teması için vurgu rengi seçin</string>
+    <string name="theme_accent_picker_default">Varsayılan</string>
 </resources>
