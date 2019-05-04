@@ -67,18 +67,18 @@
 
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Parlaklık</string>
-    <string name="night_brightness_value_title">Gece ışığı ile daha düşük parlaklık</string>
+    <string name="night_brightness_value_title">Gece ışığında düşük parlaklık</string>
     <string name="night_bright_disabled">Devre dışı</string>
     <string name="night_bright_minimum">Minimum parlaklık</string>
     <string name="night_bright_low">Düşük parlaklık</string>
-    <string name="night_bright_medium">Orta parlaklık</string>
+    <string name="night_bright_medium">Orta düşük parlaklık</string>
 
    <!-- Custom light color -->
     <string name="custom_light_title">Işık rengi</string>
-    <string name="custom_light_on_time_title">Işık açıkken yanıp sönme hızı (ms)</string>
-    <string name="custom_light_off_time_title">Işık kapalıyken yanıp sönme hızı (ms)</string>
+    <string name="custom_light_on_time_title">Işık açıkken yanıp sönme hızı</string>
+    <string name="custom_light_off_time_title">Işık kapalıyken yanıp sönme hızı</string>
     <string name="value_equals_default">Varsayılan</string>
-    <string name="show_light_on_zen_title">Rahatsız etmeyin de ışığı yak söndür</string>
+    <string name="show_light_on_zen_title">Rahatsız etmeyinde ışığı yakıp söndür</string>
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Ekran görüntüsü sesi</string>
@@ -105,7 +105,7 @@
     <string name="weather_title">Hava durumu</string>
 
     <!-- Density category -->
-    <string name="density_category">Yoğunluk</string>
+    <string name="density_category">Ekran yoğunluğu</string>
 
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Hızlı ayarlar kare stili</string>
@@ -394,7 +394,7 @@
 
     <!-- Font picker -->
     <string name="font_picker_title">Yazı tipi</string>
-    <string name="font_picker_progress">İstediğiniz yazı tipi uygulanıyor\u2026</string>
+    <string name="font_picker_progress">Yeni yazı tipi uygulanıyor\u2026</string>
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
@@ -460,4 +460,8 @@
 
     <string name="battery_charging">Şarj oluyor</string>
     <string name="battery_discharging">Şarj olmuyor</string>
+
+    <!-- doze on charge -->
+    <string name="doze_on_charge_title">Şarj olurken göster</string>
+    <string name="doze_on_charge_summary">Şarj olurken aod\'u göster</string>
 </resources>
