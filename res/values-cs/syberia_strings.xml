@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!-- Changelog -->
+    <string name="changelog_title">Seznam změn</string>
+    <string name="changelog_summary">Nedávné změny</string>
+    <string name="changelog_loading">Načítání seznamu změn\u2026</string>
+    <string name="changelog_error">Nepodařilo se nahrát seznam změn</string>
+</resources>
