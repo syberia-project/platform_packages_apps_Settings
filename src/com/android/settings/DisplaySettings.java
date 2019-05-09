@@ -67,6 +67,7 @@ public class DisplaySettings extends DashboardFragment {
     private static final String KEY_AUTO_BRIGHTNESS = "auto_brightness_entry";
     private static final String KEY_NIGHT_DISPLAY = "night_display";
     private static final String KEY_HIDE_NOTCH = "hide_notch";
+    private static final String KEY_FULLSCREEN_NOTCH = "display_cutout_force_fullscreen_settings";
 
     private IntentFilter mIntentFilter;
     private static FontPickerPreferenceController mFontPickerPreference;
@@ -90,6 +91,7 @@ public class DisplaySettings extends DashboardFragment {
 	final String displayCutout = getResources().getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
         if(TextUtils.isEmpty(displayCutout)) {
     	    screen.removePreference(findPreference(KEY_HIDE_NOTCH));
+	    screen.removePreference(findPreference(KEY_FULLSCREEN_NOTCH));
         }
 
     }
