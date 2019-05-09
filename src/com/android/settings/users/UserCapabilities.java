@@ -43,7 +43,7 @@ public class UserCapabilities {
         UserManager userManager = (UserManager) context.getSystemService(Context.USER_SERVICE);
         UserCapabilities caps = new UserCapabilities();
 
-        if (Utils.isMonkeyRunning()) {
+        if (!UserManager.supportsMultipleUsers() || Utils.isMonkeyRunning()) {
             caps.mEnabled = false;
             return caps;
         }
@@ -68,10 +68,21 @@ public class UserCapabilities {
                 context, UserManager.DISALLOW_ADD_USER, UserHandle.myUserId());
         mDisallowAddUserSetByAdmin =
                 mEnforcedAdmin != null && !hasBaseUserRestriction;
-        mCanAddUser = false;
-        mCanAddGuest = false;
-        mDisallowSwitchUser = true;
-        mDisallowAddUser = true;
+        mDisallowAddUser =
+                (mEnforcedAdmin != null || hasBaseUserRestriction);
+        mCanAddUser = true;
+        if (!mIsAdmin || UserManager.getMaxSupportedUsers() < 2
+                || !UserManager.supportsMultipleUsers()
+                || mDisallowAddUser) {
+            mCanAddUser = false;
+        }
+
+        final boolean canAddUsersWhenLocked = mIsAdmin || Settings.Global.getInt(
+                context.getContentResolver(), Settings.Global.ADD_USERS_WHEN_LOCKED, 0) == 1;
+        mCanAddGuest = !mIsGuest && !mDisallowAddUser && canAddUsersWhenLocked;
+
+        UserManager userManager = (UserManager) context.getSystemService(Context.USER_SERVICE);
+        mDisallowSwitchUser = userManager.hasUserRestriction(UserManager.DISALLOW_USER_SWITCH);
     }
 
     public boolean isAdmin() {

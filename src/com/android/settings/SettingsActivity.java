@@ -680,7 +680,9 @@ public class SettingsActivity extends SettingsDrawerActivity
 
         somethingChanged = setTileEnabled(changedList, new ComponentName(packageName,
                         Settings.UserSettingsActivity.class.getName()),
-                !Utils.isMonkeyRunning(), isAdmin) || somethingChanged;
+                UserHandle.MU_ENABLED && UserManager.supportsMultipleUsers()
+                        && !Utils.isMonkeyRunning(), isAdmin)
+                || somethingChanged;
 
         somethingChanged = setTileEnabled(changedList, new ComponentName(packageName,
                         Settings.NetworkDashboardActivity.class.getName()),
