@@ -554,6 +554,9 @@ public class SettingsActivity extends SettingsBaseActivity
      */
     private Fragment switchToFragment(String fragmentName, Bundle args, boolean validate,
             int titleResId, CharSequence title) {
+
+        Log.d(LOG_TAG, "Switching to fragment " + fragmentName);
+
         IExtTelephony extTelephony =
                 IExtTelephony.Stub.asInterface(ServiceManager.getService("extphone"));
         try {
@@ -574,7 +577,6 @@ public class SettingsActivity extends SettingsBaseActivity
                     "couldn't connect to extphone service, launch the default sim cards activity");
         }
 
-        Log.d(LOG_TAG, "Switching to fragment " + fragmentName);
         if (validate && !isValidFragment(fragmentName)) {
             throw new IllegalArgumentException("Invalid fragment for this activity: "
                     + fragmentName);
@@ -633,6 +635,11 @@ public class SettingsActivity extends SettingsBaseActivity
                         Settings.ConnectedDeviceDashboardActivity.class.getName()),
                 !UserManager.isDeviceInDemoMode(this) /* enabled */,
                 isAdmin) || somethingChanged;
+
+        somethingChanged = setTileEnabled(changedList, new ComponentName(packageName,
+                       Settings.SimSettingsActivity.class.getName()),
+                Utils.showSimCardTile(this), isAdmin)
+                || somethingChanged;
 
         somethingChanged = setTileEnabled(changedList, new ComponentName(packageName,
                         Settings.PowerUsageSummaryActivity.class.getName()),
