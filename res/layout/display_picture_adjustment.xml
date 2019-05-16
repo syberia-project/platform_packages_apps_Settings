@@ -50,7 +50,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_below="@id/color_mode_preview"
                 android:paddingTop="10dip" />
-        <com.android.settings.custom.preference.IntervalSeekBar
+        <com.android.settings.IntervalSeekBar
             android:id="@+id/adj_hue_seekbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
                 android:layout_below="@id/adj_hue_seekbar"
                 android:layout_alignParentRight="true"
                 android:paddingTop="10dip" />
-        <com.android.settings.custom.preference.IntervalSeekBar
+        <com.android.settings.IntervalSeekBar
             android:id="@+id/adj_saturation_seekbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                 android:layout_below="@id/adj_saturation_seekbar"
                 android:layout_alignParentRight="true"
                 android:paddingTop="10dip" />
-        <com.android.settings.custom.preference.IntervalSeekBar
+        <com.android.settings.IntervalSeekBar
             android:id="@+id/adj_intensity_seekbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -119,7 +119,7 @@
                 android:layout_below="@id/adj_intensity_seekbar"
                 android:layout_alignParentRight="true"
                 android:paddingTop="10dip" />
-        <com.android.settings.custom.preference.IntervalSeekBar
+        <com.android.settings.IntervalSeekBar
             android:id="@+id/adj_contrast_seekbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
