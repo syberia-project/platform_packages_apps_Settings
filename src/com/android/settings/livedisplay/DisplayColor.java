@@ -72,7 +72,7 @@ public class DisplayColor extends CustomDialogPreference<AlertDialog> {
     protected void onPrepareDialogBuilder(AlertDialog.Builder builder, DialogInterface.OnClickListener listener) {
         super.onPrepareDialogBuilder(builder, listener);
 
-        builder.setNeutralButton(R.string.reset,
+        builder.setNeutralButton(com.android.internal.R.string.reset,
                 new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
