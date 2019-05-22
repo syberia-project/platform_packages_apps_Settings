@@ -209,4 +209,11 @@
         android:summaryOn="@string/summary_dashboard_suggestions_enabled"
         android:summaryOff="@string/summary_dashboard_suggestions_disabled"
         android:defaultValue="true" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="show_brand_toolbar"
+        android:title="@string/switch_brand_toolbar"
+        android:summaryOn="@string/switch_brand_toolbar_summary_on"
+        android:summaryOff="@string/switch_brand_toolbar_summary_off"
+        android:defaultValue="true" />
 </PreferenceScreen>
