@@ -183,6 +183,8 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private ViewGroup mContent;
 
+    private View titleBrandToolbar;
+
     // Categories
     private ArrayList<DashboardCategory> mCategories = new ArrayList<>();
 
@@ -272,6 +274,8 @@ public class SettingsActivity extends SettingsDrawerActivity
                 R.layout.settings_main_dashboard : R.layout.settings_main_prefs);
 
         mContent = findViewById(R.id.main_content);
+
+        titleBrandToolbar = findViewById(R.id.title_bar_container);
 
         getFragmentManager().addOnBackStackChangedListener(this);
 
@@ -495,6 +499,16 @@ public class SettingsActivity extends SettingsDrawerActivity
 
         updateTilesList();
         updateDeviceIndex();
+
+        if(titleBrandToolbar!=null){
+            Boolean showToolbar = android.provider.Settings.System.getInt(getContentResolver(), android.provider.Settings.System.SHOW_BRAND_TOOLBAR, 1) == 1;
+            Log.d("SettingsPreferenceFragment", "show_toolbar / "+ showToolbar);
+            if(showToolbar){
+                titleBrandToolbar.setVisibility(View.VISIBLE);
+            } else {
+                titleBrandToolbar.setVisibility(View.GONE);
+            }
+        }
     }
 
     @Override

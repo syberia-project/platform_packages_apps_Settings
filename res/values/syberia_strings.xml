@@ -529,4 +529,7 @@
     <string name="smart_charging_level_title">Trigger level</string>
     <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
 
+    <string name="switch_brand_toolbar">Brandify settings title</string>
+    <string name="switch_brand_toolbar_summary_on">Enable Syberia OS brand and user name in Settings dashboard</string>
+    <string name="switch_brand_toolbar_summary_off">Disable Syberia OS brand and user name in Settings dashboard</string>
 </resources>
