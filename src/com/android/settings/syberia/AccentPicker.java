@@ -393,6 +393,66 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
                 }
             });
         }
+	
+	Button pastelredAccent = null;
+        if (mView != null) {
+            pastelredAccent = mView.findViewById(R.id.pastelredAccent);
+        }
+        if (pastelredAccent != null) {
+            pastelredAccent.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Settings.System.putIntForUser(resolver,
+                            Settings.System.ACCENT_PICKER, 22, UserHandle.USER_CURRENT);
+                    dismiss();
+                }
+            });
+        }
+	
+	Button pastelgreenAccent = null;
+        if (mView != null) {
+            pastelgreenAccent = mView.findViewById(R.id.pastelgreenAccent);
+        }
+        if (pastelgreenAccent != null) {
+            pastelgreenAccent.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Settings.System.putIntForUser(resolver,
+                            Settings.System.ACCENT_PICKER, 23, UserHandle.USER_CURRENT);
+                    dismiss();
+                }
+            });
+        }
+	
+	Button pasteldarkblueAccent = null;
+        if (mView != null) {
+            pasteldarkblueAccent = mView.findViewById(R.id.pasteldarkblueAccent);
+        }
+        if (pasteldarkblueAccent != null) {
+            pasteldarkblueAccent.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Settings.System.putIntForUser(resolver,
+                            Settings.System.ACCENT_PICKER, 24, UserHandle.USER_CURRENT);
+                    dismiss();
+                }
+            });
+        }
+	
+	Button pasteletonblueAccent = null;
+        if (mView != null) {
+            pasteletonblueAccent = mView.findViewById(R.id.pasteletonblueAccent);
+        }
+        if (pasteletonblueAccent != null) {
+            pasteletonblueAccent.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Settings.System.putIntForUser(resolver,
+                            Settings.System.ACCENT_PICKER, 25, UserHandle.USER_CURRENT);
+                    dismiss();
+                }
+            });
+        }
 
         GridLayout gridlayout;
         if (mView != null) {

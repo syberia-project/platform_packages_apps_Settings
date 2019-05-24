@@ -220,6 +220,42 @@
                 android:gravity="center"
                 android:layout_gravity="fill_horizontal"
                 android:background="#607D8B" />
+		
+	    <Button
+                android:id="@+id/pastelredAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#FE6B64" />
+		
+	    <Button
+                android:id="@+id/pastelgreenAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#98E690" />
+		
+	    <Button
+                android:id="@+id/pasteldarkblueAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#769ECB" />
+		
+	    <Button
+                android:id="@+id/pasteletonblueAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#8FC1A9" />
 
         </GridLayout>
     </ScrollView>
