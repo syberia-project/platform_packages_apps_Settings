@@ -124,6 +124,21 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
             });
         }
 
+        Button qpurpleAccent = null;
+        if (mView != null) {
+            qpurpleAccent = mView.findViewById(R.id.qpurpleAccent);
+        }
+        if (qpurpleAccent != null) {
+            qpurpleAccent.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Settings.System.putIntForUser(resolver,
+                            Settings.System.ACCENT_PICKER, 21, UserHandle.USER_CURRENT);
+                    dismiss();
+                }
+            });
+        }
+
         Button deeppurpleAccent = null;
         if (mView != null) {
             deeppurpleAccent = mView.findViewById(R.id.deeppurpleAccent);
