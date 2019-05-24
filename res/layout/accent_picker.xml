@@ -60,6 +60,15 @@
                 android:background="#E040FB" />
 
             <Button
+                android:id="@+id/qpurpleAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#B39DDB" />
+
+            <Button
                 android:id="@+id/deeppurpleAccent"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
