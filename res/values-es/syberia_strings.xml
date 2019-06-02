@@ -458,4 +458,81 @@
     <string name="summary_dashboard_suggestions_enabled">Las sugerencias en panel de ajustes están habilitadas</string>
     <string name="summary_dashboard_suggestions_disabled">Las sugerencias en panel ajustes están deshabilitadas</string>
 
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Sueño Profundo: %1$d%2$s)</string>
+
+    <!-- Toolbar -->
+    <string name="settings_head_title">Syberia OS</string>
+
+    <string name="battery_charging">Cargandp</string>
+    <string name="battery_discharging">Descargando</string>
+
+    <!-- doze on charge -->
+    <string name="doze_on_charge_title">Mostrar al cargar</string>
+    <string name="doze_on_charge_summary">Activar pantalla al cargar</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicaciones de pantalla completa</string>
+    <string name="display_cutout_force_fullscreen_summary">Forzar aplicaciones para ignorar el espacio de muesca</string>
+
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimizar su pantalla basada en la hora del día y las condiciones ambientales para mejorar la legibilidad y reducir la fatiga visual</string>
+    <string name="live_display_mode">Modo de visualización</string>
+    <string name="live_display_color_temperature_title">Temperatura de color</string>
+    <string name="live_display_color_temperature_summary">Día: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noche: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Día</string>
+    <string name="live_display_night">Noche</string>
+    <string name="live_display_outdoor_mode_title">Modo automático al aire libre</string>
+    <string name="live_display_outdoor_mode_summary">Aumenta automáticamente el brillo y la saturación bajo la luz del sol</string>
+    <string name="live_display_low_power_title">Reducir el consumo de energía</string>
+    <string name="live_display_low_power_summary">Ajustar la pantalla al mínimo consumo de energía sin degradación</string>
+    <string name="live_display_enhance_color_title">Mejorar colores</string>
+    <string name="live_display_enhance_color_summary">Mejorar la viveza del color de tonos de piel, paisajes y otras imágenes</string>
+    <string name="live_display_color_profile_title">Perfil de color</string>
+    <string name="live_display_color_profile_standard_title">Estándar</string>
+    <string name="live_display_color_profile_standard_summary">Colores precisos y blancos brillantes</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Colores realistas y tonos cálidos</string>
+    <string name="live_display_color_profile_dynamic_title">Dinámico</string>
+    <string name="live_display_color_profile_dynamic_summary">Colores mejorados y blancos brillantes</string>
+    <string name="live_display_color_profile_cinema_title">Cine</string>
+    <string name="live_display_color_profile_cinema_summary">Reproducción perfecta de color para video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomía</string>
+    <string name="live_display_color_profile_astronomy_summary">Rojo profundo para conservar la visión de noche</string>
+    <string name="live_display_color_profile_photography_title">Fotografía</string>
+    <string name="live_display_color_profile_photography_summary">Reproducción de color perfecta para fotos</string>
+    <string name="live_display_color_profile_basic_title">Básico</string>
+    <string name="live_display_color_profile_basic_summary">Usar pantalla sin calibrar</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptable</string>
+    <string name="live_display_color_profile_adaptive_summary">Los colores se adaptan a las condiciones ambientales</string>
+    <string name="live_display_color_profile_reading_title">Lectura</string>
+    <string name="live_display_color_profile_reading_summary">Colores cálidos para reducir la fatiga visual</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+   <string name="live_display_color_profile_srgb_summary">Colores fieles al espacio de color sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colores fieles al espacio de color DCI-P3</string>
+    <string name="live_display_reading_mode_title">Modo lectura</string>
+    <string name="live_display_reading_mode_summary">Modo de escala de grises para lectura a largo plazo</string>
+    <string name="color_calibration_title">Calibración de color</string>
+    <string name="color_calibration_summary">Calibrar los colores de la pantalla</string>
+    <string name="color_red_title">Rojo</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Azul</string>
+
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Ajusten de imagen</string>
+    <string name="picture_adjustment_summary">Ajustar tono, saturación, intensidad y contraste</string>
+    <string name="adj_hue_title">Tono</string>
+    <string name="adj_saturation_title">Saturación</string>
+    <string name="adj_intensity_title">Intensidad</string>
+    <string name="adj_contrast_title">Contraste</string>
+
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Carga inteligente</string>
+    <string name="smart_charging_summary">Establecer el nivel máximo de carga</string>
+    <string name="smart_charging_switch_title">Usar carga inteligente</string>
+    <string name="smart_charging_level_title">Nivel máximo</string>
+    <string name="smart_charging_footer">La carga inteligente permite establecer el nivel máximo de carga para prolongar la vida útil de su batería</string>
+
 </resources>
