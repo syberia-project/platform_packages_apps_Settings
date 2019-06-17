@@ -174,6 +174,10 @@
         android:entries="@array/systemui_theme_style_entries"
         android:entryValues="@array/systemui_theme_style_values"
         android:persistent="false" />
+	
+    <Preference
+        android:key="system_shape"
+	android:title="@string/system_shape" />
 
     <Preference
         android:key="vr_display_pref"
