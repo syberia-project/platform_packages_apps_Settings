@@ -349,4 +349,7 @@
     <string name="pattern_custom">Custom</string>
     <string name="custom_vibration_pattern_title">Set a custom vibration pattern</string>
 
+    <!-- Cloudflare DNS -->
+    <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
+
 </resources>
