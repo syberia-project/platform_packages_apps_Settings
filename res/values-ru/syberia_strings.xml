@@ -255,4 +255,14 @@
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Позволять клиентам точки доступа использовать текущее VPN соединение</string>
 
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Умная зарядка</string>
+    <string name="smart_charging_summary">Установить максимальный уровень заряда</string>
+    <string name="smart_charging_switch_title">Использовать умную зарядку</string>
+    <string name="smart_charging_resume_level_title">Уровень возобновления зарядки</string>
+    <string name="smart_charging_level_title">Уровень выключения зарядки</string>
+    <string name="smart_charging_reset_stats_title">Сбросить статистику батареи</string>
+    <string name="smart_charging_reset_stats_summary">Сбрасывать статистику при достижении максимального уровня заряда</string>
+    <string name="smart_charging_footer">Умная зарядка позволяет установить максимальный уровень заряда чтобы продлить срок службы батареи</string>
+
 </resources>
