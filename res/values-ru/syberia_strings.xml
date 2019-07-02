@@ -191,4 +191,9 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Нажмите для отображения информации</string>
 
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Двойное нажатие</string>
+    <string name="doze_double_tap_title">Двойное нажатие для проверки</string>
+    <string name="doze_double_tap_summary">Включить AOD для проверки уведомлений</string>
+
 </resources>
