@@ -146,6 +146,24 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.syberia.settings.SyberiaSettings;
 import com.syberia.settings.fragments.OmniJawsSettings;
 import com.syberia.settings.fragments.PieSettings;
+import com.syberia.settings.fragments.AggressiveBattery;
+import com.syberia.settings.fragments.AnimationsSettings;
+import com.syberia.settings.fragments.BatteryScreenSettings;
+import com.syberia.settings.fragments.ButtonsSettings;
+import com.syberia.settings.fragments.ClockDateSettings;
+import com.syberia.settings.fragments.DialerSettings;
+import com.syberia.settings.fragments.EdgeGesturesSettings;
+import com.syberia.settings.fragments.GamingMode;
+import com.syberia.settings.fragments.GeneralTweaks;
+import com.syberia.settings.fragments.GesturesSettings;
+import com.syberia.settings.fragments.LockScreenSettings;
+import com.syberia.settings.fragments.NotificationsSettings;
+import com.syberia.settings.fragments.OmniGestureSettings;
+import com.syberia.settings.fragments.PowerMenuSettings;
+import com.syberia.settings.fragments.StatusBarBattery;
+import com.syberia.settings.fragments.StatusBarSettings;
+import com.syberia.settings.fragments.SystemSoundSettings;
+import com.syberia.settings.fragments.VolumeStepsFragment;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
 public class SettingsGateway {
@@ -281,6 +299,24 @@ public class SettingsGateway {
             PulseSettingsActivity.class.getName(),
             RunningServices.class.getName(),
             PieSettings.class.getName(),
+            AggressiveBattery.class.getName(),
+            AnimationsSettings.class.getName(),
+            BatteryScreenSettings.class.getName(),
+            ButtonsSettings.class.getName(),
+            ClockDateSettings.class.getName(),
+            DialerSettings.class.getName(),
+            EdgeGesturesSettings.class.getName(),
+            GamingMode.class.getName(),
+            GeneralTweaks.class.getName(),
+            GesturesSettings.class.getName(),
+            LockScreenSettings.class.getName(),
+            NotificationsSettings.class.getName(),
+            OmniGestureSettings.class.getName(),
+            PowerMenuSettings.class.getName(),
+            StatusBarBattery.class.getName(),
+            StatusBarSettings.class.getName(),
+            SystemSoundSettings.class.getName(),
+            VolumeStepsFragment.class.getName(),
             LiveDisplaySettings.class.getName()
     };
 

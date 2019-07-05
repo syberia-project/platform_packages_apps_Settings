@@ -184,6 +184,24 @@ public class Settings extends SettingsActivity {
     public static class PulseSettingsActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
     public static class PieSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class AggressiveBatteryActivity extends SettingsActivity { /* empty */ }
+    public static class AnimationsSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class BatteryScreenSettingsSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class ButtonsSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class ClockDateSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class DialerSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class EdgeGesturesSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class GamingModeActivity extends SettingsActivity { /* empty */ }
+    public static class GeneralTweaksActivity extends SettingsActivity { /* empty */ }
+    public static class GesturesSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class LockScreenSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class NotificationsSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class OmniGestureSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class PowerMenuSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class StatusBarBatteryActivity extends SettingsActivity { /* empty */ }
+    public static class StatusBarSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class SystemSoundSettings extends SettingsActivity { /* empty */ }
+    public static class VolumeStepsFragment extends SettingsActivity { /* empty */ }
 
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
