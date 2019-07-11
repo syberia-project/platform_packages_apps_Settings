@@ -25,6 +25,7 @@ import com.android.settings.PrivacySettings;
 import com.android.settings.Settings;
 import com.android.settings.Settings.FlingSettingsActivity;
 import com.android.settings.Settings.NavigationSettingsActivity;
+import com.android.settings.Settings.GamingModeActivity;
 import com.android.settings.Settings.PulseSettingsActivity;
 import com.android.settings.Settings.SmartbarSettingsActivity;
 import com.android.settings.TestingSettings;
@@ -361,6 +362,7 @@ public class SettingsGateway {
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(), 
+            Settings.GamingModeActivity.class.getName(),
             Settings.PulseSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.PieSettingsActivity.class.getName()
