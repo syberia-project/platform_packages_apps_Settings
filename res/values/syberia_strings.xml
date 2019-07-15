@@ -36,17 +36,17 @@
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <string name="ok_string">Ok</string>
-    
+
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
-    
+
     <!-- Scramble PIN Layout on Lockscreen -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
-    
-    <string name="theme_category_title">System theme</string>
-    
+
+    <string name="theme_category_title">User Interface Settings</string>
+
     <!-- SystemUI theme -->
     <string name="systemui_theme_style_title">SystemUI theme</string>
     <string name="systemui_theme_style_auto">Automatic (wallpaper based)</string>
@@ -54,7 +54,7 @@
     <string name="systemui_theme_style_dark">Dark</string>
     <string name="system_theme_style_black">Black</string>
     <string name="system_theme_style_syberia">Syberia</string>
-    
+
     <string name="applying_theme_toast">Applying theme, please wait...</string>
     <string name="theme_applied_toast">Theme applied!</string>
 
@@ -116,7 +116,7 @@
     <string name="qs_tile_style_circle_trim">Circle with trim</string>
     <string name="qs_tile_style_two_tone_circle">Two-toned circle with trim</string>
     <string name="qs_tile_style_squircle_trim">Squircle with trim</string>
-    
+
     <!-- Selinux -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
@@ -363,7 +363,7 @@
     <string name="app_ops_labels_write_external_storage">Write to external storage</string>
     <string name="app_ops_labels_write_mms">Write an MMS message</string>
     <string name="app_ops_labels_write_sms">Write SMS</string>
-    
+
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">Less frequent notification sounds</string>
     <string name="less_notification_sounds_summary">Play the notification sound of each app only once per set time period</string>
@@ -413,7 +413,7 @@
     <!-- Device Parts -->
     <string name="device_part_title">Device features</string>
     <string name="device_part_summary">Device Speicific Features</string>
-    
+
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
 
@@ -451,7 +451,7 @@
     <string name="dashboard_suggestions_title">Dashboard suggestions</string>
     <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
     <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
-    
+
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
 
