@@ -42,7 +42,7 @@
     <string name="theme_accent_picker_summary">Выберите цвет акцента для системной темы</string>
     <string name="theme_accent_picker_default">По умолчанию</string>
 
-    <string name="theme_category_title">Системная тема</string>
+    <string name="theme_category_title">Пользовательские настройки интерфейса</string>
 
     <!-- SystemUI theme -->
     <string name="systemui_theme_style_title">Тема SystemUI</string>
