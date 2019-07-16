@@ -15,11 +15,6 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Device specific doze package -->
-    <string name="config_customDozePackage" translatable="false"></string>
-
     <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">false</bool>
-
+    <java-symbol type="bool" name="config_supportSmartCharging" />
 </resources>
