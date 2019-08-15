@@ -251,4 +251,8 @@
     <string name="battery_stats_reset">Сброс статистики</string>
     <string name="battery_stats_message">Статистика использования батареи будет сброшена</string>
 
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Позволять клиентам точки доступа использовать текущее VPN соединение</string>
+
 </resources>
