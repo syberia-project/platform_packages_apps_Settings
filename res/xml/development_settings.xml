@@ -364,7 +364,8 @@
         <SwitchPreference
             android:key="force_rtl_layout_all_locales"
             android:title="@string/force_rtl_layout_all_locales"
-            android:summary="@string/force_rtl_layout_all_locales_summary" />
+            android:summary="@string/force_rtl_layout_all_locales_summary" 
+            android:defaultValue="true" />
 
         <com.android.settings.AnimationScalePreference
             android:key="window_animation_scale"
