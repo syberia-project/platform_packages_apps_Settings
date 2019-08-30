@@ -75,6 +75,13 @@
       "github_link": "https://github.com/kondors1995"
     },
     {
+      "device": "Xiaomi Redmi K20 Pro (raphael)",
+      "name": "NATO666613",
+      "avatar": "https://avatars3.githubusercontent.com/u/7190697?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/k20-pro/development/rom-syberia-project-t3962628",
+      "github_link": "https://github.com/kondors1995"
+    },
+    {
       "device": "Xiaomi Redmi 3s (land)",
       "name": "Weritos666",
       "avatar": "https://avatars2.githubusercontent.com/u/3286052?s=400&v=4",
@@ -100,14 +107,14 @@
       "name": "mdeejay",
       "avatar": "https://avatars0.githubusercontent.com/u/747233?s=400&v=4",
       "xda_link": "https://forum.xda-developers.com/redmi-note-5/development/rom-syberia-project-t3884842",
-      "github_link": "https://github.com/Tissot-Beast"
+      "github_link": "https://github.com/mdeejay"
     },
     {
       "device": "Xiaomi Redmi Note 7 (lavender)",
       "name": "mdeejay",
       "avatar": "https://avatars0.githubusercontent.com/u/747233?s=400&v=4",
       "xda_link": "https://forum.xda-developers.com/redmi-note-7/development/rom-syberia-project-t3940835",
-      "github_link": "https://github.com/Tissot-Beast"
+      "github_link": "https://github.com/mdeejay"
     },
     {
       "device": "Xiaomi Redmi Note 6 Pro (tulip)",
@@ -138,6 +145,13 @@
       "github_link": "https://github.com/rashedsahaji"
     },
     {
+      "device": "Xiaomi Redmi Note 7 Pro (violet)",
+      "name": "rashedsahaji",
+      "avatar": "https://avatars1.githubusercontent.com/u/42634886?s=400&v=4",
+      "xda_link": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-syberia-project-t3962568",
+      "github_link": "https://github.com/rashedsahaji"
+    },
+    {
       "device": "Asus ZenFone Max Pro M1 (x00t)",
       "name": "Kanishk",
       "avatar": "https://avatars3.githubusercontent.com/u/44691992?s=460&v=4",
@@ -157,6 +171,13 @@
       "avatar": "https://avatars1.githubusercontent.com/u/41122324?s=400&v=4",
       "xda_link": "https://forum.xda-developers.com/moto-g5s-plus/development/rom-syberia-project-t3947216",
       "github_link": "https://github.com/sai4041412"
+    },
+    {
+      "device": "Xiaomi Mi9 (cepheus)",
+      "name": "mesziman",
+      "avatar": "https://avatars0.githubusercontent.com/u/4874388?s=460&v=4",
+      "xda_link": "https://forum.xda-developers.com/Mi-9/development/rom-syberia-project-2-8-t3963061",
+      "github_link": "https://github.com/mesziman"
     }
   ]
 }
