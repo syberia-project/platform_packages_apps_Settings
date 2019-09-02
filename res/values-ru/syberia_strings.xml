@@ -27,7 +27,7 @@
     <string name="battery_stats_reset">Сбросить статистику</string>
     <string name="battery_stats_message">Статистика батареи будет сброшена</string>
     <string name="ok_string">Ok</string>
-    
+
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Разблокировать автоматически при корректном вводе ПИНа/пароля</string>
@@ -81,7 +81,7 @@
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук при снятии скриншота</string>
-    
+
     <!-- MSIM Manual provisioning -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_enabled">включена</string>
@@ -102,14 +102,14 @@
     <string name="available_sims_title">Доступные SIM-карты</string>
 
     <string name="weather_title">Погода</string>
-    
+
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Стиль плиток быстрых настроек</string>  
     <string name="qs_tile_style_default">По умолчанию</string>
     <string name="qs_tile_style_circle_trim">Круг с отделкой</string>
     <string name="qs_tile_style_two_tone_circle">Двухцветный круг</string>
     <string name="qs_tile_style_squircle_trim">Скругла с отделкой</string>
-    
+
     <!-- Selinux -->
     <string name="selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Отключен</string>
@@ -143,7 +143,7 @@
     <string name="app_ops_categories_bootup">Загрузка</string>
     <string name="app_ops_categories_su">Суперпользователь</string>
     <string name="app_ops_categories_other">Другое</string>
-    
+
     <!-- User display names for app ops codes - extension of AOSP -->
     <string name="app_ops_summaries_accept_handover">передача вызова из другого приложения</string>
     <string name="app_ops_summaries_access_camera">доступ к камере</string>
@@ -260,7 +260,7 @@
     <string name="app_ops_summaries_start_at_boot">запуск при загрузке</string>
     <string name="app_ops_summaries_toggle_nfc">переключить состояние модуля NFC</string>
     <string name="app_ops_summaries_toggle_mobile_data">переключить состояние мобильного интернета</string>
-    
+
     <!-- User display names for app ops codes - extension of AOSP -->
     <string name="app_ops_labels_accept_handover">Передача вызова из другого приложения</string>
     <string name="app_ops_labels_access_camera">Доступ к камере</string>
@@ -377,19 +377,19 @@
     <string name="app_ops_labels_start_at_boot">Запуск при загрузке</string>
     <string name="app_ops_labels_toggle_nfc">Переключить NFC</string>
     <string name="app_ops_labels_toggle_mobile_data">Переключить состояние мобильного интернета</string>
-    
+
     <!-- App ops permissions -->
     <string name="app_ops_permissions_allowed">Разрешать</string>
     <string name="app_ops_permissions_ignored">Запрещать</string>
     <string name="app_ops_permissions_always_ask">Спрашивать</string>
-    
+
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (использовано <xliff:g id="count">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">Разрешено <xliff:g id="count" example="2 times">%s</xliff:g></string>
     <string name="app_ops_ignored_count">Запрещено <xliff:g id="count" example="2 times">%s</xliff:g></string>
     <string name="app_ops_both_count">Разрешено <xliff:g id="count">%1$s</xliff:g>, запрещено <xliff:g id="count">%2$s</xliff:g></string>
     <string name="app_ops_no_blockable_permissions">Нет разрешений, доступных для блокировки</string>
-    
+
     <!-- App ops menu options -->
     <string name="app_ops_show_user_apps">Загруженные приложения</string>
     <string name="app_ops_show_system_apps">Системные приложения</string>
@@ -414,7 +414,7 @@
     <string name="privacy_guard_manager_show_system_apps">Системные приложения</string>
     <string name="privacy_guard_advanced_settings_title">Дополнительно</string>
     <string name="privacy_guard_notification_title">Показывать уведомление</string>
-    
+
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">Менее частые уведомления</string>
     <string name="less_notification_sounds_summary">Воспроизводите звук уведомления каждого приложения только один раз за установленный период времени</string>
@@ -464,13 +464,13 @@
     <!-- Device Parts -->
     <string name="device_part_title">Дополнительная настройка</string>
     <string name="device_part_summary">Дополнительные настройки устройства</string>
-    
+
     <!-- Running services -->
     <string name="background_processes_settings_title">Фоновые процессы</string>
 
     <string name="hide_notch_title">Скрыть вырез</string>
     <string name="hide_notch_summary">Принудительно скрыть вырез экрана</string>
-    
+
     <!-- AmbientDisplay music ticker -->
     <string name="force_ambient_for_media_title">Музыкальное уведомление</string>
     <string name="force_ambient_for_media_summary">Показывать информацию о текущем треке на экране блокировки и во время переключения трека.</string>
@@ -478,6 +478,10 @@
     <!-- Switch styles -->
     <string name="switch_style_title">Стиль переключателей</string>
     <string name="switch_default">По умолчанию</string>
+
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Блокировать результаты жестов касаний</string>
+    <string name="edge_gesture_service_summary">Не отправляйте приложениям результаты касаний жестов навигации и строки состояния </string>
 
     <!-- Android debugging over network -->
     <string name="adb_over_network">Отладка по сети</string>
@@ -496,7 +500,7 @@
     <string name="dashboard_suggestions_title">Подсказки в главном меню</string>
     <string name="summary_dashboard_suggestions_enabled">Подсказки в главном меню включены</string>
     <string name="summary_dashboard_suggestions_disabled">Подсказки в главном меню выключены</string>
-    
+
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Глубокий сон: %1$d%2$s)</string>
 
@@ -510,7 +514,7 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Приложения в полный экран</string>
     <string name="display_cutout_force_fullscreen_summary">Приложения будут принудительно игнорировать вырез экрана</string>
-    
+
     <!-- LiveDisplay -->
     <string name="live_display_summary">Подстраивать экран на основе времени суток и освещения, чтобы повысить удобочитаемость и снизить нагрузку на глаза</string>
     <string name="live_display_mode">Режим</string>
