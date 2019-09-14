@@ -69,6 +69,14 @@
         settings:highlightableMenuKey="@string/menu_key_notifications"/>
 
     <com.android.settings.widget.HomepagePreference
+        android:key="top_level_syberia_settings"
+        android:title="@string/syberia_settings_title"
+        android:summary="@string/syberia_dashboard_summary"
+        android:icon="@drawable/ic_settings_syberia_white"
+        android:order="-95"
+        android:fragment="com.syberia.settings.SyberiaSettings"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.fuelgauge.batteryusage.PowerUsageSummary"
         android:icon="@drawable/ic_settings_battery_white"
         android:key="top_level_battery"
