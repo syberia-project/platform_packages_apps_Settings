@@ -47,6 +47,14 @@
         android:fragment="com.android.settings.applications.AppAndNotificationDashboardFragment"/>
 
     <Preference
+        android:key="top_level_syberia_settings"
+        android:title="@string/syberia_settings_title"
+        android:summary="@string/syberia_dashboard_summary"
+        android:icon="@drawable/ic_homepage_syberia"
+        android:order="-95"
+        android:fragment="com.syberia.settings.SyberiaSettings"/>
+
+    <Preference
         android:key="top_level_battery"
         android:title="@string/power_usage_summary_title"
         android:summary="@string/summary_placeholder"
