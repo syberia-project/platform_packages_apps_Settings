@@ -37,4 +37,6 @@
 
     <string name="global_actions_title">Меню кнопки питания</string>
 
+    <string name="battery_temp">Температура батареи</string>
+
 </resources>

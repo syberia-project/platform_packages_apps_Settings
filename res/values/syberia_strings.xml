@@ -40,4 +40,6 @@
 
     <string name="global_actions_title">Power menu</string>
 
+    <string name="battery_temp">Battery temperature</string>
+
 </resources>
