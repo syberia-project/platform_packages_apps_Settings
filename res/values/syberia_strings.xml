@@ -116,4 +116,6 @@
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Total RAM</string>
 
+    <string name="battery_temp">Battery temperature</string>
+
 </resources>
