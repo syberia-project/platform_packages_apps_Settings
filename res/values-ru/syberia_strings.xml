@@ -115,4 +115,6 @@
     <string name="platform_revision">Платформа</string>
     <string name="total_ram">Всего оперативной памяти</string>
 
+    <string name="battery_temp">Температура батареи</string>
+
 </resources>
