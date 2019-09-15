@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2016 The CyanogenMod Project
+     Copyright (C) 2017-2019 The LineageOS Project
+     Copyright (C) 2014-2020 AICP
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text">"<xliff:g id="package_name">%1$s</xliff:g>"</string>
+
+    <!-- AıcpExtras -->
+    <string name="aicp_version_title">AICP Experience</string>
+    <string name="aicp_version_summary">AICP 12 Edition - 17.0</string>
+    <string name="aicpextras_title">AICP Extras</string>
+    <string name="aicpextras_summary">ROM customization</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- [CHAR LIMIT=50] Summary of the preference that opens the Ambient display settings screen, when Ambient display is set to be always on -->
+    <string name="ambient_display_screen_summary_always_on">Always on / Increased battery usage</string>
+    <!-- [CHAR LIMIT=30] Summary of the preference that opens the Ambient display settings screen, when Ambient display is set to show when new notifications come in. -->
+    <string name="ambient_display_screen_summary_notifications">New notifications</string>
+
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Rooted debugging</string>
+    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+
+    <!-- About -->
+    <string name="about_device_name">Device</string>
+
+    <!-- Hardware info -->
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s today</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Auto Rotate Options</string>
+    <string name="display_rotation_summary">Configure screen auto-rotate functions</string>
+    <string name="display_rotation_disabled">Disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+
+    <!-- Battery image -->
+    <string name="battery_image">Battery image</string>
+    <string name="battery_image_description">Show battery image in status bar</string>
+
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
+
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Full</string>
+    <string name="back_height_high_label">Bottom</string>
+    <string name="gesture_height_category_title">Back gesture</string>
+    <string name="gesture_region">Vertical region</string>
+    <string name="back_height_message">Size of the vertical display side-areas used for back gesture.</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Volume steps</string>
+    <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
+    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
+    <string name="volume_steps_music_title">Volume steps: Music</string>
+    <string name="volume_steps_notification_title">Volume steps: Notification</string>
+    <string name="volume_steps_ring_title">Volume steps: Ringer</string>
+    <string name="volume_steps_system_title">Volume steps: System</string>
+    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
+    <string name="volume_steps_reset">Reset</string>
+    <string name="volume_steps_60">60</string>
+    <string name="volume_steps_45">45</string>
+    <string name="volume_steps_30">30</string>
+    <string name="volume_steps_15">15</string>
+    <string name="volume_steps_7">7</string>
+    <string name="volume_steps_5">5</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
+
+    <!-- Gesture navigation handle -->
+    <string name="navbar_gesture_handle_category">Gesture handle</string>
+    <string name="navbar_gesture_handle_hide_title">Hide gesture handle</string>
+    <string name="navbar_gesture_handle_hide_summary">Hide horizontal line</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_usage_stats_reset">Reset stats</string>
+    <string name="battery_usage_stats_reset_message">Battery history stats are going to be reset</string>
+
+    <string name="battery_temp">Battery temperature</string>
+</resources>
