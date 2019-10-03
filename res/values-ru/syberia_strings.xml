@@ -127,5 +127,8 @@
     <string name="reset_settings_title">Пользовательские настройки</string>
     <string name="reset_settings_summary">Сбросить пользовательские настройки Syberia</string>
     <string name="keywords_settings_reset">сброс</string>
+    
+    <!-- Hide gesture navigation bar -->
+    <string name="hide_gesture_navigation_bar_title">Скрыть навигационную панель жестов</string>
 
 </resources>
