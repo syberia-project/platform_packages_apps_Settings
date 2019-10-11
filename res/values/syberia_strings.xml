@@ -171,4 +171,7 @@
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)"</string>
     <string name="value_equals_default">def</string>
 
+    <!-- Lockscreen rotation -->
+    <string name="lockscreen_rotation_title">Auto-rotate lockscreen</string>
+
 </resources>
