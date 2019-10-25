@@ -187,4 +187,7 @@
     <string name="theme_customization_font_title">Шрифт</string>
     <string name="theme_customization_icon_shape_title">Форма иконок</string>
 
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Нажмите для отображения информации</string>
+
 </resources>
