@@ -174,4 +174,7 @@
     <string name="doze_on_charge_title">AOD на зарядке</string>
     <string name="doze_on_charge_summary">Экран будет в режиме AOD во время зарядки</string>
 
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Нажмите чтобы увидеть информацию</string>
+
 </resources>
