@@ -182,4 +182,7 @@
     <string name="back_options_dialog_title">Опции</string>
     <string name="back_height_message">Высота экрана используемая для жеста назад</string>
 
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Нажать для отображения информации</string>
+
 </resources>
