@@ -151,6 +151,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.syberia.settings.SyberiaSettings;
 import com.syberia.settings.fragments.OmniJawsSettings;
 import com.android.settings.livedisplay.LiveDisplaySettings;
+import com.syberia.settings.fragments.GamingMode;
 
 public class SettingsGateway {
 
@@ -290,7 +291,8 @@ public class SettingsGateway {
             GlobalActionsPanelSettings.class.getName(),
             SyberiaSettings.class.getName(),
             LiveDisplaySettings.class.getName(),
-            OmniJawsSettings.class.getName()
+            OmniJawsSettings.class.getName(),
+            GamingMode.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -331,5 +333,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.SyberiaSettingsActivity.class.getName(),
             Settings.OmniJawsSettingsActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
     };
-            }
+}
