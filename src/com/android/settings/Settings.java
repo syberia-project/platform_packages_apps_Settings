@@ -251,4 +251,7 @@ public class Settings extends SettingsActivity {
     public static class VolumeStepsFragmentActivity extends SettingsActivity { /* empty */ }
 
     public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
+
+    // Gaming mode
+    public static class GamingModeActivity extends SettingsActivity {}
 }
