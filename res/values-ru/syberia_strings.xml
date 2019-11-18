@@ -243,4 +243,8 @@
     <string name="back_swipe_extended_title">Действие при очень длинном свайпе</string>
     <string name="back_swipe_extended_summary">Действие будет выполнено при горизонтальном свайпе не менее чем в 1\/2 размера экрана, либо L-образном свайпе</string>
 
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Анимация жестов назад</string>
+    <string name="back_gesture_arrow_summary">Отображать анимацию для жеста назад</string>
+
 </resources>
