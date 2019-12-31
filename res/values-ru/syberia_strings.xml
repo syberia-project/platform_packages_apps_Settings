@@ -182,4 +182,9 @@
     <string name="back_options_dialog_title">Опции</string>
     <string name="back_height_message">Высота экрана используемая для жеста назад</string>
 
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="theme_customization_accent_color_title">Цвет акцента</string>
+    <string name="theme_customization_font_title">Шрифт</string>
+    <string name="theme_customization_icon_shape_title">Форма иконок</string>
+
 </resources>
