@@ -194,4 +194,13 @@
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Отображать анимацию для жеста назад</string>
 
+    <!-- Control Vibration intensities -->
+    <string name="vibration_intensity_ringer">Интенсивность вибрации при звонке</string>
+    <string name="vibration_intensity_notification">Интенсивность вибрации уведомлений</string>
+    <string name="vibration_intensity_disabled">Отключена</string>
+    <string name="vibration_intensity_light">Легкая</string>
+    <string name="vibration_intensity_medium">Средняя</string>
+    <string name="vibration_intensity_strong">Сильная</string>
+    <string name="vibration_intensity_custom">Пользовательская</string>
+
 </resources>
