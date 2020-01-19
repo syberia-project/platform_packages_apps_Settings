@@ -265,4 +265,6 @@
     <string name="doze_on_charge_title">AOD на зарядке</string>
     <string name="doze_on_charge_summary">Экран будет в режиме AOD во время зарядки</string>
 
+    <string name="theme_customization_primary_color_title">Основной цвет</string>
+
 </resources>
