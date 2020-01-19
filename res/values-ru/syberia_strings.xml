@@ -132,4 +132,6 @@
     <string name="display_rotation_180_title">180 градусов</string>
     <string name="display_rotation_270_title">270 градусов</string>
 
+    <string name="theme_customization_primary_color_title">Основной цвет</string>
+
 </resources>
