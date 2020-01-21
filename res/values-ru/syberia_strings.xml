@@ -309,4 +309,8 @@
     <string name="fp_wake_unlock_touch">Касание</string>
     <string name="fp_wake_unlock_press">Нажатие</string>
 
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Анимация жеста наза</string>
+    <string name="back_gesture_arrow_summary">Отображать стрелку для жеста назад</string>
+
 </resources>
