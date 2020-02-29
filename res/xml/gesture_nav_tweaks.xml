@@ -19,6 +19,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/navbar_gesture_tweaks_pref_title" >
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="back_swipe_type"
+        android:title="@string/back_swipe_extended_title"
+        android:summary="@string/back_swipe_extended_summary"
+        android:defaultValue="false" />
+
     <com.syberia.settings.preference.SystemSettingListPreference
         android:key="long_back_swipe_timeout"
         android:title="@string/long_back_swipe_timeout_title"
