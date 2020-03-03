@@ -355,4 +355,8 @@
     <!-- Adguard DNS -->
     <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
 
+    <!-- Text shown for the title of the panic option -->
+    <string name="panic_settings_title">Show Panic option</string>
+    <!-- Text shown for the description of the panic option -->
+    <string name="panic_settings_summary">Display power button option that activates an emergency panic trigger.</string>
 </resources>
