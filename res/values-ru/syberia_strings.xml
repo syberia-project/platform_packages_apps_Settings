@@ -347,4 +347,9 @@
     <string name="pattern_custom">Свой шаблон</string>
     <string name="custom_vibration_pattern_title">Настройте свой шаблон вибрации</string>
 
+    <!-- Text shown for the title of the panic option -->
+    <string name="panic_settings_title">Включить функцию паники</string>
+    <!-- Text shown for the description of the panic option -->
+    <string name="panic_settings_summary">Включение триггера экстренной функции паники в меню кнопки питания</string>
+
 </resources>
