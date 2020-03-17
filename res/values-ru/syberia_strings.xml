@@ -118,9 +118,6 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Разблокировать устройство без нажатия OK</string>
-    
-    <!-- Hide gesture navigation bar -->
-    <string name="hide_gesture_navigation_bar_title">Скрыть навигационную панель жестов</string>
 
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Минимальное время между уведомлениями</string>

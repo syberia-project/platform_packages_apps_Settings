@@ -107,6 +107,8 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
 
     private VideoPreference mVideoPreference;
 
+    private static boolean mOverlayEnabled = false;
+
     private static final String KEY_GESTURE_NAV_TWEAKS_CAT = "gesture_nav_tweaks_category";
     private static final String KEY_GESTURE_NAV_TWEAKS_PREF = "gesture_nav_custom_options";
     private CustomPreferenceCategory mGestureTweaksCategory;
@@ -317,15 +319,12 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
             case KEY_SYSTEM_NAV_GESTURAL:
                 int sensitivity = getBackSensitivity(context, overlayManager);
                 setNavBarInteractionMode(overlayManager, BACK_GESTURE_INSET_OVERLAYS[sensitivity]);
-                NavBarUtils.setGesturalNavBarHiddenOverlay(overlayManager, USER_CURRENT, NavBarUtils.isGesturalNavBarHidden(context, USER_CURRENT));
                 break;
             case KEY_SYSTEM_NAV_2BUTTONS:
                 setNavBarInteractionMode(overlayManager, NAV_BAR_MODE_2BUTTON_OVERLAY);
-                NavBarUtils.setGesturalNavBarHiddenOverlay(overlayManager, USER_CURRENT, false);
                 break;
             case KEY_SYSTEM_NAV_3BUTTONS:
                 setNavBarInteractionMode(overlayManager, NAV_BAR_MODE_3BUTTON_OVERLAY);
-                NavBarUtils.setGesturalNavBarHiddenOverlay(overlayManager, USER_CURRENT, false);
                 break;
         }
     }
@@ -333,10 +332,22 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
     private static void setNavBarInteractionMode(IOverlayManager overlayManager,
             String overlayPackage) {
         try {
+            if (getBackSensivityOverlay()) {
+                mOverlayEnabled = false;
+                overlayManager.setEnabled(overlayPackage, false, USER_CURRENT);
+            }
             overlayManager.setEnabledExclusiveInCategory(overlayPackage, USER_CURRENT);
         } catch (RemoteException e) {
             throw e.rethrowFromSystemServer();
         }
+    }
+
+    public static void setBackSensivityOverlay(boolean overlayEnabled) {
+        mOverlayEnabled = overlayEnabled;
+    }
+
+    private static boolean getBackSensivityOverlay() {
+        return mOverlayEnabled;
     }
 
     private static void setIllustrationVideo(VideoPreference videoPref, String systemNavKey) {

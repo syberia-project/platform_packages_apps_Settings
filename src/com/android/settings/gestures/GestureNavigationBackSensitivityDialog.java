@@ -74,19 +74,9 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                 R.layout.dialog_back_gesture_options, null);
         final SeekBar seekBarSensitivity = view.findViewById(R.id.back_sensitivity_seekbar);
         seekBarSensitivity.setProgress(getArguments().getInt(KEY_BACK_SENSITIVITY));
-        Switch mNavBarGesturalHideNav = view.findViewById(R.id.nav_bar_gestural_hide_nav_switch);
 
         Switch mEdgeHaptic = view.findViewById(R.id.back_gesture_haptic);
 
-        boolean mIsGesturalNavBarHidden = NavBarUtils.isGesturalNavBarHidden(getContext(), USER_CURRENT);
-        if (SystemNavigationPreferenceController.isEdgeToEdgeEnabled(getContext())) {
-            OverlayInfo ovInfo = null;
-            try {
-                ovInfo = overlayManager.getOverlayInfo(NavBarUtils.NAV_BAR_GESTURAL_HIDE_NAV_OVERLAY, USER_CURRENT);
-            } catch (RemoteException e) { }
-            mIsGesturalNavBarHidden = mIsGesturalNavBarHidden && ovInfo != null && (ovInfo.state == OverlayInfo.STATE_ENABLED);
-        }
-        mNavBarGesturalHideNav.setChecked(NavBarUtils.isGesturalNavBarHidden(getContext(), USER_CURRENT));
         mEdgeHaptic.setChecked(NavBarUtils.isBackHapticEnabled(getContext(), USER_CURRENT));
         final SeekBar seekBarHeight = view.findViewById(R.id.back_height_seekbar);
         seekBarHeight.setProgress(getArguments().getInt(KEY_BACK_HEIGHT));
@@ -119,13 +109,6 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                             overlayManager, sensitivity);
                     Settings.Secure.putInt(getActivity().getContentResolver(),
                             Settings.Secure.SHOW_BACK_ARROW_GESTURE, mArrowSwitchChecked ? 1 : 0);
-                    final boolean mNavBarGesturalHideNavEnabled = mNavBarGesturalHideNav.isChecked();
-                    if (SystemNavigationPreferenceController.isEdgeToEdgeEnabled(getContext())) {
-                        if (NavBarUtils.setGesturalNavBarHiddenOverlay(overlayManager, USER_CURRENT, mNavBarGesturalHideNavEnabled)) {
-                            Settings.System.putIntForUser(getContext().getContentResolver(),
-                                    Settings.System.NAV_BAR_GESTURAL_HIDE_NAV, mNavBarGesturalHideNavEnabled ? 1 : 0, USER_CURRENT);
-                        }
-                    }
                 })
                 .create();
     }

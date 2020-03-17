@@ -18,8 +18,10 @@ package com.android.settings.gestures;
 
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.om.IOverlayManager;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.os.ServiceManager;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import androidx.preference.ListPreference;
@@ -100,10 +102,14 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
 
         mGestureBarSize = (ListPreference) findPreference(KEY_GESTURE_BAR_SIZE);
         int gesturebarsize = Settings.System.getIntForUser(resolver,
-                Settings.System.NAVIGATION_HANDLE_WIDTH, 0, UserHandle.USER_CURRENT);
+                Settings.System.NAVIGATION_HANDLE_WIDTH, 1, UserHandle.USER_CURRENT);
         mGestureBarSize.setValue(String.valueOf(gesturebarsize));
         mGestureBarSize.setSummary(mGestureBarSize.getEntry());
         mGestureBarSize.setOnPreferenceChangeListener(this);
+    }
+
+    private IOverlayManager getOverlayManager() {
+        return IOverlayManager.Stub.asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -138,6 +144,11 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
             Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.NAVIGATION_HANDLE_WIDTH, value,
                     UserHandle.USER_CURRENT);
+            int index = mGestureBarSize.findIndexOfValue((String) newValue);
+            mGestureBarSize.setSummary(mGestureBarSize.getEntries()[index]);
+            SystemNavigationGestureSettings.setBackSensivityOverlay(true);
+            SystemNavigationGestureSettings.setCurrentSystemNavigationMode(getActivity(),
+                    getOverlayManager(), SystemNavigationGestureSettings.getCurrentSystemNavigationMode(getActivity()));
             return true;
         }
         return false;

@@ -141,9 +141,6 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
-    
-    <!-- Hide gesture navigation bar -->
-    <string name="hide_gesture_navigation_bar_title">Hide gesture navigation bar</string>
 
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
@@ -265,7 +262,8 @@
     <string name="back_swipe_extended_summary">Trigger action if the swipe is horizontally wider than 3\/4 of display size</string>
 
     <!-- Gesture navbar handle -->
-    <string name="gesture_navbar_handle_title">Gesture bar size</string>
+    <string name="gesture_navbar_handle_title">Handle bar size</string>
+    <string name="gesture_navbar_handle_hidden">Hidden</string>
     <string name="gesture_navbar_handle_default">Default</string>
     <string name="gesture_navbar_handle_middle">Middle</string>
     <string name="gesture_navbar_handle_large">Large</string>
