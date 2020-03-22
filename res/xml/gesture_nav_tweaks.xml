@@ -64,6 +64,13 @@
             android:targetClass="com.android.systemui.statusbar.phone.RightBackSwipeCustomApp" />
     </Preference>
 
+
+    <ListPreference
+        android:key="navigation_handle_width"
+        android:title="@string/gesture_navbar_handle_title"
+        android:entries="@array/gesture_navbar_handle_entries"
+        android:entryValues="@array/gesture_navbar_handle_values" />
+
     <com.android.settingslib.widget.FooterPreference
         android:title="@string/gesture_nav_tweaks_footer_info" />
 </PreferenceScreen>

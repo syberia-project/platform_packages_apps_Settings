@@ -42,6 +42,8 @@ import java.util.List;
 public class GestureTweaksSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener, Indexable {
 
+    private static final String KEY_GESTURE_BAR_SIZE = "navigation_handle_width";
+
     private int leftSwipeActions;
     private int rightSwipeActions;
 
@@ -51,6 +53,7 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
     private Preference mRightSwipeAppSelection;
     private SystemSettingListPreference mTimeout;
     private SystemSettingSwitchPreference mExtendedSwipe;
+    private ListPreference mGestureBarSize;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -94,6 +97,13 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
         mExtendedSwipe.setChecked(extendedSwipe);
         mExtendedSwipe.setOnPreferenceChangeListener(this);
         mTimeout.setEnabled(!mExtendedSwipe.isChecked());
+
+        mGestureBarSize = (ListPreference) findPreference(KEY_GESTURE_BAR_SIZE);
+        int gesturebarsize = Settings.System.getIntForUser(resolver,
+                Settings.System.NAVIGATION_HANDLE_WIDTH, 0, UserHandle.USER_CURRENT);
+        mGestureBarSize.setValue(String.valueOf(gesturebarsize));
+        mGestureBarSize.setSummary(mGestureBarSize.getEntry());
+        mGestureBarSize.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -123,6 +133,12 @@ public class GestureTweaksSettings extends SettingsPreferenceFragment
             boolean enabled = ((Boolean) newValue).booleanValue();
             mExtendedSwipe.setChecked(enabled);
             mTimeout.setEnabled(!enabled);
+        } else if (preference == mGestureBarSize) {
+            int value = Integer.parseInt((String) newValue);
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
+                    Settings.System.NAVIGATION_HANDLE_WIDTH, value,
+                    UserHandle.USER_CURRENT);
+            return true;
         }
         return false;
     }
