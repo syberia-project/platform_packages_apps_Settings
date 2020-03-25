@@ -118,7 +118,7 @@ public class MobileNetworkSwitchController extends BasePreferenceController impl
 
     @Override
     public int getAvailabilityStatus() {
-        if (FeatureFlagPersistent.isEnabled(mContext, FeatureFlags.NETWORK_INTERNET_V2)) {
+        if (FeatureFlagPersistent.isEnabled(mContext, FeatureFlags.NETWORK_INTERNET_V2) || true) {
             return AVAILABLE_UNSEARCHABLE;
         } else {
             return CONDITIONALLY_UNAVAILABLE;

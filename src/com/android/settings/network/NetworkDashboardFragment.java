@@ -60,7 +60,7 @@ public class NetworkDashboardFragment extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        if (FeatureFlagPersistent.isEnabled(getContext(), FeatureFlags.NETWORK_INTERNET_V2)) {
+        if (FeatureFlagPersistent.isEnabled(getContext(), FeatureFlags.NETWORK_INTERNET_V2) || true) {
             return R.xml.network_and_internet_v2;
         } else {
             return R.xml.network_and_internet;
@@ -71,7 +71,7 @@ public class NetworkDashboardFragment extends DashboardFragment implements
     public void onAttach(Context context) {
         super.onAttach(context);
 
-        if (FeatureFlagPersistent.isEnabled(context, FeatureFlags.NETWORK_INTERNET_V2)) {
+        if (FeatureFlagPersistent.isEnabled(context, FeatureFlags.NETWORK_INTERNET_V2) || true) {
             use(MultiNetworkHeaderController.class).init(getSettingsLifecycle());
         }
         use(AirplaneModePreferenceController.class).setFragment(this);
@@ -96,9 +96,6 @@ public class NetworkDashboardFragment extends DashboardFragment implements
         final WifiMasterSwitchPreferenceController wifiPreferenceController =
                 new WifiMasterSwitchPreferenceController(context, metricsFeatureProvider);
         MobileNetworkPreferenceController mobileNetworkPreferenceController = null;
-        if (!FeatureFlagPersistent.isEnabled(context, FeatureFlags.NETWORK_INTERNET_V2)) {
-            mobileNetworkPreferenceController = new MobileNetworkPreferenceController(context);
-        }
 
         final VpnPreferenceController vpnPreferenceController =
                 new VpnPreferenceController(context);
@@ -117,7 +114,7 @@ public class NetworkDashboardFragment extends DashboardFragment implements
 
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
 
-        if (FeatureFlagPersistent.isEnabled(context, FeatureFlags.NETWORK_INTERNET_V2)) {
+        if (FeatureFlagPersistent.isEnabled(context, FeatureFlags.NETWORK_INTERNET_V2) || true) {
             controllers.add(new MobileNetworkSummaryController(context, lifecycle));
         }
         if (mobileNetworkPreferenceController != null) {
@@ -169,7 +166,7 @@ public class NetworkDashboardFragment extends DashboardFragment implements
                         Context context, boolean enabled) {
                     final SearchIndexableResource sir = new SearchIndexableResource(context);
                     if (FeatureFlagPersistent.isEnabled(context,
-                            FeatureFlags.NETWORK_INTERNET_V2)) {
+                            FeatureFlags.NETWORK_INTERNET_V2) || true) {
                         sir.xmlResId = R.xml.network_and_internet_v2;
                     } else {
                         sir.xmlResId = R.xml.network_and_internet;

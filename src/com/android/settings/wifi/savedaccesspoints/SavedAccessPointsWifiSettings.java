@@ -126,6 +126,6 @@ public class SavedAccessPointsWifiSettings extends DashboardFragment {
 
     boolean isSubscriptionsFeatureEnabled() {
         return FeatureFlagUtils.isEnabled(getContext(), FeatureFlags.MOBILE_NETWORK_V2)
-                && FeatureFlagPersistent.isEnabled(getContext(), FeatureFlags.NETWORK_INTERNET_V2);
+                && (FeatureFlagPersistent.isEnabled(getContext(), FeatureFlags.NETWORK_INTERNET_V2) || true);
     }
 }

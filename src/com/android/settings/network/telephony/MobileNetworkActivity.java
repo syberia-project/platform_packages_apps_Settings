@@ -88,7 +88,7 @@ public class MobileNetworkActivity extends SettingsBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if (FeatureFlagPersistent.isEnabled(this, FeatureFlags.NETWORK_INTERNET_V2)) {
+        if (FeatureFlagPersistent.isEnabled(this, FeatureFlags.NETWORK_INTERNET_V2) || true) {
             setContentView(R.layout.mobile_network_settings_container_v2);
         } else {
             setContentView(R.layout.mobile_network_settings_container);
@@ -157,10 +157,6 @@ public class MobileNetworkActivity extends SettingsBaseActivity {
         }
 
         mSubscriptionInfos = mSubscriptionManager.getActiveSubscriptionInfoList(true);
-
-        if (!FeatureFlagPersistent.isEnabled(this, FeatureFlags.NETWORK_INTERNET_V2)) {
-            updateBottomNavigationView();
-        }
 
         if (savedInstanceState == null) {
             switchFragment(new MobileNetworkSettings(), getSubscriptionId());
