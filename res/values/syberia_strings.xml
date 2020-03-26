@@ -209,9 +209,6 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
 
-    <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Show an animated arrow for back gesture.</string>
-
     <!-- Doze on double tap -->
     <string name="double_tap_title">Double tap</string>
     <string name="doze_double_tap_title">Double tap to check phone</string>
@@ -270,5 +267,7 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Haptic feedback</string>
     <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <string name="back_gesture_arrow_anim_title">Show animation</string>
+    <string name="back_gesture_arrow_anim_summary">Show an animated arrow for back gesture</string>
 
 </resources>

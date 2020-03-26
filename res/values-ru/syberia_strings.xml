@@ -187,9 +187,6 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Нажмите для отображения информации</string>
 
-    <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Отображать анимацию для жеста назад</string>
-
     <!-- Doze on double tap -->
     <string name="double_tap_title">Двойное нажатие</string>
     <string name="doze_double_tap_title">Двойное нажатие для проверки</string>
@@ -206,5 +203,7 @@
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Вибрация</string>
     <string name="back_gesture_haptic_summary">Включить вибрацию для жеста назад</string>
+    <string name="back_gesture_arrow_anim_title">Отображать анимацию</string>
+    <string name="back_gesture_arrow_anim_summary">Отображать анимацию для жеста назад</string>
 
 </resources>
