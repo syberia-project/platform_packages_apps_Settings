@@ -52,6 +52,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     contextualcards \
     settings-logtags \
     zxing-core-1.7 \
+    faceunlock_utils \
     glide
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
