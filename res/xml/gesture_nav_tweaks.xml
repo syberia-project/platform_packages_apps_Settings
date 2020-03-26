@@ -20,6 +20,12 @@
     android:title="@string/navbar_gesture_tweaks_pref_title" >
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="back_gesture_haptic"
+        android:title="@string/back_gesture_haptic_title"
+        android:summary="@string/back_gesture_haptic_summary"
+        android:defaultValue="false" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="back_swipe_type"
         android:title="@string/back_swipe_extended_title"
         android:summary="@string/back_swipe_extended_summary"

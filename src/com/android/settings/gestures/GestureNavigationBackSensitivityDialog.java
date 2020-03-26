@@ -34,8 +34,6 @@ import android.widget.Switch;
 import com.android.settings.R;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
 
-import com.syberia.internal.util.NavBarUtils;
-
 /**
  * Dialog to set the back gesture's sensitivity in Gesture navigation mode.
  */
@@ -75,9 +73,6 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         final SeekBar seekBarSensitivity = view.findViewById(R.id.back_sensitivity_seekbar);
         seekBarSensitivity.setProgress(getArguments().getInt(KEY_BACK_SENSITIVITY));
 
-        Switch mEdgeHaptic = view.findViewById(R.id.back_gesture_haptic);
-
-        mEdgeHaptic.setChecked(NavBarUtils.isBackHapticEnabled(getContext(), USER_CURRENT));
         final SeekBar seekBarHeight = view.findViewById(R.id.back_height_seekbar);
         seekBarHeight.setProgress(getArguments().getInt(KEY_BACK_HEIGHT));
         final Switch arrowSwitch = view.findViewById(R.id.back_arrow_gesture_switch);
@@ -99,10 +94,6 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                     getArguments().putInt(KEY_BACK_SENSITIVITY, sensitivity);
                     int height = seekBarHeight.getProgress();
                     getArguments().putInt(KEY_BACK_HEIGHT, height);
-
-                    final boolean isBackHaptic = mEdgeHaptic.isChecked();
-                    Settings.System.putIntForUser(getContext().getContentResolver(),
-                        Settings.System.BACK_GESTURE_HAPTIC, isBackHaptic ? 1 : 0, USER_CURRENT);
 
                     SystemNavigationGestureSettings.setBackHeight(getActivity(), height);
                     SystemNavigationGestureSettings.setBackSensitivity(getActivity(),

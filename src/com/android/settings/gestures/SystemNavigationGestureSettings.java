@@ -58,8 +58,6 @@ import com.android.settings.widget.VideoPreference;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.widget.CandidateInfo;
 
-import com.syberia.internal.util.NavBarUtils;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

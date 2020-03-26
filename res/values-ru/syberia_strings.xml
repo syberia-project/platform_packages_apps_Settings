@@ -178,7 +178,6 @@
     <string name="back_height_high_label">Низ экрана</string>
     <string name="back_options_dialog_title">Опции</string>
     <string name="back_height_message">Высота экрана используемая для жеста назад</string>
-    <string name="back_gesture_haptic">Включить вибрацию для жеста назад</string>
 
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="theme_customization_accent_color_title">Цвет акцента</string>
@@ -203,5 +202,9 @@
     <string name="increasing_ring_volume_option_title">Увеличение громкости звонка</string>
     <string name="increasing_ring_min_volume_title">Начальная громкость</string>
     <string name="increasing_ring_ramp_up_time_title">Время увеличения</string>
+
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Вибрация</string>
+    <string name="back_gesture_haptic_summary">Включить вибрацию для жеста назад</string>
 
 </resources>
