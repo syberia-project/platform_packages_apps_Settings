@@ -195,4 +195,22 @@
     <string name="face_unlock_method_default">Когда экран включен</string>
     <string name="face_unlock_method_swipe">По свайпу вверх</string>
 
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
+    <string name="adaptive_playback_enabled">Использовать адаптивное воспроизведение</string>
+    <string name="adaptive_playback_disabled_summary">Выключено</string>
+    <string name="adaptive_playback_timeout_title">Задержка в </string>
+    <string name="adaptive_playback_timeout_none">Без задержки</string>
+    <string name="adaptive_playback_timeout_none_summary">Включено (без задержки)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Включено (30 секунд)</string>
+    <string name="adaptive_playback_timeout_1_min">1 минута</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Включено (1 минута)</string>
+    <string name="adaptive_playback_timeout_2_min">2 минуты</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Включено (2 минуты)</string>
+    <string name="adaptive_playback_timeout_5_min">5 минут</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Включено (5 минут)</string>
+    <string name="adaptive_playback_timeout_10_min">10 минут</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Включено (10 минут)</string>
+
 </resources>
