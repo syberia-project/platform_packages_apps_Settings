@@ -172,4 +172,7 @@
     <string name="fod_gesture_title">Отпечаток при выключенном экране</string>
     <string name="fod_gesture_summary">Разрешить разблокировку устройства без включения экрана</string>
 
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">Свайп для разблокировки</string>
+    <string name="security_settings_face_require_swipe_summary">Свайп вверх на заблокированном экране для использования фейсконтроля</string>
 </resources>
