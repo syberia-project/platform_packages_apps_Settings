@@ -80,6 +80,20 @@
       "avatar": "https://avatars0.githubusercontent.com/u/28834460?s=400&v=4",
       "xda_link": "https://forum.xda-developers.com/Mi-9/development/rom-syberia-project-3-5-t4070257",
       "github_link": "https://github.com/EcrosoftXiao"
+    },
+    {
+      "device": "Xiaomi Redmi Note 4 (mido)",
+      "name": "hnaamdev41",
+      "avatar": "https://avatars3.githubusercontent.com/u/46525642?s=460&u=8a49245c2834c8349e77ca71acef3bb9815254c6&v=4",
+      "xda_link": "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-syberia-project-t4082413",
+      "github_link": "https://github.com/hnaamdev41"
+    },
+    {
+      "device": "Xiaomi Redmi Note 3 (kenzo)",
+      "name": "Sagar Rokade",
+      "avatar": "https://avatars0.githubusercontent.com/u/33886845?s=460&u=049e67c8d2961e3d9af26c9d033a9db72c451cf9&v=4",
+      "xda_link": "https://forum.xda-developers.com/redmi-note-3/development/rom-syberia-project-t4082891",
+      "github_link": "https://github.com/sagarrokade006"
     }
   ]
 }
