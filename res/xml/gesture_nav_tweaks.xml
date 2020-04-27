@@ -51,6 +51,14 @@
         android:entryValues="@array/swipe_actions_values"
         android:defaultValue="0" />
 
+   <ListPreference
+        android:key="left_vertical_swipe_actions"
+        android:title="@string/left_vertical_swipe_actions_title"
+        android:entries="@array/swipe_actions_entries"
+        android:dependency="back_swipe_type"
+        android:entryValues="@array/swipe_actions_values"
+        android:defaultValue="0" />
+
     <Preference
         android:key="left_swipe_app_action"
         android:title="@string/left_swipe_app_action_title"
@@ -60,10 +68,27 @@
             android:targetClass="com.android.systemui.statusbar.phone.LeftBackSwipeCustomApp" />
     </Preference>
 
+    <Preference
+        android:key="left_vertical_swipe_app_action"
+        android:title="@string/left_vertical_swipe_app_action_title"
+        android:summary="@string/swipe_app_select_summary">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.systemui"
+            android:targetClass="com.android.systemui.statusbar.phone.LeftBackVerticalSwipeCustomApp" />
+    </Preference>
+
     <ListPreference
         android:key="right_swipe_actions"
         android:title="@string/right_swipe_actions_title"
         android:entries="@array/swipe_actions_entries"
+        android:entryValues="@array/swipe_actions_values"
+        android:defaultValue="0" />
+
+    <ListPreference
+        android:key="right_vertical_swipe_actions"
+        android:title="@string/right_vertical_swipe_actions_title"
+        android:entries="@array/swipe_actions_entries"
+        android:dependency="back_swipe_type"
         android:entryValues="@array/swipe_actions_values"
         android:defaultValue="0" />
 
@@ -74,6 +99,15 @@
         <intent android:action="android.intent.action.MAIN"
             android:targetPackage="com.android.systemui"
             android:targetClass="com.android.systemui.statusbar.phone.RightBackSwipeCustomApp" />
+    </Preference>
+
+    <Preference
+        android:key="right_vertical_swipe_app_action"
+        android:title="@string/right_vertical_swipe_app_action_title"
+        android:summary="@string/swipe_app_select_summary">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.systemui"
+            android:targetClass="com.android.systemui.statusbar.phone.RightBackVerticalSwipeCustomApp" />
     </Preference>
 
 

@@ -230,9 +230,14 @@
     <string name="left_swipe_app_action_title">Выбрать приложения при свайпе слева</string>
     <string name="right_swipe_actions_title">Действие при длинном свайпе справа</string>
     <string name="right_swipe_app_action_title">Выбрать приложение при свайпе справа</string>
+    <string name="left_vertical_swipe_actions_title">Действие при L-свайпе слева</string>
+    <string name="left_vertical_swipe_app_action_title">Выбрать приложение для L-свайпа слева</string>
+    <string name="right_vertical_swipe_actions_title">Действие при L-свайпе справа</string>
+    <string name="right_vertical_swipe_app_action_title">Выбрать приложение для L-свайпа справа</string>
+
     <string name="gesture_nav_tweaks_footer_info">Для установки пользовательского приложения для действия по свайпу, нажмите на приложение и удерживайте в списке выбора.</string>
     <string name="back_swipe_extended_title">Действие при очень длинном свайпе</string>
-    <string name="back_swipe_extended_summary">Действие будет выполнено при горизонтальном свайпе не менее чем в 3\/4 размера экрана</string>
+    <string name="back_swipe_extended_summary">Действие будет выполнено при горизонтальном свайпе не менее чем в 1\/2 размера экрана, либо L-образном свайпе</string>
 
     <!-- Gesture navbar handle -->
     <string name="gesture_navbar_handle_title">Ширина полоски</string>
