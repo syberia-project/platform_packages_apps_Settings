@@ -94,6 +94,20 @@
       "avatar": "https://avatars0.githubusercontent.com/u/33886845?s=460&u=049e67c8d2961e3d9af26c9d033a9db72c451cf9&v=4",
       "xda_link": "https://forum.xda-developers.com/redmi-note-3/development/rom-syberia-project-t4082891",
       "github_link": "https://github.com/sagarrokade006"
+    },
+    {
+      "device": "Xiaomi Mi A2 (jasmine_sprout)",
+      "name": "ctwoon",
+      "avatar": "https://avatars0.githubusercontent.com/u/27059115?s=460&u=1d6f9b8526fdb89b89429474c6b191587da76303&v=4",
+      "xda_link": "https://forum.xda-developers.com/mi-a2/development/rom-syberiaos-jasminesprout-t4092351",
+      "github_link": "https://github.com/ctwoon"
+    },
+    {
+      "device": "Xiaomi 6X (wayne)",
+      "name": "ctwoon",
+      "avatar": "https://avatars0.githubusercontent.com/u/27059115?s=460&u=1d6f9b8526fdb89b89429474c6b191587da76303&v=4",
+      "xda_link": "https://forum.xda-developers.com/mi-a2/xiaomi-6x-wayne/rom-syberiaos-wayne-t4092339",
+      "github_link": "https://github.com/ctwoon"
     }
   ]
 }
