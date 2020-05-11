@@ -243,4 +243,11 @@
     <string name="back_swipe_extended_title">Действие при очень длинном свайпе</string>
     <string name="back_swipe_extended_summary">Действие будет выполнено при горизонтальном свайпе не менее чем в 1\/2 размера экрана, либо L-образном свайпе</string>
 
+    <!-- Battery health -->
+    <string name="battery_health_title">Сстояние батареи</string>
+    <string name="battery_health_summary">Следите за состоянием батареи вашего устройства</string>
+    <string name="current_battery_capacity">Текущая ёмкость батареи</string>
+    <string name="current_battery_capacity_summary">Ёмкость батареи по данным от ядра системы</string>
+    <string name="designed_battery_capacity">Начальная ёмкость батареи</string>
+    <string name="designed_battery_capacity_summary">Ёмкость батареи спроектированная производителем</string>
 </resources>
