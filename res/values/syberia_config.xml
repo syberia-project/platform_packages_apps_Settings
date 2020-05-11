@@ -33,4 +33,7 @@
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
 
+    <!-- Battery Health -->
+    <string name="config_batCurCap"></string>
+    <string name="config_batDesCap"></string>
 </resources>
