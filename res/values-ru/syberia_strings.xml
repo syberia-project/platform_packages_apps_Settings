@@ -289,4 +289,12 @@
     </plurals>
     <string name="keywords_applock_settings">блокировка, блокировщик, блокировщик приложений, блокировка приложений</string>
 
+    <!-- Battery health -->
+    <string name="battery_health_title">Сстояние батареи</string>
+    <string name="battery_health_summary">Следите за состоянием батареи вашего устройства</string>
+    <string name="current_battery_capacity">Текущая ёмкость батареи</string>
+    <string name="current_battery_capacity_summary">Ёмкость батареи по данным от ядра системы</string>
+    <string name="designed_battery_capacity">Начальная ёмкость батареи</string>
+    <string name="designed_battery_capacity_summary">Ёмкость батареи спроектированная производителем</string>
+
 </resources>
