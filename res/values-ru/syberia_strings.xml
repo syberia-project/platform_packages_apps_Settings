@@ -296,5 +296,5 @@
     <string name="current_battery_capacity_summary">Ёмкость батареи по данным от ядра системы</string>
     <string name="designed_battery_capacity">Начальная ёмкость батареи</string>
     <string name="designed_battery_capacity_summary">Ёмкость батареи спроектированная производителем</string>
-
+    <string name="battery_charge_cycles">Полные циклы заряд-разряд</string>
 </resources>
