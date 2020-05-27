@@ -261,6 +261,10 @@
     <string name="data_usage_app_restrict_wifi">Данные Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi\u2011Fi</string>
 
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Разрешить сеть</string>
+    <string name="data_usage_app_restrict_all_summary">Рашрешить использование сетевого интерфейса</string>
+
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">AOD на зарядке</string>
     <string name="doze_on_charge_summary">Экран будет в режиме AOD во время зарядки</string>
