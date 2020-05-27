@@ -244,4 +244,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Display beim laden aktiv lassen</string>
     <string name="doze_on_charge_summary">Doze-Bildschirm während des Ladevorgangs anzeigen</string>
+    <!-- Primary color -->
+    <string name="theme_customization_primary_color_title">Primary color</string>
 </resources>
