@@ -187,6 +187,8 @@
     <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
 
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Доступ к сети</string>
+    <string name="data_usage_app_restrict_all_summary">Разрешить доступ к сети передачи данных</string>
     <string name="data_usage_app_restrict_data">Мобильные данные</string>
     <string name="data_usage_app_restrict_data_summary">Включить использование мобильных данных</string>
     <string name="data_usage_app_restrict_vpn">VPN данные</string>
