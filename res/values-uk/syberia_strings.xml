@@ -15,17 +15,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, syberia version -->
-    <string name="syberia_version">Syberia version</string>
-    <string name="syberia_version_default">Unknown</string>
-    <string name="keywords_syberia_version">syberia version</string>
+    <string name="syberia_version">Версія Syberia</string>
+    <string name="syberia_version_default">Невідомо</string>
+    <string name="keywords_syberia_version">версія Syberia</string>
     <!-- About phone screen, build date -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">Дата збірки</string>
     <string name="build_date_default">2019-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="keywords_build_date">дата збірки, інформація про збірку</string>
     <!-- Device Parts -->
-    <string name="device_part_title">Device features</string>
-    <string name="device_part_summary">Device Speicific Features</string>
-    <string name="dashboard_conditions_title">Dashboard conditions</string>
+    <string name="device_part_title">Функції пристрою</string>
+    <string name="device_part_summary">Спеціальні можливості пристрою</string>
+    <string name="dashboard_conditions_title">Стан меню налаштувань</string>
     <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
     <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
     <string name="dashboard_suggestions_title">Dashboard suggestions</string>
@@ -244,4 +244,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <!-- Primary color -->
+    <string name="theme_customization_primary_color_title">Primary color</string>
 </resources>

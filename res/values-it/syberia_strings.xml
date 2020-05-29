@@ -77,11 +77,11 @@
     <string name="live_display_color_profile_title">Profilo colore</string>
     <string name="live_display_color_profile_standard_title">Predefinito</string>
     <string name="live_display_color_profile_standard_summary">Colori accurati e bianchi luminosi</string>
-    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_title">Naturale</string>
     <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
+    <string name="live_display_color_profile_dynamic_title">Dinamico</string>
     <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
-    <string name="live_display_color_profile_cinema_title">Cinema</string>
+    <string name="live_display_color_profile_cinema_title">Cineme</string>
     <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
     <string name="live_display_color_profile_astronomy_title">Astronomy</string>
     <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
@@ -244,4 +244,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <!-- Primary color -->
+    <string name="theme_customization_primary_color_title">Primary color</string>
 </resources>
