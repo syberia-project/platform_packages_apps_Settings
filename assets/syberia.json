@@ -47,13 +47,6 @@
       "github_link": "https://github.com/DennySPB"
     },
     {
-      "device": "Xiaomi Redmi 3s (land)",
-      "name": "Weritos666",
-      "avatar": "https://avatars2.githubusercontent.com/u/3286052?s=400&v=4",
-      "xda_link": "https://forum.xda-developers.com/xiaomi-redmi-3s/development/rom-25-01-20-syberia-project-t4040223",
-      "github_link": "https://github.com/weritos666"
-    },
-    {
       "device": "Xiaomi Redmi K20 Pro (raphael)",
       "name": "NATO666613",
       "avatar": "https://avatars3.githubusercontent.com/u/7190697?s=400&v=4",
@@ -66,13 +59,6 @@
       "avatar": "https://avatars0.githubusercontent.com/u/51186623?s=460&v=4",
       "xda_link": "https://forum.xda-developers.com/redmi-note-8/development/rom-syberia-project-t4042205",
       "github_link": "https://github.com/TheHitMan7"
-    },
-    {
-      "device": "Xiaomi Mi A3 (laurel_sprout)",
-      "name": "HarukeyUA",
-      "avatar": "https://avatars0.githubusercontent.com/u/12065476?s=460&v=4",
-      "xda_link": "https://forum.xda-developers.com/mi-a3/development/rom-syberia-project-t4021123",
-      "github_link": "https://github.com/HarukeyUA"
     },
     {
       "device": "Xiaomi Mi 9 (cepheus)",
@@ -94,20 +80,6 @@
       "avatar": "https://avatars0.githubusercontent.com/u/33886845?s=460&u=049e67c8d2961e3d9af26c9d033a9db72c451cf9&v=4",
       "xda_link": "https://forum.xda-developers.com/redmi-note-3/development/rom-syberia-project-t4082891",
       "github_link": "https://github.com/sagarrokade006"
-    },
-    {
-      "device": "Xiaomi Mi A2 (jasmine_sprout)",
-      "name": "ctwoon",
-      "avatar": "https://avatars0.githubusercontent.com/u/27059115?s=460&u=1d6f9b8526fdb89b89429474c6b191587da76303&v=4",
-      "xda_link": "https://forum.xda-developers.com/mi-a2/development/rom-syberiaos-jasminesprout-t4092351",
-      "github_link": "https://github.com/ctwoon"
-    },
-    {
-      "device": "Xiaomi 6X (wayne)",
-      "name": "ctwoon",
-      "avatar": "https://avatars0.githubusercontent.com/u/27059115?s=460&u=1d6f9b8526fdb89b89429474c6b191587da76303&v=4",
-      "xda_link": "https://forum.xda-developers.com/mi-a2/xiaomi-6x-wayne/rom-syberiaos-wayne-t4092339",
-      "github_link": "https://github.com/ctwoon"
     }
   ]
 }
