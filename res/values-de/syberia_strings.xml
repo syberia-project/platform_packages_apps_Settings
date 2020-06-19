@@ -241,6 +241,9 @@
     <string name="data_usage_app_restrict_vpn_summary">Nutzung von VPN-Daten erlauben</string>
     <string name="data_usage_app_restrict_wifi">WLAN-Datennutzung</string>
     <string name="data_usage_app_restrict_wifi_summary">WLAN-Datenzugriff erlauben</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Display beim laden aktiv lassen</string>
     <string name="doze_on_charge_summary">Doze-Bildschirm während des Ladevorgangs anzeigen</string>

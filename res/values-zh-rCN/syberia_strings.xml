@@ -241,6 +241,9 @@
     <string name="data_usage_app_restrict_vpn_summary">启用 VPN 数据流量使用统计</string>
     <string name="data_usage_app_restrict_wifi">WLAN 数据</string>
     <string name="data_usage_app_restrict_wifi_summary">启用 Wi\u2011Fi 的数据使用统计</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">充电时始终开启</string>
     <string name="doze_on_charge_summary">充电时一直处于息屏显示</string>
