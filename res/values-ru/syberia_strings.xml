@@ -271,4 +271,7 @@
 
     <string name="theme_customization_primary_color_title">Основной цвет</string>
 
+    <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Таймаут экрана блокировки</string>
+
 </resources>
