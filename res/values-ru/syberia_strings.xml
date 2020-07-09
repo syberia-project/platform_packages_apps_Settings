@@ -274,4 +274,7 @@
     <!-- Lockscreen timeout -->
     <string name="lockscreen_timeout_title">Таймаут экрана блокировки</string>
 
+    <string name="fod_gesture_title">Отпечаток при выключенном экране</string>
+    <string name="fod_gesture_summary">Разрешить разблокировку устройства без включения экрана</string>
+
 </resources>
