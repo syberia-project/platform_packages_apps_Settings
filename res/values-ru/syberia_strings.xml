@@ -164,4 +164,7 @@
     <string name="summary_dashboard_suggestions_enabled">Подсказки в главном меню включены</string>
     <string name="summary_dashboard_suggestions_disabled">Подсказки в главном меню выключены</string>
 
+    <string name="fod_gesture_title">Отпечаток при выключенном экране</string>
+    <string name="fod_gesture_summary">Разрешить разблокировку устройства без включения экрана</string>
+
 </resources>
