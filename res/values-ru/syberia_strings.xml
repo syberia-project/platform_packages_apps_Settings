@@ -168,4 +168,7 @@
     <string name="doze_on_charge_title">AOD на зарядке</string>
     <string name="doze_on_charge_summary">Экран будет в режиме AOD во время зарядки</string>
 
+    <string name="fod_gesture_title">Отпечаток при выключенном экране</string>
+    <string name="fod_gesture_summary">Разрешить разблокировку устройства без включения экрана</string>
+
 </resources>
