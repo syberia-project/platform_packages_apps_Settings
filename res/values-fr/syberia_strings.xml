@@ -17,11 +17,11 @@
     <!-- About phone screen, syberia version -->
     <string name="syberia_version">Version de Syberia</string>
     <string name="syberia_version_default">Inconnu</string>
-    <string name="keywords_syberia_version">version de syberia</string>
+    <string name="keywords_syberia_version">version de Syberia</string>
     <!-- About phone screen, build date -->
-    <string name="build_date">Date de compilation</string>
+    <string name="build_date">Date de version</string>
     <string name="build_date_default">01-01-2019-0000</string>
-    <string name="keywords_build_date">date de compilation, informations de compilation</string>
+    <string name="keywords_build_date">date de version, information de date</string>
     <!-- Device Parts -->
     <string name="device_part_title">Fonctionnalités</string>
     <string name="device_part_summary">Fonctionnalités spécifiques à l\'appareil</string>
@@ -242,11 +242,13 @@
     <string name="data_usage_app_restrict_wifi">Données Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Activer l\'utilisation des données Wi\u2011Fi</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_all">Autoriser le réseau</string>
+    <string name="data_usage_app_restrict_all_summary">Se connecter au réseau</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Ecran toujours allumé pendant la charge</string>
     <string name="doze_on_charge_summary">Afficher l\'écran de veille tout le temps pendant la charge</string>
     <!-- Primary color -->
     <string name="theme_customization_primary_color_title">Couleur principale</string>
+    <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
 </resources>

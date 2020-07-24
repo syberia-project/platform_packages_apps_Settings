@@ -249,4 +249,6 @@
     <string name="doze_on_charge_summary">Doze-Bildschirm während des Ladevorgangs anzeigen</string>
     <!-- Primary color -->
     <string name="theme_customization_primary_color_title">Primary color</string>
+    <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
 </resources>

@@ -249,4 +249,6 @@
     <string name="doze_on_charge_summary">Při nabíjení vždy zobrazit obrazovku Doze</string>
     <!-- Primary color -->
     <string name="theme_customization_primary_color_title">Primární barva</string>
+    <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
 </resources>

@@ -249,4 +249,6 @@
     <string name="doze_on_charge_summary">Mostrar protetor de tela quando a bateria estiver carregando</string>
     <!-- Primary color -->
     <string name="theme_customization_primary_color_title">Cor primária</string>
+    <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
 </resources>

@@ -249,4 +249,6 @@
     <string name="doze_on_charge_summary">Εμφάνιση της οθόνης ύπνου συνεχώς κατά τη φόρτιση</string>
     <!-- Primary color -->
     <string name="theme_customization_primary_color_title">Βασικό χρώμα</string>
+    <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
 </resources>

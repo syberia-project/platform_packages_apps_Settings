@@ -242,11 +242,13 @@
     <string name="data_usage_app_restrict_wifi">WLAN 数据</string>
     <string name="data_usage_app_restrict_wifi_summary">启用 Wi\u2011Fi 的数据使用统计</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_all">允许网络连接</string>
+    <string name="data_usage_app_restrict_all_summary">启用网络使用统计</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">充电时始终开启</string>
     <string name="doze_on_charge_summary">充电时一直处于息屏显示</string>
     <!-- Primary color -->
-    <string name="theme_customization_primary_color_title">Primary color</string>
+    <string name="theme_customization_primary_color_title">主体色</string>
+    <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
 </resources>
