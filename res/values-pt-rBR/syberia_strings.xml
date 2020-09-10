@@ -251,4 +251,7 @@
     <string name="theme_customization_primary_color_title">Cor primária</string>
     <!-- Lockscreen timeout -->
     <string name="lockscreen_timeout_title">Lockscreen timeout</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 </resources>

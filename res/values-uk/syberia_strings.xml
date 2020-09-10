@@ -26,28 +26,28 @@
     <string name="device_part_title">Функції пристрою</string>
     <string name="device_part_summary">Спеціальні можливості пристрою</string>
     <string name="dashboard_conditions_title">Стан меню налаштувань</string>
-    <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
-    <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
-    <string name="dashboard_suggestions_title">Dashboard suggestions</string>
-    <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
-    <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
+    <string name="summary_dashboard_conditions_enabled">Сповіщення меню налаштувань увімкнено</string>
+    <string name="summary_dashboard_conditions_disabled">Стан меню налаштувань вимкнено</string>
+    <string name="dashboard_suggestions_title">Поради в головному меню</string>
+    <string name="summary_dashboard_suggestions_enabled">Підказки в меню налаштувань увімкнені</string>
+    <string name="summary_dashboard_suggestions_disabled">Підказки в меню налаштувань вимкнені</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Знайдіть сканер відбитків пальців на передній панелі вашого смартфона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Знайдіть сенсор відбитків пальців на лівій грані вашого смартфона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Знайдіть сканер відбитків пальців на правій грані вашого смартфона.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Знайдіть сканер відбитків пальців на передній панелі вашого смартфона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Знайдіть сканер відбитків пальців на лівій грані вашого смартфона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Знайдіть сканер відбитків пальців на правій грані вашого смартфона.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Знайдіть сканер відбитків пальців на передній панелі вашого планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Знайдіть сканер відбитків пальців на лівій грані вашого планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Знайдіть сканер відбитків пальців на правій грані вашого планшета.</string>
+    <string name="selinux_status">Режим SELinux</string>
+    <string name="selinux_status_disabled">Вимкнено</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
-    <string name="battery_temp">Battery temperature</string>
+    <string name="battery_temp">Температура батареї</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Manage applications, package string displayed in app snippet -->
@@ -251,4 +251,7 @@
     <string name="theme_customization_primary_color_title">Primary color</string>
     <!-- Lockscreen timeout -->
     <string name="lockscreen_timeout_title">Lockscreen timeout</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 </resources>

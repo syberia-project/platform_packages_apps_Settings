@@ -225,7 +225,7 @@
     <string name="back_swipe_extended_summary">Aktivovat akci širším přejetím (více než polovina velikosti displeje) nebo gestem L (dostatečně svisle)</string>
     <!-- Gesture navbar handle -->
     <string name="gesture_navbar_handle_title">Velikost úchopu</string>
-    <string name="gesture_navbar_handle_hidden">Ignorované</string>
+    <string name="gesture_navbar_handle_hidden">Nezobrazovat</string>
     <string name="gesture_navbar_handle_default">Výchozí</string>
     <string name="gesture_navbar_handle_middle">Střední</string>
     <string name="gesture_navbar_handle_large">Velký</string>
@@ -250,5 +250,8 @@
     <!-- Primary color -->
     <string name="theme_customization_primary_color_title">Primární barva</string>
     <!-- Lockscreen timeout -->
-    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
+    <string name="lockscreen_timeout_title">Časový limit zámku obrazovky</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 </resources>
