@@ -54,7 +54,7 @@ android_library {
         "SpaPrivilegedLib-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt", , "../SyberiaSettings/src/**/*.java"],
+    srcs: ["src/**/*.java", "src/**/*.kt", "SyberiaSettings/src/**/*.java"],
 
     aaptflags: ["--extra-packages com.syberia.settings"],
 
@@ -62,7 +62,7 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
-        "packages/apps/SyberiaSettings/res"
+        "SyberiaSettings/res"
     ],
 
     static_libs: [
@@ -84,6 +84,7 @@ android_library {
         "androidx.lifecycle_lifecycle-runtime",
         "androidx.lifecycle_lifecycle-viewmodel",
         "guava",
+        "glide",
         "jsr305",
         "net-utils-framework-common",
         "app-usage-event-protos-lite",
@@ -100,7 +101,6 @@ android_library {
         "settings-logtags",
         "statslog-settings",
         "zxing-core-1.7",
-        "glide",
         "android.hardware.dumpstate-V1.0-java",
         "android.hardware.dumpstate-V1.1-java",
         "android.hardware.dumpstate-V1-java",
