@@ -28,13 +28,13 @@ android_library {
     ],
 
     srcs: ["src/**/*.java",
-           "../SyberiaSettings/src/**/*.java",
+           "SyberiaSettings/src/**/*.java",
     ],
 
     aaptflags: ["--extra-packages com.syberia.settings"],
 
     resource_dirs: ["res",
-                    "packages/apps/SyberiaSettings/res"
+                    "SyberiaSettings/res"
     ],
 
     static_libs: [
@@ -54,6 +54,7 @@ android_library {
         "androidx.lifecycle_lifecycle-runtime",
         "androidx.lifecycle_lifecycle-extensions",
         "guava",
+        "glide",
         "jsr305",
         "settings-contextual-card-protos-lite",
         "settings-log-bridge-protos-lite",
@@ -61,7 +62,6 @@ android_library {
         "settings-logtags",
         "statslog-settings",
         "zxing-core-1.7",
-        "glide",
         "android.hardware.dumpstate-V1.0-java",
         "android.hardware.dumpstate-V1.1-java",
     ],

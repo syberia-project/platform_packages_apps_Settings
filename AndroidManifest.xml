@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         package="com.android.settings"
         coreApp="true"
         android:sharedUserId="android.uid.system">
@@ -40,7 +41,6 @@
     <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA" />
     <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
     <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
@@ -115,6 +115,7 @@
             android:usesCleartextTraffic="true"
             android:defaultToDeviceProtectedStorage="true"
             android:directBootAware="true"
+            tools:replace="android:appComponentFactory"
             android:appComponentFactory="androidx.core.app.CoreComponentFactory">
 
         <uses-library android:name="org.apache.http.legacy" />
@@ -3403,6 +3404,7 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="com.android.settings.sound.MediaControlsSettings" />
         </activity>
+
         <!-- SyberiaSettings -->
         <activity android:name=".Settings$SyberiaSettingsActivity"
             android:label="@string/syberia_settings_title"
