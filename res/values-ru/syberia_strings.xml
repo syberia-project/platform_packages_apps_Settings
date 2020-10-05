@@ -46,4 +46,8 @@
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка устройства при вводе корректного ПИНа/пароля</string>
 
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Вибрация</string>
+    <string name="back_gesture_haptic_summary">Включить вибрацию для жеста назад</string>
+
 </resources>
