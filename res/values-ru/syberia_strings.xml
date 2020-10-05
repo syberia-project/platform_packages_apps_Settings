@@ -40,7 +40,7 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Приложения в полный экран</string>
     <string name="display_cutout_force_fullscreen_summary">Приложения будут принудительно игнорировать вырез экрана</string>
-    
+
     <!-- LiveDisplay -->
     <string name="live_display_summary">Подстраивать экран на основе времени суток и освещения, чтобы повысить удобочитаемость и снизить нагрузку на глаза</string>
     <string name="live_display_mode">Режим</string>
@@ -109,5 +109,9 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Разблокировать устройство без нажатия OK</string>
+
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Вибрация</string>
+    <string name="back_gesture_haptic_summary">Включить вибрацию для жеста назад</string>
 
 </resources>
