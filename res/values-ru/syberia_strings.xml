@@ -92,4 +92,9 @@
 
     <!-- Legacy WFD settings -->
     <string name="legacy_wfd_video_mode_title">Режим видео</string>
+
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Вибрация</string>
+    <string name="back_gesture_haptic_summary">Включить вибрацию для жеста назад</string>
+
 </resources>
