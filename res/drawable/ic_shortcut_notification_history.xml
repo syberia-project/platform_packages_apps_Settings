@@ -1,0 +1,19 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/shortcut_background"/>
+    <foreground>
+        <vector
+           android:width="108dp"
+           android:height="108dp"
+           android:viewportWidth="108"
+           android:viewportHeight="108">
+         <group android:scaleX="0.04968"
+              android:scaleY="0.04968"
+              android:translateX="29.16"
+              android:translateY="29.16">
+            <path
+                android:fillColor="@*android:color/accent_device_default_light"
+               android:pathData="M966.1,74.9c-16.2,-16.1 -35.4,-24 -57.6,-24H91.8c-22.4,0 -41.5,8 -57.6,24C18.1,91.1 10,110.2 10,132.6v489.8c0,22.4 8.1,41.6 24.1,57.6C50.3,696.2 69.3,704 91.7,704h81.7v245.1L421.7,704h486.8c22.2,0 41.4,-7.9 57.6,-24.1c16,-16 24,-35.2 24,-57.6V132.6C990.1,110.2 982,91.1 966.1,74.9L966.1,74.9zM112.6,186.5h775v65.1h-775V186.5L112.6,186.5zM564.6,500H112.6v-65.2h452.1V500L564.6,500zM888.2,378.3h-775v-65.1h775L888.2,378.3L888.2,378.3z"/>
+         </group>
+       </vector>
+    </foreground>
+</adaptive-icon>
