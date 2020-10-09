@@ -16,7 +16,6 @@
 package com.android.settings.deviceinfo;
 
 import android.content.Context;
-import android.os.SELinux;
 import android.os.SystemProperties;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
@@ -29,7 +28,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 public class SELinuxStatusPreferenceController extends AbstractPreferenceController implements
         PreferenceControllerMixin {
 
-    private static final String PROPERTY_SELINUX_STATUS = "ro.build.selinux";
+    private static final String PROPERTY_SELINUX_STATUS = "ro.boot.selinux";
     private static final String KEY_SELINUX_STATUS = "selinux_status";
 
     public SELinuxStatusPreferenceController(Context context) {
@@ -53,13 +52,20 @@ public class SELinuxStatusPreferenceController extends AbstractPreferenceControl
         if (pref == null) {
             return;
         }
-        if (!SELinux.isSELinuxEnabled()) {
-            String status = mContext.getResources().getString(R.string.selinux_status_disabled);
-            pref.setSummary(status);
-        } else if (!SELinux.isSELinuxEnforced()) {
-            String status = mContext.getResources().getString(R.string.selinux_status_permissive);
-            pref.setSummary(status);
+        final String selinux = SystemProperties.get(PROPERTY_SELINUX_STATUS);
+        String status;
+        switch (selinux) {
+           case "enforcing":
+                status = mContext.getResources().getString(R.string.selinux_status_enforcing);
+                break;
+           case "disabled":
+                status = mContext.getResources().getString(R.string.selinux_status_disabled);
+                break;
+           default:
+                status = mContext.getResources().getString(R.string.selinux_status_permissive);
+                break;
         }
+        pref.setSummary(status);
     }
 }
 
