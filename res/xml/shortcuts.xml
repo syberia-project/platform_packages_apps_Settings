@@ -22,14 +22,13 @@
         <intent android:action="android.settings.WIFI_SETTINGS" />
     </shortcut>
     <shortcut
-        android:shortcutId="manifest-shortcut-data-usage"
-        android:icon="@drawable/ic_shortcut_data_usage"
-        android:enabled="@bool/config_show_sim_info"
-        android:shortcutShortLabel="@string/data_usage_summary_title">
+        android:shortcutId="manifest-shortcut-notification-history"
+        android:icon="@drawable/ic_shortcut_notification_history"
+        android:shortcutShortLabel="@string/notification_history_title">
         <intent
             android:action="android.intent.action.MAIN"
             android:targetPackage="com.android.settings"
-            android:targetClass="com.android.settings.Settings$DataUsageSummaryActivity" />
+            android:targetClass="com.android.settings.Settings$NotificationStationActivity" />
     </shortcut>
     <shortcut
         android:shortcutId="manifest-shortcut-battery"
