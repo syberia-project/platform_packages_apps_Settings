@@ -136,4 +136,14 @@
 
     <string name="weather_title">Погода</string>
 
+    <!-- Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Внешний вид</string>
+    <string name="theme_customization_accent_color_title">Цвет акцента</string>
+    <string name="theme_customization_font_title">Шрифт</string>
+    <string name="theme_customization_icon_shape_title">Форма иконок</string>
+    <string name="theme_customization_icon_pack_title">Набор иконок</string>
+
+    <!-- Title for the smart battery manager preference -->
+    <string name="smart_battery_manager_title">Менеджер батареи</string>
+
 </resources>
