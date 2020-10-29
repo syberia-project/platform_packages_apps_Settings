@@ -198,4 +198,8 @@
     <string name="data_usage_app_restrict_wifi">Данные Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi\u2011Fi</string>
 
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">Аиция FOD</string>
+    <string name="fod_recog_animation_summary">Показывать анимацию во время распознавания отпечатка</string>
+
 </resources>
