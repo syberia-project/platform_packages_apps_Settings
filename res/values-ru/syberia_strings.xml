@@ -204,4 +204,8 @@
     <string name="back_options_dialog_title">Опции</string>
     <string name="back_height_message">Высота экрана используемая для жеста назад</string>
 
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">Аиция FOD</string>
+    <string name="fod_recog_animation_summary">Показывать анимацию во время распознавания отпечатка</string>
+
 </resources>
