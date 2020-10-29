@@ -244,4 +244,8 @@
     <string name="back_swipe_extended_title">Действие при очень длинном свайпе</string>
     <string name="back_swipe_extended_summary">Действие будет выполнено при горизонтальном свайпе не менее чем в 1\/2 размера экрана, либо L-образном свайпе</string>
 
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">Аиция FOD</string>
+    <string name="fod_recog_animation_summary">Показывать анимацию во время распознавания отпечатка</string>
+
 </resources>
