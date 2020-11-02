@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- About phone screen, syberia version -->
+    <string name="syberia_version">Έκδοση Syberia</string>
+    <string name="syberia_version_default">Άγνωστο</string>
+    <string name="keywords_syberia_version">έκδοση Syberia</string>
+    <!-- About phone screen, build date -->
+    <string name="build_date">Ημερομηνία κατασκευής</string>
+    <string name="build_date_default">2020-01-01-0000</string>
+    <string name="keywords_build_date">ημερομηνία κατασκευής, πληροφορίες κατασκευής</string>
+    <!-- Device Parts -->
+    <string name="device_part_title">Λειτουργίες συσκευής</string>
+    <string name="device_part_summary">Ειδικά χαρακτηριστικά συσκευής</string>
+    <!-- Changelog -->
+    <string name="changelog_title">Αρχείο αλλαγών</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Δεν είναι δυνατή η φόρτωση του αρχείου αλλαγών</string>
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="global_actions_title">Power menu</string>
+    <string name="battery_temp">Θερμοκρασία μπαταρίας</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text">&lt;xliff: g id = "πακετο_ονομα"&gt;%1$s &lt;/ xliff: g&gt;</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Ηχος στιγμιότυπου οθόνης</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Εφαρμογές πλήρης οθόνης</string>
+    <string name="display_cutout_force_fullscreen_summary">Αναγκάστε τις εφαρμογές να αγνοήσουν την εγκοπή</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Σύνδεση εντάσεων ήχου κλήσης &amp; ειδοποίησης</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Charging sound</string>
+    <string name="charging_vibro_title">Δονηση κατά τη φόρτιση</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Βελτιστοποίηση της οθόνης σας με βάση την ώρα της ημέρας και τις συνθήκες περιβάλλοντος για βελτίωση της αναγνωσιμότητας και μείωση της καταπόνησης των ματιών</string>
+    <string name="live_display_mode">Λειτουργία προβολής</string>
+    <string name="live_display_color_temperature_title">Θερμοκρασία χρώματος</string>
+    <string name="live_display_color_temperature_summary">Ημέρα: <xliff:g id="ημερα_θερμοκρασια">%1$d</xliff:g>K  Νύχτα: <xliff:g id="νυχτα_θερμοκρασια">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="βαθμοί">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Ημέρα</string>
+    <string name="live_display_night">Νύχτα</string>
+    <string name="live_display_outdoor_mode_title">Αυτόματη λειτουργία εξωτερικού χώρου</string>
+    <string name="live_display_outdoor_mode_summary">Αυτόματη αύξηση της φωτεινότητας και του κορεσμού κάτω από έντονο ηλιακό φως</string>
+    <string name="live_display_low_power_title">Μείωση κατανάλωσης ενέργειας</string>
+    <string name="live_display_low_power_summary">Ρυθμίστε την οθόνη για τη χαμηλότερη κατανάλωση ισχύος χωρίς υποβάθμιση</string>
+    <string name="live_display_enhance_color_title">Βελτίωση χρωμάτων</string>
+    <string name="live_display_enhance_color_summary">Βελτιώστε τη χρωματική ζωντάνια των τόνων της σάρκας, του τοπίου και άλλων εικόνων</string>
+    <string name="live_display_color_profile_title">Προφίλ χρώματος</string>
+    <string name="live_display_color_profile_standard_title">Κανονική</string>
+    <string name="live_display_color_profile_standard_summary">Ακριβή χρώματα και φωτεινά λευκά</string>
+    <string name="live_display_color_profile_natural_title">Φυσικό</string>
+    <string name="live_display_color_profile_natural_summary">Ρεαλιστικά χρώματα και τόνοι επιδερμίδας</string>
+    <string name="live_display_color_profile_dynamic_title">Δυναμικό</string>
+    <string name="live_display_color_profile_dynamic_summary">Ενισχυμένα χρώματα και φωτεινά λευκά</string>
+    <string name="live_display_color_profile_cinema_title">Κινηματογράφος</string>
+    <string name="live_display_color_profile_cinema_summary">Τέλεια αναπαραγωγή χρώματος για βίντεο</string>
+    <string name="live_display_color_profile_astronomy_title">Αστρονομία</string>
+    <string name="live_display_color_profile_astronomy_summary">Βαθύ κόκκινο για διατήρηση της νυχτερινής όρασης</string>
+    <string name="live_display_color_profile_photography_title">Φωτογραφία</string>
+    <string name="live_display_color_profile_photography_summary">Τέλεια αναπαραγωγή χρώματος για φωτογραφίες</string>
+    <string name="live_display_color_profile_basic_title">Βασικό</string>
+    <string name="live_display_color_profile_basic_summary">Χρησιμοποιήστε την οθόνη χωρίς βαθμονόμηση</string>
+    <string name="live_display_color_profile_adaptive_title">Προσαρμοστικό</string>
+    <string name="live_display_color_profile_adaptive_summary">Τα χρώματα προσαρμόζονται στις συνθήκες περιβάλλοντος</string>
+    <string name="live_display_color_profile_reading_title">Ανάγνωση</string>
+    <string name="live_display_color_profile_reading_summary">Θερμότερα χρώματα για λιγότερη καταπόνηση των ματιών</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Απόδοση χρωμάτων με ακρίβεια στον χρωματικό χώρο sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Απόδοση χρωμάτων με ακρίβεια στον χρωματικό χώρο DCI-P3</string>
+    <string name="live_display_reading_mode_title">Λειτουργία ανάγνωσης</string>
+    <string name="live_display_reading_mode_summary">Λειτουργία κλίμακας του γκρι για πολύωρη ανάγνωση</string>
+    <string name="color_calibration_title">Βαθμονόμηση χρωμάτων</string>
+    <string name="color_calibration_summary">Βαθμονόμηση χρωμάτων στην οθόνη</string>
+    <string name="color_red_title">Κόκκινο</string>
+    <string name="color_green_title">Πράσινο</string>
+    <string name="color_blue_title">Μπλε</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Προσαρμογή εικόνας</string>
+    <string name="picture_adjustment_summary">Ρυθμίστε την απόχρωση, τον κορεσμό, την ένταση και την αντίθεση</string>
+    <string name="adj_hue_title">Απόχρωση</string>
+    <string name="adj_saturation_title">Κορεσμός</string>
+    <string name="adj_intensity_title">Ένταση</string>
+    <string name="adj_contrast_title">Αντίθεση</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Γρήγορο ξεκλείδωμα</string>
+    <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα όταν δωθεί το σωστό PIN ή ο σωστός κωδικός</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Απτική ανάδραση</string>
+    <string name="back_gesture_haptic_summary">Ενεργοποιήστε το απτικό κτύπημα, στη χειρονομία \"Πίσω\"</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">Gesture bar length</string>
+    <string name="hidden_label">Hidden</string>
+    <string name="long_label">Long</string>
+    <string name="volumesteps_title">Volume Steps</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Περιστροφή</string>
+    <string name="display_rotation_summary">Select rotation angles</string>
+    <string name="display_rotation_disabled">Απενεργοποιημένο</string>
+    <string name="display_rotation_unit">μοίρες</string>
+    <string name="display_rotation_category_title">Επιλογές περιστροφής</string>
+    <string name="display_rotation_0_title">0 μοίρες</string>
+    <string name="display_rotation_90_title">90 μοίρες</string>
+    <string name="display_rotation_180_title">180 μοίρες</string>
+    <string name="display_rotation_270_title">270 μοίρες</string>
+    <!-- Primary color -->
+    <string name="theme_customization_primary_color_title">Βασικό χρώμα</string>
+    <string name="weather_title">Καιρός</string>
+    <string name="selinux_status">Κατάσταση SELinux</string>
+    <string name="selinux_status_disabled">Απενεργοποιημένο</string>
+    <string name="selinux_status_permissive">Ανεκτική</string>
+    <string name="selinux_status_enforcing">Επιβεβλημένο</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Χρώμα φωτός</string>
+    <string name="custom_light_on_time_title">Χρόνος ενεργοποίησης φωτισμού κατά την διάρκεια παλμού led (ms)</string>
+    <string name="custom_light_off_time_title">Χρόνος απενεργοποίησης φωτισμού κατά την διάρκεια παλμού led (ms)\"</string>
+    <string name="value_equals_default">προεπιλογή</string>
+    <string name="dashboard_conditions_title">Συνθήκες ταμπλό</string>
+    <string name="summary_dashboard_conditions_enabled">Οι συνθήκες του ταμπλό είναι ενεργοποιημένες</string>
+    <string name="summary_dashboard_conditions_disabled">Οι συνθήκες του ταμπλό είναι απενεργοποιημένες</string>
+    <string name="dashboard_suggestions_title">Προτάσεις ταμπλό</string>
+    <string name="summary_dashboard_suggestions_enabled">Οι προτάσεις του ταμπλό είναι ενεργοποιημένες</string>
+    <string name="summary_dashboard_suggestions_disabled">Οι προτάσεις του ταμπλό είναι απενεργοποιημένες</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Πάντα ενεργοποιημένο κατά τη φόρτιση</string>
+    <string name="doze_on_charge_summary">Εμφάνιση της οθόνης ύπνου συνεχώς κατά τη φόρτιση</string>
+</resources>
