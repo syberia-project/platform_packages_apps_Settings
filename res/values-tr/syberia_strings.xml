@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- About phone screen, syberia version -->
+    <string name="syberia_version">Syberia sürümü</string>
+    <string name="syberia_version_default">Bilinmeyen</string>
+    <string name="keywords_syberia_version">syberia sürümü</string>
+    <!-- About phone screen, build date -->
+    <string name="build_date">Yapı tarihi</string>
+    <string name="build_date_default">2019-01-01-0000</string>
+    <string name="keywords_build_date">yapı tarihi, yapı bilgisi</string>
+    <!-- Device Parts -->
+    <string name="device_part_title">Cihaz özellikleri</string>
+    <string name="device_part_summary">Cihaza Özel Özellikler</string>
+    <!-- Changelog -->
+    <string name="changelog_title">Değişiklikler</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Değişim günlüğü yüklenemedi</string>
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="global_actions_title">Power menu</string>
+    <string name="battery_temp">Pil sıcaklığı</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Ekran görüntüsü sesi</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamalar</string>
+    <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Zil &amp; bildirim sesini bağla</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Charging sound</string>
+    <string name="charging_vibro_title">Şarj titreşimi</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğunu azaltmak için ekranınızı günün zamanına ve ortam koşullarına göre optimize edin</string>
+    <string name="live_display_mode">Görüntü modu</string>
+    <string name="live_display_color_temperature_title">Renk sıcaklığı</string>
+    <string name="live_display_color_temperature_summary">Gündüz: <xliff:g id="day_temperature">%1$d</xliff:g>K Gece: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Gündüz</string>
+    <string name="live_display_night">Gece</string>
+    <string name="live_display_outdoor_mode_title">Otomatik açık alan modu</string>
+    <string name="live_display_outdoor_mode_summary">Güneş ışığı altında parlaklığı ve doygunluğu otomatik olarak arttır</string>
+    <string name="live_display_low_power_title">Güç tüketimini azalt</string>
+    <string name="live_display_low_power_summary">Bozulma olmadan en düşük güç tüketimi için ekranı ayarla</string>
+    <string name="live_display_enhance_color_title">Geliştirilmiş renkler</string>
+    <string name="live_display_enhance_color_summary">Ten tonları, sahne ve diğer görüntülerin renk titreşimini geliştir</string>
+    <string name="live_display_color_profile_title">Renk profili</string>
+    <string name="live_display_color_profile_standard_title">Standart</string>
+    <string name="live_display_color_profile_standard_summary">Gerçek renkler ve parlak beyazlar</string>
+    <string name="live_display_color_profile_natural_title">Doğal</string>
+    <string name="live_display_color_profile_natural_summary">Gerçekçi renkler ve ten tonları</string>
+    <string name="live_display_color_profile_dynamic_title">Dinamik</string>
+    <string name="live_display_color_profile_dynamic_summary">Gelişmiş renkler ve parlak beyazlar</string>
+    <string name="live_display_color_profile_cinema_title">Sinema</string>
+    <string name="live_display_color_profile_cinema_summary">Videolar için mükemmel renk üretimi</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomi</string>
+    <string name="live_display_color_profile_astronomy_summary">Gece görüşünü korumak için yoğun kırmızı</string>
+    <string name="live_display_color_profile_photography_title">Fotoğrafçılık</string>
+    <string name="live_display_color_profile_photography_summary">Fotoğraflar için mükemmel renk üretimi</string>
+    <string name="live_display_color_profile_basic_title">Temel</string>
+    <string name="live_display_color_profile_basic_summary">Ekranı kalibre edilmemiş şekilde kullan</string>
+    <string name="live_display_color_profile_adaptive_title">Uyarlanabilir</string>
+    <string name="live_display_color_profile_adaptive_summary">Renkleri ortam koşullarına göre uyarla</string>
+    <string name="live_display_color_profile_reading_title">Okuma</string>
+    <string name="live_display_color_profile_reading_summary">Daha az göz yorgunluğu için sıcak renkler</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">sRGB renk uzayından gerçek renkler</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">DCI-P3 renk uzayından gerçek renkler</string>
+    <string name="live_display_reading_mode_title">Okuma modu</string>
+    <string name="live_display_reading_mode_summary">Uzun süreli okuma için gri tonlama modu</string>
+    <string name="color_calibration_title">Renk kalibrasyonu</string>
+    <string name="color_calibration_summary">Ekrandaki renkleri kalibre et</string>
+    <string name="color_red_title">Kırmızı</string>
+    <string name="color_green_title">Yeşil</string>
+    <string name="color_blue_title">Mavi</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Resim ayarlama</string>
+    <string name="picture_adjustment_summary">Ton, doygunluk, yoğunluk ve kontrastı ayarla</string>
+    <string name="adj_hue_title">Ton</string>
+    <string name="adj_saturation_title">Doygunluk</string>
+    <string name="adj_intensity_title">Sıklık</string>
+    <string name="adj_contrast_title">Kontrast</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
+    <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Dokunma geri bildirimi</string>
+    <string name="back_gesture_haptic_summary">Geri hareketinde titreşimi aç</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">Gesture bar length</string>
+    <string name="hidden_label">Hidden</string>
+    <string name="long_label">Long</string>
+    <string name="volumesteps_title">Volume Steps</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Döndürme</string>
+    <string name="display_rotation_summary">Select rotation angles</string>
+    <string name="display_rotation_disabled">Devre dışı</string>
+    <string name="display_rotation_unit">derece</string>
+    <string name="display_rotation_category_title">Döndürme modları</string>
+    <string name="display_rotation_0_title">0 derece</string>
+    <string name="display_rotation_90_title">90 derece</string>
+    <string name="display_rotation_180_title">180 derece</string>
+    <string name="display_rotation_270_title">270 derece</string>
+    <!-- Primary color -->
+    <string name="theme_customization_primary_color_title">Birincil renk</string>
+    <string name="weather_title">Hava Durumu</string>
+    <string name="selinux_status">SELinux durumu</string>
+    <string name="selinux_status_disabled">Devre dışı</string>
+    <string name="selinux_status_permissive">Permissive (Serbest)</string>
+    <string name="selinux_status_enforcing">Enforcing (Zorunlu)</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Işık rengi</string>
+    <string name="custom_light_on_time_title">Işık açıkken yanıp sönme hızı (ms)</string>
+    <string name="custom_light_off_time_title">Işık kapalıyken yanıp sönme hızı (ms)</string>
+    <string name="value_equals_default">vrs</string>
+    <string name="dashboard_conditions_title">Ayarlar menüsü durumları</string>
+    <string name="summary_dashboard_conditions_enabled">Ayarlar menüsü durumları etkin</string>
+    <string name="summary_dashboard_conditions_disabled">Ayarlar menüsü durumları devre dışı</string>
+    <string name="dashboard_suggestions_title">Ayarlar menüsü önerileri</string>
+    <string name="summary_dashboard_suggestions_enabled">Ayarlar menüsü önerileri etkin</string>
+    <string name="summary_dashboard_suggestions_disabled">Ayarlar menüsü önerileri devre dışı</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
+    <string name="doze_on_charge_summary">Şarjdayken her zaman ortam ekranını göster</string>
+</resources>
