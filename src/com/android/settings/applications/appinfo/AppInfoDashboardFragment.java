@@ -129,6 +129,8 @@ public class AppInfoDashboardFragment extends DashboardFragment
 
     private InstantAppButtonsPreferenceController mInstantAppButtonPreferenceController;
     private AppButtonsPreferenceController mAppButtonsPreferenceController;
+    private AppResourceOverlayPreferenceController mAppResourceOverlayPreferenceController;
+    private AppResourceOverlaysForTargetPreferenceController mAppRroForTargetPreferenceController;
 
     /**
      * Callback to invoke when app info has been changed.
@@ -288,6 +290,15 @@ public class AppInfoDashboardFragment extends DashboardFragment
         controllers.add(mAppButtonsPreferenceController);
         controllers.add(new AppBatteryPreferenceController(context, this, packageName, lifecycle));
         controllers.add(new AppMemoryPreferenceController(context, this, lifecycle));
+        mAppResourceOverlayPreferenceController =
+            new AppResourceOverlayPreferenceController(context);
+        mAppResourceOverlayPreferenceController.setParentFragment(this);
+        mAppResourceOverlayPreferenceController.setState(mState);
+        controllers.add(mAppResourceOverlayPreferenceController);
+        mAppRroForTargetPreferenceController =
+            new AppResourceOverlaysForTargetPreferenceController(context);
+        mAppRroForTargetPreferenceController.setParentFragment(this);
+        controllers.add(mAppRroForTargetPreferenceController);
         controllers.add(new DefaultHomeShortcutPreferenceController(context, packageName));
         controllers.add(new DefaultBrowserShortcutPreferenceController(context, packageName));
         controllers.add(new DefaultPhoneShortcutPreferenceController(context, packageName));
@@ -456,6 +467,10 @@ public class AppInfoDashboardFragment extends DashboardFragment
         } else if (AppUtils.isInstant(appEntry.info)) {
             showIt = false;
         }
+        //TODO:[b/119442582] enable/disable uninstall for all for overlays?
+        // else if (appEntry.info.isResourceOverlay()) {
+        //   showIt = false; // ???
+        //}
         return showIt;
     }
 
@@ -478,6 +493,10 @@ public class AppInfoDashboardFragment extends DashboardFragment
         }
         if (mAppButtonsPreferenceController.isAvailable()) {
             mAppButtonsPreferenceController.refreshUi();
+        }
+
+        if (mAppEntry.info.isResourceOverlay()) {
+            mAppResourceOverlayPreferenceController.refreshUi();
         }
 
         if (!mInitialized) {
