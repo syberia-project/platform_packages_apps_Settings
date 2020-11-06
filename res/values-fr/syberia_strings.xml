@@ -27,12 +27,12 @@
     <string name="device_part_summary">Fonctionnalités spécifiques à l\'appareil</string>
     <!-- Changelog -->
     <string name="changelog_title">Journal des changements</string>
-    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_summary">Depuis la dernière mise à jour</string>
     <string name="changelog_error">Impossible de charger le journal des changements</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-    <string name="global_actions_title">Power menu</string>
+    <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
+    <string name="proximity_wake_summary">Utiliser le capteur de proximité pour prévenir les réveils accidentels de l\'écran</string>
+    <string name="global_actions_title">Menu d\'alimentation</string>
     <string name="battery_temp">Température de la batterie</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
@@ -46,7 +46,7 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Lier les volumes de la sonnerie &amp; des notifications</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_nos_title">Charging sound</string>
+    <string name="charging_sounds_nos_title">Son d\'alimentation</string>
     <string name="charging_vibro_title">Vibration lors du chargement</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Optimise votre écran en fonction de l\'heure et des conditions ambiantes pour améliorer la lisibilité et réduire la fatigue oculaire</string>
@@ -106,13 +106,13 @@
     <string name="back_gesture_haptic_title">Retour haptique</string>
     <string name="back_gesture_haptic_summary">Activer le retour haptique sur le geste arrière</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
+    <string name="navbar_length">Longueur de la barre de geste</string>
+    <string name="hidden_label">Masqué</string>
     <string name="long_label">Long</string>
-    <string name="volumesteps_title">Volume Steps</string>
+    <string name="volumesteps_title">Niveaux du volume</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_summary">Select rotation angles</string>
+    <string name="display_rotation_summary">Sélectionner l’angle de rotation</string>
     <string name="display_rotation_disabled">Désactivé</string>
     <string name="display_rotation_unit">degrés</string>
     <string name="display_rotation_category_title">Modes de rotation</string>
@@ -141,4 +141,26 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Ecran toujours allumé pendant la charge</string>
     <string name="doze_on_charge_summary">Afficher l\'écran de veille tout le temps pendant la charge</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
+    <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+    <!-- Legacy WFD settings -->
+    <string name="legacy_wfd_video_mode_title">Video mode</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
+    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">No restriction</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
 </resources>
