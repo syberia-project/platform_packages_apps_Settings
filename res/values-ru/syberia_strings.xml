@@ -57,4 +57,11 @@
     <string name="back_gesture_haptic_title">Вибрация</string>
     <string name="back_gesture_haptic_summary">Включить вибрацию для жеста назад</string>
 
+
+    <!-- Navigation settings -->
+    <string name="back_height_low_label">Весь экран</string>
+    <string name="back_height_high_label">Низ экрана</string>
+    <string name="back_options_dialog_title">Опции</string>
+    <string name="back_height_message">Высота экрана используемая для жеста назад</string>
+
 </resources>
