@@ -40,8 +40,7 @@ public class GlobalActionsPanelPreferenceController extends GesturePreferenceCon
 
     @Override
     public int getAvailabilityStatus() {
-        int enabled = Settings.Secure.getInt(mContext.getContentResolver(), AVAILABLE_SETTING, 0);
-        return enabled == 1 ? AVAILABLE : CONDITIONALLY_UNAVAILABLE;
+        return AVAILABLE;
     }
 
     @Override
