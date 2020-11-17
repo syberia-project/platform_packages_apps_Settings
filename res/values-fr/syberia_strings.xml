@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, syberia version -->
-    <string name="syberia_version">Version de Syberia</string>
+    <string name="syberia_version">Version de syberia</string>
     <string name="syberia_version_default">Inconnu</string>
     <string name="keywords_syberia_version">version de Syberia</string>
     <!-- About phone screen, build date -->
@@ -142,25 +142,32 @@
     <string name="doze_on_charge_title">Ecran toujours allumé pendant la charge</string>
     <string name="doze_on_charge_summary">Afficher l\'écran de veille tout le temps pendant la charge</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">Verrouillage de l\'écran, avec empreinte digitale</string>
+    <string name="fod_gesture_summary">Autoriser le déverrouillage de l\'appareil sans devoir allumer l\'écran</string>
     <!-- Swipe up for face unlock -->
-    <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
-    <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+    <string name="security_settings_face_require_swipe">Glisser pour déverrouiller</string>
+    <string name="security_settings_face_require_swipe_summary">Glisser vers le haut sur l\'écran de verrouillage pour utiliser le déverrouillage facial</string>
     <!-- Legacy WFD settings -->
-    <string name="legacy_wfd_video_mode_title">Video mode</string>
+    <string name="legacy_wfd_video_mode_title">Mode Vidéo</string>
     <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
-    <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
-    <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
-    <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p 30fps</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">720p 30fps</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">720p 30fps</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
+    <string name="app_notification_sound_timeout_title">Temps minimum entre les sons de notification</string>
+    <string name="app_notification_sound_timeout_summary_template">Permettre des sons ou des vibrations pas plus d’une fois chaque <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Sans restriction</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 secondes</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 secondes</string>
     <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>

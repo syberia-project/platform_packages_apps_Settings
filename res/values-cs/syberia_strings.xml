@@ -27,12 +27,12 @@
     <string name="device_part_summary">Speciální funkce zařízení</string>
     <!-- Changelog -->
     <string name="changelog_title">Seznam změn</string>
-    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_summary">Od poslední aktualizace</string>
     <string name="changelog_error">Nelze načíst seznam změn</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-    <string name="global_actions_title">Power menu</string>
+    <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
+    <string name="proximity_wake_summary">Kontrolovat senzor přiblížení pro zabránění nechtěného probuzení</string>
+    <string name="global_actions_title">Menu napájení</string>
     <string name="battery_temp">Teplota baterie</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Obchod Play</string>
@@ -46,7 +46,7 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Sjednotit hlasitosti vyzvánění a oznámení</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_nos_title">Charging sound</string>
+    <string name="charging_sounds_nos_title">Zvuk při nabíjení</string>
     <string name="charging_vibro_title">Vibrace při nabíjení</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Optimalizovat obrazovku podle denní doby a okolních podmínek pro lepší čitelnost a snížení namáhání očí</string>
@@ -106,13 +106,13 @@
     <string name="back_gesture_haptic_title">Hmatová odezva</string>
     <string name="back_gesture_haptic_summary">Povolit efekt krátkého zavibrování při použití gesta „Zpět“</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
-    <string name="volumesteps_title">Volume Steps</string>
+    <string name="navbar_length">Délka panelu gesta</string>
+    <string name="hidden_label">Nezobrazovat</string>
+    <string name="long_label">Dlouhá</string>
+    <string name="volumesteps_title">Kroky hlasitosti</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Otáčení</string>
-    <string name="display_rotation_summary">Select rotation angles</string>
+    <string name="display_rotation_summary">Vyberte úhly otočení</string>
     <string name="display_rotation_disabled">Vypnuto</string>
     <string name="display_rotation_unit">stupně</string>
     <string name="display_rotation_category_title">Režimy otáčení</string>
@@ -142,25 +142,32 @@
     <string name="doze_on_charge_title">Vždy zapnuto při nabíjení</string>
     <string name="doze_on_charge_summary">Při nabíjení vždy zobrazit obrazovku Doze</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">Otisky prstů při vypnuté obrazovce</string>
+    <string name="fod_gesture_summary">Umožňuje odemknutí zařízení, aniž by bylo nutné nejprve obrazovku probudit</string>
     <!-- Swipe up for face unlock -->
-    <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
-    <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+    <string name="security_settings_face_require_swipe">Tahem nahoru odemknout</string>
+    <string name="security_settings_face_require_swipe_summary">Chcete-li použít odemknutí obličeje, přejeďte prstem nahoru po zamykací obrazovce</string>
     <!-- Legacy WFD settings -->
-    <string name="legacy_wfd_video_mode_title">Video mode</string>
+    <string name="legacy_wfd_video_mode_title">Režim videa</string>
     <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
     <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
     <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
     <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_title">Minimální doba mezi zvuky oznámení</string>
+    <string name="app_notification_sound_timeout_summary_template">Povolit zvuky nebo vibrace ne více než jednou každých <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Bez omezení</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekund</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekund</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuta</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minut</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>
