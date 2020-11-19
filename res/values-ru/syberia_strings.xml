@@ -162,4 +162,7 @@
     <string name="fullscreen_gestures_title">Жесты в полный экран</string>
     <string name="fullscreen_gestures_summary">Спрятать полоску и место под клавиатурой</string>
 
+    <!-- Radio Info -->
+    <string name="radio_info_title">Информация о сети</string>
+
 </resources>
