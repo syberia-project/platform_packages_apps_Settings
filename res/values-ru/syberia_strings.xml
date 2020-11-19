@@ -198,4 +198,9 @@
     <string name="model_name">Статус устройства</string>
     <string name="legal_summary">Лицензии и правовая информация</string>
 
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Метод распознавания отпечатков</string>
+    <string name="fp_wake_unlock_touch">Касание</string>
+    <string name="fp_wake_unlock_press">Нажатие</string>
+
 </resources>
