@@ -35,4 +35,7 @@
     <string name="proximity_wake_title">Предотвращение случайного пробуждения</string>
     <string name="proximity_wake_summary">Блокировать экран и кнопки когда устройство в кармане</string>
 
+    <!-- Radio Info -->
+    <string name="radio_info_title">Информация о сети</string>
+
 </resources>
