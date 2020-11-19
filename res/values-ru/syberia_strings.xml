@@ -314,4 +314,7 @@
     <string name="fp_wake_unlock_touch">Касание</string>
     <string name="fp_wake_unlock_press">Нажатие</string>
 
+    <!-- Radio Info -->
+    <string name="radio_info_title">Информация о сети</string>
+
 </resources>
