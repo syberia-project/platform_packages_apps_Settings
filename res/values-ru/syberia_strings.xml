@@ -309,4 +309,9 @@
     <string name="ui_background_blur_title">Размытие заднего фона</string>
     <string name="ui_background_blur_summary">Включить размытие заднего фона (увеличивает нагрузку на GPU)</string>
 
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Поведение сканера отпечатка пальца</string>
+    <string name="fp_wake_unlock_touch">Прикосновение</string>
+    <string name="fp_wake_unlock_press">Нажатие</string>
+
 </resources>
