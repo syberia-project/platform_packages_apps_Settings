@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ed56306d_a2fdcdf2",
+        "filename": "res/values/syberia_config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000015
+      },
+      "writtenOn": "2020-11-27T09:26:33Z",
+      "side": 1,
+      "message": "Seams redundant way not use FOD support overlay instead",
+      "revId": "88bd1b968362db26b7fead71931604393c40e2d5",
+      "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8",
+      "unresolved": true
+    }
+  ]
+}
