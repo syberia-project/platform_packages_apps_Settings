@@ -33,12 +33,6 @@
         android:title="@string/unlock_quick_unlock_control_title"
         android:summary="@string/unlock_quick_unlock_control_summary" />
 
-    <!-- available for supported devices only -->
-    <SwitchPreference
-        android:key="fod_gesture"
-        android:title="@string/fod_gesture_title"
-        android:summary="@string/fod_gesture_summary" />
-
     <!-- available in pin/pattern/password -->
     <com.android.settings.display.TimeoutListPreference
         android:key="lock_after_timeout"
