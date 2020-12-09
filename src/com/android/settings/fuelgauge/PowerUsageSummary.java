@@ -109,6 +109,10 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     LayoutPreference mBatteryLayoutPref;
     @VisibleForTesting
     BatteryInfo mBatteryInfo;
+    @VisibleForTesting
+    BatteryStatusFeatureProvider mBatteryStatusFeatureProvider;
+    @VisibleForTesting
+    TextView mSummary1;
 
     @VisibleForTesting
     PowerManager mPowerManager;
@@ -234,11 +238,15 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mBatteryLevel = getContext().getResources().getInteger(
                 com.android.internal.R.integer.config_criticalBatteryWarningLevel) + 1;
 
+        mSummary1 = mBatteryLayoutPref.findViewById(R.id.summary1);
         mScreenUsagePref = (PowerGaugePreference) findPreference(KEY_SCREEN_USAGE);
         mBatteryTempPref = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
         mLastFullChargePref = (PowerGaugePreference) findPreference(
                 KEY_TIME_SINCE_LAST_FULL_CHARGE);
         mBatteryUtils = BatteryUtils.getInstance(getContext());
+
+        mBatteryStatusFeatureProvider = FeatureFactory.getFactory(getContext())
+                .getBatteryStatusFeatureProvider(getContext());
 
         restartBatteryInfoLoader();
         mBatteryTipPreferenceController.restoreInstanceState(icicle);
@@ -401,11 +409,12 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         final BatteryMeterView batteryView = (BatteryMeterView) mBatteryLayoutPref
                 .findViewById(R.id.battery_header_icon);
         final TextView timeText = (TextView) mBatteryLayoutPref.findViewById(R.id.battery_percent);
-        final TextView summary1 = (TextView) mBatteryLayoutPref.findViewById(R.id.summary1);
-        if (info.remainingLabel == null ) {
-            summary1.setText(info.statusLabel);
-        } else {
-            summary1.setText(info.remainingLabel);
+        if (!mBatteryStatusFeatureProvider.triggerBatteryStatusUpdate(this, info)) {
+            if (info.remainingLabel == null) {
+                mSummary1.setText(info.statusLabel);
+            } else {
+                mSummary1.setText(info.remainingLabel);
+            }
         }
         batteryView.setCharging(!info.discharging);
         batteryView.setPowerSave(mPowerManager.isPowerSaveMode());
@@ -508,6 +517,13 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         catch (Exception e) {
             return null;
         }
+    }
+
+    /**
+     * Callback which receives text for the summary line.
+     */
+    public void updateBatteryStatus(String statusLabel) {
+        mSummary1.setText(statusLabel);
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
