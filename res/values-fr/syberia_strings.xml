@@ -141,9 +141,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Ecran toujours allumé pendant la charge</string>
     <string name="doze_on_charge_summary">Afficher l\'écran de veille tout le temps pendant la charge</string>
-    <!-- Screen off fod -->
-    <string name="fod_gesture_title">Verrouillage de l\'écran, avec empreinte digitale</string>
-    <string name="fod_gesture_summary">Autoriser le déverrouillage de l\'appareil sans devoir allumer l\'écran</string>
     <!-- Swipe up for face unlock -->
     <string name="security_settings_face_require_swipe">Glisser pour déverrouiller</string>
     <string name="security_settings_face_require_swipe_summary">Glisser vers le haut sur l\'écran de verrouillage pour utiliser le déverrouillage facial</string>
@@ -164,6 +161,8 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
     <string name="data_usage_app_restrict_data">Données mobiles</string>
     <string name="data_usage_app_restrict_data_summary">Activer l\'utilisation des données mobiles</string>
     <string name="data_usage_app_restrict_vpn">Données VPN</string>
@@ -171,47 +170,47 @@
     <string name="data_usage_app_restrict_wifi">Données Wi-Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Activer l\'utilisation des données Wi-Fi</string>
     <!-- Back gesture height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
+    <string name="back_height_low_label">Plein</string>
+    <string name="back_height_high_label">Bas</string>
     <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_message">Zone d\'écran utilisée pour le geste retour (en hauteur).</string>
     <!-- Custom actions -->
-    <string name="action_nothing">No action</string>
+    <string name="action_nothing">Aucune action</string>
     <string name="action_menu">Menu</string>
-    <string name="action_app_switch">Recents</string>
+    <string name="action_app_switch">Récents</string>
     <string name="action_search">Assistant</string>
-    <string name="action_voice_search">Voice search</string>
-    <string name="action_launch_camera">Camera</string>
-    <string name="action_last_app">Last app</string>
-    <string name="action_splitscreen">Split screen</string>
-    <string name="action_flashlight">Flashlight</string>
-    <string name="action_clear_notifications">Clear notifications</string>
-    <string name="action_volume_panel">Volume panel</string>
-    <string name="action_screen_off">Screen off</string>
+    <string name="action_voice_search">Recherche vocale</string>
+    <string name="action_launch_camera">Appareil photo</string>
+    <string name="action_last_app">Dernière application</string>
+    <string name="action_splitscreen">Partager l\'écran</string>
+    <string name="action_flashlight">Lampe de poche</string>
+    <string name="action_clear_notifications">Supprimer les notifications</string>
+    <string name="action_volume_panel">Panneau de volume</string>
+    <string name="action_screen_off">Éteindre l\'écran</string>
     <string name="action_notifications">Notifications</string>
-    <string name="action_power_menu">Power menu</string>
-    <string name="action_screenshot">Screenshot</string>
-    <string name="action_qs_panel">QS panel</string>
+    <string name="action_power_menu">Menu d\'alimentation</string>
+    <string name="action_screenshot">Capture d\'écran</string>
+    <string name="action_qs_panel">Volet des réglages rapides</string>
     <string name="action_app_action">Application</string>
-    <string name="action_ringer_modes">Ringer modes</string>
-    <string name="kill_app">Kill foreground app</string>
-    <string name="recent_app_toggle">Switch recent app</string>
-    <string name="action_partial_screenshot">Partial screenshot</string>
+    <string name="action_ringer_modes">Modes de sonnerie</string>
+    <string name="kill_app">Tuer l\'application au premier plan</string>
+    <string name="recent_app_toggle">Changer d\'application récente</string>
+    <string name="action_partial_screenshot">Capture d’écran partielle</string>
     <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
-    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
-    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
-    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
-    <string name="left_swipe_actions_title">Long left swipe action</string>
-    <string name="left_swipe_app_action_title">Select long left swipe app</string>
-    <string name="right_swipe_actions_title">Long right swipe action</string>
-    <string name="right_swipe_app_action_title">Select long right swipe app</string>
-    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
-    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
-    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
-    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
-    <string name="back_swipe_extended_title">Extended swipe action</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <string name="navbar_gesture_tweaks_pref_title">Options de gestes avancées</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personnalisez les gestes et définissez des actions personnalisées</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avancé</string>
+    <string name="swipe_app_select_summary">Sélectionner une application à démarrer avec \"Action par appui\"</string>
+    <string name="long_back_swipe_timeout_title">Délai d\'attente de l\'action de balayage long</string>
+    <string name="left_swipe_actions_title">Action de balayage à gauche long</string>
+    <string name="left_swipe_app_action_title">Sélectionner un application pour balayage à gauche long</string>
+    <string name="right_swipe_actions_title">Action de balayage à droite long</string>
+    <string name="right_swipe_app_action_title">Sélectionner un application pour balayage à droite long</string>
+    <string name="left_vertical_swipe_actions_title">Action de glissement vers la gauche verticale</string>
+    <string name="left_vertical_swipe_app_action_title">Sélectionner un application pour balayage à gauche vertical</string>
+    <string name="right_vertical_swipe_actions_title">Action de glissement vers la droite verticale</string>
+    <string name="right_vertical_swipe_app_action_title">Sélectionner un application pour balayage à droite vertical</string>
+    <string name="gesture_nav_tweaks_footer_info">Pour choisir une activité d\'application spécifique pour l\'action, appuyez longuement sur n\'importe quelle application dans le sélecteur d\'applications. Si le lanceur s\'affiche, faites glisser votre doigt tout en bas de l\'écran pour déclencher l\'action.</string>
+    <string name="back_swipe_extended_title">Action de balayage étendue</string>
+    <string name="back_swipe_extended_summary">Déclencher l\'action sur un balayage plus large (plus de la moitié de la taille de l\'écran), ou un balayage en L (suffisamment long verticalement)</string>
 </resources>
