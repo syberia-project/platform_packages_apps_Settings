@@ -14,11 +14,11 @@
 
 package com.android.settings.datausage;
 
-import static android.net.NetworkPolicyManager.POLICY_NETWORK_ISOLATED;
+import static android.net.NetworkPolicyManager.POLICY_REJECT_ALL;
 import static android.net.NetworkPolicyManager.POLICY_REJECT_METERED_BACKGROUND;
-import static android.net.NetworkPolicyManager.POLICY_REJECT_ON_DATA;
-import static android.net.NetworkPolicyManager.POLICY_REJECT_ON_VPN;
-import static android.net.NetworkPolicyManager.POLICY_REJECT_ON_WLAN;
+import static android.net.NetworkPolicyManager.POLICY_REJECT_CELLULAR;
+import static android.net.NetworkPolicyManager.POLICY_REJECT_VPN;
+import static android.net.NetworkPolicyManager.POLICY_REJECT_WIFI;
 
 import android.app.Activity;
 import android.app.settings.SettingsEnums;
@@ -414,19 +414,19 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     }
 
     private boolean getAppRestrictAll() {
-        return getAppRestriction(POLICY_NETWORK_ISOLATED);
+        return getAppRestriction(POLICY_REJECT_ALL);
     }
 
     private boolean getAppRestrictData() {
-        return getAppRestriction(POLICY_REJECT_ON_DATA);
+        return getAppRestriction(POLICY_REJECT_CELLULAR);
     }
 
     private boolean getAppRestrictVpn() {
-        return getAppRestriction(POLICY_REJECT_ON_VPN);
+        return getAppRestriction(POLICY_REJECT_VPN);
     }
 
     private boolean getAppRestrictWlan() {
-        return getAppRestriction(POLICY_REJECT_ON_WLAN);
+        return getAppRestriction(POLICY_REJECT_WIFI);
     }
 
     private boolean getUnrestrictData() {
@@ -443,19 +443,19 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     }
 
     private void setAppRestrictAll(boolean restrict) {
-        setAppRestriction(POLICY_NETWORK_ISOLATED, restrict);
+        setAppRestriction(POLICY_REJECT_ALL, restrict);
     }
 
     private void setAppRestrictData(boolean restrict) {
-        setAppRestriction(POLICY_REJECT_ON_DATA, restrict);
+        setAppRestriction(POLICY_REJECT_CELLULAR, restrict);
     }
 
     private void setAppRestrictVpn(boolean restrict) {
-        setAppRestriction(POLICY_REJECT_ON_VPN, restrict);
+        setAppRestriction(POLICY_REJECT_VPN, restrict);
     }
 
     private void setAppRestrictWlan(boolean restrict) {
-        setAppRestriction(POLICY_REJECT_ON_WLAN, restrict);
+        setAppRestriction(POLICY_REJECT_WIFI, restrict);
     }
 
     private void setAppRestriction(int policy, boolean restrict) {
