@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016 The Android Open Source Project
+ * Copyright (C) 2019-2022 The Evolution X Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,7 +16,6 @@
 
 package com.android.settings.gestures;
 
-import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.provider.SearchIndexableResource;
@@ -34,25 +33,18 @@ import java.util.Arrays;
 import java.util.List;
 
 @SearchIndexable
-public class DoubleTapPowerSettings extends DashboardFragment {
+public class DoubleTapAmbientSettings extends DashboardFragment {
 
-    private static final String TAG = "DoubleTapPower";
-
-    public static final String PREF_KEY_SUGGESTION_COMPLETE =
-            "pref_double_tap_power_suggestion_complete";
+    private static final String TAG = "DoubleTapAmbientSettings";
 
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        SuggestionFeatureProvider suggestionFeatureProvider = FeatureFactory.getFactory(context)
-                .getSuggestionFeatureProvider(context);
-        SharedPreferences prefs = suggestionFeatureProvider.getSharedPrefs(context);
-        prefs.edit().putBoolean(PREF_KEY_SUGGESTION_COMPLETE, true).apply();
     }
 
     @Override
     public int getMetricsCategory() {
-        return SettingsEnums.SETTINGS_GESTURE_DOUBLE_TAP_POWER;
+        return MetricsEvent.SYBERIA;
     }
 
     @Override
@@ -62,9 +54,17 @@ public class DoubleTapPowerSettings extends DashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.double_tap_power_settings;
+        return R.xml.double_tap_ambient_screen_settings;
     }
 
-    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.double_tap_power_settings);
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(
+                        Context context, boolean enabled) {
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.double_tap_ambient_screen_settings;
+                    return Arrays.asList(sir);
+                }
+            };
 }
