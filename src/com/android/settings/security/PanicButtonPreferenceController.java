@@ -26,8 +26,9 @@ import com.android.settings.core.TogglePreferenceController;
 
 public class PanicButtonPreferenceController extends TogglePreferenceController {
 
-    private static final String PANIC_PACKAGE = "info.guardianproject.ripple";
-    private static final String PANIC_ACTIVITY = "info.guardianproject.ripple.CountDownActivity";
+    private static final String[] PANIC_PACKAGES =
+            new String[]{"info.guardianproject.ripple", "org.calyxos.ripple"};
+    private static final String PANIC_ACTIVITY = "org.calyxos.ripple.CountDownActivity";
 
     public PanicButtonPreferenceController(Context context, String key) {
         super(context, key);
@@ -35,14 +36,15 @@ public class PanicButtonPreferenceController extends TogglePreferenceController 
 
     @Override
     public int getAvailabilityStatus() {
-        Intent intent = new Intent();
-        intent.setComponent(new ComponentName(PANIC_PACKAGE, PANIC_ACTIVITY));
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        if (mContext.getPackageManager().resolveActivity(intent, 0) != null) {
-            return AVAILABLE;
-        } else {
-            return CONDITIONALLY_UNAVAILABLE;
+        for (String panicPackage : PANIC_PACKAGES) {
+            Intent intent = new Intent();
+            intent.setComponent(new ComponentName(panicPackage, PANIC_ACTIVITY));
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            if (mContext.getPackageManager().resolveActivity(intent, 0) != null) {
+                return AVAILABLE;
+            }
         }
+        return CONDITIONALLY_UNAVAILABLE;
     }
 
     @Override
