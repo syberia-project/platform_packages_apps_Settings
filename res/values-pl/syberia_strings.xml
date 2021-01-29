@@ -40,9 +40,6 @@
     <string name="packagename_text"><xliff:g id="nazwa_pakietu">%1$s</xliff:g></string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
-    <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Aplikacje pełnoekranowe</string>
-    <string name="display_cutout_force_fullscreen_summary">Wymuś na aplikacjach ignorowanie notch\'a</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Połącz głośność dzwonka &amp; powiadomień</string>
     <!-- Charging vibration -->
@@ -213,4 +210,33 @@
     <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
     <string name="back_swipe_extended_title">Extended swipe action</string>
     <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_summary">Set maximum charging level</string>
+    <string name="smart_charging_switch_title">Use Smart charging</string>
+    <string name="smart_charging_level_title">Stop trigger level</string>
+    <string name="smart_charging_resume_level_title">Start trigger level</string>
+    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
+    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
+    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
+         is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
+    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
+    <!-- Notch -->
+    <string name="notch_category_title">Notch options</string>
+    <string name="hide_notch_title">Hide notch</string>
+    <string name="hide_notch_summary">Apps can not use the notch area</string>
+    <string name="display_cutout_force_fullscreen_title">Aplikacje pełnoekranowe</string>
+    <string name="display_cutout_force_fullscreen_summary">Wymuś na aplikacjach ignorowanie notch\'a</string>
 </resources>
