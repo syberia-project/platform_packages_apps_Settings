@@ -46,6 +46,8 @@ import android.text.TextUtils;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.android.settings.display.SwitchStylePreferenceController;
+
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class DisplaySettings extends DashboardFragment {
     private static final String TAG = "DisplaySettings";
@@ -103,6 +105,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new VrDisplayPreferenceController(context));
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new ThemePreferenceController(context));
+        controllers.add(new SwitchStylePreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.accent_color"));
