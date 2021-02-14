@@ -41,6 +41,7 @@ import androidx.slice.Slice;
 
 import com.android.settings.R;
 import com.android.settings.panel.PanelSlicesAdapter.SliceRowViewHolder;
+import com.android.settings.slices.CustomSliceRegistry;
 import com.android.settings.testutils.FakeFeatureFactory;
 
 import org.junit.Before;
@@ -62,6 +63,8 @@ import java.util.Map;
 @RunWith(RobolectricTestRunner.class)
 @Config(shadows = PanelSlicesAdapterTest.ShadowLayoutInflater.class)
 public class PanelSlicesAdapterTest {
+
+    private static final Uri DATA_URI = CustomSliceRegistry.DATA_USAGE_SLICE_URI;
 
     private static LayoutInflater sLayoutInflater;
 
@@ -103,6 +106,18 @@ public class PanelSlicesAdapterTest {
         final LiveData<Slice> liveData = mock(LiveData.class);
         when(liveData.getValue()).thenReturn(slice);
         mData.put(uri, liveData);
+    }
+
+    @Test
+    public void onCreateViewHolder_returnsSliceRowViewHolder() {
+        addTestLiveData(DATA_URI);
+        final PanelSlicesAdapter adapter =
+                new PanelSlicesAdapter(mPanelFragment, mData, 0 /* metrics category */);
+        final ViewGroup view = new FrameLayout(mContext);
+        final PanelSlicesAdapter.SliceRowViewHolder viewHolder =
+                adapter.onCreateViewHolder(view, 0);
+
+        assertThat(viewHolder.sliceView).isNotNull();
     }
 
     @Test
