@@ -273,4 +273,11 @@
     <string name="charging_sounds_nos_title">Звук при подкл. зарядки</string>
     <string name="charging_vibro_title">Вибрация при подкл. зарядки</string>
 
+    <!-- Ringtone vibration -->
+    <string name="vibration_pattern_title">Шаблон вибрации при звонке</string>
+    <string name="custom_vibration_pattern_title">Cвой шаблон</string>
+    <string name="custom_vibration_pattern_summary">Настройте свой шаблон вибрации</string>
+    <string name="pattern_custom">Свой шаблон</string>
+
+
 </resources>
