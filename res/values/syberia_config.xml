@@ -25,6 +25,9 @@
     <!-- Whether to show min refresh rate in display settings -->
     <bool name="config_show_min_refresh_rate_switch">false</bool>
 
+    <!-- Whether to show min/max refresh rate in device settings -->
+    <bool name="config_show_refresh_rate_controls">false</bool>
+
     <!-- Battery Health -->
     <string name="config_batCurCap"></string>
     <string name="config_batDesCap"></string>

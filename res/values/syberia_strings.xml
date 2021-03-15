@@ -271,6 +271,10 @@
     <!-- Min refresh rate -->
     <string name="min_refresh_rate_title">Minimum refresh rate</string>
 
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
     <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
@@ -319,5 +323,7 @@
     <!-- UI background blur toggle -->
     <string name="ui_background_blur_title">UI background blur</string>
     <string name="ui_background_blur_summary">Enable UI background blur (expensive for GPU renderer)</string>
+
+    
 
 </resources>
