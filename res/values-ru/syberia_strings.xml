@@ -269,4 +269,24 @@
     <string name="display_cutout_force_fullscreen_title">Приложения в полный экран</string>
     <string name="display_cutout_force_fullscreen_summary">Приложения будут принудительно игнорировать вырез экрана</string>
 
+    <!-- App Lock -->
+    <string name="applock_title">Блокировка приложений</string>
+    <string name="applock_locked">Заблокировано</string>
+    <string name="applock_unlocked">Разблокировано</string>
+    <string name="applock_locked_apps">Заблокированные приложения</string>
+    <string name="applock_unlocked_apps">Разблокированные приложения</string>
+    <string name="applock_show_only_on_wake">Авторизация только один раз</string>
+    <string name="applock_show_only_on_wake_on_summary">После авторизации приложение остаётся разблокированным до выключения экрана</string>
+    <string name="applock_show_only_on_wake_off_summary">После авторизации приложение остаётся разблокированным в течение 15 секунд после выхода</string>
+    <string name="applock_notification_info">Вы можете отображать/скрывать содержимое уведомлений для каждого приложения, нажав на назначок уведомления, отображаемый в настройках каждого заблокированного приложения.</string>
+    <string name="applock_show_notif">Содержимое уведомления будет отображено</string>
+    <string name="applock_hide_notif">Содержимое уведомления скрыто</string>
+    <string name="applock_setup">Настройка блокировщика</string>
+    <string name="applock_overlay_summary">Эта опция недоступна, потому что приложение заблокировано</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 приложение заблокировано</item>
+        <item quantity="other">%d приложений заблокировано</item>
+    </plurals>
+    <string name="keywords_applock_settings">блокировка, блокировщик, блокировщик приложений, блокировка приложений</string>
+
 </resources>
