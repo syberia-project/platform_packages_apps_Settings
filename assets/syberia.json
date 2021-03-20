@@ -38,6 +38,34 @@
       "avatar": "https://syberiaos.com/img/avatars/DennySPb.jpg",
       "xda_link": "",
       "github_link": "https://github.com/DennySPB"
+    },
+    {
+      "device": "Xiaomi Mi 9T (davinci)",
+      "name": "Vladimir S",
+      "avatar": "https://avatars.githubusercontent.com/u/22645128?s=400&u=c58c2c6de25479e8d22bff448fa1c8ead699b590&v=4",
+      "xda_link": "https://forum.xda-developers.com/t/rom-11-davinci-official-syberia-project.4184719/",
+      "github_link": "https://github.com/SVB22"
+    },
+    {
+      "device": "Redmi K20 Pro (raphael)",
+      "name": "NATO66613",
+      "avatar": "https://avatars.githubusercontent.com/u/32751754?s=200&v=4",
+      "xda_link": "https://forum.xda-developers.com/t/rom-11-0-raphael-syberia-project-official.4194807/",
+      "github_link": "https://github.com/SOVIET-ANDROID"
+    },
+    {
+      "device": "Xiaomi Mi A2 Lite (daisy)",
+      "name": "lupesoltec",
+      "avatar": "https://avatars.githubusercontent.com/u/60533198?s=400&u=aec4b57963cd7eb92804bf4201dc3b7c5c9fa3a7&v=4",
+      "xda_link": "https://forum.xda-developers.com/t/rom-11-daisy-official-syberia-project.4200621/",
+      "github_link": "https://github.com/lupesoltec"
+    },
+    {
+      "device": "Redmi Note 8 (ginkgo)",
+      "name": "TheHitMan",
+      "avatar": "https://avatars.githubusercontent.com/u/51186623?s=400&u=1dbb103fb34e642a80ab2a67f7990d046820192d&v=4",
+      "xda_link": "https://forum.xda-developers.com/t/rom-11-0-ginkgo-official-syberia-project.4201003/",
+      "github_link": "https://github.com/TheHitMan7"
     }
   ]
 }
