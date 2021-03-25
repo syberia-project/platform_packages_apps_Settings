@@ -31,4 +31,7 @@
     <string name="config_batChargeCycle"></string>
     <bool name="config_supportBatteryHealth">false</bool>
 
+    <!-- Whether to show Google account avatar in settings -->
+    <bool name="config_show_google_account_avatar">false</bool>
+
 </resources>

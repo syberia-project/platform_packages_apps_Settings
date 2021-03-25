@@ -54,6 +54,8 @@ public class SettingsHomepageActivity extends FragmentActivity {
     ImageView avatarView;
     UserManager mUserManager;
 
+    boolean mShowAccountAvatar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -75,16 +77,22 @@ public class SettingsHomepageActivity extends FragmentActivity {
 
         getLifecycle().addObserver(new HideNonSystemOverlayMixin(this));
 
+        mShowAccountAvatar = getResources().getBoolean(R.bool.config_show_google_account_avatar);
+
         avatarView = root.findViewById(R.id.account_avatar);
-        avatarView.setImageDrawable(getCircularUserIcon(context));
-        avatarView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_MAIN);
-                intent.setComponent(new ComponentName("com.android.settings","com.android.settings.Settings$UserSettingsActivity"));
-                startActivity(intent);
-            }
-        });
+        if (mShowAccountAvatar) {
+            getLifecycle().addObserver(new AvatarViewMixin(this, avatarView));
+        } else {
+            avatarView.setImageDrawable(getCircularUserIcon(context));
+            avatarView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(Intent.ACTION_MAIN);
+                    intent.setComponent(new ComponentName("com.android.settings","com.android.settings.Settings$UserSettingsActivity"));
+                    startActivity(intent);
+                }
+            });
+        }
 
         if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
             // Only allow contextual feature on high ram devices.
