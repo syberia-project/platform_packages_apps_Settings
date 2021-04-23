@@ -240,28 +240,28 @@
     <string name="display_cutout_force_fullscreen_title">Aplikace přes celou obrazovku</string>
     <string name="display_cutout_force_fullscreen_summary">Vynutit, aby aplikace ignorovaly výřez v displeji</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_show_only_on_wake">Authenticate only once</string>
-    <string name="applock_show_only_on_wake_on_summary">Once authenticated, an app stays unlocked until the screen turns off</string>
-    <string name="applock_show_only_on_wake_off_summary">Once authenticated, an app stays unlocked for 15 seconds after exiting</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_title">Zámek aplikací</string>
+    <string name="applock_locked">Zamčeno</string>
+    <string name="applock_unlocked">Odemčeno</string>
+    <string name="applock_locked_apps">Uzamčené aplikace</string>
+    <string name="applock_unlocked_apps">Odemčené aplikace</string>
+    <string name="applock_show_only_on_wake">Ověřit pouze jednou</string>
+    <string name="applock_show_only_on_wake_on_summary">Po ověření zůstane aplikace odemknutá, dokud se nevypne obrazovka</string>
+    <string name="applock_show_only_on_wake_off_summary">Po ověření zůstane aplikace odemknutá po dobu 15 sekund od jejího ukončení</string>
+    <string name="applock_notification_info">Obsah oznámení můžete zobrazit nebo skrýt pro jednotlivé aplikace klepnutím na ikonu oznámení zobrazenou v\u00a0předvolbách každé zamčené aplikace</string>
+    <string name="applock_show_notif">Obsah oznámení je zobrazován</string>
+    <string name="applock_hide_notif">Obsah oznámení je skrýván</string>
+    <string name="applock_setup">Nastavit zámek aplikací</string>
+    <string name="applock_overlay_summary">Tato funkce není k dispozici, protože tato aplikace je uzamčena</string>
     <plurals name="applock_summary">
-        <item quantity="one">1 app locked</item>
-        <item quantity="few">%d apps locked</item>
-        <item quantity="many">%d apps locked</item>
-        <item quantity="other">%d apps locked</item>
+        <item quantity="one">1 aplikace uzamčena</item>
+        <item quantity="few">%d aplikace uzamčeny</item>
+        <item quantity="many">%d aplikací uzamčeno</item>
+        <item quantity="other">%d aplikací uzamčeno</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">uzamknout aplikaci, uzamykání aplikace, uzamčení aplikace, zámek aplikací</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">Narůstající hlasitost vyzvánění</string>
+    <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
+    <string name="increasing_ring_ramp_up_time_title">Doba zesilování</string>
 </resources>
