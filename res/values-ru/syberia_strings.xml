@@ -302,4 +302,9 @@
     <string name="designed_battery_capacity">Начальная ёмкость батареи</string>
     <string name="designed_battery_capacity_summary">Ёмкость батареи спроектированная производителем</string>
     <string name="battery_charge_cycles">Полные циклы заряд-разряд</string>
+
+    <!-- UI background blur toggle -->
+    <string name="ui_background_blur_title">Размытие заднего фона</string>
+    <string name="ui_background_blur_summary">Включить размытие заднего фона (увеличивает нагрузку на GPU)</string>
+
 </resources>
