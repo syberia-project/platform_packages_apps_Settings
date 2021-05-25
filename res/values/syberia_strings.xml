@@ -318,4 +318,8 @@
     <string name="ui_background_blur_title">UI background blur</string>
     <string name="ui_background_blur_summary">Enable UI background blur (expensive for GPU renderer)</string>
 
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">SBC HD audio</string>
+    <string name="sbc_hd_priority_summary">Whether to use Dual Channel mode for SBC codec by default</string>
+
 </resources>
