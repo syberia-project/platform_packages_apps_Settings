@@ -167,6 +167,7 @@ import com.syberia.settings.fragments.VolumeStepsFragment;
 import com.syberia.settings.fragments.OmniJawsSettings;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.syberia.settings.fragments.GamingMode;
+import com.syberia.settings.fragments.SleepMode;
 
 public class SettingsGateway {
 
@@ -323,6 +324,7 @@ public class SettingsGateway {
             VolumeStepsFragment.class.getName(),
             OmniJawsSettings.class.getName(),
             GamingMode.class.getName(),
+            SleepMode.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -367,5 +369,6 @@ public class SettingsGateway {
             Settings.VolumeStepsFragmentActivity.class.getName(),
             Settings.OmniJawsSettingsActivity.class.getName(),
             Settings.GamingModeActivity.class.getName(),
+            Settings.SleepModeActivity.class.getName(),
     };
 }
