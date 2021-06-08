@@ -89,6 +89,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     private static final String KEY_DESIGNED_BATTERY_CAPACITY = "designed_battery_capacity";
     private static final String KEY_BATTERY_CHARGE_CYCLES = "battery_charge_cycles";
 
+    private boolean isBatteryHealth = false;
+
     private String mBatDesCap;
     private String mBatCurCap;
     private String mBatChgCyc;
@@ -274,16 +276,14 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         }
 
         // Check availability of Battery Health
+        isBatteryHealth = getResources().getBoolean(R.bool.config_supportBatteryHealth);
+
         Preference mDesignedHealthPref = (Preference) findPreference(KEY_DESIGNED_BATTERY_CAPACITY);
-        if (!getResources().getBoolean(R.bool.config_supportBatteryHealth)) {
-            getPreferenceScreen().removePreference(mDesignedHealthPref);
-        }
         Preference mCurrentHealthPref = (Preference) findPreference(KEY_CURRENT_BATTERY_CAPACITY);
-        if (!getResources().getBoolean(R.bool.config_supportBatteryHealth)) {
-            getPreferenceScreen().removePreference(mCurrentHealthPref);
-        }
         Preference mCyclesHealthPref = (Preference) findPreference(KEY_BATTERY_CHARGE_CYCLES);
-        if (!getResources().getBoolean(R.bool.config_supportBatteryHealth)) {
+        if (!isBatteryHealth) {
+            getPreferenceScreen().removePreference(mDesignedHealthPref);
+            getPreferenceScreen().removePreference(mCurrentHealthPref);
             getPreferenceScreen().removePreference(mCyclesHealthPref);
         }
     }
@@ -421,9 +421,11 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         updateLastFullChargePreference();
         mScreenUsagePref.setSubtitle(StringUtil.formatElapsedTime(getContext(),
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
-        mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(mBatCurCap));
-        mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(mBatDesCap));
-        mBatteryChargeCycles.setSubtitle(parseBatteryCycle(mBatChgCyc));
+        if (isBatteryHealth) {
+            mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(mBatCurCap));
+            mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(mBatDesCap));
+            mBatteryChargeCycles.setSubtitle(parseBatteryCycle(mBatChgCyc));
+        }
         mBatteryTempPref.setSummary(BatteryInfo.batteryTemp+" "+Character.toString ((char) 176) + "C");
     }
 
