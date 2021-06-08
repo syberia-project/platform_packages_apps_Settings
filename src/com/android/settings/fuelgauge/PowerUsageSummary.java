@@ -124,10 +124,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     LayoutPreference mBatteryLayoutPref;
     @VisibleForTesting
     BatteryInfo mBatteryInfo;
-    @VisibleForTesting
-    BatteryStatusFeatureProvider mBatteryStatusFeatureProvider;
-    @VisibleForTesting
-    TextView mSummary1;
 
     @VisibleForTesting
     BatteryHeaderPreferenceController mBatteryHeaderPreferenceController;
@@ -263,9 +259,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mLastFullChargePref = (PowerGaugePreference) findPreference(
                 KEY_TIME_SINCE_LAST_FULL_CHARGE);
         mBatteryUtils = BatteryUtils.getInstance(getContext());
-
-        mBatteryStatusFeatureProvider = FeatureFactory.getFactory(getContext())
-                .getBatteryStatusFeatureProvider(getContext());
 
         if (Utils.isBatteryPresent(getContext())) {
             restartBatteryInfoLoader();
@@ -426,7 +419,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         // reload BatteryInfo and updateUI
         restartBatteryInfoLoader();
         updateLastFullChargePreference();
-        mScreenUsagePref.setSummary(StringUtil.formatElapsedTime(getContext(),
+        mScreenUsagePref.setSubtitle(StringUtil.formatElapsedTime(getContext(),
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
         mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(mBatCurCap));
         mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(mBatDesCap));
@@ -456,7 +449,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
             final long lastFullChargeTime = mBatteryUtils.calculateLastFullChargeTime(mStatsHelper,
                     System.currentTimeMillis());
             mLastFullChargePref.setTitle(R.string.battery_last_full_charge);
-            mLastFullChargePref.setSummary(
+            mLastFullChargePref.setSubtitle(
                     StringUtil.formatRelativeTime(getContext(), lastFullChargeTime,
                             false /* withSeconds */));
         }
@@ -513,7 +506,10 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     @Override
     protected void restartBatteryStatsLoader(@BatteryUpdateType int refreshType) {
         super.restartBatteryStatsLoader(refreshType);
-        mBatteryHeaderPreferenceController.quickUpdateHeaderPreference();
+        // Update battery header if battery is present.
+        if (mIsBatteryPresent) {
+            mBatteryHeaderPreferenceController.quickUpdateHeaderPreference();
+        }
     }
 
     @Override
@@ -568,13 +564,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         } finally {
             reader.close();
         }
-    }
-
-    /**
-     * Callback which receives text for the summary line.
-     */
-    public void updateBatteryStatus(String statusLabel) {
-        mSummary1.setText(statusLabel);
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
