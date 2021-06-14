@@ -21,4 +21,7 @@
 
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+
+   <!-- Max refresh rate -->
+   <string name="max_refresh_rate_title">Peak refresh rate</string>
 </resources>
