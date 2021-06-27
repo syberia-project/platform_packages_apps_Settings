@@ -327,4 +327,8 @@
     <string name="switch_oos">OxygenOS 11</string>
     <string name="switch_android12">Android 12</string>
 
+    <!-- SearchBar Style -->
+    <string name="search_bar_style_title">Панель поиска Android 12</string>
+    <string name="search_bar_style_summary">Включить панель поиска в стиле Android 12 в приложении «Настройки». Чтобы изменения вступили в силу, необходимо перезапустить приложение настроек вручную</string>
+
 </resources>

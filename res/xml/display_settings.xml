@@ -198,6 +198,13 @@
             android:title="@string/ui_background_blur_title"
             android:summary="@string/ui_background_blur_summary" />
 
+        <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="use_new_searchbar"
+            android:title="@string/search_bar_style_title"
+            android:icon="@drawable/ic_searchbar"
+            android:summary="@string/search_bar_style_summary"
+            android:defaultValue="false" />
+
         <com.android.settings.syberia.preference.SystemSettingListPreference
             android:key="switch_style"
             android:title="@string/switch_style_title"

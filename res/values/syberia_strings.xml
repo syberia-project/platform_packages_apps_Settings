@@ -338,4 +338,8 @@
     <string name="switch_oos">OxygenOS 11</string>
     <string name="switch_android12">Android 12</string>
 
+    <!-- SearchBar Style -->
+    <string name="search_bar_style_title">Use Android 12 Search Bar</string>
+    <string name="search_bar_style_summary">Toggle to use Android 12 style searchbar in Settings app. Settings app needs to be manually restarted for the change to take effect.</string>
+
 </resources>
