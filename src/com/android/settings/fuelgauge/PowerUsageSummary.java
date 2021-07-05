@@ -86,12 +86,10 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     private static final String KEY_BATTERY_TEMP = "battery_temp";
     private static final String KEY_TIME_SINCE_LAST_FULL_CHARGE = "last_full_charge";
     private static final String KEY_CURRENT_BATTERY_CAPACITY = "current_battery_capacity";
-    private static final String KEY_DESIGNED_BATTERY_CAPACITY = "designed_battery_capacity";
     private static final String KEY_BATTERY_CHARGE_CYCLES = "battery_charge_cycles";
 
     private boolean isBatteryHealth = false;
 
-    private String mBatDesCap;
     private String mBatCurCap;
     private String mBatChgCyc;
 
@@ -112,8 +110,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     PowerGaugePreference mBatteryTempPref;
     @VisibleForTesting
     PowerGaugePreference mCurrentBatteryCapacity;
-    @VisibleForTesting
-    PowerGaugePreference mDesignedBatteryCapacity;
     @VisibleForTesting
     PowerGaugePreference mBatteryChargeCycles;
     @VisibleForTesting
@@ -254,8 +250,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mBatteryTempPref = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
         mCurrentBatteryCapacity = (PowerGaugePreference) findPreference(
                 KEY_CURRENT_BATTERY_CAPACITY);
-        mDesignedBatteryCapacity = (PowerGaugePreference) findPreference(
-                KEY_DESIGNED_BATTERY_CAPACITY);
         mBatteryChargeCycles = (PowerGaugePreference) findPreference(
                 KEY_BATTERY_CHARGE_CYCLES);
         mLastFullChargePref = (PowerGaugePreference) findPreference(
@@ -278,11 +272,9 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         // Check availability of Battery Health
         isBatteryHealth = getResources().getBoolean(R.bool.config_supportBatteryHealth);
 
-        Preference mDesignedHealthPref = (Preference) findPreference(KEY_DESIGNED_BATTERY_CAPACITY);
         Preference mCurrentHealthPref = (Preference) findPreference(KEY_CURRENT_BATTERY_CAPACITY);
         Preference mCyclesHealthPref = (Preference) findPreference(KEY_BATTERY_CHARGE_CYCLES);
         if (!isBatteryHealth) {
-            getPreferenceScreen().removePreference(mDesignedHealthPref);
             getPreferenceScreen().removePreference(mCurrentHealthPref);
             getPreferenceScreen().removePreference(mCyclesHealthPref);
         }
@@ -412,7 +404,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
             mNeedUpdateBatteryTip = true;
         }
 
-        mBatDesCap = getResources().getString(R.string.config_batDesCap);
         mBatCurCap = getResources().getString(R.string.config_batCurCap);
         mBatChgCyc = getResources().getString(R.string.config_batChargeCycle);
 
@@ -423,7 +414,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
         if (isBatteryHealth) {
             mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(mBatCurCap));
-            mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(mBatDesCap));
             mBatteryChargeCycles.setSubtitle(parseBatteryCycle(mBatChgCyc));
         }
         mBatteryTempPref.setSummary(BatteryInfo.batteryTemp+" "+Character.toString ((char) 176) + "C");
