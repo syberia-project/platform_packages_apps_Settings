@@ -24,7 +24,7 @@
     <string name="keywords_build_date">fecha de compilación, información de compilación</string>
     <!-- Device Parts -->
     <string name="device_part_title">Caracteristicas del dispositivo</string>
-    <string name="device_part_summary">Device Specific Features</string>
+    <string name="device_part_summary">Características específicas del dispositivo</string>
     <!-- Changelog -->
     <string name="changelog_title">Registro de cambios</string>
     <string name="changelog_summary">Desde la última actualización</string>
@@ -55,8 +55,8 @@
     <string name="live_display_night">Noche</string>
     <string name="live_display_outdoor_mode_title">Modo automático en el exterior</string>
     <string name="live_display_outdoor_mode_summary">Aumentar el brillo y la saturación automáticamente bajo la luz del sol</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
+    <string name="live_display_anti_flicker_title">Antiparpadeo</string>
+    <string name="live_display_anti_flicker_summary">Evitar parpadeo y reducir la tensión de los ojos en condiciones de poca luz. Puede degradar la precisión del color y afectar la forma en que se muestran algunos elementos.</string>
     <string name="live_display_low_power_title">Reducir el consumo de energía</string>
     <string name="live_display_low_power_summary">Ajustar la pantalla al mínimo consumo de energía sin degradación</string>
     <string name="live_display_enhance_color_title">Mejorar colores</string>
@@ -129,11 +129,11 @@
     <!-- Custom light color -->
     <string name="custom_light_title">Color de la luz</string>
     <string name="custom_light_on_time_title">Duración del parpadeo del led encendido (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
-    <string name="dashboard_conditions_title">Dashboard conditions</string>
-    <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
-    <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
+    <string name="custom_light_off_time_title">Duración del parpadeo del led apagado (ms)\"</string>
+    <string name="value_equals_default">predet</string>
+    <string name="dashboard_conditions_title">Condiciones del panel</string>
+    <string name="summary_dashboard_conditions_enabled">Las condiciones del panel están activadas</string>
+    <string name="summary_dashboard_conditions_disabled">Las condiciones del panel están desactivadas</string>
     <string name="dashboard_suggestions_title">Sugerencias del panel de ajustes</string>
     <string name="summary_dashboard_suggestions_enabled">Sugerencias del panel de ajustes están activadas</string>
     <string name="summary_dashboard_suggestions_disabled">Sugerencias del panel de ajustes están desactivadas</string>
@@ -191,66 +191,66 @@
     <string name="action_screenshot">Captura de pantalla</string>
     <string name="action_qs_panel">Panel de ajustes rápidos</string>
     <string name="action_app_action">Aplicación</string>
-    <string name="action_ringer_modes">Ringer modes</string>
-    <string name="kill_app">Kill foreground app</string>
-    <string name="recent_app_toggle">Switch recent app</string>
-    <string name="action_partial_screenshot">Partial screenshot</string>
+    <string name="action_ringer_modes">Modos de timbre</string>
+    <string name="kill_app">Cerrar aplicación en primer plano</string>
+    <string name="recent_app_toggle">Cambiar aplicación reciente</string>
+    <string name="action_partial_screenshot">Captura de pantalla parcial</string>
     <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
-    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
-    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
-    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
-    <string name="left_swipe_actions_title">Long left swipe action</string>
-    <string name="left_swipe_app_action_title">Select long left swipe app</string>
-    <string name="right_swipe_actions_title">Long right swipe action</string>
-    <string name="right_swipe_app_action_title">Select long right swipe app</string>
-    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
-    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
-    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
-    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
-    <string name="back_swipe_extended_title">Extended swipe action</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <string name="navbar_gesture_tweaks_pref_title">Opciones avanzadas de gestos</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizar los gestos y añadir acciones personalizadas</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avanzado</string>
+    <string name="swipe_app_select_summary">Elije una aplucación a iniciar cuando aprietes el teléfono</string>
+    <string name="long_back_swipe_timeout_title">Tiempo de acción de deslizamiento largo</string>
+    <string name="left_swipe_actions_title">Acción con deslizamiento izquierdo largo</string>
+    <string name="left_swipe_app_action_title">Seleccionar aplicación de deslizamiento izquierdo largo</string>
+    <string name="right_swipe_actions_title">Acción con deslizamiento derecho largo</string>
+    <string name="right_swipe_app_action_title">Seleccionar aplicación de deslizamiento derecho largo</string>
+    <string name="left_vertical_swipe_actions_title">Acción de deslizamiento vertical en L en la izquierda</string>
+    <string name="left_vertical_swipe_app_action_title">Seleccionar aplicación de deslizamiento vertical en la izquierda</string>
+    <string name="right_vertical_swipe_actions_title">Acción de deslizamiento vertical en L en la derecha</string>
+    <string name="right_vertical_swipe_app_action_title">Seleccionar aplicación de deslizamiento vertical en la derecha</string>
+    <string name="gesture_nav_tweaks_footer_info">Para elegir una actividad específica de la aplicación, mantén presionada cualquier aplicación en el selector de aplicaciones.\n\nSi se muestra el launcher, haga el deslizado en la parte inferior de la pantalla para activar la acción.</string>
+    <string name="back_swipe_extended_title">Acción de deslizamiento extendida</string>
+    <string name="back_swipe_extended_summary">Acción de activación en un deslizamiento más ancho (más de la mitad del tamaño de la pantalla) o un deslizamiento en L (verticalmente más largo)</string>
     <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Back gesture animation</string>
-    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
+    <string name="back_gesture_arrow_message">Animación del gesto atrás</string>
+    <string name="back_gesture_arrow_summary">Mostrar una flecha animada para el gesto atrás.</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Reiniciar estadísticas</string>
+    <string name="battery_stats_message">Las estadísticas de la batería van a restablecerse</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir a los clientes de hotspot usar las conexiones VPN de este dispositivo\u2019 como conectividad principal</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_title">Carga inteligente</string>
+    <string name="smart_charging_summary">Establecer nivel máximo de carga</string>
+    <string name="smart_charging_switch_title">Usar carga inteligente</string>
+    <string name="smart_charging_level_title">Nivel para detención</string>
+    <string name="smart_charging_resume_level_title">Nivel de activación</string>
+    <string name="smart_charging_reset_stats_title">Reiniciar estadísticas de la batería</string>
+    <string name="smart_charging_reset_stats_summary">Restablecer estadísticas de batería después de alcanzar el nivel de carga definido por el usuario</string>
+    <string name="smart_charging_footer">La Carga Inteligente permite establecer el nivel máximo de carga para ampliar la vida útil de la batería</string>
     <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="min_refresh_rate_title">Tasa de refresco mínima</string>
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
-    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
+    <string name="mobile_data_settings_summary_unavailable">No hay tarjeta SIM disponible</string>
     <!-- Notch -->
-    <string name="notch_category_title">Notch options</string>
-    <string name="hide_notch_title">Hide notch</string>
-    <string name="hide_notch_summary">Apps can not use the notch area</string>
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="notch_category_title">Opciones de Notch</string>
+    <string name="hide_notch_title">Ocultar notch</string>
+    <string name="hide_notch_summary">Aplicaciones que no pueden usar el área del notch</string>
+    <string name="display_cutout_force_fullscreen_title">Aplicaciones en pantalla completa</string>
+    <string name="display_cutout_force_fullscreen_summary">Forzar que las apps ignoren el espacio del notch</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_show_only_on_wake">Authenticate only once</string>
-    <string name="applock_show_only_on_wake_on_summary">Once authenticated, an app stays unlocked until the screen turns off</string>
-    <string name="applock_show_only_on_wake_off_summary">Once authenticated, an app stays unlocked for 15 seconds after exiting</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
+    <string name="applock_title">Bloqueador de apps</string>
+    <string name="applock_locked">Bloqueado</string>
+    <string name="applock_unlocked">Desbloqueado</string>
+    <string name="applock_locked_apps">Aplicaciones bloqueadas</string>
+    <string name="applock_unlocked_apps">Aplicaciones desbloqueadas</string>
+    <string name="applock_show_only_on_wake">Autenticar solo una vez</string>
+    <string name="applock_show_only_on_wake_on_summary">Una vez autenticado, una aplicación permanecerá desbloqueada hasta que la pantalla se apague</string>
+    <string name="applock_show_only_on_wake_off_summary">Una vez autenticado, la aplicación permanecerá desbloqueada durante 15 segundos después de salir</string>
+    <string name="applock_notification_info">Puede mostrar/ocultar el contenido de las notificaciones por aplicación haciendo click en el ícono de notificación mostrado en las preferencias de cada aplicación bloqueada</string>
     <string name="applock_show_notif">Mostrar contenido de la notificación</string>
     <string name="applock_hide_notif">Ocultar contenido de la notificación</string>
     <string name="applock_setup">Configurar bloqueador de aplicaciones</string>
