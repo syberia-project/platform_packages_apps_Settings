@@ -24,7 +24,7 @@
     <string name="keywords_build_date">data de compilação, informações de compilação</string>
     <!-- Device Parts -->
     <string name="device_part_title">Recursos do dispositivo</string>
-    <string name="device_part_summary">Recursos Específicos do Dispositivo</string>
+    <string name="device_part_summary">Device Specific Features</string>
     <!-- Changelog -->
     <string name="changelog_title">Lista de mudanças</string>
     <string name="changelog_summary">Desde a última atualização</string>
@@ -55,6 +55,8 @@
     <string name="live_display_night">Noite</string>
     <string name="live_display_outdoor_mode_title">Modo ao ar livre automático</string>
     <string name="live_display_outdoor_mode_summary">Aumentar o brilho e a saturação automaticamente sob luz solar intensa</string>
+    <string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
     <string name="live_display_low_power_title">Reduzir o consumo de energia</string>
     <string name="live_display_low_power_summary">Ajustar exibição para o menor consumo de energia sem degradação</string>
     <string name="live_display_enhance_color_title">Melhorar cores</string>
@@ -271,6 +273,6 @@
     <string name="designed_battery_capacity_summary">A capacidade da bateria projetada pelo fabricante</string>
     <string name="battery_charge_cycles">Ciclos de carga</string>
     <!-- UI background blur toggle -->
-    <string name="ui_background_blur_title">UI background blur</string>
-    <string name="ui_background_blur_summary">Enable UI background blur (expensive for GPU renderer)</string>
+    <string name="ui_background_blur_title">Desfocar fundo</string>
+    <string name="ui_background_blur_summary">Ativar desfoque de fundo (pode dificultar a renderização da GPU)</string>
 </resources>

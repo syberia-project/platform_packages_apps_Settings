@@ -24,7 +24,7 @@
     <string name="keywords_build_date">编译日期，编译信息</string>
     <!-- Device Parts -->
     <string name="device_part_title">设备功能</string>
-    <string name="device_part_summary">设备速度功能</string>
+    <string name="device_part_summary">Device Specific Features</string>
     <!-- Changelog -->
     <string name="changelog_title">更新日志</string>
     <string name="changelog_summary">Since the last update</string>
@@ -55,6 +55,8 @@
     <string name="live_display_night">夜晚</string>
     <string name="live_display_outdoor_mode_title">自动户外模式</string>
     <string name="live_display_outdoor_mode_summary">在强光下自动增强亮度和饱和度</string>
+    <string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
     <string name="live_display_low_power_title">降低电量消耗</string>
     <string name="live_display_low_power_summary">调整显示屏以获得最低功耗，但不削弱显示效果</string>
     <string name="live_display_enhance_color_title">色彩增强</string>
