@@ -320,8 +320,11 @@
     <!-- Switch styles -->
     <string name="switch_style_title">Стиль переключателей</string>
     <string name="switch_default">По умолчанию</string>
+    <string name="switch_contained">Легкий/string>
     <string name="switch_telegram">Телеграм</string>
     <string name="switch_md2">Material Design 2</string>
+    <string name="switch_retro">Ретро</string>
     <string name="switch_oos">OxygenOS 11</string>
+    <string name="switch_android12">Android 12</string>
 
 </resources>
