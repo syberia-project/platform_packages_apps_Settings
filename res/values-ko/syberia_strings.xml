@@ -15,263 +15,279 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, syberia version -->
-    <string name="syberia_version">Syberia version</string>
-    <string name="syberia_version_default">Unknown</string>
-    <string name="keywords_syberia_version">syberia version</string>
+    <string name="syberia_version">Syberia 버전</string>
+    <string name="syberia_version_default">알 수 없음</string>
+    <string name="keywords_syberia_version">Syberia 버전</string>
     <!-- About phone screen, build date -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">빌드 날짜</string>
     <string name="build_date_default">2019-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="keywords_build_date">빌드 날짜, 빌드 정보</string>
     <!-- Device Parts -->
-    <string name="device_part_title">Device features</string>
-    <string name="device_part_summary">Device Specific Features</string>
+    <string name="device_part_title">장치 기능</string>
+    <string name="device_part_summary">디바이스 개별 설정</string>
     <!-- Changelog -->
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_summary">Since the last update</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_title">변경 사항</string>
+    <string name="changelog_summary">마지막 업데이트 후</string>
+    <string name="changelog_error">변경 사항을 불러올 수 없습니다</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-    <string name="global_actions_title">Power menu</string>
-    <string name="battery_temp">Battery temperature</string>
+    <string name="proximity_wake_title">실수로 화면이 켜지는 것을 방지</string>
+    <string name="proximity_wake_summary">화면을 켜기 전에 근접 센서 확인</string>
+    <string name="global_actions_title">전원 메뉴</string>
+    <string name="battery_temp">배터리 온도</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_title">스크린샷 효과음</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">벨소리와 알림 볼륨 같이 조정하기</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_nos_title">Charging sound</string>
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_sounds_nos_title">충전 시작 효과음</string>
+    <string name="charging_vibro_title">충전 시 진동</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">가독성을 향상시키고 눈의 피로를 줄이기 위해 주변 환경과 시간에 따라 화면을 최적화합니다</string>
+    <string name="live_display_mode">화면 모드</string>
+    <string name="live_display_color_temperature_title">색 온도</string>
+    <string name="live_display_color_temperature_summary">주간: <xliff:g id="day_temperature">%1$d</xliff:g>K  
+야간: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
-    <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
-    <string name="live_display_color_profile_cinema_title">Cinema</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
+    <string name="live_display_day">주간</string>
+    <string name="live_display_night">야간</string>
+    <string name="live_display_outdoor_mode_title">자동 야외 모드</string>
+    <string name="live_display_outdoor_mode_summary">밝은 햇빛 아래에서 자동으로 밝기와 채도 증가</string>
+    <string name="live_display_anti_flicker_title">깜박임 방지</string>
+    <string name="live_display_anti_flicker_summary">낮은 밝기의 환경에서 화면 깜박임을 방지하고 눈의 피로를 줄입니다. 색 정확도가 저하되고 일부 항목이 표시되는 방식에 영향을 미칠 수 있습니다.</string>
+    <string name="live_display_low_power_title">배터리 소모 줄이기</string>
+    <string name="live_display_low_power_summary">화질 저하 없이 화면을 조정하여 전력 소모를 감소시킵니다</string>
+    <string name="live_display_enhance_color_title">색상 보정</string>
+    <string name="live_display_enhance_color_summary">피부 톤, 풍경 및 기타 이미지에서 색의 생동감을 향상</string>
+    <string name="live_display_color_profile_title">색상 프로필</string>
+    <string name="live_display_color_profile_standard_title">표준</string>
+    <string name="live_display_color_profile_standard_summary">색상은 정확하게, 흰색은 밝게 표현합니다.</string>
+    <string name="live_display_color_profile_natural_title">자연스러운 색상</string>
+    <string name="live_display_color_profile_natural_summary">사실적인 색상 및 피부 톤</string>
+    <string name="live_display_color_profile_dynamic_title">다이나믹</string>
+    <string name="live_display_color_profile_dynamic_summary">색상을 향상시키고 흰색을 밝게 표현합니다</string>
+    <string name="live_display_color_profile_cinema_title">시네마</string>
+    <string name="live_display_color_profile_cinema_summary">영상의 색상을 완벽하게 재현합니다.</string>
     <string name="live_display_color_profile_astronomy_title">Astronomy</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
-    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
-    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
+    <string name="live_display_color_profile_astronomy_summary">야간 시야 확보를 위한 붉은 색감 사용</string>
+    <string name="live_display_color_profile_photography_title">사진</string>
+    <string name="live_display_color_profile_photography_summary">사진의 색을 완벽하게 재현합니다</string>
+    <string name="live_display_color_profile_basic_title">기본</string>
+    <string name="live_display_color_profile_basic_summary">화면을 보정하지 않은 상태로 사용</string>
+    <string name="live_display_color_profile_adaptive_title">적응형 색상 조절</string>
+    <string name="live_display_color_profile_adaptive_summary">주변 상황에 따라 색을 조절합니다</string>
+    <string name="live_display_color_profile_reading_title">읽기</string>
+    <string name="live_display_color_profile_reading_summary">눈의 피로를 줄이기 위해 따뜻한 색감을 사용합니다.</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
     <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
-    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
+    <string name="live_display_color_profile_dci_p3_summary">DCI-P3 색 영역에 맞게 색상을 표현합니다.</string>
+    <string name="live_display_reading_mode_title">읽기 모드</string>
+    <string name="live_display_reading_mode_summary">긴 시간 읽기를 위한 흑백 모드</string>
+    <string name="color_calibration_title">색상 보정</string>
+    <string name="color_calibration_summary">화면의 색상을 보정</string>
+    <string name="color_red_title">빨강</string>
+    <string name="color_green_title">초록</string>
+    <string name="color_blue_title">파랑</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">Picture adjustment</string>
-    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
-    <string name="adj_hue_title">Hue</string>
-    <string name="adj_saturation_title">Saturation</string>
-    <string name="adj_intensity_title">Intensity</string>
-    <string name="adj_contrast_title">Contrast</string>
+    <string name="picture_adjustment_title">사진 조정</string>
+    <string name="picture_adjustment_summary">색조, 채도, 명도 및 대비 조정</string>
+    <string name="adj_hue_title">색조</string>
+    <string name="adj_saturation_title">채도</string>
+    <string name="adj_intensity_title">명도</string>
+    <string name="adj_contrast_title">대비</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">빠른 잠금 해제</string>
+    <string name="unlock_quick_unlock_control_summary">올바른 PIN 넘버나 암호가 입력되면 자동으로 잠금 해제</string>
     <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <string name="back_gesture_haptic_title">진동 피드백</string>
+    <string name="back_gesture_haptic_summary">뒤로가기 제스쳐 사용 시 진동 피드백 사용</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
-    <string name="volumesteps_title">Volume Steps</string>
+    <string name="navbar_length">제스처 바 길이</string>
+    <string name="hidden_label">숨기기</string>
+    <string name="long_label">길게</string>
+    <string name="volumesteps_title">불륨 단계</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_summary">Select rotation angles</string>
-    <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">회전</string>
+    <string name="display_rotation_summary">화면 회전 방향을 선택합니다.</string>
+    <string name="display_rotation_disabled">사용 안함</string>
+    <string name="display_rotation_unit">각도</string>
+    <string name="display_rotation_category_title">회전 모드</string>
+    <string name="display_rotation_0_title">0도</string>
+    <string name="display_rotation_90_title">90도</string>
+    <string name="display_rotation_180_title">180도</string>
+    <string name="display_rotation_270_title">270도</string>
     <!-- Primary color -->
-    <string name="theme_customization_primary_color_title">Primary color</string>
-    <string name="weather_title">Weather</string>
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="theme_customization_primary_color_title">주 색상</string>
+    <string name="weather_title">날씨</string>
+    <string name="selinux_status">SELinux 상태</string>
+    <string name="selinux_status_disabled">비활성됨</string>
+    <string name="selinux_status_permissive">허용</string>
+    <string name="selinux_status_enforcing">Enforcing (강제 모드)</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
-    <string name="dashboard_conditions_title">Dashboard conditions</string>
-    <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
-    <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
-    <string name="dashboard_suggestions_title">Dashboard suggestions</string>
-    <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
-    <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
+    <string name="custom_light_title">밝은 색상</string>
+    <string name="custom_light_on_time_title">LED 점등 지연시간 (ms)</string>
+    <string name="custom_light_off_time_title">LED 점등 끄기 지연시간 (ms)\"</string>
+    <string name="value_equals_default">기본</string>
+    <string name="dashboard_conditions_title">대시보드 상태</string>
+    <string name="summary_dashboard_conditions_enabled">대시보드 상태가 활성화됨</string>
+    <string name="summary_dashboard_conditions_disabled">대시보드 상태가 비활성화됨</string>
+    <string name="dashboard_suggestions_title">대시보드 제안</string>
+    <string name="summary_dashboard_suggestions_enabled">대시보드 제안이 활성화됨</string>
+    <string name="summary_dashboard_suggestions_disabled">대시보드 제안이 비활성화됨</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">충전시 항상 화면 켜기</string>
+    <string name="doze_on_charge_summary">충전 시 항상 AOD 표시</string>
     <!-- Swipe up for face unlock -->
-    <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
-    <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+    <string name="security_settings_face_require_swipe">위로 올려서 잠금해제</string>
+    <string name="security_settings_face_require_swipe_summary">화면을 밀어 올려서 얼굴인식 잠금해제</string>
     <!-- Legacy WFD settings -->
-    <string name="legacy_wfd_video_mode_title">Video mode</string>
+    <string name="legacy_wfd_video_mode_title">비디오 모드</string>
     <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
     <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
     <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
     <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_title">알림음 발생 간격 (최소)</string>
+    <string name="app_notification_sound_timeout_summary_template">매 <xliff:g id="duration">%1$s</xliff:g>당 한 번만 소리 또는 진동 알림 허용</string>
+    <string name="app_notification_sound_timeout_value_none">제한 없음</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10초</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30초</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1분</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5분</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10분</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30분</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">네트워크 접근 허용</string>
+    <string name="data_usage_app_restrict_all_summary">네트워크 사용 허용</string>
+    <string name="data_usage_app_restrict_data">모바일 데이터</string>
+    <string name="data_usage_app_restrict_data_summary">모바일 데이터 사용 허용</string>
+    <string name="data_usage_app_restrict_vpn">VPN 데이터</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN 데이터 사용을 허용</string>
+    <string name="data_usage_app_restrict_wifi">Wi‑Fi 데이터</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi 데이터 사용 허용</string>
     <!-- Back gesture height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_low_label">최대</string>
+    <string name="back_height_high_label">하단</string>
+    <string name="back_options_dialog_title">선택사항</string>
+    <string name="back_height_message">뒤로 가기 동작 영역 높이</string>
     <!-- Custom actions -->
-    <string name="action_nothing">No action</string>
-    <string name="action_menu">Menu</string>
-    <string name="action_app_switch">Recents</string>
-    <string name="action_search">Assistant</string>
-    <string name="action_voice_search">Voice search</string>
-    <string name="action_launch_camera">Camera</string>
-    <string name="action_last_app">Last app</string>
-    <string name="action_splitscreen">Split screen</string>
-    <string name="action_flashlight">Flashlight</string>
-    <string name="action_clear_notifications">Clear notifications</string>
-    <string name="action_volume_panel">Volume panel</string>
-    <string name="action_screen_off">Screen off</string>
-    <string name="action_notifications">Notifications</string>
-    <string name="action_power_menu">Power menu</string>
-    <string name="action_screenshot">Screenshot</string>
-    <string name="action_qs_panel">QS panel</string>
-    <string name="action_app_action">Application</string>
-    <string name="action_ringer_modes">Ringer modes</string>
-    <string name="kill_app">Kill foreground app</string>
-    <string name="recent_app_toggle">Switch recent app</string>
-    <string name="action_partial_screenshot">Partial screenshot</string>
+    <string name="action_nothing">동작 없음</string>
+    <string name="action_menu">메뉴</string>
+    <string name="action_app_switch">최근 실행 목록</string>
+    <string name="action_search">어시스턴트</string>
+    <string name="action_voice_search">음성 검색</string>
+    <string name="action_launch_camera">카메라</string>
+    <string name="action_last_app">마지막으로 사용한 앱</string>
+    <string name="action_splitscreen">화면 분할</string>
+    <string name="action_flashlight">손전등</string>
+    <string name="action_clear_notifications">알림 지우기</string>
+    <string name="action_volume_panel">음량 조절 창</string>
+    <string name="action_screen_off">화면 끄기</string>
+    <string name="action_notifications">알림</string>
+    <string name="action_power_menu">전원 메뉴</string>
+    <string name="action_screenshot">스크린샷</string>
+    <string name="action_qs_panel">빠른 설정 패널</string>
+    <string name="action_app_action">응용 프로그램</string>
+    <string name="action_ringer_modes">벨소리 모드</string>
+    <string name="kill_app">사용중인 앱 강제종료</string>
+    <string name="recent_app_toggle">최근 실행 프로그램 전환</string>
+    <string name="action_partial_screenshot">부분 캡처</string>
     <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
-    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
-    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
-    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
-    <string name="left_swipe_actions_title">Long left swipe action</string>
-    <string name="left_swipe_app_action_title">Select long left swipe app</string>
-    <string name="right_swipe_actions_title">Long right swipe action</string>
-    <string name="right_swipe_app_action_title">Select long right swipe app</string>
-    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
-    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
-    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
-    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
-    <string name="back_swipe_extended_title">Extended swipe action</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <string name="navbar_gesture_tweaks_pref_title">고급 제스처 옵션</string>
+    <string name="navbar_gesture_tweaks_pref_summary">제스처 및 동작 사용자 정의</string>
+    <string name="navbar_gesture_tweaks_cat_title">고급</string>
+    <string name="swipe_app_select_summary">쥐는 액션으로 실행할 앱 선택</string>
+    <string name="long_back_swipe_timeout_title">긴 스와이프 시간</string>
+    <string name="left_swipe_actions_title">왼쪽으로 길게 밀때 동작</string>
+    <string name="left_swipe_app_action_title">왼쪽으로 길게 밀때 앱 선택</string>
+    <string name="right_swipe_actions_title">오른쪽으로 길게 밀기 동작</string>
+    <string name="right_swipe_app_action_title">오른쪽으로 길게 밀때 앱 선택</string>
+    <string name="left_vertical_swipe_actions_title">왼쪽 L자 스와이프 동작</string>
+    <string name="left_vertical_swipe_app_action_title">왼쪽 L자 스와이프 동작 앱 선택</string>
+    <string name="right_vertical_swipe_actions_title">오른쪽 L자 스와이프 동작</string>
+    <string name="right_vertical_swipe_app_action_title">오른쪽 L자 스와이프 동작 앱 선택</string>
+    <string name="gesture_nav_tweaks_footer_info">특정한 앱 동작을 선택하려면 앱 선택기에서 앱을 길게 누르세요.\n\n실행기가 표시되면 화면 맨 아래에서 스와이프하여 작업을 실행합니다.</string>
+    <string name="back_swipe_extended_title">확장 스와이프 동작</string>
+    <string name="back_swipe_extended_summary">넓게 스와이프(화면 절반 이상) 또는 L자 스와이프(수직으로 충분히 길게)시 동작</string>
     <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Back gesture animation</string>
-    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
+    <string name="back_gesture_arrow_message">뒤로가기 제스처 애니메이션</string>
+    <string name="back_gesture_arrow_summary">뒤로가기 제스처 사용시 화살표 애니메이션을 보여줍니다</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">통계 초기화</string>
+    <string name="battery_stats_message">배터리 사용 기록이 초기화됩니다</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">연결 기기가 VPN을 사용하도록 허용</string>
+    <string name="tethering_allow_vpn_upstreams_summary">핫스팟이나 테더링 클라이언트가 연결성 향상을 위해 내 장치의 VPN연결을 사용하도록 허용합니다.</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_title">스마트 충전</string>
+    <string name="smart_charging_summary">최대 충전 수준 설정</string>
+    <string name="smart_charging_switch_title">스마트 충전 사용</string>
+    <string name="smart_charging_level_title">충전을 중단할 배터리 레벨</string>
+    <string name="smart_charging_resume_level_title">충전을 시작할 배터리 레벨</string>
+    <string name="smart_charging_reset_stats_title">베터리 통계 초기화</string>
+    <string name="smart_charging_reset_stats_summary">설정된 충전 수준에 도달하면 배터리 통계를 재설정합니다</string>
+    <string name="smart_charging_footer">스마트 충전을 사용하면 배터리 수명을 연장하기 위해 최대 충전 수준을 설정할 수 있습니다</string>
     <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="min_refresh_rate_title">최소 화면 재생 빈도</string>
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
-    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
+    <string name="mobile_data_settings_summary_unavailable">SIM 카드 없음</string>
     <!-- Notch -->
-    <string name="notch_category_title">Notch options</string>
-    <string name="hide_notch_title">Hide notch</string>
+    <string name="notch_category_title">노치 옵션</string>
+    <string name="hide_notch_title">노치 숨기기</string>
     <string name="hide_notch_summary">Apps can not use the notch area</string>
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">전체 화면 앱</string>
+    <string name="display_cutout_force_fullscreen_summary">앱이 노치 공간을 무시하도록 합니다</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_show_only_on_wake">Authenticate only once</string>
-    <string name="applock_show_only_on_wake_on_summary">Once authenticated, an app stays unlocked until the screen turns off</string>
-    <string name="applock_show_only_on_wake_off_summary">Once authenticated, an app stays unlocked for 15 seconds after exiting</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_title">앱 잠금</string>
+    <string name="applock_locked">잠김</string>
+    <string name="applock_unlocked">잠금 해제됨</string>
+    <string name="applock_locked_apps">잠긴 앱</string>
+    <string name="applock_unlocked_apps">잠금 해제된 앱</string>
+    <string name="applock_show_only_on_wake">한번만 인증</string>
+    <string name="applock_show_only_on_wake_on_summary">인증 후 화면이 꺼질 때까지 잠금 해제 상태를 유지합니다.</string>
+    <string name="applock_show_only_on_wake_off_summary">한 번 인증된 앱은 종료 후 15초 동안 잠금 해제 상태를 유지합니다</string>
+    <string name="applock_notification_info">잠긴 앱의 기본 설정에 표시된 알림 아이콘을 클릭하여 앱별로 알림 내용을 표시하거나 숨길 수 있습니다.</string>
+    <string name="applock_show_notif">알림 내용 표시</string>
+    <string name="applock_hide_notif">알림 내용 숨기기</string>
+    <string name="applock_setup">앱 잠금 설정</string>
+    <string name="applock_overlay_summary">앱이 잠겨있기 때문에 이 기능을 사용할 수 없습니다</string>
     <plurals name="applock_summary">
-        <item quantity="other">%d apps locked</item>
+        <item quantity="other">앱 %d개 잠김</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">앱 잠금, 앱 잠그기, 앱 잠김 앱 락</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">벨소리를 점점 커지게 하기</string>
+    <string name="increasing_ring_min_volume_title">시작 볼륨</string>
+    <string name="increasing_ring_ramp_up_time_title">볼륨 증가 시간</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
-    <string name="battery_charge_cycles">Charge Cycles Completed</string>
+    <string name="battery_health_title">배터리 상태:</string>
+    <string name="battery_health_summary">기기의 배터리 상태를 모니터링합니다.</string>
+    <string name="current_battery_capacity">현재 배터리 용량</string>
+    <string name="current_battery_capacity_summary">커널에서 측정된 현재 배터리 용량</string>
+    <string name="designed_battery_capacity">설계 배터리 용량</string>
+    <string name="designed_battery_capacity_summary">공급업체가 설계한 배터리 용량입니다.</string>
+    <string name="battery_charge_cycles">현재까지 충전된 횟수</string>
     <!-- UI background blur toggle -->
-    <string name="ui_background_blur_title">UI background blur</string>
-    <string name="ui_background_blur_summary">Enable UI background blur (expensive for GPU renderer)</string>
+    <string name="ui_background_blur_title">배경 흐림</string>
+    <string name="ui_background_blur_summary">배경 흐림을 켭니다. (GPU자원을 더 소모합니다.)</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+    <!-- Switch styles -->
+    <string name="switch_style_title">Switch style</string>
+    <string name="switch_default">Default</string>
+    <string name="switch_contained">Contained</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_oos">OxygenOS 11</string>
+    <string name="switch_android12">Android 12</string>
 </resources>

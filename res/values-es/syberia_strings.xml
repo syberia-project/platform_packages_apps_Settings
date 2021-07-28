@@ -275,4 +275,19 @@
     <!-- UI background blur toggle -->
     <string name="ui_background_blur_title">Desenfocar fondo</string>
     <string name="ui_background_blur_summary">Activar desenfoque de fondo de la interfaz (costoso para el procesador GPU)</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+    <!-- Switch styles -->
+    <string name="switch_style_title">Switch style</string>
+    <string name="switch_default">Default</string>
+    <string name="switch_contained">Contained</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_oos">OxygenOS 11</string>
+    <string name="switch_android12">Android 12</string>
 </resources>

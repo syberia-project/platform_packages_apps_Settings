@@ -24,15 +24,15 @@
     <string name="keywords_build_date">data kompilacji, informacje o kompilacji</string>
     <!-- Device Parts -->
     <string name="device_part_title">Funkcje urządzenia</string>
-    <string name="device_part_summary">Device Specific Features</string>
+    <string name="device_part_summary">Szczególne funkcje urządzenia</string>
     <!-- Changelog -->
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_summary">Since the last update</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_title">Lista zmian</string>
+    <string name="changelog_summary">Od ostatniej aktualizacji</string>
+    <string name="changelog_error">Nie można załadować listy zmian</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-    <string name="global_actions_title">Power menu</string>
+    <string name="proximity_wake_title">Zapobiegaj przypadkowemu wybudzeniu</string>
+    <string name="proximity_wake_summary">Sprawdź czujnik zbliżeniowy przed wybudzeniem ekranu</string>
+    <string name="global_actions_title">Menu zasilania</string>
     <string name="battery_temp">Temperatura baterii</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Sklep Play</string>
@@ -43,7 +43,7 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Połącz głośność dzwonka &amp; powiadomień</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_nos_title">Charging sound</string>
+    <string name="charging_sounds_nos_title">Dźwięk ładowania</string>
     <string name="charging_vibro_title">Wibracja przy podłączeniu ładowarki</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Zoptymalizuj swój ekran w zależności od pory dnia, aby poprawić czytelność i zredukować zmęczenie oczu</string>
@@ -55,63 +55,63 @@
     <string name="live_display_night">Nocny</string>
     <string name="live_display_outdoor_mode_title">Automatyczny tryb na zewnątrz</string>
     <string name="live_display_outdoor_mode_summary">Zwiększ jasność i nasycenie w jasnym słoncu</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
+    <string name="live_display_anti_flicker_title">Anty-migotanie</string>
+    <string name="live_display_anti_flicker_summary">Zapobiegaj nadmiernemu migotaniu oraz zmniejsz zmęczenie oczu w warunkach słabego oświetlenia. Może to pogorszyć odwzorowanie kolorów oraz wpłynąć na sposób wyświetlania niektórych elementów.</string>
     <string name="live_display_low_power_title">Redukcja zużycia energii</string>
     <string name="live_display_low_power_summary">Dostosuj ekran do najmniejszego zużycia energii bez utraty jakości wyświetlanego obrazu</string>
     <string name="live_display_enhance_color_title">Wzmocnienie kolorów</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
-    <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
-    <string name="live_display_color_profile_cinema_title">Cinema</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
-    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
-    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
+    <string name="live_display_enhance_color_summary">Popraw jaskrawość kolorów odcieni skóry, scenerii i innych obrazów</string>
+    <string name="live_display_color_profile_title">Profil kolorów</string>
+    <string name="live_display_color_profile_standard_title">Standardowy</string>
+    <string name="live_display_color_profile_standard_summary">Dokładne odwzorowanie kolorów i jasności bieli</string>
+    <string name="live_display_color_profile_natural_title">Naturalny</string>
+    <string name="live_display_color_profile_natural_summary">Realistyczne kolory i odcienie skóry</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamiczne</string>
+    <string name="live_display_color_profile_dynamic_summary">Wzmocnione kolory i jaśniejsza biel</string>
+    <string name="live_display_color_profile_cinema_title">Profil kinowy</string>
+    <string name="live_display_color_profile_cinema_summary">Doskonałe odwzorowanie kolorów dla filmów</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomia</string>
+    <string name="live_display_color_profile_astronomy_summary">Głęboka czerwień dla trybu nocnego</string>
+    <string name="live_display_color_profile_photography_title">Fotografia</string>
+    <string name="live_display_color_profile_photography_summary">Doskonałe odwzorowanie kolorów dla zdjęć</string>
+    <string name="live_display_color_profile_basic_title">Podstawowe</string>
+    <string name="live_display_color_profile_basic_summary">Używaj nieskalibrowanego wyświetlacza</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptacyjny</string>
+    <string name="live_display_color_profile_adaptive_summary">Kolory dostosowują się do warunków otoczenia</string>
+    <string name="live_display_color_profile_reading_title">Czytanie</string>
+    <string name="live_display_color_profile_reading_summary">Cieplejsze kolory, aby ograniczyć zmęczenie oczu</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
+    <string name="live_display_color_profile_srgb_summary">Kolory zgodne z paletą kolorów sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
-    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
+    <string name="live_display_color_profile_dci_p3_summary">Kolory zgodne z paletą kolorów DCI-P3</string>
+    <string name="live_display_reading_mode_title">Tryb czytania</string>
+    <string name="live_display_reading_mode_summary">Tryb skali szarości dla długotrwałego czytania</string>
+    <string name="color_calibration_title">Kalibracja kolorów</string>
+    <string name="color_calibration_summary">Kalibracja kolorów ekranu</string>
+    <string name="color_red_title">Czerwony</string>
+    <string name="color_green_title">Zielony</string>
+    <string name="color_blue_title">Niebieski</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">Picture adjustment</string>
-    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
-    <string name="adj_hue_title">Hue</string>
-    <string name="adj_saturation_title">Saturation</string>
-    <string name="adj_intensity_title">Intensity</string>
-    <string name="adj_contrast_title">Contrast</string>
+    <string name="picture_adjustment_title">Dostosowanie obrazu</string>
+    <string name="picture_adjustment_summary">Dostosuj odcień, nasycenie, intensywność i kontrast</string>
+    <string name="adj_hue_title">Odcień</string>
+    <string name="adj_saturation_title">Nasycenie</string>
+    <string name="adj_intensity_title">Intensywność</string>
+    <string name="adj_contrast_title">Kontrast</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, gdy wprowadzony zostanie poprawny PIN/hasło</string>
     <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <string name="back_gesture_haptic_title">Wibruj przy dotyku</string>
+    <string name="back_gesture_haptic_summary">Włącz wibracje przy geście wstecz</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
-    <string name="volumesteps_title">Volume Steps</string>
+    <string name="navbar_length">Długość paska gestów</string>
+    <string name="hidden_label">Ukryty</string>
+    <string name="long_label">Długi</string>
+    <string name="volumesteps_title">Poziomy głośności</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Obracanie</string>
-    <string name="display_rotation_summary">Select rotation angles</string>
+    <string name="display_rotation_summary">Wybierz kąty obrotu</string>
     <string name="display_rotation_disabled">Wyłączono</string>
     <string name="display_rotation_unit">stopni</string>
     <string name="display_rotation_category_title">Tryb obrotu</string>
@@ -120,8 +120,8 @@
     <string name="display_rotation_180_title">180 stopni</string>
     <string name="display_rotation_270_title">270 stopni</string>
     <!-- Primary color -->
-    <string name="theme_customization_primary_color_title">Primary color</string>
-    <string name="weather_title">Weather</string>
+    <string name="theme_customization_primary_color_title">Kolor podstawowy</string>
+    <string name="weather_title">Pogoda</string>
     <string name="selinux_status">Status SELinux</string>
     <string name="selinux_status_disabled">Wyłączono</string>
     <string name="selinux_status_permissive">Pobłażliwy</string>
@@ -138,73 +138,73 @@
     <string name="summary_dashboard_suggestions_enabled">Sugestie w panelu ustawień są włączone</string>
     <string name="summary_dashboard_suggestions_disabled">Sugestie panelu ustawień są wyłączone</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">Always On Display podczas ładowania</string>
+    <string name="doze_on_charge_summary">Pokazuj ekran Doze podczas ładowania przez cały czas</string>
     <!-- Swipe up for face unlock -->
-    <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
-    <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+    <string name="security_settings_face_require_swipe">Przesuń, aby odblokować</string>
+    <string name="security_settings_face_require_swipe_summary">Przesuń palcem w górę na ekranie blokady, aby odblokować twarzą</string>
     <!-- Legacy WFD settings -->
-    <string name="legacy_wfd_video_mode_title">Video mode</string>
+    <string name="legacy_wfd_video_mode_title">Tryb wideo</string>
     <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
     <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
     <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
     <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_title">Minimalny odstęp między dźwiękami powiadomień</string>
+    <string name="app_notification_sound_timeout_summary_template">Zezwalaj na dźwięki lub wibracje nie częściej niż co<xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Brak ograniczeń</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekund</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekund</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuta</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minut</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">Zezwól na dostęp do sieci</string>
+    <string name="data_usage_app_restrict_all_summary">Rejestruj użycie sieci</string>
+    <string name="data_usage_app_restrict_data">Komórkowa transmisja danych</string>
+    <string name="data_usage_app_restrict_data_summary">Monitoruj zużycie danych sieci komórkowej</string>
+    <string name="data_usage_app_restrict_vpn">Dane VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Monitoruj zużycie danych VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dane Wi-Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Monitoruj zużycie danych Wi-Fi</string>
     <!-- Back gesture height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_low_label">Pełny</string>
+    <string name="back_height_high_label">Dół</string>
+    <string name="back_options_dialog_title">Opcje</string>
+    <string name="back_height_message">Ilość ekranu użyta jako obszar dotykowy dla gestu wstecz.</string>
     <!-- Custom actions -->
-    <string name="action_nothing">No action</string>
+    <string name="action_nothing">Brak akcji</string>
     <string name="action_menu">Menu</string>
-    <string name="action_app_switch">Recents</string>
-    <string name="action_search">Assistant</string>
-    <string name="action_voice_search">Voice search</string>
-    <string name="action_launch_camera">Camera</string>
-    <string name="action_last_app">Last app</string>
-    <string name="action_splitscreen">Split screen</string>
-    <string name="action_flashlight">Flashlight</string>
-    <string name="action_clear_notifications">Clear notifications</string>
-    <string name="action_volume_panel">Volume panel</string>
-    <string name="action_screen_off">Screen off</string>
-    <string name="action_notifications">Notifications</string>
-    <string name="action_power_menu">Power menu</string>
-    <string name="action_screenshot">Screenshot</string>
-    <string name="action_qs_panel">QS panel</string>
-    <string name="action_app_action">Application</string>
-    <string name="action_ringer_modes">Ringer modes</string>
-    <string name="kill_app">Kill foreground app</string>
-    <string name="recent_app_toggle">Switch recent app</string>
-    <string name="action_partial_screenshot">Partial screenshot</string>
+    <string name="action_app_switch">Ostatnie</string>
+    <string name="action_search">Asystent</string>
+    <string name="action_voice_search">Wyszukiwanie głosowe</string>
+    <string name="action_launch_camera">Aparat</string>
+    <string name="action_last_app">Ostatnia aplikacja</string>
+    <string name="action_splitscreen">Dzielony ekran</string>
+    <string name="action_flashlight">Latarka</string>
+    <string name="action_clear_notifications">Wyczyść powiadomienia</string>
+    <string name="action_volume_panel">Panel głośności</string>
+    <string name="action_screen_off">Ekran wyłączony</string>
+    <string name="action_notifications">Powiadomienia</string>
+    <string name="action_power_menu">Menu zasilania</string>
+    <string name="action_screenshot">Zrzut ekranu</string>
+    <string name="action_qs_panel">Panel Szybkich Ustawień</string>
+    <string name="action_app_action">Aplikacja</string>
+    <string name="action_ringer_modes">Tryby dzwonka</string>
+    <string name="kill_app">Zabij aplikację na pierwszym planie</string>
+    <string name="recent_app_toggle">Przełącz ostatnią aplikację</string>
+    <string name="action_partial_screenshot">Częściowy zrzut ekranu</string>
     <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
-    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
-    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
-    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
-    <string name="left_swipe_actions_title">Long left swipe action</string>
-    <string name="left_swipe_app_action_title">Select long left swipe app</string>
-    <string name="right_swipe_actions_title">Long right swipe action</string>
-    <string name="right_swipe_app_action_title">Select long right swipe app</string>
+    <string name="navbar_gesture_tweaks_pref_title">Zaawansowane opcje gestów</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Dostosuj gesty i ustaw własne akcje</string>
+    <string name="navbar_gesture_tweaks_cat_title">Zaawansowane</string>
+    <string name="swipe_app_select_summary">Wybierz aplikacje do uruchomienia przy ściśnięciu</string>
+    <string name="long_back_swipe_timeout_title">Limit czasu akcji długiego przesunięcia</string>
+    <string name="left_swipe_actions_title">Akcja długiego przesunięcia w lewo</string>
+    <string name="left_swipe_app_action_title">Wybierz aplikację dla długiego przeciągnięcia w lewo</string>
+    <string name="right_swipe_actions_title">Akcja długiego przesunięcia w prawo</string>
+    <string name="right_swipe_app_action_title">Wybierz aplikację dla długiego przeciągnięcia w prawo</string>
     <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
     <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
     <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
@@ -270,11 +270,26 @@
     <string name="battery_health_title">Battery health</string>
     <string name="battery_health_summary">Monitor the battery health of your device</string>
     <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
-    <string name="battery_charge_cycles">Charge Cycles Completed</string>
+    <string name="current_battery_capacity_summary">Bieżąca pojemność baterii mierzona przez kernel</string>
+    <string name="designed_battery_capacity">Całkowita pojemność baterii</string>
+    <string name="designed_battery_capacity_summary">Pojemność baterii zaprojektowana przez producenta</string>
+    <string name="battery_charge_cycles">Ukończone cykle ładowania</string>
     <!-- UI background blur toggle -->
-    <string name="ui_background_blur_title">UI background blur</string>
-    <string name="ui_background_blur_summary">Enable UI background blur (expensive for GPU renderer)</string>
+    <string name="ui_background_blur_title">Rozmycie tła interfejsu</string>
+    <string name="ui_background_blur_summary">Włącz rozmycie tła interfejsu użytkownika (niekorzystnie dla renderowania GPU)</string>
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+    <!-- Switch styles -->
+    <string name="switch_style_title">Switch style</string>
+    <string name="switch_default">Default</string>
+    <string name="switch_contained">Contained</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_oos">OxygenOS 11</string>
+    <string name="switch_android12">Android 12</string>
 </resources>
