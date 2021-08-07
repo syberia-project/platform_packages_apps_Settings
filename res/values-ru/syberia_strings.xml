@@ -326,5 +326,25 @@
     <string name="switch_retro">Ретро</string>
     <string name="switch_oos">OxygenOS 11</string>
     <string name="switch_android12">Android 12</string>
+	
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Тактильная отдача при звонке</string>
+    <string name="incall_feeedback_summary">Вибрировать для уведомления о состоянии вызова</string>
+	
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Вибрация и тактильная отдача</string>
+    <string name="summary_vibration_preferences">Измените интенсивность, шаблон и многое другое</string>
+    <string name="keywords_vibration_preferences">вибрация шиблон, вибрация сила, при звонке, тактильная отдача, отдача, сила вибрации</string>
+    <string name="ringtone_vibration_pattern">Шаблон вибрации при звонке</string>
+    <string name="vibration_intensity_ringer">Сила вибрации при звонке</string>
+    <string name="vibration_intensity_notification">Сила вибрации при уведомлении</string>
+    <string name="haptic_feedback_intensity">Сила тактильной отдачи</string>
+    <string name="vibration_intensity_disabled">Отключено</string>
+    <string name="vibration_intensity_light">Слабая</string>
+    <string name="vibration_intensity_medium">Средняя</string>
+    <string name="vibration_intensity_strong">Сильная</string>
+    <string name="vibration_intensity_custom">Своя</string>
+    <string name="pattern_custom">Свой шаблон</string>
+    <string name="custom_vibration_pattern_title">Настройте свой шаблон вибрации</string>
 
 </resources>
