@@ -33,7 +33,6 @@ import com.android.settings.display.ShowOperatorNamePreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
 import com.android.settings.display.ThemePreferenceController;
 import com.android.settings.display.TimeoutPreferenceController;
-import com.android.settings.display.UiBlurPreferenceController;
 import com.android.settings.display.VrDisplayPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -45,8 +44,6 @@ import androidx.preference.PreferenceCategory;
 import android.text.TextUtils;
 import java.util.ArrayList;
 import java.util.List;
-
-import com.android.settings.display.SwitchStylePreferenceController;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class DisplaySettings extends DashboardFragment {
@@ -101,22 +98,10 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ScreenSaverPreferenceController(context));
         controllers.add(new TapToWakePreferenceController(context));
         controllers.add(new TimeoutPreferenceController(context, KEY_SCREEN_TIMEOUT));
-        controllers.add(new UiBlurPreferenceController(context));
         controllers.add(new VrDisplayPreferenceController(context));
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new ThemePreferenceController(context));
-        controllers.add(new SwitchStylePreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.accent_color"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.primary_color"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.font"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.adaptive_icon_shape"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.icon_pack"));
         return controllers;
     }
 
