@@ -274,22 +274,35 @@
     <string name="designed_battery_capacity">Designed battery capacity</string>
     <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
     <string name="battery_charge_cycles">Charge Cycles Completed</string>
-    <!-- UI background blur toggle -->
-    <string name="ui_background_blur_title">UI background blur</string>
-    <string name="ui_background_blur_summary">Enable UI background blur (expensive for GPU renderer)</string>
     <!-- Fp wake unlock options -->
     <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
     <string name="fp_wake_unlock_touch">Touch</string>
     <string name="fp_wake_unlock_press">Press</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
-    <!-- Switch styles -->
-    <string name="switch_style_title">Switch style</string>
-    <string name="switch_default">Default</string>
-    <string name="switch_contained">Contained</string>
-    <string name="switch_telegram">Telegram</string>
-    <string name="switch_md2">Material Design 2</string>
-    <string name="switch_retro">Retro</string>
-    <string name="switch_oos">OxygenOS 11</string>
-    <string name="switch_android12">Android 12</string>
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">In-Call Haptics</string>
+    <string name="incall_feeedback_summary">Vibrate to indicate call status</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Vibration &amp; haptics</string>
+    <string name="summary_vibration_preferences">Change intensities, pattern and more</string>
+    <string name="keywords_vibration_preferences">vibration pattern, vibration intensity, incall, haptics, tap, vibration strength</string>
+    <string name="ringtone_vibration_pattern">Ringtone vibration pattern</string>
+    <string name="vibration_intensity_ringer">Ringtone vibration intensity</string>
+    <string name="vibration_intensity_notification">Notification vibration intensity</string>
+    <string name="haptic_feedback_intensity">Haptic feedback intensity</string>
+    <string name="vibration_intensity_disabled">Disabled</string>
+    <string name="vibration_intensity_light">Light</string>
+    <string name="vibration_intensity_medium">Medium</string>
+    <string name="vibration_intensity_strong">Strong</string>
+    <string name="vibration_intensity_custom">Custom</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Custom</string>
+    <string name="custom_vibration_pattern_title">Set a custom vibration pattern</string>
+    <!-- Cloudflare DNS -->
+    <!-- Adguard DNS -->
 </resources>
