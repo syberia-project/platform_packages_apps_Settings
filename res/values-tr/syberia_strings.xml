@@ -279,28 +279,28 @@
     <!-- Radio Info -->
     <string name="radio_info_title">Radyo bilgisi</string>
     <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">In-Call Haptics</string>
-    <string name="incall_feeedback_summary">Vibrate to indicate call status</string>
+    <string name="incall_feeedback_vibrate_title">Arama titreşimleri</string>
+    <string name="incall_feeedback_summary">Arama durumunu bildirmek için titret</string>
     <!-- Custom Vibration fragment -->
-    <string name="vibration_preferences">Vibration &amp; haptics</string>
-    <string name="summary_vibration_preferences">Change intensities, pattern and more</string>
-    <string name="keywords_vibration_preferences">vibration pattern, vibration intensity, incall, haptics, tap, vibration strength</string>
-    <string name="ringtone_vibration_pattern">Ringtone vibration pattern</string>
-    <string name="vibration_intensity_ringer">Ringtone vibration intensity</string>
-    <string name="vibration_intensity_notification">Notification vibration intensity</string>
-    <string name="haptic_feedback_intensity">Haptic feedback intensity</string>
-    <string name="vibration_intensity_disabled">Disabled</string>
-    <string name="vibration_intensity_light">Light</string>
-    <string name="vibration_intensity_medium">Medium</string>
-    <string name="vibration_intensity_strong">Strong</string>
-    <string name="vibration_intensity_custom">Custom</string>
+    <string name="vibration_preferences">Titreşim &amp; Geri bildirim</string>
+    <string name="summary_vibration_preferences">Yoğunlukları, deseni ve daha fazlasını değiştirin</string>
+    <string name="keywords_vibration_preferences">titreşim deseni, titreşim yoğunluğu, gelen arama, geri bildirimler, dokunma, titreşim gücü</string>
+    <string name="ringtone_vibration_pattern">Zil sesi titreşim deseni</string>
+    <string name="vibration_intensity_ringer">Zil sesi titreşim yoğunluğu</string>
+    <string name="vibration_intensity_notification">Bildirim titreşim yoğunluğu</string>
+    <string name="haptic_feedback_intensity">Dokunma geribildirim yoğunluğu</string>
+    <string name="vibration_intensity_disabled">Devre dışı</string>
+    <string name="vibration_intensity_light">Hafif</string>
+    <string name="vibration_intensity_medium">Orta</string>
+    <string name="vibration_intensity_strong">Güçlü</string>
+    <string name="vibration_intensity_custom">Özel</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
-    <string name="custom_vibration_pattern_title">Set a custom vibration pattern</string>
+    <string name="pattern_custom">Özel</string>
+    <string name="custom_vibration_pattern_title">Özel bir titreşim modeli ayarlayın</string>
     <!-- Cloudflare DNS -->
     <!-- Adguard DNS -->
 </resources>
