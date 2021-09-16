@@ -295,7 +295,8 @@
         <SwitchPreference
             android:key="mobile_data_always_on"
             android:title="@string/mobile_data_always_on"
-            android:summary="@string/mobile_data_always_on_summary" />
+            android:summary="@string/mobile_data_always_on_summary"
+            android:defaultValue="false" />
 
         <SwitchPreference
             android:key="tethering_hardware_offload"
