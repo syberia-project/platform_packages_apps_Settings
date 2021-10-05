@@ -277,30 +277,30 @@
     <string name="fp_wake_unlock_touch">터치</string>
     <string name="fp_wake_unlock_press">누르기</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">신호 정보</string>
     <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">In-Call Haptics</string>
-    <string name="incall_feeedback_summary">Vibrate to indicate call status</string>
+    <string name="incall_feeedback_vibrate_title">통화 중 햅틱반응</string>
+    <string name="incall_feeedback_summary">통화 상태를 표기하기 위해 진동</string>
     <!-- Custom Vibration fragment -->
-    <string name="vibration_preferences">Vibration &amp; haptics</string>
-    <string name="summary_vibration_preferences">Change intensities, pattern and more</string>
-    <string name="keywords_vibration_preferences">vibration pattern, vibration intensity, incall, haptics, tap, vibration strength</string>
-    <string name="ringtone_vibration_pattern">Ringtone vibration pattern</string>
-    <string name="vibration_intensity_ringer">Ringtone vibration intensity</string>
-    <string name="vibration_intensity_notification">Notification vibration intensity</string>
-    <string name="haptic_feedback_intensity">Haptic feedback intensity</string>
-    <string name="vibration_intensity_disabled">Disabled</string>
-    <string name="vibration_intensity_light">Light</string>
-    <string name="vibration_intensity_medium">Medium</string>
-    <string name="vibration_intensity_strong">Strong</string>
-    <string name="vibration_intensity_custom">Custom</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
-    <string name="custom_vibration_pattern_title">Set a custom vibration pattern</string>
+    <string name="vibration_preferences">진동 및 햅틱 강도</string>
+    <string name="summary_vibration_preferences">강도 및 패턴 변경</string>
+    <string name="keywords_vibration_preferences">진동 패턴, 진동 강도, 호출, 햅틱, 탭, 진동 강도</string>
+    <string name="ringtone_vibration_pattern">벨소리 진동 패턴</string>
+    <string name="vibration_intensity_ringer">벨소리 진동 강도</string>
+    <string name="vibration_intensity_notification">알림 진동 강도</string>
+    <string name="haptic_feedback_intensity">햅틱 진동 강도</string>
+    <string name="vibration_intensity_disabled">비활성화</string>
+    <string name="vibration_intensity_light">약하게</string>
+    <string name="vibration_intensity_medium">중간</string>
+    <string name="vibration_intensity_strong">강하게</string>
+    <string name="vibration_intensity_custom">사용자 정의</string>
+    <string name="pattern_dzzz_dzzz">위이이잉-위이이잉</string>
+    <string name="pattern_dzzz_da">위이이잉-윙</string>
+    <string name="pattern_mm_mm_mm">위잉-위잉-위잉</string>
+    <string name="pattern_da_da_dzzz">윙=윙-위이이잉</string>
+    <string name="pattern_da_dzzz_da">윙-위이이잉-윙</string>
+    <string name="pattern_custom">사용자 정의</string>
+    <string name="custom_vibration_pattern_title">진동 패턴 사용자 정의</string>
     <!-- Cloudflare DNS -->
     <!-- Adguard DNS -->
 </resources>
