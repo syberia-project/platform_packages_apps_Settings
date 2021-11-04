@@ -4968,4 +4968,9 @@
     <string name="bluetooth_phonebook_access_notification_content" msgid="4280361621526852063">"Um dispositivo não confiável quer acessar seus contatos e seu registro de chamadas. Toque para ver detalhes."</string>
     <string name="bluetooth_phonebook_access_dialog_title" msgid="7624607995928968721">"Conceder acesso aos contatos e ao registro de chamadas?"</string>
     <string name="bluetooth_phonebook_access_dialog_content" msgid="4766700015848574532">"Um dispositivo Bluetooth não confiável, <xliff:g id="DEVICE_NAME_0">%1$s</xliff:g>, quer acessar seus contatos e seu registro de chamadas. Isso inclui dados sobre chamadas recebidas e realizadas.\n\nVocê não se conectou a <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> antes."</string>
+    
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Taxa mínima de atualização</string>
+    <string name="max_refresh_rate_title">Taxa máxima de atualização</string>
+    
 </resources>
