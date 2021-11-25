@@ -65,6 +65,12 @@
             android:selectable="true"
             settings:textStart="@string/back_height_low_label"
             settings:textEnd="@string/back_height_high_label"/>
+
+        <com.android.settingslib.widget.FooterPreference
+            android:key="gesture_navigation_settings_footer"
+            android:title="@string/back_sensitivity_dialog_message"
+            android:selectable="false"
+            settings:searchable="false"/>
     </PreferenceCategory>
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
@@ -73,12 +79,19 @@
         android:summary="@string/back_gesture_haptic_summary"
         android:defaultValue="false" />
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="fullscreen_gestures"
+        android:title="@string/fullscreen_gestures_title"
+        android:summary="@string/fullscreen_gestures_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="gesture_nav_custom_options"
         android:title="@string/navbar_gesture_tweaks_pref_title"
         android:summary="@string/navbar_gesture_tweaks_pref_summary"
         android:fragment="com.android.settings.gestures.GestureTweaksSettings"
         settings:allowDividerAbove="false"/>
+
 
 </PreferenceScreen>
 
