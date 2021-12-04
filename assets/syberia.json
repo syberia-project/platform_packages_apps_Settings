@@ -38,6 +38,27 @@
       "avatar": "https://syberiaos.com/img/avatars/DennySPb.jpg",
       "xda_link": "",
       "github_link": "https://github.com/DennySPB"
+    },
+    {
+      "device": "Xiaomi Poco F3 (alioth)",
+      "name": "DennySPb",
+      "avatar": "https://syberiaos.com/img/avatars/DennySPb.jpg",
+      "xda_link": "https://forum.xda-developers.com/t/rom-12-poco-f3-official-syberia-project.4365523/",
+      "github_link": "https://github.com/DennySPB"
+    },
+    {
+      "device": "Xiaomi Mi 9T (davinci)",
+      "name": "Vladimir S",
+      "avatar": "https://avatars.githubusercontent.com/u/22645128?s=400&u=c58c2c6de25479e8d22bff448fa1c8ead699b590&v=4",
+      "xda_link": "https://forum.xda-developers.com/t/rom-11-davinci-official-syberia-project.4184719/",
+      "github_link": "https://github.com/SVB22"
+    },
+    {
+      "device": "Xiaomi Mi A3 (laurel_sprout)",
+      "name": "magicxavi",
+      "avatar": "https://avatars.githubusercontent.com/u/26335242?v=4",
+      "xda_link": "https://forum.xda-developers.com/t/rom-official-laurel_sprout-syberia-project-s-oss.4362859/",
+      "github_link": "https://github.com/magicxavi"
     }
   ]
 }
