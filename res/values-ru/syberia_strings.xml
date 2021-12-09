@@ -313,4 +313,8 @@
     <string name="back_gesture_arrow_message">Анимация жеста наза</string>
     <string name="back_gesture_arrow_summary">Отображать стрелку для жеста назад</string>
 
+    <!-- Game Space -->
+    <string name="game_space_title">Игровое пространство</string>
+    <string name="game_space_summary">Улучшите свой игровой опыт</string>
+
 </resources>
