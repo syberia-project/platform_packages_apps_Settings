@@ -165,4 +165,8 @@
     <!-- Radio Info -->
     <string name="radio_info_title">Информация о сети</string>
 
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">AOD на зарядке</string>
+    <string name="doze_on_charge_summary">Экран будет в режиме AOD во время зарядки</string>
+
 </resources>
