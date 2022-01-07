@@ -108,4 +108,11 @@
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s сегодня</string>
 
+    <!-- About -->
+    <string name="about_device_name">Устройство</string>
+
+    <!-- Hardware info -->
+    <string name="platform_revision">Платформа</string>
+    <string name="total_ram">Всего оперативной памяти</string>
+
 </resources>
