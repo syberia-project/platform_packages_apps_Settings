@@ -24,4 +24,7 @@
 
     <!-- Increasing ring feature -->
     <attr name="customPreferenceStyle" format="reference" />
+
+    <attr name="secureValue" format="string" />
+
 </resources>
