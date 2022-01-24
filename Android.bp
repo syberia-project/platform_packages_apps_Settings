@@ -84,6 +84,7 @@ android_library {
         "lottie",
         "windowExtLib",
         "powerusagefeaturegoogle",
+        "columbus-settingsgoogle",
     ],
 
     libs: [
@@ -153,5 +154,11 @@ filegroup {
 java_import {
     name: "powerusagefeaturegoogle",
     jars: ["libs/powerusagefeaturegoogle.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "columbus-settingsgoogle",
+    jars: ["libs/columbus-settings.jar"],
     sdk_version: "current",
 }
