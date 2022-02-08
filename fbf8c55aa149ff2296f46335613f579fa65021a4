@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4b733d0_8cd5b704",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2022-02-08T10:37:58Z",
+      "side": 1,
+      "message": "Please confirm is this working with PowerUsageFeatureGoogle. In our testing this didn\u0027t worked",
+      "revId": "fbf8c55aa149ff2296f46335613f579fa65021a4",
+      "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8"
+    }
+  ]
+}
