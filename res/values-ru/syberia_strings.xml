@@ -193,4 +193,9 @@
     <string name="fingerprint_enroll_touch_dialog_message_rear">Коснитесь сенсора на вашем телефоне.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Коснитесь сенсора на вашем телефоне.</string>
 
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить существующее сканирование лица и создайте новое</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторить сканирование лица</string>
+    <string name="face_redo_confirm_btn">Повторить</string>
+    <string name="face_redo_warning_msg">Вы хотите удалить существующий скан лица и создать новый?</string>
+
 </resources>
