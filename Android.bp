@@ -84,6 +84,7 @@ android_library {
         "lottie",
         "powerusagefeaturegoogle",
         "columbus-settingsgoogle",
+        "faceunlock_framework",
     ],
 
     libs: [
