@@ -124,6 +124,7 @@
 
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Меньше 1 минуты</string>
+
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s сегодня</string>
 
@@ -133,5 +134,11 @@
     <!-- Hardware info -->
     <string name="platform_revision">Платформа</string>
     <string name="total_ram">Всего оперативной памяти</string>
+
+    <!-- Battery stats view -->
+    <string name="powerusage_provider_google">Схема энергопотребления Pixel</string>
+    <string name="power_usage_provider_summary">Использовать график статистики батареи и схему питания Pixel</string>
+    <string name="powerusage_provider_google_dialog_title">Применить изменения</string>
+    <string name="powerusage_provider_google_dialog_message">Настройки будут перезапущены для изменения схемы энергопотребления</string>
 
 </resources>
