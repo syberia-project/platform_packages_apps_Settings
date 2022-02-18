@@ -758,7 +758,7 @@
     <!-- Main Settings screen setting option title for the item to take you to the accounts screen [CHAR LIMIT=22] -->
     <string name="account_settings_title">Accounts</string>
     <!-- Main Settings screen setting option title for the item to take you to the security screen -->
-    <string name="security_settings_title">Security</string>
+    <string name="security_settings_title">Security &amp; Lockscreen</string>
     <!-- Security Settings screen setting option title for the item to take you to the encryption and credential screen -->
     <string name="encryption_and_credential_settings_title">Encryption &amp; credentials</string>
     <!-- Security Settings screen Encryption and credential summary -->
@@ -782,7 +782,7 @@
     <!-- In the security screen, the header title for security statuses -->
     <string name="security_status_title">Security status</string>
     <!-- Summary for Security settings, explaining a few important settings under it [CHAR LIMIT=NONE] -->
-    <string name="security_dashboard_summary">Screen lock, Find My Device, app security</string>
+    <string name="security_dashboard_summary">Screen lock, Find My Device</string>
     <!-- TODO(b/208624929): Update to an UX approved title and char limit. -->
     <!-- Main Settings screen setting title for the item that takes you to the safety center [CHAR LIMIT=60] -->
     <string name="safety_center_title">Security &amp; privacy</string>
@@ -3578,6 +3578,8 @@
 
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="firmware_version">Android version</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="about_device_info">Device information</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
     <string name="security_patch">Android security update</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
@@ -5456,7 +5458,7 @@
     <skip />
 
     <!-- Settings title in main settings screen for accessibility settings -->
-    <string name="accessibility_settings">Accessibility</string>
+    <string name="accessibility_settings">Utilities</string>
     <!-- Settings title for accessibility settings screen -->
     <string name="accessibility_settings_title">Accessibility settings</string>
     <!-- Summary for Accessibility settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
@@ -8572,16 +8574,16 @@
     </plurals>
 
     <!-- Title for setting tile leading to network and Internet settings [CHAR LIMIT=40]-->
-    <string name="network_dashboard_title">Network &amp; internet</string>
+    <string name="network_dashboard_title">Wi\u2011Fi &amp; Network</string>
     <!-- Summary for Network and Internet settings, explaining it contains mobile, wifi setting and data usage settings [CHAR LIMIT=NONE]-->
-    <string name="network_dashboard_summary_mobile">Mobile, Wi\u2011Fi, hotspot</string>
+    <string name="network_dashboard_summary_mobile">SIM, mobile network, data usage, hotspot</string>
     <!-- Summary for Network and Internet settings, explaining it contains wifi and data usage setting [CHAR LIMIT=NONE]-->
-    <string name="network_dashboard_summary_no_mobile">Wi\u2011Fi, hotspot</string>
+    <string name="network_dashboard_summary_no_mobile">data usage, hotspot</string>
 
     <!-- Title for setting tile leading to Connected devices settings [CHAR LIMIT=40]-->
     <string name="connected_devices_dashboard_title">Connected devices</string>
     <!-- Summary for Connected devices settings, explaining default settings under it [CHAR LIMIT=NONE]-->
-    <string name="connected_devices_dashboard_default_summary">Bluetooth, pairing</string>
+    <string name="connected_devices_dashboard_default_summary">NFC, Android Auto, tap &amp; pay, cast</string>
     <!-- Summary for Connected devices settings, explaning a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="connected_devices_dashboard_summary">Bluetooth, driving mode, NFC</string>
     <!-- Summary for Connected devices settings, explaning a few important settings under it [CHAR LIMIT=NONE]-->
@@ -8609,14 +8611,14 @@
     <!-- Toast shown when an app in the work profile attempts to open notification settings. The apps in the work profile cannot access notification settings. [CHAR LIMIT=NONE] -->
     <string name="notification_settings_work_profile">Notification access is not available for apps in the work profile.</string>
     <!-- Title for setting tile leading to saved autofill passwords, autofill, and account settings [CHAR LIMIT=40]-->
-    <string name="account_dashboard_title">Passwords &amp; accounts</string>
+    <string name="account_dashboard_title">Accounts</string>
     <!-- Summary for setting tile leading to saved autofill passwords, autofill, and account settings [CHAR LIMIT=NONE]-->
-    <string name="account_dashboard_default_summary">Saved passwords, autofill, synced accounts</string>
+    <string name="account_dashboard_default_summary">Passwords, autofill, synced accounts</string>
     <!-- Title for setting tile leading to setting UI which allows user set default app to
     handle actions such as open web page, making phone calls, default SMS apps [CHAR  LIMIT=40]-->
     <string name="app_default_dashboard_title">Default apps</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
-    <string name="system_dashboard_summary">Languages, gestures, time, backup</string>
+    <string name="system_dashboard_summary">Language, gestures, time</string>
 
     <!-- Search strings -->
     <!-- Text to describe the search results fragment title [CHAR LIMIT=16] -->
@@ -8817,7 +8819,7 @@
     <string name="sound_settings_summary">Ring &amp; notification volume at <xliff:g id="percentage" example="2%">%1$s</xliff:g></string>
 
     <!-- Summary for sound settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
-    <string name="sound_dashboard_summary">Volume, vibration, Do Not Disturb</string>
+    <string name="sound_dashboard_summary">Sound Mode, Ringtone</string>
 
     <!-- Sound: Dashboard summary indicating the volume of ringtone when at 0% with vibrate enabled. [CHAR LIMIT=100] -->
     <string name="sound_settings_summary_vibrate">Ringer set to vibrate</string>
@@ -9283,7 +9285,7 @@
     <string name="configure_notification_settings">Notifications</string>
 
     <!-- Summary for the top level Notifications Settings [CHAR LIMIT=NONE]-->
-    <string name="notification_dashboard_summary">Notification history, conversations</string>
+    <string name="notification_dashboard_summary">Status bar, Do not disturb</string>
 
     <!-- notification header - settings for conversation type notifications -->
     <string name="conversation_notifs_category">Conversation</string>
@@ -12210,7 +12212,7 @@
     <string name="emergency_settings_preference_title">Safety &amp; emergency</string>
 
     <!-- Summary for the top level Safety & emergency Settings [CHAR LIMIT=NONE]-->
-    <string name="emergency_dashboard_summary">Emergency SOS, medical info, alerts</string>
+    <string name="emergency_dashboard_summary">Emergency SOS, medical info</string>
 
     <!-- Title text for edge to edge navigation [CHAR LIMIT=60] -->
     <string name="edge_to_edge_navigation_title">Gesture navigation</string>
@@ -13613,7 +13615,7 @@
     <!-- Title for the top level Privacy Settings [CHAR LIMIT=30]-->
     <string name="privacy_dashboard_title">Privacy</string>
     <!-- Summary for the top level Privacy Settings [CHAR LIMIT=NONE]-->
-    <string name="privacy_dashboard_summary">Permissions, account activity, personal data</string>
+    <string name="privacy_dashboard_summary">Permissions, account activity</string>
 
 
     <!-- Title for the privacy controls page [CHAR LIMIT=30]-->
