@@ -219,4 +219,7 @@
 
     <!-- Icon tint color for battery usage system icon -->
     <color name="battery_usage_system_icon_color">?android:attr/textColorPrimary</color>
+
+    <color name="settingsHeaderColor">@*android:color/accent_device_default_light</color>
+
 </resources>
