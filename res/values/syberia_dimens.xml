@@ -15,5 +15,9 @@
     <dimen name="columbus_illustration_layout_width">240.0dip</dimen>
     <dimen name="columbus_list_item_text_spacing">32.0dip</dimen>
 
+    <dimen name="card_view_start_padding">20dp</dimen>
+    <dimen name="card_view_end_padding">20dp</dimen>
+    <dimen name="card_view_start_margin">15dp</dimen>
+    <dimen name="card_view_end_margin">15dp</dimen>
+    <dimen name="card_height_settings">80dp</dimen>
 </resources>
-
