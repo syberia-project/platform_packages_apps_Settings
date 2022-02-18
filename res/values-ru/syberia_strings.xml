@@ -61,7 +61,6 @@
     <string name="action_nothing">Нет действия</string>
     <string name="action_menu">Меню</string>
     <string name="action_app_switch">Недавние</string>
-    <string name="action_search">Ассистент</string>
     <string name="action_voice_search">Голосовой поиск</string>
     <string name="action_launch_camera">Камера</string>
     <string name="action_last_app">Последнее приложение</string>
