@@ -196,8 +196,8 @@
     <string name="face_unlock_method_swipe">По свайпу вверх</string>
 
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
-    <string name="adaptive_playback_enabled">Использовать адаптивное воспроизведение</string>
+    <string name="adaptive_playback_screen_title">Умная пауза</string>
+    <string name="adaptive_playback_enabled">Включить Умную паузу</string>
     <string name="adaptive_playback_disabled_summary">Выключено</string>
     <string name="adaptive_playback_timeout_title">Задержка в </string>
     <string name="adaptive_playback_timeout_none">Без задержки</string>
