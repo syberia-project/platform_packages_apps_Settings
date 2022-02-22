@@ -241,4 +241,13 @@
     <string name="columbus_setting_enable_switch_title">Использовать короткое касание</string>
     <string name="columbus_setting_sensitivity_title">Уменьшить чувствительность</string>
 
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить существующее сканирование лица и создайте новое</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторить сканирование лица</string>
+    <string name="face_redo_confirm_btn">Повторить</string>
+    <string name="face_redo_warning_msg">Вы хотите удалить существующий скан лица и создать новый?</string>
+    <string name="face_unlock_method_title">Разблокировка лицом на экране блокировки</string>
+    <string name="face_unlock_method_default">Когда экран включен</string>
+    <string name="face_unlock_method_swipe">По свайпу вверх</string>
+
 </resources>
