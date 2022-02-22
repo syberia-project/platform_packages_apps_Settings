@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f94166b_d42e3be5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000078
+      },
+      "writtenOn": "2022-02-22T04:44:33Z",
+      "side": 1,
+      "message": "you will need blur props for this to show up.\nhttps://github.com/elytraOS/vendor_elytra/commit/a532293ad4b06e942f9ce731a815cef22980e020",
+      "revId": "bcfa58087d70b320c79756cdec33c86221c68dc8",
+      "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8"
+    }
+  ]
+}
