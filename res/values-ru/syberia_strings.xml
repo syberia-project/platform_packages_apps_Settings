@@ -187,4 +187,9 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Найдите сканер отпечатков пальцев на вашем телефоне.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Найдите сканер отпечатков пальцев на вашем телефоне.</string>
 
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Коснитесь сенсора на вашем телефоне.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Коснитесь сенсора на вашем телефоне.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Коснитесь сенсора на вашем телефоне.</string>
+
 </resources>
