@@ -73,7 +73,8 @@ public class MobileDataPanel implements PanelContent {
                 NetworkDashboardFragment.class.getName(),
                 null /* key */,
                 screenTitle,
-                SettingsEnums.SETTINGS_NETWORK_CATEGORY);
+                SettingsEnums.SETTINGS_NETWORK_CATEGORY,
+                R.string.menu_key_network);
         intent.setClassName(mContext.getPackageName(), SubSettings.class.getName());
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         return intent;

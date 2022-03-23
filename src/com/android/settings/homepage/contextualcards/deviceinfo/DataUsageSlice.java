@@ -98,7 +98,7 @@ public class DataUsageSlice implements CustomSliceable {
         final String screenTitle = mContext.getText(R.string.data_usage_wifi_title).toString();
         return SliceBuilderUtils.buildSearchResultPageIntent(mContext,
                 DataUsageSummary.class.getName(), "" /* key */, screenTitle,
-                SettingsEnums.SLICE)
+                SettingsEnums.SLICE, R.string.menu_key_network)
                 .setClassName(mContext.getPackageName(), SubSettings.class.getName())
                 .setData(CustomSliceRegistry.DATA_USAGE_SLICE_URI);
     }
@@ -137,4 +137,10 @@ public class DataUsageSlice implements CustomSliceable {
     public void onNotifyChange(Intent intent) {
 
     }
+
+    @Override
+    public int getSliceHighlightMenuRes() {
+        return R.string.menu_key_network;
+    }
+
 }
