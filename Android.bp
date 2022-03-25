@@ -44,7 +44,12 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt", "SyberiaSettings/src/**/*.java",],
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt",
+        "SyberiaSettings/src/**/*.java",
+        "SyberiaSettings/src/**/*.kt",
+    ],
 
     aaptflags: ["--extra-packages com.syberia.settings"],
 
@@ -60,7 +65,11 @@ android_library {
         "androidx.core_core",
         "androidx.appcompat_appcompat",
         "androidx.cardview_cardview",
+        "androidx.fragment_fragment",
+        "androidx.fragment_fragment-ktx",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
         "androidx.preference_preference",
+        "androidx.preference_preference-ktx",
         "androidx.recyclerview_recyclerview",
         "androidx.window_window",
         "com.google.android.material_material",
@@ -85,6 +94,9 @@ android_library {
         "lottie",
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
+        "SettingsLibMainSwitchPreference",
+        "kotlinx_coroutines_android",
+        "kotlinx_coroutines",
     ],
 
     libs: [
@@ -145,4 +157,9 @@ filegroup {
 android_library_import {
     name: "glide",
     aars: ["libs/glide-4.9.0.aar"],
+}
+
+android_library_import {
+    name: "androidx.preference_preference-ktx",
+    aars: ["libs/preference-ktx-1.2.0-alpha02.aar"],
 }
