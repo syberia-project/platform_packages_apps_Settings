@@ -240,4 +240,16 @@
     <string name="privacy_category_title">Privacy and Welfare Settings</string> 
     <string name="user_category_title">User Information</string>
     <string name="usercard_summary">Current active user, tap for more info</string>
+
+    <!-- Model and Hardware -->
+    <string name="syberia_processor_title">Processor</string>
+    <string name="syberia_storage_code_title">Storage</string>
+    <string name="syberia_battery_type_title">Battery</string> 
+    <string name="syberia_screen_title">Screen</string>
+    <string name="net_info">Network</string>
+    <string name="mod_info">@string/model_info</string>
+    <string name="id_info">Identifiers</string>
+    <string name="model_summary">Model, phone number, IMEI, etc</string>
+    <string name="model_name">Device status</string>
+    <string name="legal_summary">Licenses and legal</string>
 </resources>
