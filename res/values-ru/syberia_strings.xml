@@ -296,5 +296,12 @@
     <string name="app_lock_notifications_disabled_summary">Сперва выберите приложение для блокировки</string>
     <string name="app_lock_biometrics_allowed_title">Включить использование биометрии для разблокировки</string>
     <string name="app_lock_footer_text">Разговоры будут автоматически скрыты по таймауту</string>
+    <string name="app_lock_5_seconds">5 секунд</string>
+    <string name="app_lock_10_seconds">10 секунд</string>
+    <string name="app_lock_30_seconds">30 секунд</string>
+    <string name="app_lock_1_minute">1 минута</string>
+    <string name="app_lock_5_minutes">5 минут</string>
+    <string name="app_lock_10_minutes">10 минут</string>
+    <string name="app_lock_30_minutes">30 минут</string>
 
 </resources>
