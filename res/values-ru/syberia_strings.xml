@@ -304,4 +304,13 @@
     <string name="app_lock_10_minutes">10 минут</string>
     <string name="app_lock_30_minutes">30 минут</string>
 
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Метод распознавания отпечатков</string>
+    <string name="fp_wake_unlock_touch">Касание</string>
+    <string name="fp_wake_unlock_press">Нажатие</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Анимация жеста наза</string>
+    <string name="back_gesture_arrow_summary">Отображать стрелку для жеста назад</string>
+
 </resources>
