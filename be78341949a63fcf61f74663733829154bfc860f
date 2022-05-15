@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "654ac9de_e30ecef0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000077
+      },
+      "writtenOn": "2022-05-15T12:47:44Z",
+      "side": 1,
+      "message": "it would be nice adding this preference,thx.",
+      "revId": "be78341949a63fcf61f74663733829154bfc860f",
+      "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8"
+    }
+  ]
+}
