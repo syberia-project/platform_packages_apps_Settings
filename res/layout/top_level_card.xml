@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/entity_header"
     android:background="@drawable/syberia_card"
-    android:padding="4dp"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:elevation="0dp"
     android:layout_marginHorizontal="16dp"
-    android:layout_marginVertical="8dp">
+    android:layout_marginVertical="5dp">
 
     <LinearLayout
-        android:id="@+id/entity_header_content"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="6dp"
+        android:layout_marginHorizontal="10dp"
         android:layout_marginVertical="20dp">
         	
        	<LinearLayout
+       	    android:layout_gravity="center"
        	    android:orientation="vertical"
-            android:layout_gravity="center"
        	    android:layout_width="0dp"
        	    android:layout_height="wrap_content"
        	    android:layout_weight="2">
@@ -28,7 +27,7 @@
             <TextView
                 android:textAppearance="@style/TextAppearance.HomepagePreferenceTitle"
                 android:ellipsize="marquee"
-                android:id="@+id/entity_header_title"
+                android:id="@android:id/title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
@@ -39,16 +38,27 @@
                 android:id="@android:id/summary"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-		android:text="@string/usercard_summary"
                 android:maxLines="1"
                 android:singleLine="true"/>
         </LinearLayout>
         
-        <ImageView
-        android:contentDescription="@null"
-   	android:padding="5dp"
-        android:id="@+id/entity_header_icon"
-        android:layout_width="56dp"
-        android:layout_height="56dp"/>
+        <com.google.android.material.card.MaterialCardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:cardBackgroundColor="@color/acc2"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="0dp"
+                app:contentPadding="5dp"
+                app:strokeColor="#00804d4d">
+                	
+            <ImageView
+                  android:layout_gravity="center"
+                  android:id="@android:id/icon"
+                  android:layout_width="24dp"
+                  android:layout_height="24dp"
+                  android:src="@drawable/ic_network_cell"
+                  android:contentDescription="@null"
+                  app:tint="@color/acc3"/>
+        </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
 </FrameLayout>
