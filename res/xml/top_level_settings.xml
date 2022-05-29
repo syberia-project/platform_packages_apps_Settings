@@ -21,18 +21,20 @@
     android:key="top_level_settings"
     android:title="Settings">
 
+   <com.android.settings.widget.HomepagePreference
+        android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
+        android:key="top_level_about_device"
+        android:order="-170"
+        android:title="@string/about_settings"
+        android:summary="@string/summary_placeholder"
+        settings:highlightableMenuKey="@string/menu_key_about_device"
+        settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
+
    <com.android.settingslib.widget.LayoutPreference
         android:layout="@layout/usercard"
         android:fragment="com.android.settings.users.UserSettings"
         android:key="top_level_usercard"
-        android:order="-170" />
-
-   <Preference
-        android:title="@string/connectivity_category_title"
-        android:icon="@drawable/ic_network"
-	android:key="category"
-	android:selectable="false"
-	android:order="-165"/>
+        android:order="-165" />
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
@@ -215,16 +217,6 @@
         android:title="@string/header_category_system"
         android:summary="@string/system_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_system"/>
-
-    <com.android.settings.widget.HomepagePreference
-        android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
-        android:icon="@drawable/ic_settings_about_device"
-        android:key="top_level_about_device"
-        android:order="20"
-        android:title="@string/about_settings"
-        android:summary="@string/summary_placeholder"
-        settings:highlightableMenuKey="@string/menu_key_about_device"
-        settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
         android:icon="@drawable/ic_help"
