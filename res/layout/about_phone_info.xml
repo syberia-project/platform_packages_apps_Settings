@@ -1,122 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-   Copyright 2020 Wave-OS
-   Copyright 2021 SyberiaOS
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-       http://www.apache.org/licenses/LICENSE-2.0
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
--->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/wave_info"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
     android:layout_width="match_parent"
-    android:layout_height="200dp">
-
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/phone_image"
-        android:layout_width="100dp"
-        android:layout_height="205dp"
-        android:layout_marginTop="30.0dip"
-        android:layout_marginBottom="36.0dip"
-        android:layout_marginStart="30.0dp"
-        app:cardElevation="0dp"
-        app:cardCornerRadius="18dp"
-        app:strokeColor="?android:attr/textColorPrimary"
-        app:strokeWidth="3dp">
-
-    <com.android.utils.aboutWallpaperView
-        android:layout_width="match_parent"
-	android:layout_height="match_parent"
-	android:scaleType="centerCrop"
-	android:gravity="center"
-	android:elevation="0dp"
-	android:contentDescription="@null"
-	android:orientation="vertical" />
-
-    <ImageView
-	android:layout_width="50dp"
-	android:layout_height="match_parent"
-	android:layout_gravity="center"
-	android:src="@drawable/syberia_logo" />
-
-    </com.google.android.material.card.MaterialCardView>
+    android:layout_height="wrap_content">
 
     <LinearLayout
-        android:gravity="center"
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="30dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="26dp"
-        android:layout_centerVertical="true"
-        android:layout_toEndOf="@+id/phone_image">
+	android:background="@drawable/syberia_card"
+        android:orientation="horizontal"
+	android:layout_marginHorizontal="16dp"
+	android:layout_marginVertical="5dp">
 
-        <TextView
-            android:id="@+id/processor_title"
-            android:layout_width="match_parent"
+        <RelativeLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
-            android:text="@string/syberia_processor_title"
-            style="@style/TextAppearance.SyberiaInfoTitle" />
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingStart="22dp"
+            android:paddingEnd="16dp">
+        
+            <TextView
+                android:id="@+id/processor_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/syberia_processor_title"
+                android:textAppearance="@style/TextAppearance.HomepagePreferenceTitle" />
+        
+            <TextView
+                android:id="@+id/processor_message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:singleLine="true"
+                android:layout_below="@+id/processor_title"
+                android:layout_alignStart="@+id/processor_title"
+                android:textSize="12sp" />
+        
+            <TextView
+                android:id="@+id/storage_code_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/syberia_storage_code_title"
+                android:layout_below="@+id/processor_message"
+                android:layout_alignStart="@+id/processor_message"
+                android:textAppearance="@style/TextAppearance.HomepagePreferenceTitle" />
+        
+            <TextView
+                android:id="@+id/storage_code_message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:singleLine="true"
+                android:layout_below="@+id/storage_code_title"
+                android:layout_alignStart="@+id/storage_code_title"
+                android:textSize="12sp" />
+        
+            <TextView
+                android:id="@+id/battery_type_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/syberia_battery_type_title"
+                android:layout_below="@+id/storage_code_message"
+                android:layout_alignStart="@+id/storage_code_message"
+                android:textAppearance="@style/TextAppearance.HomepagePreferenceTitle" />
+        
+            <TextView
+                android:id="@+id/battery_type_message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:singleLine="true"
+                android:layout_below="@+id/battery_type_title"
+                android:layout_alignStart="@+id/battery_type_title"
+                android:textSize="12sp" />
+        
+            <TextView
+                android:id="@+id/screen_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/syberia_screen_title"
+                android:layout_below="@+id/battery_type_message"
+                android:layout_alignStart="@+id/battery_type_message"
+                android:textAppearance="@style/TextAppearance.HomepagePreferenceTitle" />
+        
+            <TextView
+                android:id="@+id/screen_message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:singleLine="true"
+                android:layout_below="@+id/screen_title"
+                android:layout_alignStart="@+id/screen_title"
+                android:textSize="12sp" />
 
-        <TextView
-            android:id="@+id/processor_message"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="14dp"
-            style="@style/TextAppearance.SyberiaInfoSummary" />
+        </RelativeLayout>
 
-        <TextView
-            android:id="@+id/storage_code_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
-            android:text="@string/syberia_storage_code_title"
-            style="@style/TextAppearance.SyberiaInfoTitle" />
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/phone_image"
+            android:layout_width="100dp"
+            android:layout_height="205dp"
+            android:layout_marginTop="33.0dip"
+            android:layout_marginBottom="36.0dip"
+            android:layout_marginStart="30.0dp"
+            android:layout_marginEnd="25dp"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="18dp"
+            app:strokeColor="?android:attr/textColorPrimary"
+            app:strokeWidth="3dp">
 
-        <TextView
-            android:id="@+id/storage_code_message"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="14dp"
-            style="@style/TextAppearance.SyberiaInfoSummary" />
+            <com.android.utils.aboutWallpaperView
+                android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:scaleType="centerCrop"
+	            android:gravity="center"
+	            android:elevation="0dp"
+	            android:contentDescription="@null"
+	            android:orientation="vertical" />
+	            
+	            <ImageView
+	                  android:layout_width="50dp"
+	                  android:layout_height="match_parent"
+	                  android:layout_gravity="center"
+	                  android:src="@drawable/syberia_logo" />
 
-        <TextView
-            android:id="@+id/battery_type_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
-            android:text="@string/syberia_battery_type_title"
-            style="@style/TextAppearance.SyberiaInfoTitle" />
-
-        <TextView
-            android:id="@+id/battery_type_message"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="14dp"
-            style="@style/TextAppearance.SyberiaInfoSummary" />
-
-        <TextView
-            android:id="@+id/screen_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
-            android:text="@string/syberia_screen_title"
-            style="@style/TextAppearance.SyberiaInfoTitle" />
-
-        <TextView
-            android:id="@+id/screen_message"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/TextAppearance.SyberiaInfoSummary" />
+        </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
-</RelativeLayout>
+
+</FrameLayout>
