@@ -23,7 +23,6 @@ import static android.provider.Settings.EXTRA_SETTINGS_EMBEDDED_DEEP_LINK_INTENT
 import static com.android.settings.SettingsActivity.EXTRA_USER_HANDLE;
 
 import android.animation.LayoutTransition;
-import android.animation.ObjectAnimator;
 import android.app.ActivityManager;
 import android.app.settings.SettingsEnums;
 import android.content.ComponentName;
@@ -48,7 +47,6 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.Toolbar;
 
 import androidx.annotation.VisibleForTesting;
@@ -76,9 +74,6 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.safetycenter.SafetyCenterManagerWrapper;
 import com.android.settingslib.Utils;
 import com.android.settingslib.core.lifecycle.HideNonSystemOverlayMixin;
-import com.google.android.material.appbar.AppBarLayout;
-import com.google.android.material.appbar.CollapsingToolbarLayout;
-import java.util.ArrayList;
 import java.net.URISyntaxException;
 import java.util.Set;
 
@@ -113,75 +108,6 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     private boolean mIsTwoPane;
     // A regular layout shows icons on homepage, whereas a simplified layout doesn't.
     private boolean mIsRegularLayout = true;
-
-    CollapsingToolbarLayout collapsing_toolbar;
-    
-    static ArrayList<String> text=new ArrayList<>();
-    static {
-        text.add("Arise, Young one.");
-	    text.add("Welcome Stranger!");
-	    text.add("One's soul shreds uniqueness.");
-        text.add("Calm down young one, catch your breath.");
-        text.add("Roquelaire, would you like a cracker?");
-        text.add("My little friend, always busy-busy.");
-        text.add("Ho ho! You found me!");
-        text.add("Welcome to the Secret Shop!");
-        text.add("Some tea while you wait?");
-        text.add("Those go together nicely.");
-        text.add("Your foes will fear you now.");
-        text.add("My favorite customer!");
-        text.add("Business is brisk.");
-        text.add("How is your journey little one?");
-        text.add("Mistakes are always part of one's life, youngster.");
-        text.add("Have a lucky day human!");
-        text.add("You can do it Stranger!");
-	    text.add("It was never wrong to try, young one.");
-	    text.add("The learned one strikes.");
-	    text.add("They will never know what hit them.");
-	    text.add("Turn the tables!");
-	    text.add("The enemy will be destroyed, no matter the cost!");
-	    text.add("A good strategist always keeps something in reserve.");
-	    text.add("Never Settle?");
-	    text.add("Gratitude unlocks the fullness of life, Milord.");
-	    text.add("A joker is a little fool who is different from everyone else.");
-	    text.add("Failure is not Fatal, Customer.");
-	    text.add("Taking a rest is not a sin young man.");
-	    text.add("What is truth, but a survivor's story?");
-	    text.add("In a world without love, death means nothing.");
-	    text.add("Always appreciate your own endeavors, Milord.");
-	    text.add("Fear is the first of many foes.");
-	    text.add("The climb may be long, but the view is worth it.");
-	    text.add("The waves will drag you down, unless you fight to shore.");
-	    text.add("The darker the night, the brighter the stars.");
-	    text.add("Fight and be remembered, or die and be forgotten.");
-	    text.add("In case no one asked, are you doing fine youngster?");
-	    text.add("Nothing bears fruit from hatred, but disaster my friend.");
-	    text.add("Another day to become a legend.");
-	    text.add("In case no one told you this, you are awesome!");
-	    text.add("My dear friend always busy, want some cookies?");
-	    text.add("Never Forget the Arcanery.");
-	    text.add("Show em what you got stranger!");
-	    text.add("The Arcanery likes your presence.");
-	    text.add("What shall the Arcanery grant unto you?");
-	    text.add("Life is always full of mysteries.");
-	    text.add("Find what you seek on Tresdins Lair.");
-	    text.add("Seek and you shall find.");
-	    text.add("Everyone is a survivor from the cruel reality.");
-	    text.add("The Arcanery loves your efforts.");
-	    text.add("Destiny awaits us all.");
-	    text.add("From knowledge comes skill.");
-	    text.add("What must be discovered?");
-	    text.add("Even a master falters.");
-    }
-    
-    static ArrayList<String> welcome=new ArrayList<>();
-    static {
-        welcome.add("Hi!");
-        welcome.add("Hello.");
-        welcome.add("Greetings.");
-        welcome.add("Good Day!");
-        welcome.add("Settings");
-    }
 
     /** A listener receiving homepage loaded events. */
     public interface HomepageLoadedListener {
@@ -259,27 +185,11 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         final View root = findViewById(R.id.settings_homepage_container);
 	LinearLayout commonCon = root.findViewById(R.id.common_con);
         final Toolbar toolbar = root.findViewById(R.id.search_action_bar);
-	collapsing_toolbar =  root.findViewById(R.id.collapsing_toolbar);
-	TextView greeter = root.findViewById(R.id.greeter);
-	greeter.setText(text.get(randomNum(0, text.size()-1)));
 
         FeatureFactory.getFactory(this).getSearchFeatureProvider()
                 .initSearchToolbar(this /* activity */, toolbar, SettingsEnums.SETTINGS_HOMEPAGE);
-                
-        AppBarLayout appBarLayout = root.findViewById(R.id.appbar);
-        appBarLayout.addOnOffsetChangedListener((appBarLayout1, i) -> {
-        	
-        	float abs = ((float) Math.abs(i)) / ((float) appBarLayout1.getTotalScrollRange());
-            float f2 = 1.0f - abs;
-            //greeter text
-            if (f2 == 1.0)
-                ObjectAnimator.ofFloat(greeter, View.ALPHA, 1f).setDuration(500).start();
-            else
-                greeter.setAlpha(0f);
-        });
 
         getLifecycle().addObserver(new HideNonSystemOverlayMixin(this));
-        collapsing_toolbar.setTitle(welcome.get(randomNum(0, welcome.size()-1)));
         mCategoryMixin = new CategoryMixin(this);
         getLifecycle().addObserver(mCategoryMixin);
 
@@ -399,8 +309,6 @@ public class SettingsHomepageActivity extends FragmentActivity implements
                     .initSearchToolbar(this /* activity */, toolbarTwoPaneVersion,
                             SettingsEnums.SETTINGS_HOMEPAGE);
         }
-    }
-
     }
 
     private void updateHomepageBackground() {
@@ -678,15 +586,15 @@ public class SettingsHomepageActivity extends FragmentActivity implements
             return;
         }
         updateAppBarMinHeight();
-        if (mIsTwoPane) {
-            findViewById(R.id.homepage_app_bar_regular_phone_view).setVisibility(View.GONE);
-            findViewById(R.id.homepage_app_bar_two_pane_view).setVisibility(View.VISIBLE);
-            findViewById(R.id.suggestion_container_two_pane).setVisibility(View.VISIBLE);
-        } else {
-            findViewById(R.id.homepage_app_bar_regular_phone_view).setVisibility(View.VISIBLE);
-            findViewById(R.id.homepage_app_bar_two_pane_view).setVisibility(View.GONE);
-            findViewById(R.id.suggestion_container_two_pane).setVisibility(View.GONE);
-        }
+//        if (mIsTwoPane) {
+//            findViewById(R.id.homepage_app_bar_regular_phone_view).setVisibility(View.GONE);
+//            findViewById(R.id.homepage_app_bar_two_pane_view).setVisibility(View.VISIBLE);
+//            findViewById(R.id.suggestion_container_two_pane).setVisibility(View.VISIBLE);
+//        } else {
+//            findViewById(R.id.homepage_app_bar_regular_phone_view).setVisibility(View.VISIBLE);
+//            findViewById(R.id.homepage_app_bar_two_pane_view).setVisibility(View.GONE);
+//            findViewById(R.id.suggestion_container_two_pane).setVisibility(View.GONE);
+//        }
     }
 
     private void updateHomepagePaddings() {
@@ -709,7 +617,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
                 mIsEmbeddingActivityEnabled && mIsTwoPane
                         ? R.dimen.homepage_app_bar_padding_two_pane
                         : R.dimen.search_bar_margin);
-        findViewById(R.id.app_bar_container).setMinimumHeight(searchBarHeight + margin * 2);
+//        findViewById(R.id.app_bar_container).setMinimumHeight(searchBarHeight + margin * 2);
     }
 
     private static class SuggestionFragCreator implements FragmentCreator {

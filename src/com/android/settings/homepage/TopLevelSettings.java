@@ -220,7 +220,6 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
    	 onSetPrefCard();
 
         }
-    }
 
 	private void onSetPrefCard() {
 	final PreferenceScreen screen = getPreferenceScreen();

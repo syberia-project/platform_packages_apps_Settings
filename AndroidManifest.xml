@@ -4479,6 +4479,8 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.syberia.settings.SyberiaSettings" />
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_syberia"/>
         </activity>
 
         <!-- Changelog Activity -->
