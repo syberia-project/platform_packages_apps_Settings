@@ -78,6 +78,27 @@
         android:title="@string/status_up_time"
         settings:layout="@layout/top_level_card" />
 
+    <Preference
+        android:key="radio_info_settings"
+        android:icon="@drawable/ic_radio_info"
+        android:title="@string/radio_info_title"
+        settings:layout="@layout/top_level_card">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.phone"
+                android:targetClass="com.android.phone.settings.RadioInfo" />
+    </Preference>
+
+    <Preference
+        android:key="changelog"
+        android:icon="@drawable/ic_log"
+        android:title="@string/changelog_title"
+        settings:layout="@layout/top_level_card"
+        android:summary="@string/changelog_summary">
+        <intent android:action="android.intent.action.MAIN"
+             android:targetPackage="com.android.settings"
+             android:targetClass="com.android.settings.syberia.ChangelogActivity" />
+    </Preference>
+
     <!-- Legal information -->
     <Preference
         android:fragment="com.android.settings.LegalSettings"
@@ -87,44 +108,5 @@
         android:title="@string/legal_information"
         settings:layout="@layout/top_level_card" />
 
-
-    <!-- Prefs below are usually hidden -->
-    <!-- Regulatory labels -->
-    <Preference
-        android:key="regulatory_info"
-        settings:layout="@layout/top_level_card"
-        android:title="@string/regulatory_labels">
-        <intent android:action="android.settings.SHOW_REGULATORY_INFO" />
-    </Preference>
-
-    <!-- Safety & regulatory manual -->
-    <Preference
-        android:key="safety_info"
-        settings:layout="@layout/top_level_card"
-        android:title="@string/safety_and_regulatory_info">
-        <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO" />
-    </Preference>
-
-    <!-- Manual -->
-    <Preference
-        android:key="manual"
-        settings:layout="@layout/top_level_card"
-        android:title="@string/manual">
-        <intent android:action="android.settings.SHOW_MANUAL" />
-    </Preference>
-
-    <!-- Feedback on the device -->
-    <Preference
-        android:key="device_feedback"
-        android:title="@string/device_feedback"
-        settings:layout="@layout/top_level_card"
-        settings:keywords="@string/keywords_device_feedback" />
-            
-    <!-- Device FCC equipment id -->
-    <Preference
-        android:key="fcc_equipment_id"
-        settings:layout="@layout/top_level_card"
-        android:summary="@string/summary_placeholder"
-        android:title="@string/fcc_equipment_id" />
 
 </PreferenceScreen>
