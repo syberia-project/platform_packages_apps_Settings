@@ -175,4 +175,19 @@
     <string name="charging_sounds_nos_title">Звук при подкл. зарядки</string>
     <string name="charging_vibro_title">Вибрация при подкл. зарядки</string>
 
+    <!-- Setting home page -->
+    <string name="usercard_summary">Текущий пользователь, нажмите для дополнительной информации</string>
+
+    <!-- Model and Hardware -->
+    <string name="syberia_processor_title">Процессор</string>
+    <string name="syberia_storage_code_title">Память</string>
+    <string name="syberia_battery_type_title">Батарея</string> 
+    <string name="syberia_screen_title">Экран</string>
+    <string name="net_info">Сеть</string>
+    <string name="mod_info">@string/model_info</string>
+    <string name="id_info">Идентификаторы</string>
+    <string name="model_summary">Модель, номер телефона, IMEI и т.д.</string>
+    <string name="model_name">Статус устройства</string>
+    <string name="legal_summary">Лицензии и правовая информация</string>
+
 </resources>
