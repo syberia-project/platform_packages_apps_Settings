@@ -342,4 +342,8 @@
     <string name="navigation_bar_ime_space_title">Пространство под клавиатурой</string>
     <string name="navigation_bar_ime_space_summary">Оставлять дополнительное пространство под клавиатурой</string>
 
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Позволять клиентам точки доступа использовать текущее VPN соединение</string>
+
 </resources>
