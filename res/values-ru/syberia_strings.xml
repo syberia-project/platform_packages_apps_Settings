@@ -187,4 +187,9 @@
     <string name="max_refresh_rate_title">Масимальная частота обновления</string>
     <string name="low_power_refresh_rate_title_custom">Частота обновления в энергосберегающем режиме</string>
 
+    <!-- Per-app volume control -->
+    <string name="app_volume">Громкость приложений</string>
+    <string name="app_volume_title">Управление громкостью отдельного приложения</string>
+    <string name="app_volume_summary">Позволяет установить различные уровни громкости для каждого приложения отдельно</string>
+
 </resources>
