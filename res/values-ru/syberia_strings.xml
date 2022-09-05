@@ -189,4 +189,9 @@
 
     <string name="link_to_windows_settings_title">Подключение к Windows</string>
 
+    <!-- Per-app volume control -->
+    <string name="app_volume">Громкость приложений</string>
+    <string name="app_volume_title">Управление громкостью отдельного приложения</string>
+    <string name="app_volume_summary">Позволяет установить различные уровни громкости для каждого приложения отдельно</string>
+
 </resources>
