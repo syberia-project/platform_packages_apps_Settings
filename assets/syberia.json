@@ -1,0 +1,43 @@
+{
+  "team_github": "http://github.com/syberia-project",
+  "team_telegram": "https://t.me/joinchat/AHkowkcfcWdzd5FpKZ3Hng",
+  "team": [
+    {
+      "name": "DennySPb",
+      "role": "Lead ROM Developer",
+      "avatar": "https://syberiaos.com/img/avatars/DennySPb.jpg",
+      "xda_link": "https://forum.xda-developers.com/member.php?u=3639510",
+      "telegram_link": "https://t.me/SyberiaOSHelpdesk"
+    },
+    {
+      "name": "blinoff82",
+      "role": "Project Administrator",
+      "avatar": "https://syberiaos.com/img/avatars/blinoff82.jpg",
+      "xda_link": "https://forum.xda-developers.com/member.php?u=4937139",
+      "telegram_link": "https://t.me/SyberiaOSHelpdesk"
+    },
+    {
+      "name": "alexxxdev",
+      "role": "ROM Developer",
+      "avatar": "https://syberiaos.com/img/avatars/alexxxdev.jpg",
+      "xda_link": "https://forum.xda-developers.com/member.php?u=3074355",
+      "telegram_link": "https://t.me/SyberiaOSHelpdesk"
+    },
+    {
+      "name": "Lane Shukhov",
+      "role": "Designer, Site developer",
+      "avatar": "https://syberiaos.com/img/avatars/rlshukhov.jpg",
+      "xda_link": "",
+      "telegram_link": "https://t.me/SyberiaOSHelpdesk"
+    }
+  ],
+  "maintainers": [
+    {
+      "device": "OnePlus 9 (lemonade)",
+      "name": "DennySPb",
+      "avatar": "https://syberiaos.com/img/avatars/DennySPb.jpg",
+      "xda_link": "",
+      "github_link": "https://github.com/DennySPB"
+    }
+  ]
+}
