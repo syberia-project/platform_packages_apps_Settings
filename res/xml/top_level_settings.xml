@@ -103,6 +103,16 @@
         android:summary="@string/sound_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_sound"/>
 
+   <com.android.settings.widget.HomepagePreference
+        android:fragment="com.android.settings.fuelgauge.batteryusage.PowerUsageSummary"
+        android:icon="@drawable/ic_settings_battery_white"
+        android:key="top_level_battery"
+        android:order="-105"
+        android:title="@string/power_usage_summary_title"
+        android:summary="@string/summary_placeholder"
+        settings:highlightableMenuKey="@string/menu_key_battery"
+        settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController"/>
+
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.applications.AppDashboardFragment"
         android:icon="@drawable/ic_apps"
@@ -159,16 +169,6 @@
         android:summary="@string/location_settings_loading_app_permission_stats"
         settings:highlightableMenuKey="@string/menu_key_location"
         settings:controller="com.android.settings.location.TopLevelLocationPreferenceController"/>
-
-   <com.android.settings.widget.HomepagePreference
-        android:fragment="com.android.settings.fuelgauge.batteryusage.PowerUsageSummary"
-        android:icon="@drawable/ic_settings_battery_white"
-        android:key="top_level_battery"
-        android:order="-50"
-        android:title="@string/power_usage_summary_title"
-        android:summary="@string/summary_placeholder"
-        settings:highlightableMenuKey="@string/menu_key_battery"
-        settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController"/>
 
    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.deviceinfo.StorageDashboardFragment"
