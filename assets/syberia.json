@@ -36,8 +36,15 @@
       "device": "OnePlus 9 (lemonade)",
       "name": "DennySPb",
       "avatar": "https://syberiaos.com/img/avatars/DennySPb.jpg",
-      "xda_link": "",
+      "xda_link": "https://forum.xda-developers.com/t/rom-syberia-project-v6-0-android-13-0-lemonade-oos-cam.4505585/",
       "github_link": "https://github.com/DennySPB"
+    },
+    {
+      "device": "Xiaomi Mi A3 (laurel_sprout)",
+      "name": "magicxavi",
+      "avatar": "https://avatars.githubusercontent.com/u/26335242?v=4",
+      "xda_link": "",
+      "github_link": "https://github.com/magicxavi"
     }
   ]
 }
