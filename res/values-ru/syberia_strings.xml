@@ -202,12 +202,8 @@
     <string name="face_unlock_method_default">Когда экран включен</string>
     <string name="face_unlock_method_swipe">По свайпу вверх</string>
 
-    <!-- Immersive Navigation -->
-    <string name="gesture_navbar_category_title">Navigation bar</string>
-    <string name="immersive_navigation_title">Immersive navigation</string>
-    <string name="immersive_navigation_summary">Hide the gesture pill and navigation bar padding.</string>
-
     <!-- Gesture navbar length -->
+    <string name="gesture_navbar_category_title">Полоска навигации</string>
     <string name="gesture_navbar_length_title">Длина полоски</string>
     <string name="hide_label">Скрытая</string>
     <string name="long_label">Длинная</string>

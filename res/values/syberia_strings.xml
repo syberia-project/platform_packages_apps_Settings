@@ -202,10 +202,8 @@
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 
-    <!-- Fullscreen gestures -->
-    <string name="navbar_category">Navigation bar</string>
-
     <!-- Gesture navbar length -->
+    <string name="gesture_navbar_category_title">Navigation bar</string>
     <string name="gesture_navbar_length_title">Pill length</string>
     <string name="hide_label">Hidden</string>
     <string name="long_label">Long</string>
