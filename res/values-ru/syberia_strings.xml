@@ -234,4 +234,9 @@
     <string name="notification_battery_charge_level_ringtone">Рингтон</string>
     <string name="notification_battery_charge_level_silent">Тишина</string>
 
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления</string>
+    <string name="low_power_refresh_rate_title_custom">Частота обновления в энергосбережении</string>
+
 </resources>
