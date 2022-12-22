@@ -1509,7 +1509,7 @@ public class UserSettings extends SettingsPreferenceFragment
     int getRealUsersCount() {
         return (int) mUserManager.getUsers()
                 .stream()
-                .filter(user -> !user.isGuest() && !user.isProfile() && !user.isParallel())
+                .filter(user -> !user.isGuest() && !user.isProfile())
                 .count();
     }
 
