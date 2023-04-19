@@ -184,11 +184,7 @@
     <string name="usercard_summary">Текущий пользователь, нажмите для дополнительной информации</string>
 
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на вашем планшете.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на вашем устройстве.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на вашем телефоне.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Найдите сканер отпечатков пальцев на вашем планшете.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Найдите сканер отпечатков пальцев на вашем устройстве.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Найдите сканер отпечатков пальцев на вашем телефоне.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Найдите сканер отпечатков пальцев на вашем телефоне.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Найдите сканер отпечатков пальцев на вашем телефоне.</string>
 
 </resources>
