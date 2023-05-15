@@ -9090,6 +9090,11 @@
     <!-- Switch text for nfc feature being off [CHAR LIMIT=NONE] -->
     <string name="nfc_setting_off">Off</string>
 
+    <!-- Switch text for LinkToWindows feature being on [CHAR LIMIT=NONE] -->
+    <string name="link_to_windows_setting_on">On</string>
+    <!-- Switch text for LinkToWindows feature being off [CHAR LIMIT=NONE] -->
+    <string name="link_to_windows_setting_off">Off</string>
+
     <!-- The subtext when screen pinning feature is enabled. [CHAR LIMIT=28] -->
     <string name="screen_pinning_switch_on_text">On</string>
     <!-- The subtext when screen pinning feature is disabled. [CHAR LIMIT=28] -->

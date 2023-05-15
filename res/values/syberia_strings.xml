@@ -191,4 +191,9 @@
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <string name="sim_card_number_title" translatable="false">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
 
+
+    <!-- LinkToWindows settings -->
+    <!-- Used to enter the Link To Windows preferences screen. [CHAR LIMIT=32] -->
+    <string name="link_to_windows_settings_title">Link To Windows</string>
+
 </resources>
