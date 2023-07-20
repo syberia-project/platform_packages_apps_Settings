@@ -224,4 +224,21 @@
     <string name="notification_battery_charge_level_ringtone">Рингтон</string>
     <string name="notification_battery_charge_level_silent">Тишина</string>
 
+    <!-- Model and Hardware -->
+    <string name="syberia_processor_title">Процессор</string>
+    <string name="syberia_storage_code_title">Память</string>
+    <string name="syberia_battery_type_title">Батарея</string> 
+    <string name="syberia_screen_title">Экран</string>
+    <string name="net_info">Сеть</string>
+    <string name="mod_info">@string/model_info</string>
+    <string name="id_info">Идентификаторы</string>
+    <string name="model_summary">Модель, номер телефона, IMEI и т.д.</string>
+    <string name="model_name">Статус устройства</string>
+    <string name="legal_summary">Лицензии и правовая информация</string>
+
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
+    <string name="max_refresh_rate_title">Масимальная частота обновления</string>
+    <string name="low_power_refresh_rate_title_custom">Частота обновления в энергосберегающем режиме</string>
+
 </resources>
