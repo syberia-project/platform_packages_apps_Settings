@@ -182,4 +182,9 @@
 
     <string name="battery_temperature">Температура батареи</string>
 
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
+    <string name="max_refresh_rate_title">Масимальная частота обновления</string>
+    <string name="low_power_refresh_rate_title_custom">Частота обновления в энергосберегающем режиме</string>
+
 </resources>
