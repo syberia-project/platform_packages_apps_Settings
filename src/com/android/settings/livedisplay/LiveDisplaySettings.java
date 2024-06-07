@@ -23,7 +23,7 @@ import android.hardware.display.ColorDisplayManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
@@ -103,11 +103,11 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
 
     private ListPreference mLiveDisplay;
 
-    private SwitchPreference mAntiFlicker;
-    private SwitchPreference mColorEnhancement;
-    private SwitchPreference mLowPower;
-    private SwitchPreference mOutdoorMode;
-    private SwitchPreference mReadingMode;
+    private SwitchPreferenceCompat mAntiFlicker;
+    private SwitchPreferenceCompat mColorEnhancement;
+    private SwitchPreferenceCompat mLowPower;
+    private SwitchPreferenceCompat mOutdoorMode;
+    private SwitchPreferenceCompat mReadingMode;
 
     private PictureAdjustment mPictureAdjustment;
     private DisplayTemperature mDisplayTemperature;
@@ -212,14 +212,14 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
             mColorProfile.setOnPreferenceChangeListener(this);
         }
 
-        mOutdoorMode = (SwitchPreference) findPreference(KEY_LIVE_DISPLAY_AUTO_OUTDOOR_MODE);
+        mOutdoorMode = (SwitchPreferenceCompat) findPreference(KEY_LIVE_DISPLAY_AUTO_OUTDOOR_MODE);
         if (liveDisplayPrefs != null && mOutdoorMode != null
                 && !mConfig.hasFeature(MODE_OUTDOOR)) {
             liveDisplayPrefs.removePreference(mOutdoorMode);
             mOutdoorMode = null;
         }
 
-        mReadingMode = (SwitchPreference) findPreference(KEY_LIVE_DISPLAY_READING_ENHANCEMENT);
+        mReadingMode = (SwitchPreferenceCompat) findPreference(KEY_LIVE_DISPLAY_READING_ENHANCEMENT);
         if (liveDisplayPrefs != null && mReadingMode != null
                 && !mHardware.isSupported(LineageHardwareManager.FEATURE_READING_ENHANCEMENT)) {
             liveDisplayPrefs.removePreference(mReadingMode);
@@ -228,14 +228,14 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
             mReadingMode.setOnPreferenceChangeListener(this);
         }
 
-        mLowPower = (SwitchPreference) findPreference(KEY_LIVE_DISPLAY_LOW_POWER);
+        mLowPower = (SwitchPreferenceCompat) findPreference(KEY_LIVE_DISPLAY_LOW_POWER);
         if (advancedPrefs != null && mLowPower != null
                 && !mConfig.hasFeature(FEATURE_CABC)) {
             advancedPrefs.removePreference(mLowPower);
             mLowPower = null;
         }
 
-        mColorEnhancement = (SwitchPreference) findPreference(KEY_LIVE_DISPLAY_COLOR_ENHANCE);
+        mColorEnhancement = (SwitchPreferenceCompat) findPreference(KEY_LIVE_DISPLAY_COLOR_ENHANCE);
         if (advancedPrefs != null && mColorEnhancement != null
                 && !mConfig.hasFeature(FEATURE_COLOR_ENHANCEMENT)) {
             advancedPrefs.removePreference(mColorEnhancement);
