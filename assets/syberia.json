@@ -38,6 +38,20 @@
       "avatar": "https://syberiaos.com/img/avatars/DennySPb.jpg",
       "xda_link": "",
       "github_link": "https://github.com/DennySPB"
+    },
+    {
+      "device": "Xiaomi Poco F3 (alioth)",
+      "name": "erwinabs",
+      "avatar": "https://avatars1.githubusercontent.com/u/64487987?s=460&u=aec21d294b9d5a9dd93ef41c85ad9e63a4d2a6c4&v=4",
+      "xda_link": "https://xdaforums.com/t/rom-14-official-aosp-caf-syberia-project-v7-x.4533233/",
+      "github_link": "https://github.com/erwinabs"
+    },
+    {
+      "device": "Xiaomi Poco F4 (munch)",
+      "name": "erwinabs",
+      "avatar": "https://avatars1.githubusercontent.com/u/64487987?s=460&u=aec21d294b9d5a9dd93ef41c85ad9e63a4d2a6c4&v=4",
+      "xda_link": "https://xdaforums.com/t/rom-14-official-aosp-caf-syberia-project-v7-x.4533233/",
+      "github_link": "https://github.com/erwinabs"
     }
   ]
 }
